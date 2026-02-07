@@ -1,19 +1,64 @@
 {
   "source": "Houston METRO",
   "source_url": "https://www.ridemetro.org/about/board-meetings",
-  "fetched_at": "2026-02-07T19:47:16Z",
-  "note": "Data extracted from Granicus RSS feed and AgendaViewer. Upcoming meeting dates are confirmed from the Jan 22 2026 board agenda. Future dates are projected based on 4th-Thursday pattern.",
+  "fetched_at": "2026-02-07T19:49:23Z",
+  "note": "Data extracted from Granicus RSS feed and AgendaViewer. Upcoming meeting dates confirmed from Jan 22 2026 board agenda. Future dates projected based on 4th-Thursday pattern.",
   "data_sources": {
     "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
+    "minutes_rss": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=minutes",
+    "video_rss": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=vpodcast",
     "agenda_viewer_pattern": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id={clip_id}",
     "document_viewer_pattern": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id={clip_id}&meta_id={meta_id}"
   },
   "meeting_schedule": {
     "board_meetings": "4th Thursday of each month at 9:00 AM",
     "committee_meetings": "Week prior to board meeting, starting at 9:00 AM",
-    "note": "Meeting time updated to 9:00 AM per recent agendas (previously listed as 10:00 AM on website)"
+    "committees": [
+      "Audit & Human Resources",
+      "Finance and Business Administration",
+      "Infrastructure & Mobility Planning",
+      "Customer Experience, Operations & Business Development",
+      "Public Safety"
+    ],
+    "note": "Meeting time is 9:00 AM per recent agendas (website meta description says 10 AM but actual agendas show 9 AM)"
   },
   "meetings": [
+    {
+      "date": "2026-07-23",
+      "time": "9:00 AM",
+      "type": "Board Meeting (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-07-15",
+      "time": "9:00 AM",
+      "type": "Committee Meetings (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-06-25",
+      "time": "9:00 AM",
+      "type": "Board Meeting (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-06-17",
+      "time": "9:00 AM",
+      "type": "Committee Meetings (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
     {
       "date": "2026-05-28",
       "time": "9:00 AM",
@@ -75,7 +120,7 @@
       "status": "Upcoming - Agenda Not Yet Posted",
       "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
       "agenda_url": null,
-      "note": "Next board meeting confirmed in Jan 22, 2026 agenda. Agenda typically posted 72 hours before meeting.",
+      "note": "Next board meeting confirmed in Jan 22, 2026 agenda as Feb 26, 2026 at 9:00 AM. Agenda typically posted 72 hours before meeting.",
       "agenda_items": []
     },
     {
@@ -85,7 +130,7 @@
       "status": "Upcoming - Agenda Not Yet Posted",
       "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
       "agenda_url": null,
-      "note": "Committee meetings typically held week before board meeting. Date estimated based on Feb 26 board meeting.",
+      "note": "Committee meetings typically held week before board meeting. Date estimated.",
       "expected_committees": [
         "Audit & Human Resources",
         "Finance and Business Administration",
@@ -240,7 +285,7 @@
           "number": "7",
           "title": "Proclamations in appreciation of METRO retirees with 25 years or more of service E. Brock",
           "type": "Proclamation",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "E. Brock",
           "geographic_tags": {
             "routes": [],
@@ -252,7 +297,7 @@
           "number": "8",
           "title": "Request Board acceptance of the monthly committee reports, including the investment report T. Morales",
           "type": "Committee Report",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "T. Morales",
           "geographic_tags": {
             "routes": [],
@@ -264,7 +309,7 @@
           "number": "9",
           "title": "Request Board authorization to approve a Memorandum of Understanding with the Harris County Housing Finance Corporation for coordination of a proposed development adjacent to the Burnett Transit Center B. Fry",
           "type": "Agreement/MOU",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "B. Fry",
           "geographic_tags": {
             "routes": [],
@@ -272,7 +317,8 @@
               "Burnett Transit Center"
             ],
             "locations": [
-              "Burnett"
+              "Burnett Transit Center",
+              "Harris County"
             ]
           }
         },
@@ -280,7 +326,7 @@
           "number": "10",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a contract modification with Wilson Building Services Inc. to extend the term and increase maximum contract amount, to provide rehabilitation services for METRO's Central Store Fire Suppression System B. Fry",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "B. Fry",
           "geographic_tags": {
             "routes": [],
@@ -297,7 +343,7 @@
           "number": "11",
           "title": "Request Board authorization for the Interim President & CEO to execute a three (3) year contract with Cummins Southern Plains, LLC for the purchase and delivery of transmissions T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "T. Preston",
           "geographic_tags": {
             "routes": [],
@@ -312,7 +358,7 @@
           "number": "12",
           "title": "Request Board authorization for the Interim President & CEO to execute a three (3) year contract with Holt Truck Centers of Texas, LLC for the purchase and delivery of engines T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "T. Preston",
           "geographic_tags": {
             "routes": [],
@@ -327,13 +373,14 @@
           "number": "13",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a three (3) year contract with two (2) one (1) year options with RailPod Inc., to provide annual track geometry, overhead contact system height & stagger, and wire wear measurement services on METRO's Red, Green, and Purple rail corridors T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "T. Preston",
           "geographic_tags": {
             "routes": [
               "Green Line",
-              "Rail System",
-              "Red Line"
+              "Red Line",
+              "Purple Line",
+              "Rail System"
             ],
             "projects": [],
             "locations": []
@@ -346,7 +393,7 @@
           "number": "14",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a one (1) year contract Tidypro Partners, LLC to provide painting services at thirty-four (34) rail station canopies T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Consent Agenda",
           "presenter": "T. Preston",
           "geographic_tags": {
             "routes": [
@@ -360,7 +407,7 @@
           "number": "15",
           "title": "Request Board approval for the Interim President & CEO to request funding from the Federal Transit Administration (FTA) and to direct grant actions as necessary for Fiscal Year 2025 Formula Grant Funds, including Sections 5307 Urbanized Area Formula, 5310 Enhanced Mobility of Seniors and Individuals with Disabilities, 5337 State of Good Repair, and 5339 Bus and Bus Facilities T. Morales",
           "type": "Grant",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Morales",
           "geographic_tags": {
             "routes": [],
@@ -372,7 +419,7 @@
           "number": "16",
           "title": "Request Board designation of Ban Tien, METRO Chief of Police, to act on behalf of the authority in the administration and management of a grant issued by the Office of the Texas Governor Criminal Justice Division for the purchase of rifle-resistant body armor T. Morales",
           "type": "Grant",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Morales",
           "geographic_tags": {
             "routes": [],
@@ -384,7 +431,7 @@
           "number": "17",
           "title": "Request Board approval for the Interim President & CEO for the submittal of an application to the Office of the Governor of the State of Texas for Grant Funds under the FY2027 Peace Officer Mental Wellness & Resilience Grant program T. Morales",
           "type": "Grant",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Morales",
           "geographic_tags": {
             "routes": [],
@@ -396,7 +443,7 @@
           "number": "18",
           "title": "Request Board authorization for the Interim President & CEO to direct the transfer of the administration of health and welfare benefits for the union represented employees from the Health and Welfare Trust (H&WT) to METRO's administration T. Morales",
           "type": "General",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Morales",
           "geographic_tags": {
             "routes": [],
@@ -408,7 +455,7 @@
           "number": "19",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a two (2) year contract with Texas Materials Group, Inc. for the alsphalt and concrete paving for mobility improvements (package #3) on an as needed basis B. Fry",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "B. Fry",
           "geographic_tags": {
             "routes": [],
@@ -425,7 +472,7 @@
           "number": "20",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a five (5) year contract with two (2) one (1) year options with each of AECOM, Midtown Engineers, CONSOR Engineers LLC, Ardurra Group, Inc, HR Green, Inc, BGE, INC, infra TECH, and EXP U.S. Services, Inc for design services for budgeted and planned construction projects on an as needed basis B. Fry",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "B. Fry",
           "geographic_tags": {
             "routes": [],
@@ -437,13 +484,13 @@
           "number": "21",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a lease agreement with Houston First Corporation for a METRO Police Department storefront B. Fry",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "B. Fry",
           "geographic_tags": {
             "routes": [],
             "projects": [],
             "locations": [
-              "Houston First"
+              "Houston First / Convention District"
             ]
           },
           "vendors": [
@@ -454,7 +501,7 @@
           "number": "22",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a three (3) year contract with two (2) one (1) year options with Cummins Southern Plains LLC, for the maintenance and repair of Cummins diesel and CNG engines on METRO buses T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Preston",
           "geographic_tags": {
             "routes": [],
@@ -469,10 +516,12 @@
           "number": "23",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a sole source contract with New Flyer Industries Canada ULC, for the repairs of CNG Bus 2092 T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Preston",
           "geographic_tags": {
-            "routes": [],
+            "routes": [
+              "Bus Fleet"
+            ],
             "projects": [],
             "locations": []
           },
@@ -484,10 +533,12 @@
           "number": "24",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a contract with New Flyer of America Inc, for the purchase of one hundred (100) CNG transit buses T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Preston",
           "geographic_tags": {
-            "routes": [],
+            "routes": [
+              "Bus Fleet"
+            ],
             "projects": [],
             "locations": []
           },
@@ -499,7 +550,7 @@
           "number": "25",
           "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a three (3) year contract with two (2) one year options with Inter-Con Security Systems, Inc. for unarmed security guard services T. Preston",
           "type": "Contract/Procurement",
-          "section": "Regular",
+          "section": "Items for Separate Consideration",
           "presenter": "T. Preston",
           "geographic_tags": {
             "routes": [],
@@ -564,7 +615,7 @@
         }
       ],
       "agenda_items": [],
-      "note": "Individual committee agendas available as PDF documents via committee links above"
+      "note": "Individual committee agendas available as PDF documents via committee links"
     },
     {
       "date": "2025-12-18",

@@ -1,150 +1,1121 @@
 {
-  "generated_at": "2026-02-07T14:00:00",
-  "note": "ZIP-to-jurisdiction mapping for Houston/Harris County. ZIPs spanning multiple districts list all overlapping jurisdictions. Based on official district boundary data.",
+  "generated_at": "2026-02-07T16:00:00Z",
+  "data_sources": [
+    "City of Houston Planning & Development: Council Districts 2024 by ZIP Codes (houstontx.gov)",
+    "Harris County Commissioner Court Precincts (2024 redistricting, harriscountytx.gov)",
+    "HISD Trustee District Boundaries 2025-2026 (houstonisd.org)",
+    "Houston METRO service area (ridemetro.org)",
+    "City of Houston Super Neighborhood ZIP Code Tables",
+    "City of Houston Council District pages (houstontx.gov/council/)"
+  ],
+  "notes": {
+    "methodology": "ZIP codes are mapped to jurisdictions based on geographic overlap. Many ZIPs span multiple council districts, precincts, and school board districts. Where a ZIP has partial overlap, all overlapping jurisdictions are listed with primary jurisdiction listed first.",
+    "hisd_governance": "HISD elected trustees currently serve in advisory capacity only due to TEA state takeover (June 2023). Board of Managers governs until at least June 2027. Elected trustee names listed are the most recently elected/seated representatives.",
+    "district_c_vacancy": "Council District C is vacant as of Dec 5, 2025 (Abbie Kamin resigned under resign-to-run law to campaign for Harris County Attorney). Special election scheduled April 4, 2026. Kamin remains as holdover until successor seated.",
+    "county_judge_2026": "Harris County Judge Lina Hidalgo's term ends Dec 31, 2026. Multiple candidates filed for 2026 race including former Mayor Annise Parker.",
+    "po_box_zips": "ZIP codes in the 772xx range are primarily PO Box/unique ZIPs. They are mapped based on their associated post office location."
+  },
   "officials": {
-    "mayor": {"name": "John Whitmire", "title": "Mayor of Houston"},
-    "county_judge": {"name": "Lina Hidalgo", "title": "Harris County Judge"},
-    "council_members": {
-      "A": {"name": "Amy Peck", "district": "A", "area": "Northwest Houston, Spring Branch, Memorial"},
-      "B": {"name": "Tarsha Jackson", "district": "B", "area": "Northeast Houston, Acres Homes, Kashmere Gardens"},
-      "C": {"name": "Abbie Kamin", "district": "C", "area": "Montrose, Rice Village, West University area"},
-      "D": {"name": "Carolyn Evans-Shabazz", "district": "D", "area": "Third Ward, South Park, Sunnyside"},
-      "E": {"name": "Fred Flickinger", "district": "E", "area": "Clear Lake, Pasadena, Southeast Houston"},
-      "F": {"name": "Tiffany Thomas", "district": "F", "area": "Missouri City area, Fort Bend edge"},
-      "G": {"name": "Mary Nan Huffman", "district": "G", "area": "Memorial, Energy Corridor, West Houston"},
-      "H": {"name": "Mario Castillo", "district": "H", "area": "East End, Magnolia Park, Denver Harbor"},
-      "I": {"name": "Joaquin Martinez", "district": "I", "area": "Gulfton, Sharpstown, Westchase"},
-      "J": {"name": "Edward Pollard", "district": "J", "area": "Near Northside, Greater Heights, Independence Heights"},
-      "K": {"name": "Martha Castex-Tatum", "district": "K", "area": "South Houston, Hobby area, South Acres"}
+    "mayor": {
+      "name": "John Whitmire",
+      "title": "Mayor of Houston",
+      "took_office": "2024-01-02",
+      "term_ends": "2028-01-02"
     },
-    "at_large": {
-      "1": {"name": "Julian Ramirez"},
-      "2": {"name": "Willie R. Davis"},
-      "3": {"name": "Twila Carter"},
-      "4": {"name": "Letitia Plummer"},
-      "5": {"name": "Sallie Alcorn"}
+    "county_judge": {
+      "name": "Lina Hidalgo",
+      "title": "Harris County Judge",
+      "term_ends": "2026-12-31"
+    },
+    "council_members": {
+      "A": { "name": "Amy Peck", "district": "A", "areas": "Spring Branch, Inwood, Fairbanks/NW Crossing, Long Point, Copperfield" },
+      "B": { "name": "Tarsha Jackson", "district": "B", "areas": "Acres Homes, Greenspoint, Trinity/Houston Gardens, Settegast, Kashmere Gardens, Fifth Ward, East Aldine" },
+      "C": { "name": "Abbie Kamin (Holdover - Resigned Dec 2025)", "district": "C", "areas": "Heights (south), Montrose, Meyerland, Oak Forest, Museum District, Southampton, Rice Military, Braeswood", "note": "Resigned Dec 5, 2025. Special election April 4, 2026." },
+      "D": { "name": "Carolyn Evans-Shabazz", "district": "D", "areas": "Third Ward, Sunnyside, South Union, South Park, MacGregor, Riverside Terrace, OST" },
+      "E": { "name": "Fred Flickinger", "district": "E", "areas": "Kingwood, Clear Lake, Lake Houston, Ellington, South Belt, Sheldon" },
+      "F": { "name": "Tiffany D. Thomas", "district": "F", "areas": "Alief, Sharpstown (west), Westwood, Braeburn, Mission Bend, Fondren Southwest (west)" },
+      "G": { "name": "Mary Nan Huffman", "district": "G", "areas": "Memorial, Tanglewood, River Oaks (west), Briargrove, Westchase, Energy Corridor, Piney Point Village" },
+      "H": { "name": "Mario Castillo", "district": "H", "areas": "Heights (north), Near Northside, Independence Heights, Lindale, Garden Oaks (partial), Northline, Eastex/Jensen (south)" },
+      "I": { "name": "Joaquin Martinez", "district": "I", "areas": "Downtown, EaDo, Greater East End, Magnolia Park, Harrisburg/Manchester, Greater Hobby, Park Place, Clinton Park, Pecan Park" },
+      "J": { "name": "Edward Pollard", "district": "J", "areas": "Gulfton, Sharpstown (east), Westbury, Meyerland (south), Braeswood (south), Fondren Southwest (east)" },
+      "K": { "name": "Martha Castex-Tatum", "district": "K", "areas": "Fort Bend/Houston, Brays Oaks, Hiram Clarke, South Acres, Westbury South, Almeda, Sunnyside (south)" }
+    },
+    "at_large_members": {
+      "1": { "name": "Julian Ramirez", "position": "At-Large 1" },
+      "2": { "name": "Willie Davis", "position": "At-Large 2" },
+      "3": { "name": "Twila Carter", "position": "At-Large 3" },
+      "4": { "name": "Letitia Plummer", "position": "At-Large 4" },
+      "5": { "name": "Sallie Alcorn", "position": "At-Large 5" }
     },
     "commissioners": {
-      "1": {"name": "Rodney Ellis", "precinct": 1, "area": "Central/South Harris County, Downtown, Third Ward, Midtown"},
-      "2": {"name": "Adrian Garcia", "precinct": 2, "area": "North/East Harris County, Humble, Kingwood, Atascocita"},
-      "3": {"name": "Tom Ramsey", "precinct": 3, "area": "Northwest Harris County, Cypress, Tomball, Spring"},
-      "4": {"name": "Lesley Briones", "precinct": 4, "area": "Southwest Harris County, Bellaire, Meyerland, Sugar Land area"}
+      "1": { "name": "Rodney Ellis", "precinct": 1, "areas": "Downtown, Third Ward, Midtown, Sunnyside, South Houston, southeast Harris County, portions of Pasadena" },
+      "2": { "name": "Adrian Garcia", "precinct": 2, "areas": "Northeast Harris County, East Houston, Channelview, Jacinto City, Galena Park, Baytown, north Pasadena, Humble, East Aldine, Kingwood, Webster" },
+      "3": { "name": "Tom S. Ramsey", "precinct": 3, "areas": "Northwest Harris County, Cypress, Spring, Tomball, Huffman, Spring Branch (north), Memorial Villages (north), Champions" },
+      "4": { "name": "Lesley Briones", "precinct": 4, "areas": "Southwest Harris County, Memorial (south/west), Westchase, Alief, Bellaire, West University, Meyerland, Galleria, Katy (east)" }
     },
     "hisd_trustees": {
-      "I": {"name": "Kendall Baker", "district": "I", "area": "Southwest HISD"},
-      "II": {"name": "Kathy Blueford-Daniels", "district": "II", "area": "Northeast HISD, Kashmere, Wheatley"},
-      "III": {"name": "Dani Hernandez", "district": "III", "area": "East HISD, Milby, Austin"},
-      "IV": {"name": "Myrna Guidry", "district": "IV", "area": "Central HISD, Downtown, Montrose"},
-      "V": {"name": "Sue Deigaard", "district": "V", "area": "West HISD, Memorial, Spring Branch"},
-      "VI": {"name": "Holly Maria Flynn Vilaseca", "district": "VI", "area": "South HISD, Bellaire area"},
-      "VII": {"name": "Bridget Wade", "district": "VII", "area": "South-Central HISD, Third Ward, TSU area"},
-      "VIII": {"name": "Judith Cruz", "district": "VIII", "area": "North HISD, Heights, Near Northside"},
-      "IX": {"name": "Noemi Gonzalez", "district": "IX", "area": "Gulfton, Sharpstown area"}
+      "I": { "name": "Felicity Pereyra", "district": "I", "areas": "East End, Magnolia Park, Harrisburg, Denver Harbor, Second Ward", "elected": "2025 (unopposed)", "note": "Advisory role only under TEA takeover" },
+      "II": { "name": "Savant Moore", "district": "II", "areas": "Northeast Houston, Kashmere Gardens, Trinity Gardens, Settegast, Fifth Ward, Pleasantville", "elected": "2023 (unopposed)" },
+      "III": { "name": "Dani Hernandez", "district": "III", "areas": "North Houston, Near Northside, Independence Heights, Heights (east), Northline", "elected": "2023" },
+      "IV": { "name": "Patricia K. Allen", "district": "IV", "areas": "South-central Houston, Third Ward, Sunnyside, South Park, MacGregor, Riverside Terrace", "elected": "2023" },
+      "V": { "name": "Maria Benzon", "district": "V", "areas": "Bellaire, West University, Meyerland, Braeswood, Medical Center area, Southampton", "elected": "2025" },
+      "VI": { "name": "Michael McDonough", "district": "VI", "areas": "West/Northwest Houston, Spring Branch, Memorial, Westchase, Energy Corridor, Inwood", "elected": "2025" },
+      "VII": { "name": "Bridget Wade", "district": "VII", "areas": "River Oaks, Montrose, Greater Uptown, Tanglewood, Galleria area, Museum District (north)", "elected": "2025 (re-elected)" },
+      "VIII": { "name": "Placido Gomez", "district": "VIII", "areas": "South Houston, Hobby area, Park Place, Gulfgate, South Belt, Golfcrest/Bellfort", "elected": "2023 (unopposed)" },
+      "IX": { "name": "Myrna Guidry", "district": "IX", "areas": "Southwest Houston, Alief, Sharpstown, Fondren, Gulfton, Westwood, Chinatown", "elected": "2025 (unopposed)" }
     },
-    "hisd_superintendent": {"name": "Mike Miles", "title": "Superintendent"}
+    "hisd_superintendent": {
+      "name": "Mike Miles",
+      "title": "HISD Superintendent (TEA-appointed)",
+      "note": "Appointed under TEA intervention; serves at pleasure of Board of Managers"
+    }
   },
   "zip_codes": {
-    "77001": {"council_districts": ["I"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Downtown"},
-    "77002": {"council_districts": ["I", "J"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Downtown / Midtown"},
-    "77003": {"council_districts": ["H", "I"], "commissioner_precincts": [1], "hisd_trustee_districts": ["III", "IV"], "metro_service_area": true, "neighborhood": "East Downtown / EaDo"},
-    "77004": {"council_districts": ["D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII"], "metro_service_area": true, "neighborhood": "Third Ward / Museum District"},
-    "77005": {"council_districts": ["C"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["IV", "VI"], "metro_service_area": true, "neighborhood": "West University / Rice Village"},
-    "77006": {"council_districts": ["C"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Montrose"},
-    "77007": {"council_districts": ["J", "A"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VIII", "V"], "metro_service_area": true, "neighborhood": "Heights / Washington Ave"},
-    "77008": {"council_districts": ["J", "A"], "commissioner_precincts": [1, 3], "hisd_trustee_districts": ["VIII", "V"], "metro_service_area": true, "neighborhood": "Heights / Garden Oaks"},
-    "77009": {"council_districts": ["J", "H"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["VIII", "II"], "metro_service_area": true, "neighborhood": "Near Northside / Northline"},
-    "77010": {"council_districts": ["I"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Downtown (Central Business District)"},
-    "77011": {"council_districts": ["H"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "Magnolia Park / East End"},
-    "77012": {"council_districts": ["H"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "Glenbrook Valley / Pecan Park"},
-    "77013": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": ["II"], "metro_service_area": true, "neighborhood": "East Houston / Settegast"},
-    "77014": {"council_districts": ["B"], "commissioner_precincts": [2, 3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston (outside HISD)"},
-    "77015": {"council_districts": ["E", "H"], "commissioner_precincts": [2], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "Channelview / Cloverleaf"},
-    "77016": {"council_districts": ["B"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["II"], "metro_service_area": true, "neighborhood": "Kashmere Gardens / Trinity Gardens"},
-    "77017": {"council_districts": ["E", "K"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "South Houston / Park Place"},
-    "77018": {"council_districts": ["A"], "commissioner_precincts": [1, 3], "hisd_trustee_districts": ["V", "VIII"], "metro_service_area": true, "neighborhood": "Oak Forest / Garden Oaks"},
-    "77019": {"council_districts": ["C", "J"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV", "VIII"], "metro_service_area": true, "neighborhood": "River Oaks / Montrose"},
-    "77020": {"council_districts": ["B", "H"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["II", "III"], "metro_service_area": true, "neighborhood": "Fifth Ward / Denver Harbor"},
-    "77021": {"council_districts": ["D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII"], "metro_service_area": true, "neighborhood": "South Park / Riverside"},
-    "77022": {"council_districts": ["B", "J"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["II", "VIII"], "metro_service_area": true, "neighborhood": "Independence Heights / Studewood"},
-    "77023": {"council_districts": ["H", "I"], "commissioner_precincts": [1], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "East End / Second Ward"},
-    "77024": {"council_districts": ["G"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Memorial / Piney Point Village"},
-    "77025": {"council_districts": ["C", "D"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["IV", "VI", "VII"], "metro_service_area": true, "neighborhood": "Braeswood / Meyerland"},
-    "77026": {"council_districts": ["B", "D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["II", "VII"], "metro_service_area": true, "neighborhood": "Third Ward / Cuney Homes"},
-    "77027": {"council_districts": ["C", "G"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["IV", "V"], "metro_service_area": true, "neighborhood": "Galleria / Tanglewood"},
-    "77028": {"council_districts": ["B"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["II"], "metro_service_area": true, "neighborhood": "Kashmere Gardens / Pleasantville"},
-    "77029": {"council_districts": ["H", "E"], "commissioner_precincts": [2], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "Galena Park area"},
-    "77030": {"council_districts": ["C", "D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV", "VII"], "metro_service_area": true, "neighborhood": "Texas Medical Center"},
-    "77031": {"council_districts": ["F", "K"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I", "VI"], "metro_service_area": true, "neighborhood": "Fondren Southwest"},
-    "77032": {"council_districts": [], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston / IAH area (unincorporated)"},
-    "77033": {"council_districts": ["D", "K"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII"], "metro_service_area": true, "neighborhood": "South Acres / Crestmont"},
-    "77034": {"council_districts": ["E"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Ellington / Southeast Houston"},
-    "77035": {"council_districts": ["K", "D"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["I", "VII"], "metro_service_area": true, "neighborhood": "Meyerland / Willowbend"},
-    "77036": {"council_districts": ["I", "F"], "commissioner_precincts": [4], "hisd_trustee_districts": ["IX", "I"], "metro_service_area": true, "neighborhood": "Gulfton / Sharpstown"},
-    "77037": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": ["II"], "metro_service_area": true, "neighborhood": "North Forest / Homestead"},
-    "77038": {"council_districts": ["B"], "commissioner_precincts": [2, 3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Greenspoint / North Houston"},
-    "77039": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Aldine / North Houston"},
-    "77040": {"council_districts": ["A"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Fairbanks / Northwest Houston"},
-    "77041": {"council_districts": ["A"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Jersey Village area"},
-    "77042": {"council_districts": ["G", "I"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I", "V"], "metro_service_area": true, "neighborhood": "Westchase / Briargrove"},
-    "77043": {"council_districts": ["A", "G"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Spring Branch West"},
-    "77044": {"council_districts": [], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Atascocita / Lake Houston (unincorporated)"},
-    "77045": {"council_districts": ["K", "D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII", "I"], "metro_service_area": true, "neighborhood": "Hiram Clarke / South Houston"},
-    "77046": {"council_districts": ["C", "D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Afton Oaks / Upper Kirby"},
-    "77047": {"council_districts": ["K"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII"], "metro_service_area": true, "neighborhood": "Sunnyside / South Park"},
-    "77048": {"council_districts": ["K", "E"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Hobby Airport area"},
-    "77049": {"council_districts": [], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Sheldon / Channelview (unincorporated)"},
-    "77050": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston Industrial"},
-    "77051": {"council_districts": ["D", "K"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII"], "metro_service_area": true, "neighborhood": "South Union / Sunny Side"},
-    "77053": {"council_districts": ["K", "F"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["I"], "metro_service_area": true, "neighborhood": "Fort Bend Houston"},
-    "77054": {"council_districts": ["D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII", "IV"], "metro_service_area": true, "neighborhood": "Medical Center / South Main"},
-    "77055": {"council_districts": ["A", "G"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Spring Branch / Memorial"},
-    "77056": {"council_districts": ["G"], "commissioner_precincts": [4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Galleria / Uptown"},
-    "77057": {"council_districts": ["G", "I"], "commissioner_precincts": [4], "hisd_trustee_districts": ["V", "IX"], "metro_service_area": true, "neighborhood": "Sharpstown / Westchase"},
-    "77058": {"council_districts": ["E"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Clear Lake / NASA"},
-    "77059": {"council_districts": ["E"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Clear Lake City"},
-    "77060": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Greenspoint / North Houston"},
-    "77061": {"council_districts": ["E", "K"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["III"], "metro_service_area": true, "neighborhood": "Glenbrook / South Houston"},
-    "77062": {"council_districts": ["E"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Clear Lake / Bay Area"},
-    "77063": {"council_districts": ["I", "G"], "commissioner_precincts": [4], "hisd_trustee_districts": ["IX", "V"], "metro_service_area": true, "neighborhood": "Sharpstown / Tanglewilde"},
-    "77064": {"council_districts": ["A"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Willowbrook / Cypress Station"},
-    "77065": {"council_districts": ["A"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Cypress / Northwest Houston"},
-    "77066": {"council_districts": ["B", "A"], "commissioner_precincts": [2, 3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston / Ella Blvd"},
-    "77067": {"council_districts": ["B"], "commissioner_precincts": [2, 3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Greenspoint"},
-    "77068": {"council_districts": ["A", "B"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Champions / FM 1960"},
-    "77069": {"council_districts": ["A"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Champions Forest"},
-    "77070": {"council_districts": ["A"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Northwest Houston / Willowbrook"},
-    "77071": {"council_districts": ["K", "F"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I"], "metro_service_area": true, "neighborhood": "Fondren Southwest / Braeburn"},
-    "77072": {"council_districts": ["F", "I"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I", "IX"], "metro_service_area": true, "neighborhood": "Alief / Westchase South"},
-    "77073": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston / Aldine"},
-    "77074": {"council_districts": ["I", "F"], "commissioner_precincts": [4], "hisd_trustee_districts": ["IX", "I"], "metro_service_area": true, "neighborhood": "Sharpstown"},
-    "77075": {"council_districts": ["E", "K"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Southeast Houston / Sagemont"},
-    "77076": {"council_districts": ["B", "J"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["VIII", "II"], "metro_service_area": true, "neighborhood": "Northline / Airline"},
-    "77077": {"council_districts": ["G"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Energy Corridor / Barker Cypress"},
-    "77078": {"council_districts": ["B", "H"], "commissioner_precincts": [2], "hisd_trustee_districts": ["II"], "metro_service_area": true, "neighborhood": "East Houston / Clinton Park"},
-    "77079": {"council_districts": ["G"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Memorial / Nottingham Forest"},
-    "77080": {"council_districts": ["A"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": ["V"], "metro_service_area": true, "neighborhood": "Spring Branch / Long Point"},
-    "77081": {"council_districts": ["I", "F"], "commissioner_precincts": [4], "hisd_trustee_districts": ["IX", "I"], "metro_service_area": true, "neighborhood": "Maplewood South / Westbury area"},
-    "77082": {"council_districts": ["F", "G"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I"], "metro_service_area": true, "neighborhood": "Alief / Westchase"},
-    "77083": {"council_districts": ["F"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I"], "metro_service_area": true, "neighborhood": "Alief / Mission Bend"},
-    "77084": {"council_districts": ["A"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Copperfield / Bear Creek"},
-    "77085": {"council_districts": ["K"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["I", "VII"], "metro_service_area": true, "neighborhood": "South Houston / Almeda"},
-    "77086": {"council_districts": ["B"], "commissioner_precincts": [2, 3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston / Ella Lee"},
-    "77087": {"council_districts": ["D", "H", "K"], "commissioner_precincts": [1], "hisd_trustee_districts": ["III", "VII"], "metro_service_area": true, "neighborhood": "Lawndale / Wayside"},
-    "77088": {"council_districts": ["B"], "commissioner_precincts": [1, 2], "hisd_trustee_districts": ["II", "VIII"], "metro_service_area": true, "neighborhood": "Acres Homes"},
-    "77089": {"council_districts": ["E"], "commissioner_precincts": [2], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "South Belt / Ellington"},
-    "77090": {"council_districts": ["B"], "commissioner_precincts": [2, 3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "North Houston / Cypress Station"},
-    "77091": {"council_districts": ["A", "B"], "commissioner_precincts": [1, 3], "hisd_trustee_districts": ["VIII", "V"], "metro_service_area": true, "neighborhood": "Inwood / Mangum"},
-    "77092": {"council_districts": ["A", "J"], "commissioner_precincts": [1, 3], "hisd_trustee_districts": ["VIII", "V"], "metro_service_area": true, "neighborhood": "Spring Branch / Pinemont"},
-    "77093": {"council_districts": ["B"], "commissioner_precincts": [2], "hisd_trustee_districts": ["II"], "metro_service_area": true, "neighborhood": "Aldine / Homestead"},
-    "77094": {"council_districts": ["G"], "commissioner_precincts": [3, 4], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Energy Corridor / Cinco Ranch"},
-    "77095": {"council_districts": ["A"], "commissioner_precincts": [3], "hisd_trustee_districts": [], "metro_service_area": true, "neighborhood": "Copperfield / Northwest Houston"},
-    "77096": {"council_districts": ["I", "K"], "commissioner_precincts": [4], "hisd_trustee_districts": ["IX", "I"], "metro_service_area": true, "neighborhood": "Meyerland / Westbury"},
-    "77098": {"council_districts": ["C"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Upper Kirby / Montrose South"},
-    "77099": {"council_districts": ["F", "I"], "commissioner_precincts": [4], "hisd_trustee_districts": ["I", "IX"], "metro_service_area": true, "neighborhood": "Alief / Stafford border"},
-    "77201": {"council_districts": ["I"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV"], "metro_service_area": true, "neighborhood": "Downtown (PO Boxes)"},
-    "77204": {"council_districts": ["D"], "commissioner_precincts": [1], "hisd_trustee_districts": ["VII"], "metro_service_area": true, "neighborhood": "University of Houston"},
-    "77019": {"council_districts": ["C", "G"], "commissioner_precincts": [1], "hisd_trustee_districts": ["IV", "V"], "metro_service_area": true, "neighborhood": "River Oaks / Montrose West"},
-    "77401": {"council_districts": [], "commissioner_precincts": [4], "hisd_trustee_districts": ["VI"], "metro_service_area": true, "neighborhood": "Bellaire (independent city)"},
-    "77005": {"council_districts": ["C"], "commissioner_precincts": [1, 4], "hisd_trustee_districts": ["IV", "VI"], "metro_service_area": true, "neighborhood": "West University Place / Southampton"}
+    "77001": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Downtown (PO Box ZIP)",
+      "special_districts": ["Downtown Management District", "TIRZ 3 (Main Street/Market Square)"]
+    },
+    "77002": {
+      "council_districts": ["I", "C"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I", "VII"],
+      "metro_service_area": true,
+      "neighborhood": "Downtown / Midtown",
+      "special_districts": ["Downtown Management District", "TIRZ 3"]
+    },
+    "77003": {
+      "council_districts": ["I", "D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I", "IV"],
+      "metro_service_area": true,
+      "neighborhood": "EaDo / East Downtown / Third Ward (north)",
+      "special_districts": ["East Downtown Management District", "TIRZ 15 (East Downtown)"]
+    },
+    "77004": {
+      "council_districts": ["D", "C"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "Third Ward / Midtown / Museum District",
+      "special_districts": ["Midtown Management District", "TIRZ 7 (OST/Almeda Corridors)"]
+    },
+    "77005": {
+      "council_districts": ["C"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["V"],
+      "metro_service_area": true,
+      "neighborhood": "West University / Southampton / Rice Village",
+      "special_districts": ["Upper Kirby PID"]
+    },
+    "77006": {
+      "council_districts": ["C"],
+      "commissioner_precincts": [1, 4],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Montrose / Neartown",
+      "special_districts": ["Montrose Management District", "TIRZ 2 (Midtown, partial)"]
+    },
+    "77007": {
+      "council_districts": ["H", "C"],
+      "commissioner_precincts": [1, 4],
+      "hisd_trustee_districts": ["III", "VII"],
+      "metro_service_area": true,
+      "neighborhood": "Rice Military / Washington Corridor / Heights South",
+      "special_districts": ["TIRZ 5 (Memorial Heights)"]
+    },
+    "77008": {
+      "council_districts": ["H", "C", "A"],
+      "commissioner_precincts": [4, 3],
+      "hisd_trustee_districts": ["III", "VII"],
+      "metro_service_area": true,
+      "neighborhood": "Houston Heights / Woodland Heights / Timbergrove",
+      "special_districts": ["TIRZ 5 (Memorial Heights, partial)"]
+    },
+    "77009": {
+      "council_districts": ["H"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["III"],
+      "metro_service_area": true,
+      "neighborhood": "Near Northside / Northside Village / Brooke Smith",
+      "special_districts": ["Greater Northside Management District"]
+    },
+    "77010": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Downtown (PO Box ZIP - Convention District)",
+      "special_districts": ["Downtown Management District"]
+    },
+    "77011": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "East End / Magnolia Park",
+      "special_districts": ["Greater East End Management District"]
+    },
+    "77012": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Eastwood / Lawndale / Glenbrook Valley",
+      "special_districts": ["Greater East End Management District"]
+    },
+    "77013": {
+      "council_districts": ["I", "B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["I", "II"],
+      "metro_service_area": true,
+      "neighborhood": "Denver Harbor / Port Houston",
+      "special_districts": []
+    },
+    "77014": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2, 3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "North Houston / Aldine area",
+      "special_districts": ["Aldine Improvement District"],
+      "note": "Primarily Aldine ISD, not HISD"
+    },
+    "77015": {
+      "council_districts": ["E", "I"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Channelview / Cloverleaf / East Houston",
+      "special_districts": [],
+      "note": "Partially unincorporated Harris County; mixed ISDs"
+    },
+    "77016": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["II"],
+      "metro_service_area": true,
+      "neighborhood": "Trinity / Houston Gardens / Homestead",
+      "special_districts": []
+    },
+    "77017": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["VIII"],
+      "metro_service_area": true,
+      "neighborhood": "Park Place / South Belt (north)",
+      "special_districts": []
+    },
+    "77018": {
+      "council_districts": ["H", "C", "A"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["III", "VI"],
+      "metro_service_area": true,
+      "neighborhood": "Oak Forest / Garden Oaks",
+      "special_districts": []
+    },
+    "77019": {
+      "council_districts": ["C", "G"],
+      "commissioner_precincts": [4, 1],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "River Oaks / Montrose West / Hyde Park",
+      "special_districts": ["River Oaks Area PID"]
+    },
+    "77020": {
+      "council_districts": ["B", "I"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["II", "I"],
+      "metro_service_area": true,
+      "neighborhood": "Fifth Ward / Denver Harbor / Eastex-Jensen",
+      "special_districts": ["Fifth Ward CRC TIRZ"]
+    },
+    "77021": {
+      "council_districts": ["D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "South Union / Greater OST / Riverside Terrace",
+      "special_districts": ["TIRZ 7 (OST/Almeda Corridors)"]
+    },
+    "77022": {
+      "council_districts": ["H", "B"],
+      "commissioner_precincts": [1, 3],
+      "hisd_trustee_districts": ["III"],
+      "metro_service_area": true,
+      "neighborhood": "Independence Heights / Lindale Park / Studewood",
+      "special_districts": []
+    },
+    "77023": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Greater Eastwood / Second Ward",
+      "special_districts": ["Greater East End Management District"]
+    },
+    "77024": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Memorial / Piney Point Village / Hunters Creek Village",
+      "special_districts": ["Memorial Management District", "TIRZ 17 (Memorial City)"]
+    },
+    "77025": {
+      "council_districts": ["C", "J"],
+      "commissioner_precincts": [4, 1],
+      "hisd_trustee_districts": ["V"],
+      "metro_service_area": true,
+      "neighborhood": "Braeswood / Medical Center area / Meyerland (north)",
+      "special_districts": ["Texas Medical Center TIRZ"]
+    },
+    "77026": {
+      "council_districts": ["B", "H"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["II", "III"],
+      "metro_service_area": true,
+      "neighborhood": "Kashmere Gardens / Fifth Ward (north)",
+      "special_districts": []
+    },
+    "77027": {
+      "council_districts": ["G", "C"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Upper Kirby / Greenway Plaza / River Oaks South",
+      "special_districts": ["Upper Kirby Management District", "TIRZ 1 (St. George Place)"]
+    },
+    "77028": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["II"],
+      "metro_service_area": true,
+      "neighborhood": "Kashmere Gardens / Pleasantville",
+      "special_districts": []
+    },
+    "77029": {
+      "council_districts": ["I", "B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Clinton Park / Galena Manor / Tri-Community",
+      "special_districts": []
+    },
+    "77030": {
+      "council_districts": ["C", "D"],
+      "commissioner_precincts": [1, 4],
+      "hisd_trustee_districts": ["V", "IV"],
+      "metro_service_area": true,
+      "neighborhood": "Texas Medical Center / Museum District / Rice University",
+      "special_districts": ["Texas Medical Center TIRZ"]
+    },
+    "77031": {
+      "council_districts": ["J", "F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX", "V"],
+      "metro_service_area": true,
+      "neighborhood": "Fondren Southwest / Willow Meadows",
+      "special_districts": []
+    },
+    "77032": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "IAH Airport / Greenspoint East",
+      "special_districts": ["Greenspoint Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77033": {
+      "council_districts": ["D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV", "VIII"],
+      "metro_service_area": true,
+      "neighborhood": "South Park / Sunnyside East",
+      "special_districts": []
+    },
+    "77034": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "South Belt / Ellington / Clear Lake (west)",
+      "special_districts": [],
+      "note": "Primarily Pasadena ISD or Clear Creek ISD"
+    },
+    "77035": {
+      "council_districts": ["J", "C"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["V", "IX"],
+      "metro_service_area": true,
+      "neighborhood": "Meyerland / Fondren Southwest / Willowbend",
+      "special_districts": []
+    },
+    "77036": {
+      "council_districts": ["F", "J"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX"],
+      "metro_service_area": true,
+      "neighborhood": "Sharpstown / Chinatown",
+      "special_districts": ["Sharpstown Management District"]
+    },
+    "77037": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2, 3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Greenspoint / Hidden Valley",
+      "special_districts": ["Greenspoint Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77038": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2, 3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Greenspoint / East Aldine",
+      "special_districts": ["East Aldine Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77039": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "East Aldine",
+      "special_districts": ["East Aldine Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77040": {
+      "council_districts": ["A", "B"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Fairbanks / Northwest Crossing / Inwood",
+      "special_districts": []
+    },
+    "77041": {
+      "council_districts": ["A"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Fairbanks / Northwest Houston / Jersey Village area",
+      "special_districts": [],
+      "note": "Partially Spring Branch ISD"
+    },
+    "77042": {
+      "council_districts": ["G", "F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VI", "IX"],
+      "metro_service_area": true,
+      "neighborhood": "Westchase / Briargrove",
+      "special_districts": ["Westchase Management District", "TIRZ 20 (Southwest Houston)"]
+    },
+    "77043": {
+      "council_districts": ["G", "A"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Spring Branch West / Long Point",
+      "special_districts": [],
+      "note": "Primarily Spring Branch ISD"
+    },
+    "77044": {
+      "council_districts": ["E", "B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Lake Houston / Sheldon / Atascocita",
+      "special_districts": [],
+      "note": "Primarily Sheldon ISD or Humble ISD"
+    },
+    "77045": {
+      "council_districts": ["K", "D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "Hiram Clarke / Westbury South / Central Southwest",
+      "special_districts": []
+    },
+    "77046": {
+      "council_districts": ["C", "G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Afton Oaks / Upper Kirby (PO Box ZIP)",
+      "special_districts": ["Upper Kirby Management District"]
+    },
+    "77047": {
+      "council_districts": ["D", "K"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "Sunnyside / South Acres / Cresmont Park",
+      "special_districts": []
+    },
+    "77048": {
+      "council_districts": ["D", "K"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV", "VIII"],
+      "metro_service_area": true,
+      "neighborhood": "Hobby Airport South / Reed Road area",
+      "special_districts": []
+    },
+    "77049": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Sheldon / Barrett / Channelview (north)",
+      "special_districts": [],
+      "note": "Primarily Sheldon ISD or Channelview ISD"
+    },
+    "77050": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "East Aldine / North Houston Industrial",
+      "special_districts": ["East Aldine Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77051": {
+      "council_districts": ["D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "Sunnyside / South Acres",
+      "special_districts": []
+    },
+    "77053": {
+      "council_districts": ["K"],
+      "commissioner_precincts": [1, 4],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "Fort Bend / Houston (unincorporated)",
+      "special_districts": [],
+      "note": "Partially in Fort Bend County"
+    },
+    "77054": {
+      "council_districts": ["D", "C"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV", "V"],
+      "metro_service_area": true,
+      "neighborhood": "South Main / Medical Center South / NRG area",
+      "special_districts": ["NRG/Astrodome TIRZ"]
+    },
+    "77055": {
+      "council_districts": ["A", "G"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Spring Branch / Spring Branch Central",
+      "special_districts": [],
+      "note": "Primarily Spring Branch ISD"
+    },
+    "77056": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VII", "VI"],
+      "metro_service_area": true,
+      "neighborhood": "Tanglewood / Galleria / Uptown",
+      "special_districts": ["Uptown Houston Management District", "TIRZ 16 (Uptown)"]
+    },
+    "77057": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VI", "VII"],
+      "metro_service_area": true,
+      "neighborhood": "Galleria / Post Oak / Briargrove",
+      "special_districts": ["Uptown Houston Management District"]
+    },
+    "77058": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Clear Lake / NASA / Johnson Space Center",
+      "special_districts": [],
+      "note": "Primarily Clear Creek ISD"
+    },
+    "77059": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Clear Lake City",
+      "special_districts": [],
+      "note": "Primarily Clear Creek ISD"
+    },
+    "77060": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Greenspoint / North Houston",
+      "special_districts": ["Greenspoint Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77061": {
+      "council_districts": ["I", "E"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["VIII"],
+      "metro_service_area": true,
+      "neighborhood": "Gulfgate / Reveille / Edgebrook",
+      "special_districts": []
+    },
+    "77062": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Clear Lake",
+      "special_districts": [],
+      "note": "Primarily Clear Creek ISD"
+    },
+    "77063": {
+      "council_districts": ["G", "F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX", "VI"],
+      "metro_service_area": true,
+      "neighborhood": "Sharpstown East / Tanglewilde / Galleria South",
+      "special_districts": ["Sharpstown Management District"]
+    },
+    "77064": {
+      "council_districts": ["A", "B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Cypress Station / Champions area",
+      "special_districts": [],
+      "note": "Primarily Cy-Fair ISD"
+    },
+    "77065": {
+      "council_districts": ["A"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Cypress / Northwest Houston",
+      "special_districts": [],
+      "note": "Primarily Cy-Fair ISD"
+    },
+    "77066": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Champions / FM 1960 area",
+      "special_districts": [],
+      "note": "Primarily Klein ISD or Spring ISD"
+    },
+    "77067": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Greenspoint / Greens Bayou",
+      "special_districts": ["Greenspoint Management District"],
+      "note": "Primarily Aldine ISD"
+    },
+    "77068": {
+      "council_districts": ["B", "A"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Champions / Willowbrook",
+      "special_districts": [],
+      "note": "Primarily Klein ISD"
+    },
+    "77069": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Champions / Cypresswood",
+      "special_districts": [],
+      "note": "Primarily Klein ISD"
+    },
+    "77070": {
+      "council_districts": ["A", "B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Northwest Houston / Willowbrook area",
+      "special_districts": [],
+      "note": "Primarily Cy-Fair ISD"
+    },
+    "77071": {
+      "council_districts": ["J", "K", "F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX", "V"],
+      "metro_service_area": true,
+      "neighborhood": "Westbury / Fondren Southwest / Braeburn",
+      "special_districts": []
+    },
+    "77072": {
+      "council_districts": ["F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX"],
+      "metro_service_area": true,
+      "neighborhood": "Alief / Westwood",
+      "special_districts": [],
+      "note": "Primarily Alief ISD"
+    },
+    "77073": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "North Houston / Aldine Westfield area",
+      "special_districts": [],
+      "note": "Primarily Aldine ISD or Spring ISD"
+    },
+    "77074": {
+      "council_districts": ["J", "F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX"],
+      "metro_service_area": true,
+      "neighborhood": "Sharpstown / Gulfton South",
+      "special_districts": ["Sharpstown Management District"]
+    },
+    "77075": {
+      "council_districts": ["E", "I"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["VIII"],
+      "metro_service_area": true,
+      "neighborhood": "Sagemont / Edgebrook / Clear Lake West",
+      "special_districts": []
+    },
+    "77076": {
+      "council_districts": ["B", "H"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["II", "III"],
+      "metro_service_area": true,
+      "neighborhood": "East Little York / Homestead / Northline",
+      "special_districts": []
+    },
+    "77077": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Energy Corridor / Briar Forest West",
+      "special_districts": ["Energy Corridor Management District"],
+      "note": "Partially Spring Branch ISD or Katy ISD"
+    },
+    "77078": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": ["II"],
+      "metro_service_area": true,
+      "neighborhood": "East Houston / Settegast",
+      "special_districts": []
+    },
+    "77079": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4, 3],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Memorial / Hedwig Village / Nottingham Forest",
+      "special_districts": ["Memorial Management District"],
+      "note": "Partially Spring Branch ISD"
+    },
+    "77080": {
+      "council_districts": ["A"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Spring Branch / Langwood / Fairbanks",
+      "special_districts": [],
+      "note": "Primarily Spring Branch ISD"
+    },
+    "77081": {
+      "council_districts": ["J", "F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["IX"],
+      "metro_service_area": true,
+      "neighborhood": "Gulfton / Southwest Houston",
+      "special_districts": ["Gulfton Management District"]
+    },
+    "77082": {
+      "council_districts": ["F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Westchase / Alief West",
+      "special_districts": ["Westchase Management District", "TIRZ 20"],
+      "note": "Primarily Alief ISD"
+    },
+    "77083": {
+      "council_districts": ["F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Alief / Mission Bend",
+      "special_districts": [],
+      "note": "Primarily Alief ISD"
+    },
+    "77084": {
+      "council_districts": ["A"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Barker / West Houston / Copperfield",
+      "special_districts": [],
+      "note": "Primarily Katy ISD or Cy-Fair ISD"
+    },
+    "77085": {
+      "council_districts": ["K", "J"],
+      "commissioner_precincts": [4, 1],
+      "hisd_trustee_districts": ["IX", "IV"],
+      "metro_service_area": true,
+      "neighborhood": "Fondren Gardens / South Houston / Almeda",
+      "special_districts": []
+    },
+    "77086": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "North Houston / Greens Road area",
+      "special_districts": [],
+      "note": "Primarily Aldine ISD"
+    },
+    "77087": {
+      "council_districts": ["I", "D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["VIII"],
+      "metro_service_area": true,
+      "neighborhood": "Golfcrest / Bellfort / Lawndale-Wayside",
+      "special_districts": []
+    },
+    "77088": {
+      "council_districts": ["B", "H"],
+      "commissioner_precincts": [1, 3],
+      "hisd_trustee_districts": ["III", "II"],
+      "metro_service_area": true,
+      "neighborhood": "Acres Homes / Hidden Valley",
+      "special_districts": ["TIRZ 24 (Leland Woods)"]
+    },
+    "77089": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "South Belt / Sagemeadow",
+      "special_districts": [],
+      "note": "Primarily Pasadena ISD or Clear Creek ISD"
+    },
+    "77090": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "FM 1960 / Champions North",
+      "special_districts": [],
+      "note": "Primarily Klein ISD or Spring ISD"
+    },
+    "77091": {
+      "council_districts": ["H", "A", "B"],
+      "commissioner_precincts": [1, 3],
+      "hisd_trustee_districts": ["III"],
+      "metro_service_area": true,
+      "neighborhood": "Acres Homes / Inwood / Shady Acres",
+      "special_districts": []
+    },
+    "77092": {
+      "council_districts": ["A", "H"],
+      "commissioner_precincts": [3, 4],
+      "hisd_trustee_districts": ["VI", "III"],
+      "metro_service_area": true,
+      "neighborhood": "Greater Inwood / Langwood / Spring Branch East",
+      "special_districts": []
+    },
+    "77093": {
+      "council_districts": ["H", "B"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["II", "III"],
+      "metro_service_area": true,
+      "neighborhood": "Northside / Aldine South / Eastex-Jensen",
+      "special_districts": ["Greater Northside Management District"]
+    },
+    "77094": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Energy Corridor West / Memorial West / Cinco Ranch",
+      "special_districts": ["Energy Corridor Management District"],
+      "note": "Primarily Katy ISD"
+    },
+    "77095": {
+      "council_districts": ["A"],
+      "commissioner_precincts": [3],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Copperfield / Bear Creek / Northwest Houston",
+      "special_districts": [],
+      "note": "Primarily Cy-Fair ISD"
+    },
+    "77096": {
+      "council_districts": ["J", "C"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["V", "IX"],
+      "metro_service_area": true,
+      "neighborhood": "Fondren Southwest / Meyerland South",
+      "special_districts": []
+    },
+    "77098": {
+      "council_districts": ["C"],
+      "commissioner_precincts": [4, 1],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Montrose South / Museum District / Upper Kirby",
+      "special_districts": ["Upper Kirby Management District", "TIRZ 1 (St. George Place)"]
+    },
+    "77099": {
+      "council_districts": ["F"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Alief South / Westwood South / Stafford border",
+      "special_districts": [],
+      "note": "Primarily Alief ISD or Fort Bend ISD"
+    },
+    "77201": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Downtown (PO Box ZIP)",
+      "special_districts": ["Downtown Management District"]
+    },
+    "77204": {
+      "council_districts": ["D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "University of Houston campus",
+      "special_districts": []
+    },
+    "77205": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "IAH Airport area (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77207": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1, 2],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "East End (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77208": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Downtown (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77210": {
+      "council_districts": ["I"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["I"],
+      "metro_service_area": true,
+      "neighborhood": "Downtown (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77212": {
+      "council_districts": ["C"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Rice University area (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77215": {
+      "council_districts": ["J"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["V"],
+      "metro_service_area": true,
+      "neighborhood": "Braeswood / Meyerland (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77218": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VI"],
+      "metro_service_area": true,
+      "neighborhood": "Memorial / Energy Corridor (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77219": {
+      "council_districts": ["C"],
+      "commissioner_precincts": [4, 1],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Montrose (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77220": {
+      "council_districts": ["B"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["II"],
+      "metro_service_area": true,
+      "neighborhood": "Fifth Ward (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77221": {
+      "council_districts": ["D"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": ["IV"],
+      "metro_service_area": true,
+      "neighborhood": "Texas Southern University / Third Ward (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77225": {
+      "council_districts": ["C"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["V"],
+      "metro_service_area": true,
+      "neighborhood": "West University (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77227": {
+      "council_districts": ["G"],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["VII"],
+      "metro_service_area": true,
+      "neighborhood": "Galleria area (PO Box ZIP)",
+      "special_districts": []
+    },
+    "77339": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Kingwood",
+      "special_districts": ["Lake Houston TIRZ"],
+      "note": "Humble ISD"
+    },
+    "77345": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Kingwood",
+      "special_districts": ["Lake Houston TIRZ"],
+      "note": "Humble ISD"
+    },
+    "77346": {
+      "council_districts": ["E"],
+      "commissioner_precincts": [2],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Kingwood / Atascocita",
+      "special_districts": [],
+      "note": "Humble ISD; only partially within City of Houston"
+    },
+    "77401": {
+      "council_districts": [],
+      "commissioner_precincts": [4],
+      "hisd_trustee_districts": ["V"],
+      "metro_service_area": true,
+      "neighborhood": "Bellaire (independent city)",
+      "special_districts": [],
+      "note": "City of Bellaire - independent municipality within Harris County, within HISD boundaries"
+    },
+    "77489": {
+      "council_districts": ["K"],
+      "commissioner_precincts": [1],
+      "hisd_trustee_districts": [],
+      "metro_service_area": true,
+      "neighborhood": "Missouri City / Fort Bend-Houston",
+      "special_districts": [],
+      "note": "Partially in Fort Bend County; Fort Bend ISD"
+    }
+  },
+  "management_districts": {
+    "Downtown Management District": {
+      "primary_zips": ["77002", "77010"],
+      "description": "Central business district, entertainment, government center"
+    },
+    "Midtown Management District": {
+      "primary_zips": ["77004", "77006"],
+      "description": "Mixed-use urban district between downtown and Medical Center"
+    },
+    "Uptown Houston Management District": {
+      "primary_zips": ["77056", "77057"],
+      "description": "Galleria/Post Oak/Uptown commercial corridor"
+    },
+    "Greater East End Management District": {
+      "primary_zips": ["77011", "77012", "77023"],
+      "description": "East End, Navigation District, Harrisburg"
+    },
+    "Westchase Management District": {
+      "primary_zips": ["77042", "77082"],
+      "description": "Westchase/Westheimer commercial corridor west of Beltway 8"
+    },
+    "Energy Corridor Management District": {
+      "primary_zips": ["77077", "77094"],
+      "description": "Energy industry hub along I-10 west, major employers: BP, ConocoPhillips, Shell"
+    },
+    "Greater Northside Management District": {
+      "primary_zips": ["77009", "77093"],
+      "description": "Near Northside, Northline area, Hardy Yards"
+    },
+    "Greenspoint Management District": {
+      "primary_zips": ["77060", "77067", "77037", "77032"],
+      "description": "Greenspoint/North Houston commercial area along I-45 north"
+    },
+    "Gulfton Management District": {
+      "primary_zips": ["77081"],
+      "description": "Gulfton neighborhood, one of Houston's densest and most diverse areas"
+    },
+    "Sharpstown Management District": {
+      "primary_zips": ["77036", "77074", "77063"],
+      "description": "Sharpstown/Chinatown commercial area along US-59/I-69"
+    },
+    "Upper Kirby Management District": {
+      "primary_zips": ["77098", "77027", "77005"],
+      "description": "Upper Kirby/Greenway Plaza mixed-use area"
+    },
+    "East Aldine Management District": {
+      "primary_zips": ["77038", "77039", "77050"],
+      "description": "East Aldine area along US 59/I-69 north"
+    },
+    "Aldine Improvement District": {
+      "primary_zips": ["77014"],
+      "description": "Aldine area north Houston"
+    },
+    "Memorial Management District": {
+      "primary_zips": ["77024", "77079"],
+      "description": "Memorial/Villages area along Memorial Drive"
+    },
+    "Montrose Management District": {
+      "primary_zips": ["77006"],
+      "description": "Montrose neighborhood, arts and culture district"
+    }
+  },
+  "tirz_zones": {
+    "TIRZ 1 (St. George Place)": { "primary_zips": ["77027", "77098"], "description": "Upper Kirby area redevelopment" },
+    "TIRZ 2 (Midtown)": { "primary_zips": ["77004", "77006"], "description": "Midtown revitalization" },
+    "TIRZ 3 (Main Street/Market Square)": { "primary_zips": ["77002"], "description": "Downtown core redevelopment" },
+    "TIRZ 5 (Memorial Heights)": { "primary_zips": ["77007", "77008"], "description": "Washington Ave corridor" },
+    "TIRZ 7 (OST/Almeda Corridors)": { "primary_zips": ["77004", "77021", "77054"], "description": "South-central Houston corridors" },
+    "TIRZ 15 (East Downtown)": { "primary_zips": ["77003"], "description": "EaDo redevelopment" },
+    "TIRZ 16 (Uptown)": { "primary_zips": ["77056", "77057"], "description": "Galleria/Uptown area" },
+    "TIRZ 17 (Memorial City)": { "primary_zips": ["77024"], "description": "Memorial City mixed-use redevelopment" },
+    "TIRZ 20 (Southwest Houston)": { "primary_zips": ["77042", "77082"], "description": "Westchase area redevelopment" },
+    "TIRZ 24 (Leland Woods)": { "primary_zips": ["77088"], "description": "Acres Homes area" }
   }
 }
