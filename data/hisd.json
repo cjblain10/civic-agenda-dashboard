@@ -1,0 +1,2890 @@
+{
+  "source": "Houston ISD",
+  "fetched_at": "2026-02-07T13:44:57.974984",
+  "bodies": [
+    {
+      "id": 138,
+      "name": "Board of Education",
+      "active": 1
+    },
+    {
+      "id": 200,
+      "name": "Board of Education Agenda Review",
+      "active": 0
+    },
+    {
+      "id": 201,
+      "name": "Board of Education Hearings",
+      "active": 0
+    },
+    {
+      "id": 205,
+      "name": "School Board",
+      "active": 1
+    }
+  ],
+  "meetings": [
+    {
+      "id": 1298,
+      "date": "2026-01-15",
+      "time": "5:00 PM",
+      "body": "School Board",
+      "location": "BOARD AUDITORIUM AND BOARD SERVICES CONFERENCE ROOM",
+      "agenda_url": "https://houstonisd.legistar1.com/houstonisd/meetings/2026/1/1298_A_School_Board_26-01-15_Agenda.pdf",
+      "agenda_items": [
+        {
+          "id": 43677,
+          "title": "The purpose of the Houston Independent School District School Board is to represent the vision and values of the community, and consistent with that, govern the administration of the Houston Independent School District in a manner that best allows for the improvement of academic outcomes for all the students we serve. The School Board must be able to do its work of governing, including deliberations and decision-making, in orderly meetings held open to the public.\r\n\r\nIn order to (i) ensure we can efficiently address the needs of our students, (ii) allow for necessary deliberations and discussions to occur, (iii) give all members of the public an opportunity to participate and observe the school board's meetings, and (iv) provide appropriate translation services for non-English speaking members of the HISD community, we will adhere to the following rules and norms:",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43678,
+          "title": "\u2022\tPublic comment during School Board meetings will only be available to those persons who \thave signed up to speak prior to the meeting time per current protocol.\r\n\u2022\tVerbal and other disruptions by persons during the School Board meetings are not \tacceptable as they inhibit the board\u2019s ability to conduct business and the public\u2019s ability to \tobserve those processes. Persons who participate in such behavior will be given one \twarning and if the behavior is repeated, they will be asked to leave the meeting.\r\n\u2022\tSeating in the board room is available on a first come, first served basis for all persons, \tincluding those who have signed up to speak during public comment. Overflow seating \tmay be available, also on a first come, first served basis.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43679,
+          "title": "A member of the community wishing to address the board may do so in person or by live video via Zoom. For either method, a person who wishes to address the board must register with the Board Services Department by 12:00 p.m. the day before the meeting. Any supporting information (e.g., handouts) regarding the community member's concern shall be filed with Board Services by 12:00 p.m. the day before the meeting. Further details and instructions for registering to speak are available at: https://www.houstonisd.org/board-governance/board-meetings\r\n\r\nThe agenda packet for this meeting is available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43680,
+          "title": "The board meeting may be viewed via:",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43681,
+          "title": "\u2022\tAT&T Uverse HISD TV Channel 99 \r\n\u2022\tComcast HISD TV Channel 18 \r\n\u2022\tWebsite https://houstonisd.org/livestream\r\n\u2022\tYouTube https://www.youtube.com/@hisdnow\r\n\r\nA recording of the meeting will be made available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43682,
+          "title": "Any item that establishes, modifies, or deletes board policy may, at the board's discretion, be passed and become effective immediately following first reading.\r\n\r\nThe items on this agenda may be taken in any order.\r\n\r\nUnless removed from the consent agenda in accordance with Robert's Rules of Order, Newly Revised, and/or board operating procedures, items identified within the consent agenda will be acted on at one time.\r\n\r\nNo agenda or district business will be discussed except as noticed below and any action will occur in the room open to the public. It is the intent of the district to have, and the meeting will have, a quorum physically present at this location. The above location will be equipped with video conference equipment.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43683,
+          "title": "MEETING HELD - PURPOSE",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43684,
+          "title": "MEETING CALLED TO ORDER \u2013 MEMBERS PRESENT",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43685,
+          "title": "Meditation and Pledge of Allegiance",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43686,
+          "title": "RECOGNITIONS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43687,
+          "title": "\u2022\tBoard Member Reports and Comments",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43688,
+          "title": "\u2022\tRecognitions",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43689,
+          "title": "\u2022\tReports from the Superintendent",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43690,
+          "title": "\u2022\tConsideration and Approval of Agenda Items",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43691,
+          "title": "ADJOURNMENT TO CLOSED SESSION",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43692,
+          "title": "RECONVENED IN OPEN SESSION IN THE BOARD AUDITORIUM",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43693,
+          "title": "\u2022\tConsideration and Possible Action on Matters Discussed in Closed Session",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43694,
+          "title": "BOARD MEMBER REPORTS AND COMMENTS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43695,
+          "title": "REPORTS FROM THE SUPERINTENDENT",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43697,
+          "title": "DISCUSSION AND REPORT ITEMS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43698,
+          "title": "Purchasing Services Quarterly Report",
+          "type": "Report from the Superintendent Item",
+          "matter_file": "26-028",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Purchasing Quarterly Report",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/aaf99b26-0f61-4674-9433-9f495c720bc7.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43699,
+          "title": "Budget To Actual Report",
+          "type": "Report from the Superintendent Item",
+          "matter_file": "26-029",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Financial Report",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/e7590cec-1f64-4631-9c2e-ab09cd5b9f7a.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43700,
+          "title": "Investment Report",
+          "type": "Report from the Superintendent Item",
+          "matter_file": "26-031",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Q2 Investment Report",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/4318307b-1c7b-42e2-898a-c9ad0108261b.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43701,
+          "title": "ITEMS PULLED FROM CONSENT AGENDA",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43702,
+          "title": "CONSENT AGENDA",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43703,
+          "title": "Approval To Name A Conference Room At Waltrip High School The Mayor Whitmire Community Room",
+          "type": "Agenda Item",
+          "matter_file": "26-006",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Conference Room At Waltrip High School"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43704,
+          "title": "Consideration And Approval Of Minutes From Previous Meetings",
+          "type": "Board-Originated Item",
+          "matter_file": "26-014",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43706,
+          "title": "Review And Approval Of The Board's Quarterly Self-Evaluation",
+          "type": "Board-Originated Item",
+          "matter_file": "26-016",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Self-Evaluation And Time Use Trackers",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/fe19898c-947a-453b-9124-b8334b1ef848.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43707,
+          "title": "Approval Of Proposed Revisions To Board Policy EL(LOCAL), Campus Or Program Charters",
+          "type": "Agenda Item",
+          "matter_file": "26-017",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "EL(LOCAL)",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/fc1d3f9d-a3bb-46e2-824c-c2c89cbbdbce.docx"
+            }
+          ]
+        },
+        {
+          "id": 43708,
+          "title": "Approval Of Proposed Revisions To Board Policy EHBB(LOCAL), Special Programs: Gifted And Talented Students-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-018",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "EHBB(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/61e1888a-60fb-49b1-a045-5f1aed0de240.docx"
+            }
+          ]
+        },
+        {
+          "id": 43709,
+          "title": "Approval Of Proposed Deletion Of Board Policy ELA(LOCAL), Campus Or Program Charters: Partnership Charters-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-019",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "ELA(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/3f22c87f-16f1-43c4-a32f-2109e29ff21a.docx"
+            }
+          ]
+        },
+        {
+          "id": 43710,
+          "title": "Approval Of Proposed Revisions To Board Policy FFAA(LOCAL), Wellness And Health Services: Physical Examinations-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-020",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "FFAA(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/2245865e-bd67-46f2-9062-f3fed72a0158.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43711,
+          "title": "Approval Of Action Plan For Submission Of A Delay Of Teacher Certification Requirements Application",
+          "type": "Agenda Item",
+          "matter_file": "26-022",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43712,
+          "title": "Approval Of Waiver Requests Regarding 2025-2026 Remote Homebound Instruction For Eligible Special And Regular Education Students",
+          "type": "Agenda Item",
+          "matter_file": "26-023",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": [
+              "2026 Remote Homebound Instruction For Eligible Special And Regular Education St"
+            ]
+          },
+          "attachments": []
+        },
+        {
+          "id": 43713,
+          "title": "Approval Of Vendor Awards For Purchases Which Cost $1,000,000 Or More",
+          "type": "Agenda Item",
+          "matter_file": "26-024",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Purchasing Request",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/b3b238c6-bd89-4e8c-9628-6f1b8a0c5b8e.docx"
+            }
+          ]
+        },
+        {
+          "id": 43714,
+          "title": "Approval Of The Annual Comprehensive Financial Report For The Fiscal Year Ending June 30, 2025",
+          "type": "Agenda Item",
+          "matter_file": "26-025",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Certificate Of Board",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/6f2ea33a-b900-4a1e-af3f-77ee8e9a8911.doc"
+            }
+          ]
+        },
+        {
+          "id": 43715,
+          "title": "Approval Of An Order Authorizing Publication Of Notice Of Intention To Enter Into A Contract For The Acquisition, Improvement, And Equipment Of Real Property",
+          "type": "Agenda Item",
+          "matter_file": "26-026",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Order Authorizing Publication Of Notice Of Intention",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/07ab601a-8fe6-4cb3-bef7-3d252f290b59.docx"
+            },
+            {
+              "name": "Exhibit A - Notice Of Intention",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/8bb20cca-c307-42a5-8ec5-335ab9ec4759.docx"
+            }
+          ]
+        },
+        {
+          "id": 43716,
+          "title": "Approval Of Proposed Revisions To Board Policy CAA(LOCAL), Fiscal Management Goals and Objectives: Financial Ethics-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-027",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "CAA(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/75e38053-218e-4674-843c-d85d17a916c0.docx"
+            }
+          ]
+        },
+        {
+          "id": 43718,
+          "title": "Approval Of New Campus Library Book Orders And Donations",
+          "type": "Agenda Item",
+          "matter_file": "26-032",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "January Titles Of New Library Materials For Approval",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/b8e1a938-52c3-4ea2-93c3-5df82c56c892.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43719,
+          "title": "CLOSED SESSION",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43720,
+          "title": "Personnel",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43721,
+          "title": "Deliberate the duties of the superintendent of schools, chief officers, deputy chief officers, executive directors, principals, employees, and board members; evaluations of the superintendent; consideration of compensation, and contractual provisions of same.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43722,
+          "title": "Consider and approve proposed appointments, reassignments, proposed terminations, terminations/suspensions, contract lengths, proposed nonrenewals, renewals, and resignations/retirements of personnel including teachers, assistant principals, principals, chiefs, division superintendents, senior executive directors, executive directors, directors, and other administrators, and, if necessary, approve waiver and release and compromise agreements.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43723,
+          "title": "Hear complaints against and deliberate the appointment, evaluation, and duties of public officers or employees and resolution of same.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43724,
+          "title": "Legal",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43725,
+          "title": "Matters on which the district\u2019s attorney\u2019s duty to the district under the Code of Professional Responsibility clearly conflicts with the Texas Open Meetings Law, including specifically any matter listed on this agenda and meeting notice. ",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43726,
+          "title": "Pending or contemplated litigation matters and status report. \r\n",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43727,
+          "title": "Update on federal law enforcement activity on February 27, 2020. ",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43728,
+          "title": "Update and possible action in the matter of Nathan v. Alamo Heights Independent School District, in the Western District of Texas, San Antonio Division, Civil Action No. 5:25-cv-00756.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43729,
+          "title": "Update and possible action in the matter of Houston Federation of Teachers v. Mike Miles, in the District Court of Harris County, Texas, 164 Judicial District, Cause No. 2025-53237.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43730,
+          "title": "GSA Network et al., v. Mike Morath, Houston ISD et al., in the Southern District of Texas, Civil Action No. 4:25-CV-04090.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43738,
+          "title": "District Safety, Emergency Management, And Security Audits",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43739,
+          "title": "Discussion of district safety concerns, including districtwide intruder detection audit report findings and HB3 compliance.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43740,
+          "title": "CLOSED SESSION AUTHORIZATION DURING MEETING",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43741,
+          "title": "If during the course of the meeting covered by this notice the board should determine that a closed or executive meeting or session of the board should be held or is required, then such closed or executive meeting or session as authorized by Chapter 551 of the Texas Government Code (the Open Meetings Act) will be held by the board at the date, hour, and place given in this notice or as soon after the commencement of the meeting covered by this notice as the board may conveniently meet in such closed or executive session concerning any and all subjects and for any and all purposes permitted by Section 551.071 through Section 551.089 inclusive of said Open Meetings Act.\r\n\r\nShould any final action, final decision, or final vote be required in the opinion of the board with regard to any matter considered in such closed or executive session, then such final action, final decision, or final vote shall be at either:\r\n\r\na) the open meeting covered by this notice upon the reconvening of this public meeting, or\r\nb) a subsequent public meeting of the board upon notice thereof, as the board shall determine.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43742,
+          "title": "ADJOURN",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43743,
+          "title": "CERTIFICATE AS TO POSTING OR GIVING OF NOTICE",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43744,
+          "title": "On this 9th day of January 2026 at 4:00 p.m., this notice was posted on a bulletin board located at a place convenient to the public in the HMW Educational Support Center of the Houston Independent School District, the address of which is 4400 West 18th Street, Houston, Texas, as well as on the district\u2019s public web portal.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43745,
+          "title": "ELECTION OF OFFICERS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43746,
+          "title": "Approval Of Proposed Revisions To Board Policy DCE(LOCAL), Employment Practices: Other Types Of Contracts-First Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-033",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "DCE(LOCAL), First Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/58b920a4-0501-40ec-a15c-87d7a420026d.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43750,
+          "title": "\u2022\tHISD 2026: The Future is Now",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43751,
+          "title": "Authority To Negotiate, Execute, And Amend An Interlocal Agreement With Region One Education Service Center",
+          "type": "Agenda Item",
+          "matter_file": "26-034",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43752,
+          "title": "Approval Of Proposed Revisions To And Ratification Of The Student Code Of Conduct",
+          "type": "Agenda Item",
+          "matter_file": "26-035",
+          "consent": true,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "2025\u20132026 Student Code Of Conduct",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/87e00f17-1070-4aa7-842d-484d44edf058.pdf"
+            },
+            {
+              "name": "2025\u20132026 C\u00f3digo De Conducta Estudiantil",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/f287544e-ade4-4bd8-806e-8d21caa746b1.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43761,
+          "title": "Approval Of Programming Change For Heights, Kashmere, Northside, And Waltrip High Schools",
+          "type": "Agenda Item",
+          "matter_file": "26-030",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "And Waltrip High School"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43764,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43765,
+          "title": "At the January 15, 2026, School Board meeting, all agenda items were approved as presented except item 10, which was not considered, and item 17, which was amended to have a second reading January 29, 2026, and accepted as amended.\r\n \r\nAdditional information may be obtained from the Board Services Office, 713-556-6121.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43766,
+          "title": "Roll Call Update",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43767,
+          "title": "SPEAKERS TO AGENDA ITEMS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43768,
+          "title": "REPORTS FROM THE SUPERINTENDENT",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43769,
+          "title": "SPEAKERS TO AGENDA ITEMS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43770,
+          "title": "Approval Of The Annual Comprehensive Financial Report For The Fiscal Year Ending June 30, 2025",
+          "type": "Agenda Item",
+          "matter_file": "26-025",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Certificate Of Board",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/6f2ea33a-b900-4a1e-af3f-77ee8e9a8911.doc"
+            }
+          ]
+        },
+        {
+          "id": 43771,
+          "title": "Approval Of Proposed Revisions To Board Policy EL(LOCAL), Campus Or Program Charters",
+          "type": "Agenda Item",
+          "matter_file": "26-017",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "EL(LOCAL)",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/fc1d3f9d-a3bb-46e2-824c-c2c89cbbdbce.docx"
+            }
+          ]
+        },
+        {
+          "id": 43772,
+          "title": "SPEAKERS TO AGENDA ITEMS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43773,
+          "title": "RECOGNITIONS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 1310,
+      "date": "2026-01-29",
+      "time": "5:00 PM",
+      "body": "School Board",
+      "location": "BOARD AUDITORIUM AND BOARD SERVICES CONFERENCE ROOM",
+      "agenda_url": "https://houstonisd.legistar1.com/houstonisd/meetings/2026/1/1310_A_School_Board_26-01-29_Agenda.pdf",
+      "agenda_items": [
+        {
+          "id": 43775,
+          "title": "The purpose of the Houston Independent School District School Board is to represent the vision and values of the community, and consistent with that, govern the administration of the Houston Independent School District in a manner that best allows for the improvement of academic outcomes for all the students we serve. The School Board must be able to do its work of governing, including deliberations and decision-making, in orderly meetings held open to the public.\r\n\r\nIn order to (i) ensure we can efficiently address the needs of our students, (ii) allow for necessary deliberations and discussions to occur, (iii) give all members of the public an opportunity to participate and observe the school board's meetings, and (iv) provide appropriate translation services for non-English speaking members of the HISD community, we will adhere to the following rules and norms:",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43776,
+          "title": "\u2022\tPublic comment during School Board meetings will only be available to those persons who \thave signed up to speak prior to the meeting time per current protocol.\r\n\u2022\tVerbal and other disruptions by persons during the School Board meetings are not \tacceptable as they inhibit the board\u2019s ability to conduct business and the public\u2019s ability to \tobserve those processes. Persons who participate in such behavior will be given one \twarning and if the behavior is repeated, they will be asked to leave the meeting.\r\n\u2022\tSeating in the board room is available on a first come, first served basis for all persons, \tincluding those who have signed up to speak during public comment. Overflow seating \tmay be available, also on a first come, first served basis.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43777,
+          "title": "A member of the community wishing to address the board may do so in person or by live video via Zoom. For either method, a person who wishes to address the board must register with the Board Services Department by 12:00 p.m. the day before the meeting. Any supporting information (e.g., handouts) regarding the community member's concern shall be filed with Board Services by 12:00 p.m. the day before the meeting. Further details and instructions for registering to speak are available at: https://www.houstonisd.org/board-governance/board-meetings\r\n\r\nThe agenda packet for this meeting is available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43778,
+          "title": "The board meeting may be viewed via:",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43779,
+          "title": "\u2022\tAT&T Uverse HISD TV Channel 99 \r\n\u2022\tComcast HISD TV Channel 18 \r\n\u2022\tWebsite https://houstonisd.org/livestream\r\n\u2022\tYouTube https://www.youtube.com/@hisdnow\r\n\r\nA recording of the meeting will be made available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43780,
+          "title": "Any item that establishes, modifies, or deletes board policy may, at the board's discretion, be passed and become effective immediately following first reading.\r\n\r\nThe items on this agenda may be taken in any order.\r\n\r\nNo agenda or district business will be discussed except as noticed below and any action will occur in the room open to the public. It is the intent of the district to have, and the meeting will have, a quorum physically present at this location. The above location will be equipped with video conference equipment.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43781,
+          "title": "MEETING HELD - PURPOSE",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43782,
+          "title": "MEETING CALLED TO ORDER \u2013 MEMBERS PRESENT",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43784,
+          "title": "Roll Call Update",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43788,
+          "title": "\u2022\tHearings",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43789,
+          "title": "ADJOURNMENT TO CLOSED SESSION",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43790,
+          "title": "RECONVENED IN OPEN SESSION IN THE BOARD AUDITORIUM",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43791,
+          "title": "\u2022\tConsideration and Possible Action on Matters Discussed in Closed Session",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43794,
+          "title": "HEARINGS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43795,
+          "title": "Quiana McGruder, former employee, Ed White Elementary",
+          "type": "Hearings Item",
+          "matter_file": "26-042",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Ed White Elementary"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43797,
+          "title": "Tarawa Pitre-Whitfield, counselor, Secondary Disciplinary Alternative Education Program",
+          "type": "Hearings Item",
+          "matter_file": "26-045",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43800,
+          "title": "BUSINESS AGENDA",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43801,
+          "title": "Approval Of Proposed Revisions To Board Policy EL(LOCAL), Campus Or Program Charters-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-046",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "EL(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/aa03f6a3-5600-4c05-925a-5a506b1abb9f.docx"
+            }
+          ]
+        },
+        {
+          "id": 43802,
+          "title": "CLOSED SESSION",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43803,
+          "title": "Personnel",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43804,
+          "title": "Deliberate the duties of the superintendent of schools, chief officers, deputy chief officers, executive directors, principals, employees, and board members; evaluations of the superintendent; consideration of compensation, and contractual provisions of same.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43805,
+          "title": "Consider and approve proposed appointments, reassignments, proposed terminations, terminations/suspensions, contract lengths, proposed nonrenewals, renewals, and resignations/retirements of personnel including teachers, assistant principals, principals, chiefs, division superintendents, senior executive directors, executive directors, directors, and other administrators, and, if necessary, approve waiver and release and compromise agreements.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43806,
+          "title": "Hear complaints against and deliberate the appointment, evaluation, and duties of public officers or employees and resolution of same.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43807,
+          "title": "Legal",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43808,
+          "title": "Matters on which the district\u2019s attorney\u2019s duty to the district under the Code of Professional Responsibility clearly conflicts with the Texas Open Meetings Law, including specifically any matter listed on this agenda and meeting notice. ",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43809,
+          "title": "Pending or contemplated litigation matters and status report. \r\n",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43810,
+          "title": "Update on federal law enforcement activity on February 27, 2020. ",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43811,
+          "title": "Update and possible action in the matter of Nathan v. Alamo Heights Independent School District, in the Western District of Texas, San Antonio Division, Civil Action No. 5:25-cv-00756.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43812,
+          "title": "Update and possible action in the matter of Houston Federation of Teachers v. Mike Miles, in the District Court of Harris County, Texas, 164 Judicial District, Cause No. 2025-53237.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43813,
+          "title": "GSA Network et al., v. Mike Morath, Houston ISD et al., in the Southern District of Texas, Civil Action No. 4:25-CV-04090.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43821,
+          "title": "District Safety, Emergency Management, And Security Audits",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43822,
+          "title": "Discussion of district safety concerns, including districtwide intruder detection audit report findings and HB3 compliance.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43823,
+          "title": "CLOSED SESSION AUTHORIZATION DURING MEETING",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43824,
+          "title": "If during the course of the meeting covered by this notice the board should determine that a closed or executive meeting or session of the board should be held or is required, then such closed or executive meeting or session as authorized by Chapter 551 of the Texas Government Code (the Open Meetings Act) will be held by the board at the date, hour, and place given in this notice or as soon after the commencement of the meeting covered by this notice as the board may conveniently meet in such closed or executive session concerning any and all subjects and for any and all purposes permitted by Section 551.071 through Section 551.089 inclusive of said Open Meetings Act.\r\n\r\nShould any final action, final decision, or final vote be required in the opinion of the board with regard to any matter considered in such closed or executive session, then such final action, final decision, or final vote shall be at either:\r\n\r\na) the open meeting covered by this notice upon the reconvening of this public meeting, or\r\nb) a subsequent public meeting of the board upon notice thereof, as the board shall determine.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43825,
+          "title": "ADJOURN",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43826,
+          "title": "CERTIFICATE AS TO POSTING OR GIVING OF NOTICE",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43827,
+          "title": "On this 23rd day of January 2026 at 5:00 p.m., this notice was posted on a bulletin board located at a place convenient to the public in the HMW Educational Support Center of the Houston Independent School District, the address of which is 4400 West 18th Street, Houston, Texas, as well as on the district\u2019s public web portal.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43830,
+          "title": "\u2022\tWorkshop: Partnership Schools; Future HISD Programming; Increasing Funding for \tStudents; Pathways to a Sustainable Financial Future",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43831,
+          "title": "\u2022\tConsideration and Approval of Agenda Item",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43832,
+          "title": "\u2022\tPartnership Schools",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43833,
+          "title": "WORKSHOP",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43834,
+          "title": "\u2022\tFuture HISD Programming",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43835,
+          "title": "\u2022\tIncreasing Funding for Students",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43836,
+          "title": "\u2022\tPathways to a Sustainable Financial Future",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43890,
+          "title": "DeAnte Ford, teacher, Thomas Middle School",
+          "type": "Hearings Item",
+          "matter_file": "26-048",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Thomas Middle"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43891,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43967,
+          "title": "At the January 29, 2026, School Board special meeting, item 4 was not considered.\r\n \r\nAdditional information may be obtained from the Board Services Office, 713-556-6121.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43968,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43972,
+          "title": "SPEAKERS TO AGENDA ITEMS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43973,
+          "title": "Tarawa Pitre-Whitfield, counselor, Secondary Disciplinary Alternative Education Program",
+          "type": "Hearings Item",
+          "matter_file": "26-045",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43974,
+          "title": "DeAnte Ford, teacher, Thomas Middle School",
+          "type": "Hearings Item",
+          "matter_file": "26-048",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Thomas Middle"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43976,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43977,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 1299,
+      "date": "2026-02-12",
+      "time": "5:00 PM",
+      "body": "School Board",
+      "location": "BOARD AUDITORIUM AND BOARD SERVICES CONFERENCE ROOM",
+      "agenda_url": "https://houstonisd.legistar1.com/houstonisd/meetings/2026/2/1299_A_School_Board_26-02-12_Agenda.pdf",
+      "agenda_items": [
+        {
+          "id": 43892,
+          "title": "The purpose of the Houston Independent School District School Board is to represent the vision and values of the community, and consistent with that, govern the administration of the Houston Independent School District in a manner that best allows for the improvement of academic outcomes for all the students we serve. The School Board must be able to do its work of governing, including deliberations and decision-making, in orderly meetings held open to the public.\r\n\r\nIn order to (i) ensure we can efficiently address the needs of our students, (ii) allow for necessary deliberations and discussions to occur, (iii) give all members of the public an opportunity to participate and observe the school board's meetings, and (iv) provide appropriate translation services for non-English speaking members of the HISD community, we will adhere to the following rules and norms:",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43893,
+          "title": "\u2022\tPublic comment during School Board meetings will only be available to those persons who \thave signed up to speak prior to the meeting time per current protocol.\r\n\u2022\tVerbal and other disruptions by persons during the School Board meetings are not \tacceptable as they inhibit the board\u2019s ability to conduct business and the public\u2019s ability to \tobserve those processes. Persons who participate in such behavior will be given one \twarning and if the behavior is repeated, they will be asked to leave the meeting.\r\n\u2022\tSeating in the board room is available on a first come, first served basis for all persons, \tincluding those who have signed up to speak during public comment. Overflow seating \tmay be available, also on a first come, first served basis.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43894,
+          "title": "A member of the community wishing to address the board may do so in person or by live video via Zoom. For either method, a person who wishes to address the board must register with the Board Services Department by 12:00 p.m. the day before the meeting. Any supporting information (e.g., handouts) regarding the community member's concern shall be filed with Board Services by 12:00 p.m. the day before the meeting. Further details and instructions for registering to speak are available at: https://www.houstonisd.org/board-governance/board-meetings\r\n\r\nThe agenda packet for this meeting is available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43895,
+          "title": "The board meeting may be viewed via:",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43896,
+          "title": "\u2022\tAT&T Uverse HISD TV Channel 99 \r\n\u2022\tComcast HISD TV Channel 18 \r\n\u2022\tWebsite https://houstonisd.org/livestream\r\n\u2022\tYouTube https://www.youtube.com/@hisdnow\r\n\r\nA recording of the meeting will be made available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43897,
+          "title": "Any item that establishes, modifies, or deletes board policy may, at the board's discretion, be passed and become effective immediately following first reading.\r\n\r\nThe items on this agenda may be taken in any order.\r\n\r\nUnless removed from the consent agenda in accordance with Robert's Rules of Order, Newly Revised, and/or board operating procedures, items identified within the consent agenda will be acted on at one time.\r\n\r\nNo agenda or district business will be discussed except as noticed below and any action will occur in the room open to the public. It is the intent of the district to have, and the meeting will have, a quorum physically present at this location. The above location will be equipped with video conference equipment.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43898,
+          "title": "BOARD AUDITORIUM \u2013 OPEN SESSION",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43899,
+          "title": "\u2022\tCall to Order",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43900,
+          "title": "\u2022\tMeditation and Pledge of Allegiance",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43901,
+          "title": "\u2022\tSpeakers to Agenda Items",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43902,
+          "title": "\u2022\tBoard Member Reports and Comments",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43903,
+          "title": "\u2022\tRecognitions",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43904,
+          "title": "\u2022\tReports from the Superintendent",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43905,
+          "title": "\u2022\tConsideration and Approval of Agenda Items",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43906,
+          "title": "\u2022\tRecess to Closed Session under Sections 551.004 through 551.089 of the Texas \tGovernment Code for the Purposes Listed in this Notice",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43907,
+          "title": "\u2022\tReconvene in Open Session",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43908,
+          "title": "\u2022\tConsideration and Possible Action on Matters Discussed in Closed Session",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43909,
+          "title": "BOARD MEMBER REPORTS AND COMMENTS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43910,
+          "title": "REPORTS FROM THE SUPERINTENDENT",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43912,
+          "title": "DISCUSSION AND REPORT ITEMS",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43913,
+          "title": "Acceptance Of Board Monitoring Update: Presentation Of Goal 3, Progress Measure 3.3",
+          "type": "Agenda Item",
+          "matter_file": "26-051",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "February Goal Progress Report",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/03e9c7e6-7db6-4f01-9cf9-c1510aedf9fb.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43914,
+          "title": "ITEMS PULLED FROM CONSENT AGENDA",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43915,
+          "title": "CONSENT AGENDA",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43916,
+          "title": "Approval Of Appointment Of Houston Independent School District Representative To Tax Increment Reinvestment Zone 14 Board Of Directors",
+          "type": "Board-Originated Item",
+          "matter_file": "26-015",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43917,
+          "title": "Consideration And Approval Of Minutes From Previous Meetings",
+          "type": "Board-Originated Item",
+          "matter_file": "26-036",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43918,
+          "title": "Approval Of A Resolution Declining The Establishment Of A Daily Period Of Prayer And Reading Of The Bible Or Other Religious Text",
+          "type": "Agenda Item",
+          "matter_file": "26-037",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Resolution",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/a5e3e949-e71b-4751-bbab-c5f0f0c5fccd.docx"
+            }
+          ]
+        },
+        {
+          "id": 43919,
+          "title": "Approval Of A Director Appointment To Position 2 Of The Houston Independent School District Public Facility Corporation Board Of Directors",
+          "type": "Board-Originated Item",
+          "matter_file": "26-038",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43920,
+          "title": "Approval Of Proposed Establishment Of Board Policy FA(LOCAL), Parent Rights And Responsibilities-First Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-040",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "FA(LOCAL), First Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/08705b35-f1de-4961-9fca-80c9bca4973d.docx"
+            }
+          ]
+        },
+        {
+          "id": 43921,
+          "title": "Approval Of Proposed Revisions To Board Policy FFF(LOCAL), Student Welfare: Student Safety-First Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-041",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "FFF(LOCAL), First Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/72cca31f-6a8a-4008-af2c-e722002c4618.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43922,
+          "title": "Approval Of Proposed Revisions To Board Policy DCE(LOCAL), Employment Practices: Other Types Of Contracts-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-043",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "DCE(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/fe3c65e3-bf68-41f0-978b-3208c148c94f.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43923,
+          "title": "Approval Of The 2026-2027 Academic Calendar",
+          "type": "Agenda Item",
+          "matter_file": "26-047",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "2026\u20132027 Yearly Calendar Final \u2013 English",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/7ba7a5dc-8d0e-4029-9ebb-55b194237daa.pdf"
+            },
+            {
+              "name": "2026\u20132027 Yearly Calendar Final \u2013 Spanish",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/36a4a91e-4b71-427f-b25c-65cfe0d72090.pdf"
+            },
+            {
+              "name": "2026\u20132027 Calendar Feedback and Input Process",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/9a7e0af9-1c6f-4aa1-bbbb-00b39a6bb417.pdf"
+            },
+            {
+              "name": "2026\u20132027 Round 2 Version A",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/46d60ab7-5af5-4eb1-8aa6-07e7a9f32a83.pdf"
+            },
+            {
+              "name": "2026\u20132027 Round 2 Version B",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/2bf89f9d-f846-4f65-9c11-d1e9c9c58eb0.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43924,
+          "title": "Approval Of Proposed Revisions To Board Policy CV(LOCAL), Facilities Construction-First Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-049",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "CV(LOCAL), First Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/9ef6f0f1-c0e5-4831-8e3c-aa16dcde5050.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43925,
+          "title": "Authority To Negotiate And Execute Interlocal Partnership Agreements With The Harris County Department Of Education For The Nita M. Lowey 21st Century Community Learning Centers/Texas Afterschool Centers On Education Cycle 11 Year 5 Program At Chavez High School And The Nita M. Lowey 21st Century Community Learning Centers/Texas Afterschool Centers On Education Cycle 12 Year 3 Programs At Crespo Elementary School And Kelso Elementary School",
+          "type": "Agenda Item",
+          "matter_file": "26-050",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Programs At Crespo Elementary School And Kelso Elementary",
+              "Program At Chavez High School"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43926,
+          "title": "Approval Of New Campus Library Book Orders And Donations",
+          "type": "Agenda Item",
+          "matter_file": "26-052",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "February Board Meeting Book Titles For Review",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/adb8f6bc-c852-4859-9713-90267ff7e5a2.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43927,
+          "title": "Approval Of Proposed Revisions To Board Policy FO(LOCAL), Student Discipline-First Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-053",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "FO(LOCAL), First Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/dae7aab0-b7aa-4da5-b9ac-b2124a140bd0.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43928,
+          "title": "Approval Of Vendor Awards For Purchases Which Cost $1,000,000 Or More",
+          "type": "Agenda Item",
+          "matter_file": "26-054",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Purchasing Request",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/773f9a00-356a-49f9-b6c6-56c577767fcb.docx"
+            }
+          ]
+        },
+        {
+          "id": 43929,
+          "title": "Approval Of The February Budget Amendment",
+          "type": "Agenda Item",
+          "matter_file": "26-055",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Budget Amendment",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/7619b798-3608-4200-be0b-f794d7e8fc8e.pdf"
+            }
+          ]
+        },
+        {
+          "id": 43932,
+          "title": "Authority To Negotiate, Execute, And Amend An Interlocal Memorandum Of Understanding With The University Of Houston-Downtown For A Guaranteed Admission Program",
+          "type": "Agenda Item",
+          "matter_file": "26-058",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43934,
+          "title": "Authorization To Explore A Partnership With HSPVA Friends To Operate The Kinder High School For Performing And Visual Arts, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With HSPVA Friends",
+          "type": "Agenda Item",
+          "matter_file": "26-060",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Friends To Operate The Kinder High School"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43935,
+          "title": "CLOSED SESSION",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43936,
+          "title": "Personnel",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43937,
+          "title": "Deliberate the duties of the superintendent of schools, chief officers, deputy chief officers, executive directors, principals, employees, and board members; evaluations of the superintendent; consideration of compensation, and contractual provisions of same.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43938,
+          "title": "Consider and approve proposed appointments, reassignments, proposed terminations, terminations/suspensions, contract lengths, proposed nonrenewals, renewals, and resignations/retirements of personnel including teachers, assistant principals, principals, chiefs, division superintendents, senior executive directors, executive directors, directors, and other administrators, and, if necessary, approve waiver and release and compromise agreements.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43939,
+          "title": "Hear complaints against and deliberate the appointment, evaluation, and duties of public officers or employees and resolution of same.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43940,
+          "title": "Legal",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43941,
+          "title": "Matters on which the district\u2019s attorney\u2019s duty to the district under the Code of Professional Responsibility clearly conflicts with the Texas Open Meetings Law, including specifically any matter listed on this agenda and meeting notice. ",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43942,
+          "title": "Pending or contemplated litigation matters and status report. \r\n",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43943,
+          "title": "Update on federal law enforcement activity on February 27, 2020. ",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43944,
+          "title": "Update and possible action in the matter of Nathan v. Alamo Heights Independent School District, in the Western District of Texas, San Antonio Division, Civil Action No. 5:25-cv-00756.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43945,
+          "title": "Update and possible action in the matter of Houston Federation of Teachers v. Mike Miles, in the District Court of Harris County, Texas, 164 Judicial District, Cause No. 2025-53237.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43946,
+          "title": "GSA Network et al., v. Mike Morath, Houston ISD et al., in the Southern District of Texas, Civil Action No. 4:25-CV-04090.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43954,
+          "title": "District Safety, Emergency Management, And Security Audits",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43955,
+          "title": "Discussion of district safety concerns, including districtwide intruder detection audit report findings and HB3 compliance.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43956,
+          "title": "CLOSED SESSION AUTHORIZATION DURING MEETING",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43957,
+          "title": "If during the course of the meeting covered by this notice the board should determine that a closed or executive meeting or session of the board should be held or is required, then such closed or executive meeting or session as authorized by Chapter 551 of the Texas Government Code (the Open Meetings Act) will be held by the board at the date, hour, and place given in this notice or as soon after the commencement of the meeting covered by this notice as the board may conveniently meet in such closed or executive session concerning any and all subjects and for any and all purposes permitted by Section 551.071 through Section 551.089 inclusive of said Open Meetings Act.\r\n\r\nShould any final action, final decision, or final vote be required in the opinion of the board with regard to any matter considered in such closed or executive session, then such final action, final decision, or final vote shall be at either:\r\n\r\na) the open meeting covered by this notice upon the reconvening of this public meeting, or\r\nb) a subsequent public meeting of the board upon notice thereof, as the board shall determine.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43958,
+          "title": "ADJOURN",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43959,
+          "title": "CERTIFICATE AS TO POSTING OR GIVING OF NOTICE",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43960,
+          "title": "On this sixth day of February 2026 at 4:00 p.m., this notice was posted on a bulletin board located at a place convenient to the public in the HMW Educational Support Center of the Houston Independent School District, the address of which is 4400 West 18th Street, Houston, Texas, as well as on the district\u2019s public web portal.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43963,
+          "title": "Approval Of The Annual Comprehensive Financial Report For The Fiscal Year Ending June 30, 2025",
+          "type": "Agenda Item",
+          "matter_file": "26-061",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Certificate Of Board",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/87db684c-da57-4ae4-830e-ddfc02c14b50.doc"
+            }
+          ]
+        },
+        {
+          "id": 43964,
+          "title": "Adoption Of Resolution To Pay Employees Related To The Inclement Weather On January 26, 2026",
+          "type": "Agenda Item",
+          "matter_file": "26-062",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "Inclement Weather Resolution",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/31216689-ffbc-4d6a-b3fc-d983b2e92d00.docx"
+            }
+          ]
+        },
+        {
+          "id": 43965,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43969,
+          "title": "Authorization To Explore A Partnership With Friends Of Challenge Early College High School To Operate Challenge Early College High School, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of Challenge Early College High School",
+          "type": "Agenda Item",
+          "matter_file": "26-063",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Partnership With Friends Of Challenge Early College High School To Operate Challenge Early College High School",
+              "Contract With Friends Of Challenge Early College High School"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43970,
+          "title": "Authorization To Explore A Partnership With Friends Of The Energy Institute High School To Operate The Energy Institute High School, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of The Energy Institute High School",
+          "type": "Agenda Item",
+          "matter_file": "26-065",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Partnership With Friends Of The Energy Institute High School To Operate The Energy Institute High School",
+              "Contract With Friends Of The Energy Institute High School"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43971,
+          "title": "Authorization To Explore A Partnership With Friends Of The Houston Academy For International Studies To Operate The Houston Academy For International Studies, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of The Houston Academy For International Studies",
+          "type": "Agenda Item",
+          "matter_file": "26-064",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [
+              "Partnership With Friends Of The Houston Academy For International Studies To Operate The Houston Academy",
+              "Contract With Friends Of The Houston Academy"
+            ],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43978,
+          "title": "Approval Of Proposed Revisions To Board Policy EL(LOCAL), Campus Or Program Charters-Second Reading",
+          "type": "Agenda Item",
+          "matter_file": "26-066",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": [
+            {
+              "name": "EL(LOCAL), Second Reading",
+              "url": "https://houstonisd.legistar1.com/houstonisd/attachments/b4af2420-7cec-4702-a8aa-a22a36808ecb.docx"
+            }
+          ]
+        },
+        {
+          "id": 43979,
+          "title": "\u2022\tNWEA Middle of the Year (MOY) Measures of Academic Progress (MAP) Results",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43983,
+          "title": "Authority To Negotiate, Execute, And Amend An Interlocal Partnership Agreement With The Texas Workforce Commission",
+          "type": "Agenda Item",
+          "matter_file": "26-057",
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43984,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43986,
+          "title": "\u2022\tFacilities Assessment Update and School Consolidation Recommendations",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 43987,
+          "title": "\u2022\tAccelerate Houston: The Future is Now",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 44039,
+          "title": "Real Estate",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 44040,
+          "title": "Sale",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 44041,
+          "title": "Consideration and possible action to sell the surplus real property known as SB# 26-10-96 Terrell Facility, 4610 E. Crosstimbers Street, Houston, Harris County, Texas 77016.",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        },
+        {
+          "id": 44042,
+          "title": "page break",
+          "type": null,
+          "matter_file": null,
+          "consent": false,
+          "geographic_tags": {
+            "trustee_districts": [],
+            "schools": [],
+            "addresses": []
+          },
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": 1323,
+      "date": "2026-02-26",
+      "time": "5:30 PM",
+      "body": "School Board",
+      "location": "BOARD AUDITORIUM AND BOARD SERVICES CONFERENCE ROOM",
+      "agenda_url": null,
+      "agenda_items": []
+    }
+  ]
+}

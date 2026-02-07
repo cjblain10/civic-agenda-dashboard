@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's Being Decided Near You | LocalInsights.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Archivo:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-dark: #0a0e27; --bg-card: #141729; --bg-elevated: #1a1f3a;
+            --accent-primary: #00ff88; --accent-secondary: #00d4ff;
+            --accent-warn: #ff6b35; --accent-urgent: #ff3860;
+            --text-primary: #ffffff; --text-secondary: #a8b2d1; --text-muted: #6b7280;
+            --border-color: #2a3150;
+        }
+        body { font-family: 'Archivo', sans-serif; background: var(--bg-dark); color: var(--text-primary); line-height: 1.6; }
+        .bg-gradient {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;
+            background: radial-gradient(circle at 20% 50%, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(0, 212, 255, 0.05) 0%, transparent 50%);
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Header */
+        header {
+            padding: 1.5rem 0; border-bottom: 1px solid var(--border-color);
+            backdrop-filter: blur(20px); position: sticky; top: 0; z-index: 100;
+            background: rgba(10, 14, 39, 0.9);
+        }
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .brand { display: flex; align-items: baseline; gap: 0.75rem; }
+        h1 {
+            font-size: 1.5rem; font-weight: 900; letter-spacing: -0.02em;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .subtitle { font-size: 0.8rem; color: var(--text-muted); }
+        .powered-by { font-size: 0.7rem; color: var(--text-muted); }
+        .powered-by a { color: var(--accent-secondary); text-decoration: none; }
+
+        /* ZIP Entry */
+        .zip-entry {
+            margin: 2rem 0; text-align: center; padding: 3rem 1rem;
+        }
+        .zip-entry h2 {
+            font-size: 2rem; font-weight: 900; margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #fff, var(--text-secondary));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .zip-entry p { color: var(--text-secondary); margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto; }
+        .zip-form { display: flex; gap: 0.75rem; justify-content: center; max-width: 400px; margin: 0 auto; }
+        .zip-input {
+            flex: 1; padding: 1rem 1.5rem; background: var(--bg-card); border: 2px solid var(--border-color);
+            border-radius: 12px; color: var(--text-primary); font-size: 1.25rem;
+            font-family: 'JetBrains Mono', monospace; text-align: center; letter-spacing: 0.15em;
+            transition: all 0.3s ease;
+        }
+        .zip-input:focus { outline: none; border-color: var(--accent-primary); box-shadow: 0 0 0 4px rgba(0, 255, 136, 0.15); }
+        .zip-input::placeholder { color: var(--text-muted); letter-spacing: 0.05em; font-size: 1rem; }
+        .zip-btn {
+            padding: 1rem 2rem; background: linear-gradient(135deg, var(--accent-primary), #00cc6a);
+            border: none; border-radius: 12px; color: #0a0e27; font-weight: 700; font-size: 1rem;
+            cursor: pointer; transition: all 0.3s ease; font-family: 'Archivo', sans-serif;
+        }
+        .zip-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 255, 136, 0.3); }
+
+        /* Results */
+        .results { display: none; margin: 2rem 0 4rem; }
+        .results.active { display: block; }
+
+        .location-bar {
+            display: flex; align-items: center; gap: 1rem; padding: 1rem 1.5rem;
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: 12px; margin-bottom: 2rem; flex-wrap: wrap;
+        }
+        .location-pin { font-size: 1.25rem; }
+        .location-text { font-weight: 600; }
+        .location-reps { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-left: auto; }
+        .rep-chip {
+            font-size: 0.65rem; padding: 0.25rem 0.6rem; background: var(--bg-elevated);
+            border: 1px solid var(--border-color); border-radius: 20px; color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        /* Stats row */
+        .stats-row {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1rem; margin-bottom: 2rem;
+        }
+        .mini-stat {
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: 10px; padding: 1.25rem; text-align: center;
+        }
+        .mini-stat-value {
+            font-size: 1.75rem; font-weight: 900; font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-primary);
+        }
+        .mini-stat-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.25rem; }
+
+        /* Filters */
+        .filter-bar {
+            display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;
+        }
+        .filter-chip {
+            padding: 0.5rem 1rem; background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: 20px; color: var(--text-secondary); cursor: pointer;
+            font-size: 0.8rem; transition: all 0.2s ease; font-family: 'Archivo', sans-serif;
+        }
+        .filter-chip:hover, .filter-chip.active {
+            border-color: var(--accent-primary); color: var(--accent-primary);
+            background: rgba(0, 255, 136, 0.08);
+        }
+
+        /* Agenda Items */
+        .agenda-section { margin-bottom: 2rem; }
+        .section-header {
+            display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;
+            padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-color);
+        }
+        .section-icon { font-size: 1.25rem; }
+        .section-title { font-size: 1.1rem; font-weight: 700; }
+        .section-count {
+            font-size: 0.7rem; padding: 0.2rem 0.6rem; background: var(--bg-elevated);
+            border-radius: 10px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;
+        }
+
+        .agenda-card {
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 0.75rem;
+            transition: all 0.2s ease; position: relative; cursor: pointer;
+        }
+        .agenda-card:hover { border-color: var(--accent-secondary); transform: translateX(4px); }
+        .agenda-card.urgent { border-left: 3px solid var(--accent-urgent); }
+        .agenda-card.upcoming { border-left: 3px solid var(--accent-warn); }
+        .agenda-card.routine { border-left: 3px solid var(--border-color); }
+
+        .agenda-meta {
+            display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .agenda-body-tag {
+            font-size: 0.65rem; padding: 0.15rem 0.5rem; border-radius: 4px;
+            font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .tag-city { background: rgba(0, 212, 255, 0.15); color: var(--accent-secondary); }
+        .tag-county { background: rgba(0, 255, 136, 0.15); color: var(--accent-primary); }
+        .tag-hisd { background: rgba(255, 107, 53, 0.15); color: var(--accent-warn); }
+        .tag-metro { background: rgba(168, 85, 247, 0.15); color: #a855f7; }
+        .tag-special { background: rgba(255, 56, 96, 0.15); color: var(--accent-urgent); }
+
+        .agenda-date { font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+        .days-away {
+            font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 4px;
+            font-weight: 600;
+        }
+        .days-away.soon { background: rgba(255, 56, 96, 0.15); color: var(--accent-urgent); }
+        .days-away.upcoming { background: rgba(255, 107, 53, 0.15); color: var(--accent-warn); }
+        .days-away.later { background: rgba(0, 255, 136, 0.1); color: var(--accent-primary); }
+
+        .agenda-title {
+            font-size: 0.95rem; font-weight: 600; color: var(--text-primary);
+            margin-bottom: 0.5rem; line-height: 1.4;
+        }
+        .agenda-detail { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
+        .agenda-tags { display: flex; gap: 0.4rem; margin-top: 0.75rem; flex-wrap: wrap; }
+        .geo-tag {
+            font-size: 0.6rem; padding: 0.15rem 0.5rem; background: var(--bg-elevated);
+            border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-muted);
+        }
+        .agenda-link {
+            font-size: 0.75rem; color: var(--accent-secondary); text-decoration: none;
+            margin-top: 0.5rem; display: inline-block;
+        }
+        .agenda-link:hover { text-decoration: underline; }
+
+        /* Representative sidebar */
+        .rep-card {
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: 10px; padding: 1.25rem; margin-bottom: 0.75rem;
+        }
+        .rep-name { font-weight: 700; font-size: 0.95rem; }
+        .rep-title { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+        .rep-body-label { font-size: 0.65rem; color: var(--accent-secondary); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.25rem; }
+        .rep-items { font-size: 0.75rem; color: var(--text-secondary); }
+
+        /* Layout */
+        .results-grid {
+            display: grid; grid-template-columns: 1fr 320px; gap: 2rem;
+        }
+        @media (max-width: 900px) {
+            .results-grid { grid-template-columns: 1fr; }
+            .zip-entry h2 { font-size: 1.5rem; }
+            .stats-row { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 500px) {
+            .stats-row { grid-template-columns: 1fr; }
+            .zip-form { flex-direction: column; }
+        }
+
+        /* Timeline indicator */
+        .timeline-header {
+            font-size: 0.8rem; font-weight: 700; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.1em; margin: 1.5rem 0 0.75rem;
+            display: flex; align-items: center; gap: 0.5rem;
+        }
+        .timeline-header::after {
+            content: ''; flex: 1; height: 1px; background: var(--border-color);
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center; padding: 3rem; color: var(--text-muted);
+        }
+        .empty-state p { margin-top: 0.5rem; font-size: 0.9rem; }
+
+        /* Footer */
+        footer {
+            padding: 2rem 0; border-top: 1px solid var(--border-color);
+            text-align: center; margin-top: 4rem;
+        }
+        footer p { font-size: 0.75rem; color: var(--text-muted); }
+        footer a { color: var(--accent-secondary); text-decoration: none; }
+
+        /* Loading */
+        .loading { text-align: center; padding: 2rem; }
+        .spinner {
+            width: 32px; height: 32px; border: 3px solid var(--border-color);
+            border-top-color: var(--accent-primary); border-radius: 50%;
+            animation: spin 0.8s linear infinite; margin: 0 auto 1rem;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+
+    <header>
+        <div class="container header-content">
+            <div class="brand">
+                <h1>CIVIC AGENDA</h1>
+                <span class="subtitle">What's Being Decided Near You</span>
+            </div>
+            <div class="powered-by">Powered by <a href="https://localinsights.ai">LocalInsights.ai</a></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="zip-entry" id="zipEntry">
+            <h2>What's your government deciding this week?</h2>
+            <p>Enter your ZIP code to see upcoming agenda items from City Council, County Commissioners, HISD, Metro, and more — filtered to your area.</p>
+            <div class="zip-form">
+                <input type="text" class="zip-input" id="zipInput" placeholder="77025" maxlength="5" pattern="[0-9]{5}" inputmode="numeric">
+                <button class="zip-btn" id="zipBtn" onclick="lookupZip()">GO</button>
+            </div>
+        </div>
+
+        <div class="results" id="results">
+            <div class="location-bar" id="locationBar"></div>
+
+            <div class="stats-row" id="statsRow"></div>
+
+            <div class="filter-bar" id="filterBar">
+                <span class="filter-chip active" data-filter="all" onclick="setFilter('all', this)">All Bodies</span>
+                <span class="filter-chip" data-filter="city" onclick="setFilter('city', this)">City Council</span>
+                <span class="filter-chip" data-filter="county" onclick="setFilter('county', this)">Harris County</span>
+                <span class="filter-chip" data-filter="hisd" onclick="setFilter('hisd', this)">HISD</span>
+                <span class="filter-chip" data-filter="metro" onclick="setFilter('metro', this)">Metro</span>
+            </div>
+
+            <div class="results-grid">
+                <div class="agenda-list" id="agendaList"></div>
+                <div class="sidebar" id="sidebar"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Data sourced from Legistar (Harris County, HISD), NovusAGENDA (City of Houston), Granicus (Metro)</p>
+            <p style="margin-top: 0.5rem;">Built by <a href="https://localinsights.ai">LocalInsights.ai</a> &middot; Houston's Civic Intelligence Platform</p>
+        </div>
+    </footer>
+
+    <script>
+    // Data will be embedded here by build process
+    let AGENDA_DATA = null;
+    let JURISDICTION_MAP = null;
+    let currentFilter = 'all';
+    let currentZip = null;
+
+    async function loadData() {
+        try {
+            const [agendaRes, mapRes] = await Promise.all([
+                fetch('data/all_agendas.json'),
+                fetch('data/jurisdiction_map.json')
+            ]);
+            AGENDA_DATA = await agendaRes.json();
+            JURISDICTION_MAP = await mapRes.json();
+        } catch(e) {
+            console.error('Failed to load data:', e);
+        }
+    }
+
+    function lookupZip() {
+        const zip = document.getElementById('zipInput').value.trim();
+        if (!/^\d{5}$/.test(zip)) return;
+        currentZip = zip;
+
+        const zipData = JURISDICTION_MAP?.zip_codes?.[zip];
+        if (!zipData) {
+            document.getElementById('agendaList').innerHTML = `
+                <div class="empty-state">
+                    <p><strong>ZIP code ${zip} not found in Houston/Harris County area.</strong></p>
+                    <p>Try a Houston-area ZIP code (77001-77099).</p>
+                </div>`;
+            document.getElementById('results').classList.add('active');
+            document.getElementById('zipEntry').style.padding = '1.5rem 1rem';
+            return;
+        }
+
+        document.getElementById('results').classList.add('active');
+        document.getElementById('zipEntry').style.padding = '1.5rem 1rem';
+        document.getElementById('zipEntry').querySelector('h2').style.display = 'none';
+        document.getElementById('zipEntry').querySelector('p').style.display = 'none';
+
+        renderLocationBar(zip, zipData);
+        renderResults(zip, zipData);
+        renderSidebar(zip, zipData);
+    }
+
+    function renderLocationBar(zip, zipData) {
+        const officials = JURISDICTION_MAP.officials;
+        const districts = zipData.council_districts || [];
+        const precincts = zipData.commissioner_precincts || [];
+        const hisdDistricts = zipData.hisd_trustee_districts || [];
+
+        let chips = '';
+        districts.forEach(d => {
+            const rep = officials.council_members?.[d];
+            if (rep) chips += `<span class="rep-chip">District ${d}: ${rep.name}</span>`;
+        });
+        precincts.forEach(p => {
+            const rep = officials.commissioners?.[p];
+            if (rep) chips += `<span class="rep-chip">Pct ${p}: ${rep.name}</span>`;
+        });
+        hisdDistricts.forEach(d => {
+            const rep = officials.hisd_trustees?.[d];
+            if (rep) chips += `<span class="rep-chip">HISD ${d}: ${rep.name}</span>`;
+        });
+
+        document.getElementById('locationBar').innerHTML = `
+            <span class="location-pin">📍</span>
+            <span class="location-text">${zip} — ${zipData.neighborhood || 'Houston'}</span>
+            <div class="location-reps">${chips}</div>
+        `;
+    }
+
+    function getRelevantAgendas(zip, zipData) {
+        if (!AGENDA_DATA) return [];
+
+        const allItems = [];
+        const districts = (zipData.council_districts || []).map(d => d.toString().toUpperCase());
+        const precincts = (zipData.commissioner_precincts || []).map(p => p.toString());
+        const hisdDistricts = (zipData.hisd_trustee_districts || []).map(d => d.toString().toUpperCase());
+
+        // Process each source
+        const sources = [
+            { key: 'harris_county', bodyType: 'county', label: 'Harris County' },
+            { key: 'hisd', bodyType: 'hisd', label: 'HISD' },
+            { key: 'houston_city_council', bodyType: 'city', label: 'City Council' },
+            { key: 'metro', bodyType: 'metro', label: 'Metro' }
+        ];
+
+        sources.forEach(source => {
+            const data = AGENDA_DATA[source.key];
+            if (!data?.meetings) return;
+
+            data.meetings.forEach(meeting => {
+                if (!meeting.agenda_items) return;
+                meeting.agenda_items.forEach(item => {
+                    const geo = item.geographic_tags || {};
+                    let relevant = false;
+                    let relevanceReason = '';
+
+                    // Check geographic relevance
+                    if (source.bodyType === 'county') {
+                        const itemPrecincts = (geo.precincts || []).map(p => p.toString());
+                        if (itemPrecincts.length === 0 || itemPrecincts.some(p => precincts.includes(p))) {
+                            relevant = true;
+                            if (itemPrecincts.length > 0) relevanceReason = `Precinct ${itemPrecincts.join(', ')}`;
+                        }
+                    } else if (source.bodyType === 'city') {
+                        const itemDistricts = (geo.districts || []).map(d => d.toString().toUpperCase());
+                        if (itemDistricts.length === 0 || itemDistricts.some(d => districts.includes(d))) {
+                            relevant = true;
+                            if (itemDistricts.length > 0) relevanceReason = `District ${itemDistricts.join(', ')}`;
+                        }
+                    } else if (source.bodyType === 'hisd') {
+                        const itemTrustee = (geo.trustee_districts || []).map(d => d.toString().toUpperCase());
+                        const itemSchools = geo.schools || [];
+                        if (itemTrustee.length === 0 || itemTrustee.some(d => hisdDistricts.includes(d))) {
+                            relevant = true;
+                            if (itemSchools.length > 0) relevanceReason = itemSchools.join(', ');
+                            else if (itemTrustee.length > 0) relevanceReason = `Trustee District ${itemTrustee.join(', ')}`;
+                        }
+                    } else if (source.bodyType === 'metro') {
+                        if (zipData.metro_service_area) relevant = true;
+                    }
+
+                    if (relevant) {
+                        allItems.push({
+                            ...item,
+                            bodyType: source.bodyType,
+                            bodyLabel: source.label,
+                            sourceName: data.source || source.label,
+                            meetingDate: meeting.date,
+                            meetingTime: meeting.time || '',
+                            meetingType: meeting.type || '',
+                            meetingLocation: meeting.location || '',
+                            agendaUrl: meeting.agenda_url || meeting.agenda_pdf_url || '',
+                            relevanceReason
+                        });
+                    }
+                });
+            });
+        });
+
+        // Sort by date
+        allItems.sort((a, b) => {
+            const da = new Date(a.meetingDate);
+            const db = new Date(b.meetingDate);
+            return da - db;
+        });
+
+        return allItems;
+    }
+
+    function daysFromNow(dateStr) {
+        const d = new Date(dateStr);
+        const now = new Date();
+        now.setHours(0,0,0,0);
+        d.setHours(0,0,0,0);
+        return Math.round((d - now) / (1000 * 60 * 60 * 24));
+    }
+
+    function daysLabel(days) {
+        if (days < 0) return { text: `${Math.abs(days)}d ago`, cls: 'later' };
+        if (days === 0) return { text: 'TODAY', cls: 'soon' };
+        if (days === 1) return { text: 'TOMORROW', cls: 'soon' };
+        if (days <= 7) return { text: `${days} days`, cls: 'upcoming' };
+        return { text: `${days} days`, cls: 'later' };
+    }
+
+    function renderResults(zip, zipData) {
+        const items = getRelevantAgendas(zip, zipData);
+        const filtered = currentFilter === 'all' ? items : items.filter(i => i.bodyType === currentFilter);
+
+        // Stats
+        const upcoming = items.filter(i => daysFromNow(i.meetingDate) >= 0);
+        const thisWeek = items.filter(i => { const d = daysFromNow(i.meetingDate); return d >= 0 && d <= 7; });
+        const bodies = new Set(items.map(i => i.bodyType));
+        const meetings = new Set(items.map(i => `${i.bodyType}-${i.meetingDate}`));
+
+        document.getElementById('statsRow').innerHTML = `
+            <div class="mini-stat"><div class="mini-stat-value">${upcoming.length}</div><div class="mini-stat-label">Upcoming Items</div></div>
+            <div class="mini-stat"><div class="mini-stat-value">${thisWeek.length}</div><div class="mini-stat-label">This Week</div></div>
+            <div class="mini-stat"><div class="mini-stat-value">${meetings.size}</div><div class="mini-stat-label">Meetings</div></div>
+            <div class="mini-stat"><div class="mini-stat-value">${bodies.size}</div><div class="mini-stat-label">Gov Bodies</div></div>
+        `;
+
+        if (filtered.length === 0) {
+            document.getElementById('agendaList').innerHTML = `
+                <div class="empty-state">
+                    <p><strong>No ${currentFilter === 'all' ? '' : currentFilter + ' '}agenda items found for this area.</strong></p>
+                    <p>Check back — new agendas are added as meetings are scheduled.</p>
+                </div>`;
+            return;
+        }
+
+        // Group by time period
+        const groups = { today: [], thisWeek: [], nextWeek: [], later: [], past: [] };
+        filtered.forEach(item => {
+            const days = daysFromNow(item.meetingDate);
+            if (days < 0) groups.past.push(item);
+            else if (days === 0) groups.today.push(item);
+            else if (days <= 7) groups.thisWeek.push(item);
+            else if (days <= 14) groups.nextWeek.push(item);
+            else groups.later.push(item);
+        });
+
+        let html = '';
+        if (groups.today.length) {
+            html += `<div class="timeline-header">Today</div>`;
+            html += groups.today.map(renderAgendaCard).join('');
+        }
+        if (groups.thisWeek.length) {
+            html += `<div class="timeline-header">This Week</div>`;
+            html += groups.thisWeek.map(renderAgendaCard).join('');
+        }
+        if (groups.nextWeek.length) {
+            html += `<div class="timeline-header">Next Week</div>`;
+            html += groups.nextWeek.map(renderAgendaCard).join('');
+        }
+        if (groups.later.length) {
+            html += `<div class="timeline-header">Coming Up</div>`;
+            html += groups.later.map(renderAgendaCard).join('');
+        }
+        if (groups.past.length) {
+            html += `<div class="timeline-header">Recent (Past)</div>`;
+            html += groups.past.map(renderAgendaCard).join('');
+        }
+
+        document.getElementById('agendaList').innerHTML = html;
+    }
+
+    function renderAgendaCard(item) {
+        const days = daysFromNow(item.meetingDate);
+        const dl = daysLabel(days);
+        const urgencyClass = days <= 1 && days >= 0 ? 'urgent' : days <= 7 && days >= 0 ? 'upcoming' : 'routine';
+
+        const tagClass = {
+            city: 'tag-city', county: 'tag-county',
+            hisd: 'tag-hisd', metro: 'tag-metro', special: 'tag-special'
+        }[item.bodyType] || 'tag-city';
+
+        const geo = item.geographic_tags || {};
+        let geoTags = '';
+        (geo.precincts || []).forEach(p => geoTags += `<span class="geo-tag">Pct ${p}</span>`);
+        (geo.districts || []).forEach(d => geoTags += `<span class="geo-tag">Dist ${d}</span>`);
+        (geo.trustee_districts || []).forEach(d => geoTags += `<span class="geo-tag">HISD ${d}</span>`);
+        (geo.schools || []).forEach(s => geoTags += `<span class="geo-tag">${s}</span>`);
+        (geo.areas || []).forEach(a => geoTags += `<span class="geo-tag">${a}</span>`);
+        (geo.routes || []).forEach(r => geoTags += `<span class="geo-tag">${r}</span>`);
+        (geo.projects || []).forEach(p => geoTags += `<span class="geo-tag">${p}</span>`);
+        if (item.relevanceReason && !geoTags.includes(item.relevanceReason)) {
+            geoTags += `<span class="geo-tag">${item.relevanceReason}</span>`;
+        }
+
+        const dateStr = new Date(item.meetingDate).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+
+        const title = (item.title || '').length > 200 ? item.title.substring(0, 200) + '...' : (item.title || 'Untitled Item');
+
+        let linkHtml = '';
+        if (item.agendaUrl) {
+            linkHtml = `<a class="agenda-link" href="${item.agendaUrl}" target="_blank" rel="noopener">View full agenda →</a>`;
+        }
+
+        return `
+            <div class="agenda-card ${urgencyClass}">
+                <div class="agenda-meta">
+                    <span class="agenda-body-tag ${tagClass}">${item.bodyLabel}</span>
+                    <span class="agenda-date">${dateStr} ${item.meetingTime ? '· ' + item.meetingTime : ''}</span>
+                    <span class="days-away ${dl.cls}">${dl.text}</span>
+                    ${item.consent ? '<span class="geo-tag">Consent</span>' : ''}
+                    ${item.type ? `<span class="geo-tag">${item.type}</span>` : ''}
+                </div>
+                <div class="agenda-title">${title}</div>
+                <div class="agenda-tags">${geoTags}</div>
+                ${linkHtml}
+            </div>
+        `;
+    }
+
+    function renderSidebar(zip, zipData) {
+        const officials = JURISDICTION_MAP.officials;
+        let html = '<h3 style="font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem;">Your Representatives</h3>';
+
+        // Mayor
+        if (officials.mayor) {
+            html += `<div class="rep-card">
+                <div class="rep-body-label">City of Houston</div>
+                <div class="rep-name">${officials.mayor.name}</div>
+                <div class="rep-title">Mayor</div>
+            </div>`;
+        }
+
+        // Council members
+        (zipData.council_districts || []).forEach(d => {
+            const rep = officials.council_members?.[d];
+            if (rep) {
+                html += `<div class="rep-card">
+                    <div class="rep-body-label">City Council</div>
+                    <div class="rep-name">${rep.name}</div>
+                    <div class="rep-title">District ${d} Council Member</div>
+                </div>`;
+            }
+        });
+
+        // County Judge
+        if (officials.county_judge) {
+            html += `<div class="rep-card">
+                <div class="rep-body-label">Harris County</div>
+                <div class="rep-name">${officials.county_judge.name}</div>
+                <div class="rep-title">County Judge</div>
+            </div>`;
+        }
+
+        // Commissioners
+        (zipData.commissioner_precincts || []).forEach(p => {
+            const rep = officials.commissioners?.[p];
+            if (rep) {
+                html += `<div class="rep-card">
+                    <div class="rep-body-label">Harris County</div>
+                    <div class="rep-name">${rep.name}</div>
+                    <div class="rep-title">Commissioner, Precinct ${p}</div>
+                </div>`;
+            }
+        });
+
+        // HISD Trustees
+        (zipData.hisd_trustee_districts || []).forEach(d => {
+            const rep = officials.hisd_trustees?.[d];
+            if (rep) {
+                html += `<div class="rep-card">
+                    <div class="rep-body-label">Houston ISD</div>
+                    <div class="rep-name">${rep.name}</div>
+                    <div class="rep-title">Trustee, District ${d}</div>
+                </div>`;
+            }
+        });
+
+        // Data freshness
+        html += `<div style="margin-top: 2rem; padding: 1rem; background: var(--bg-elevated); border-radius: 8px; font-size: 0.7rem; color: var(--text-muted);">
+            <strong>Data Sources</strong><br>
+            Harris County: Legistar API<br>
+            HISD: Legistar API<br>
+            City Council: NovusAGENDA<br>
+            Metro: Granicus<br>
+            <br>Last updated: ${AGENDA_DATA?.fetched_at || 'Unknown'}
+        </div>`;
+
+        document.getElementById('sidebar').innerHTML = html;
+    }
+
+    function setFilter(filter, el) {
+        currentFilter = filter;
+        document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+        el.classList.add('active');
+        if (currentZip && JURISDICTION_MAP?.zip_codes?.[currentZip]) {
+            renderResults(currentZip, JURISDICTION_MAP.zip_codes[currentZip]);
+        }
+    }
+
+    // Init
+    document.getElementById('zipInput').addEventListener('keydown', e => {
+        if (e.key === 'Enter') lookupZip();
+    });
+
+    loadData();
+    </script>
+</body>
+</html>

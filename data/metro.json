@@ -1,0 +1,1452 @@
+{
+  "source": "Houston METRO",
+  "source_url": "https://www.ridemetro.org/about/board-meetings",
+  "fetched_at": "2026-02-07T19:47:16Z",
+  "note": "Data extracted from Granicus RSS feed and AgendaViewer. Upcoming meeting dates are confirmed from the Jan 22 2026 board agenda. Future dates are projected based on 4th-Thursday pattern.",
+  "data_sources": {
+    "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
+    "agenda_viewer_pattern": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id={clip_id}",
+    "document_viewer_pattern": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id={clip_id}&meta_id={meta_id}"
+  },
+  "meeting_schedule": {
+    "board_meetings": "4th Thursday of each month at 9:00 AM",
+    "committee_meetings": "Week prior to board meeting, starting at 9:00 AM",
+    "note": "Meeting time updated to 9:00 AM per recent agendas (previously listed as 10:00 AM on website)"
+  },
+  "meetings": [
+    {
+      "date": "2026-05-28",
+      "time": "9:00 AM",
+      "type": "Board Meeting (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-05-20",
+      "time": "9:00 AM",
+      "type": "Committee Meetings (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-04-23",
+      "time": "9:00 AM",
+      "type": "Board Meeting (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-04-15",
+      "time": "9:00 AM",
+      "type": "Committee Meetings (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-03-26",
+      "time": "9:00 AM",
+      "type": "Board Meeting (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-03-18",
+      "time": "9:00 AM",
+      "type": "Committee Meetings (Projected)",
+      "status": "Future - Projected Date",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "agenda_items": []
+    },
+    {
+      "date": "2026-02-26",
+      "time": "9:00 AM",
+      "type": "Board Meeting",
+      "status": "Upcoming - Agenda Not Yet Posted",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "note": "Next board meeting confirmed in Jan 22, 2026 agenda. Agenda typically posted 72 hours before meeting.",
+      "agenda_items": []
+    },
+    {
+      "date": "2026-02-18",
+      "time": "9:00 AM",
+      "type": "Committee Meetings (Projected)",
+      "status": "Upcoming - Agenda Not Yet Posted",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": null,
+      "note": "Committee meetings typically held week before board meeting. Date estimated based on Feb 26 board meeting.",
+      "expected_committees": [
+        "Audit & Human Resources",
+        "Finance and Business Administration",
+        "Infrastructure & Mobility Planning",
+        "Customer Experience, Operations & Business Development",
+        "Public Safety"
+      ],
+      "agenda_items": []
+    },
+    {
+      "date": "2026-01-22",
+      "time": "9:00 AM",
+      "type": "Board Meeting",
+      "status": "Past - Agenda Available",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2774",
+      "meeting_packet_url": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2774&meta_id=78998",
+      "agenda_items": [
+        {
+          "number": "1",
+          "title": "Approval of the minutes of the Board meeting on December 18, 2025 E. Brock",
+          "type": "Minutes Approval",
+          "section": "Regular",
+          "presenter": "E. Brock",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "2",
+          "title": "Public Comments (*Speakers must register 48 hours in advance) E. Brock",
+          "type": "Public Comment",
+          "section": "Regular",
+          "presenter": "E. Brock",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "3",
+          "title": "Annual Election of Board Officers and Committees E. Brock",
+          "type": "Election",
+          "section": "Regular",
+          "presenter": "E. Brock",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "4",
+          "title": "METRO Chair Comments E. Brock",
+          "type": "Comments",
+          "section": "Regular",
+          "presenter": "E. Brock",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "5",
+          "title": "METRO Interim President & CEO Comments T. Jasien",
+          "type": "Comments",
+          "section": "Regular",
+          "presenter": "T. Jasien",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "6",
+          "title": "Monthly Working Committee Reports E. Brock",
+          "type": "Committee Report",
+          "section": "Regular",
+          "presenter": "E. Brock",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "a",
+          "title": "Infrastructure & Mobility Planning - B. Fry",
+          "type": "General",
+          "section": "Regular",
+          "presenter": "",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "b",
+          "title": "Customer Experience, Operations & Business Development - T. Preston",
+          "type": "General",
+          "section": "Regular",
+          "presenter": "",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "c",
+          "title": "Finance & Business Administration - T. Morales",
+          "type": "General",
+          "section": "Regular",
+          "presenter": "",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "d",
+          "title": "Audit & Human Resources - H. Vilaseca",
+          "type": "General",
+          "section": "Regular",
+          "presenter": "",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "e",
+          "title": "Public Safety- T. Preston",
+          "type": "General",
+          "section": "Regular",
+          "presenter": "",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "7",
+          "title": "Proclamations in appreciation of METRO retirees with 25 years or more of service E. Brock",
+          "type": "Proclamation",
+          "section": "Regular",
+          "presenter": "E. Brock",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "8",
+          "title": "Request Board acceptance of the monthly committee reports, including the investment report T. Morales",
+          "type": "Committee Report",
+          "section": "Regular",
+          "presenter": "T. Morales",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "9",
+          "title": "Request Board authorization to approve a Memorandum of Understanding with the Harris County Housing Finance Corporation for coordination of a proposed development adjacent to the Burnett Transit Center B. Fry",
+          "type": "Agreement/MOU",
+          "section": "Regular",
+          "presenter": "B. Fry",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [
+              "Burnett Transit Center"
+            ],
+            "locations": [
+              "Burnett"
+            ]
+          }
+        },
+        {
+          "number": "10",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a contract modification with Wilson Building Services Inc. to extend the term and increase maximum contract amount, to provide rehabilitation services for METRO's Central Store Fire Suppression System B. Fry",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "B. Fry",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [
+              "Central Store Fire Suppression"
+            ],
+            "locations": []
+          },
+          "vendors": [
+            "Wilson Building Services Inc"
+          ]
+        },
+        {
+          "number": "11",
+          "title": "Request Board authorization for the Interim President & CEO to execute a three (3) year contract with Cummins Southern Plains, LLC for the purchase and delivery of transmissions T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          },
+          "vendors": [
+            "Cummins Southern Plains, LLC"
+          ]
+        },
+        {
+          "number": "12",
+          "title": "Request Board authorization for the Interim President & CEO to execute a three (3) year contract with Holt Truck Centers of Texas, LLC for the purchase and delivery of engines T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          },
+          "vendors": [
+            "Holt Truck Centers of Texas, LLC"
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a three (3) year contract with two (2) one (1) year options with RailPod Inc., to provide annual track geometry, overhead contact system height & stagger, and wire wear measurement services on METRO's Red, Green, and Purple rail corridors T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [
+              "Green Line",
+              "Rail System",
+              "Red Line"
+            ],
+            "projects": [],
+            "locations": []
+          },
+          "vendors": [
+            "RailPod Inc"
+          ]
+        },
+        {
+          "number": "14",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a one (1) year contract Tidypro Partners, LLC to provide painting services at thirty-four (34) rail station canopies T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [
+              "Rail System"
+            ],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "15",
+          "title": "Request Board approval for the Interim President & CEO to request funding from the Federal Transit Administration (FTA) and to direct grant actions as necessary for Fiscal Year 2025 Formula Grant Funds, including Sections 5307 Urbanized Area Formula, 5310 Enhanced Mobility of Seniors and Individuals with Disabilities, 5337 State of Good Repair, and 5339 Bus and Bus Facilities T. Morales",
+          "type": "Grant",
+          "section": "Regular",
+          "presenter": "T. Morales",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "16",
+          "title": "Request Board designation of Ban Tien, METRO Chief of Police, to act on behalf of the authority in the administration and management of a grant issued by the Office of the Texas Governor Criminal Justice Division for the purchase of rifle-resistant body armor T. Morales",
+          "type": "Grant",
+          "section": "Regular",
+          "presenter": "T. Morales",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "17",
+          "title": "Request Board approval for the Interim President & CEO for the submittal of an application to the Office of the Governor of the State of Texas for Grant Funds under the FY2027 Peace Officer Mental Wellness & Resilience Grant program T. Morales",
+          "type": "Grant",
+          "section": "Regular",
+          "presenter": "T. Morales",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "18",
+          "title": "Request Board authorization for the Interim President & CEO to direct the transfer of the administration of health and welfare benefits for the union represented employees from the Health and Welfare Trust (H&WT) to METRO's administration T. Morales",
+          "type": "General",
+          "section": "Regular",
+          "presenter": "T. Morales",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "19",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a two (2) year contract with Texas Materials Group, Inc. for the alsphalt and concrete paving for mobility improvements (package #3) on an as needed basis B. Fry",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "B. Fry",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [
+              "Mobility Improvements"
+            ],
+            "locations": []
+          },
+          "vendors": [
+            "Texas Materials Group, Inc"
+          ]
+        },
+        {
+          "number": "20",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a five (5) year contract with two (2) one (1) year options with each of AECOM, Midtown Engineers, CONSOR Engineers LLC, Ardurra Group, Inc, HR Green, Inc, BGE, INC, infra TECH, and EXP U.S. Services, Inc for design services for budgeted and planned construction projects on an as needed basis B. Fry",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "B. Fry",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        },
+        {
+          "number": "21",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a lease agreement with Houston First Corporation for a METRO Police Department storefront B. Fry",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "B. Fry",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": [
+              "Houston First"
+            ]
+          },
+          "vendors": [
+            "Houston First Corporation"
+          ]
+        },
+        {
+          "number": "22",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a three (3) year contract with two (2) one (1) year options with Cummins Southern Plains LLC, for the maintenance and repair of Cummins diesel and CNG engines on METRO buses T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          },
+          "vendors": [
+            "Cummins Southern Plains LLC"
+          ]
+        },
+        {
+          "number": "23",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a sole source contract with New Flyer Industries Canada ULC, for the repairs of CNG Bus 2092 T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          },
+          "vendors": [
+            "New Flyer Industries Canada ULC"
+          ]
+        },
+        {
+          "number": "24",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a contract with New Flyer of America Inc, for the purchase of one hundred (100) CNG transit buses T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          },
+          "vendors": [
+            "New Flyer of America Inc"
+          ]
+        },
+        {
+          "number": "25",
+          "title": "Request Board authorization for the Interim President & CEO to negotiate and execute a three (3) year contract with two (2) one year options with Inter-Con Security Systems, Inc. for unarmed security guard services T. Preston",
+          "type": "Contract/Procurement",
+          "section": "Regular",
+          "presenter": "T. Preston",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        }
+      ],
+      "board_members": {
+        "chair": "Elizabeth Gonzalez Brock",
+        "first_vice_chair": "Rev. T. Leon Preston",
+        "second_vice_chair": "Holly Maria Flynn Vilaseca",
+        "secretary": "Bob Fry",
+        "members": [
+          "Judge Kathy Khanh Han",
+          "Teresa Morales",
+          "Angel Ponce",
+          "Roberto Trevino"
+        ]
+      },
+      "leadership": {
+        "interim_president_ceo": "Thomas J. Jasien"
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "time": "9:00 AM",
+      "type": "Committee Meetings",
+      "status": "Past - Agenda Available",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2772",
+      "committees": [
+        {
+          "name": "Audit & Human Resources",
+          "time": "9:00 AM",
+          "agenda_pdf": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78773",
+          "packet": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78916"
+        },
+        {
+          "name": "Finance and Business Administration",
+          "time": "9:30 AM",
+          "agenda_pdf": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78775",
+          "packet": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78918"
+        },
+        {
+          "name": "Infrastructure & Mobility Planning",
+          "time": "10:15 AM",
+          "agenda_pdf": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78777",
+          "packet": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78920"
+        },
+        {
+          "name": "Customer Experience, Operations & Business Development",
+          "time": "11:15 AM",
+          "agenda_pdf": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78779",
+          "packet": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78922"
+        },
+        {
+          "name": "Public Safety",
+          "time": "12:15 PM",
+          "agenda_pdf": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78781",
+          "packet": "https://ridemetro.granicus.com/MetaViewer.php?view_id=5&clip_id=2772&meta_id=78924"
+        }
+      ],
+      "agenda_items": [],
+      "note": "Individual committee agendas available as PDF documents via committee links above"
+    },
+    {
+      "date": "2025-12-18",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Dec 18, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2770",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-12-11",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit & Human Resources \u00e2\u0080\u00a2 Infrastructure & Mobility Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - Dec 11, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2768",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-12-04",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing for the Proposed February 2026 Service Changes - Dec 04, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2766",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-11-20",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Nov 20, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2764",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-11-12",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit & Human Resources \u00e2\u0080\u00a2 Finance & Business Administration \u00e2\u0080\u00a2 Infrastructure & Mobility Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - Nov 12, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2761",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-10-23",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Oct 23, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2759",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-10-16",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Finance and Business Development \u00e2\u0080\u00a2 Infrastructure and Mobility Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Public Safety - Oct 16, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2757",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-09-25",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Sep 25, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2753",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-09-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Infrastructure and Mobility Planning \u00e2\u0080\u00a2 Finance and Business Development \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - Sep 18, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2748",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-09-10",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - Proposed METRO FY2026 Operating & Capital Budgets - Sep 10, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2746",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-08-28",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Aug 28, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2743",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-08-21",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Public Safety \u00e2\u0080\u00a2 Finance and Business Development \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Infrastructure and Mobility Planning - Aug 21, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2740",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-07-30",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jul 30, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2737",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-07-24",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Infrastructure and Mobility Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Finance and Business Administration \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Public Safety - Jul 24, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2735",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-06-26",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jun 26, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2732",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-06-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Finance and Business Administration \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Public Safety \u00e2\u0080\u00a2 Infrastructure and Mobility Planning - Jun 18, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2729",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-05-29",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - May 29, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2726",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-05-21",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Infrastructure and Mobility Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Finance and Business Administration \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Public Safety - May 21, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2724",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-04-24",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Apr 24, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2721",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-04-16",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Infrastructure and Mobility Planning \u00e2\u0080\u00a2 Finance and Business Administration \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Public Safety \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development - Apr 16, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2719",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-04-10",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing for the Proposed June 2025 Service Changes - Apr 10, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2717",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-03-27",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Mar 27, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2715",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-03-19",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Finance and Business Administration \u00e2\u0080\u00a2 Public Safety \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Infrastructure and Mobility Planning - Mar 19, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2712",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-03-06",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Special Meeting of the Infrastructure and Mobility Planning Committee - Mar 06, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2707",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-03-06",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Special Board Meeting - Mar 06, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2708",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-02-27",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Feb 27, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2705",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-02-20",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Public Safety \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Finance and Business Administration - Feb 20, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2703",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-01-30",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jan 30, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2699",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-01-23",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Finance and Business Administration \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Public Safety \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development  - Jan 23, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2691",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2025-01-21",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - State Performance Audit FY2020 through FY2023 (Via Zoom) - Jan 21, 2025",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2690",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-12-19",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Dec 19, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2685",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-12-11",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety \u00e2\u0080\u00a2 Audit & Human Resources - Dec 11, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2683",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-11-21",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Nov 21, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2681",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-11-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Public Safety \u00e2\u0080\u00a2 Audit & Human Resources \u00e2\u0080\u00a2 Finance and Business Administration  - Nov 18, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2678",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-11-06",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Proposed January 2025 Service Changes Public Hearing - Nov 06, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2674",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-10-24",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Oct 24, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2671",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-10-17",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Public Safety \u00e2\u0080\u00a2 Finance & Business Administration \u00e2\u0080\u00a2 Strategic Planning - Oct 17, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2669",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-10-16",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Audit & Human Resources - Oct 16, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2667",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-09-26",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Sep 26, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2664",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-09-19",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit & Human Resources \u00e2\u0080\u00a2 Finance & Business Administration \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - Sep 19, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2662",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-09-12",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - Proposed METRO FY2025 Operating & Capital Budgets - Sep 12, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2656",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-08-22",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Aug 22, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2647",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-08-19",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit & Human Resources \u00e2\u0080\u00a2 Finance & Business Administration \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - Aug 19, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2644",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-07-25",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jul 25, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2642",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-07-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit & Human Resources \u00e2\u0080\u00a2 Finance & Business Administration \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - Jul 18, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2639",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-06-27",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jun 27, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2630",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-06-25",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit and Human Resources \u00e2\u0080\u00a2 Finance and Business Administration - Jun 25, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2626",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-06-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Public Safety \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Strategic Planning - Jun 18, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2621",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-06-05",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - Proposed September 2024 Service Changes - Jun 05, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2619",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-05-23",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - May 23, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2616",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-05-15",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings: Audit & Human Resource \u00e2\u0080\u00a2 Finance & Business Administration \u00e2\u0080\u00a2 Strategic Planning \u00e2\u0080\u00a2 Customer Experience, Operations & Business Development \u00e2\u0080\u00a2 Public Safety - May 15, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2611",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-04-25",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Apr 25, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2607",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-04-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings - Finance & Audit, Public Safety Customer Service & Operations, Capital & Strategic Planning - Apr 18, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2603",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-04-03",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - Proposed June 2024 Service Changes - Apr 03, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2596",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-03-28",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Mar 28, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2594",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-03-21",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings - Administration, Joint Development & Land Use, Public Safety Customer Service & Operations - Mar 21, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2590",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-03-20",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings - Finance & Audit, Capital & Strategic Planning - Mar 20, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2588",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-02-29",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Feb 29, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2584",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-02-27",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Committee Meetings - Feb 27, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2582",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-01-25",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jan 25, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2579",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-01-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Jan 18, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2576",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-01-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Finance & Audit Committee Mtg - Jan 18, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2575",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-01-17",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Joint Development and Land Use Committee Mtg - Jan 17, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2570",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-01-17",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Capital & Strategic Planning Committee Mtg - Jan 17, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2571",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2024-01-17",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Administration Committee Mtg - Jan 17, 2024",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2569",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-12-14",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Dec 14, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2566",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-12-07",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Dec 07, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2564",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-12-06",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Joint Development and Land Use Committee Mtg - Dec 06, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2559",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-12-06",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Capital & Strategic Planning Committee Mtg - Dec 06, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2560",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-12-06",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Administration Committee Mtg - Dec 06, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2558",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-11-16",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Nov 16, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2554",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-11-09",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Nov 09, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2546",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-11-09",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Joint Development and Land Use Committee Mtg - Nov 09, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2545",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-11-09",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Finance & Audit Committee Mtg - Nov 09, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2547",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-11-08",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Capital & Strategic Planning Committee Mtg - Nov 08, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2544",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-11-08",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Administration Committee Mtg - Nov 08, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2543",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-26",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Oct 26, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2541",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-24",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - Proposed January 2024 Service Changes - Oct 24, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2538",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-19",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Oct 19, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2534",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-19",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Finance & Audit Committee Mtg - Oct 19, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2533",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Joint Development and Land Use Committee Mtg - Oct 18, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2528",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Capital & Strategic Planning Committee Mtg - Oct 18, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2529",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-10-18",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Administration Committee Mtg - Oct 18, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2527",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-28",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Sep 28, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2523",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-21",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Sep 21, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2519",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-21",
+      "type": "Public Hearing",
+      "status": "Archived",
+      "title": "Public Hearing - FY24 Budget - Sep 21, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2517",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-21",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Finance & Audit Committee Mtg - Sep 21, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2518",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-20",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Joint Development and Land Use Committee Mtg - Sep 20, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2512",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-20",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Capital & Strategic Planning Committee Mtg - Sep 20, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2513",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-09-20",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Administration Committee Mtg - Sep 20, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2511",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-08-24",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Aug 24, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2506",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-08-17",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Aug 17, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2503",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-08-17",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Finance & Audit Committee Mtg - Aug 17, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2502",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-08-16",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Joint Development and Land Use Committee Mtg - Aug 16, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2497",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-08-16",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Capital & Strategic Planning Committee Mtg - Aug 16, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2498",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-08-16",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Administration Committee Mtg - Aug 16, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2496",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-07-27",
+      "type": "Board Meeting",
+      "status": "Archived",
+      "title": "Board Meeting - Jul 27, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2492",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    },
+    {
+      "date": "2023-07-20",
+      "type": "Committee Meetings",
+      "status": "Archived",
+      "title": "Public Safety, Customer Service & Operations Committee Mtg - Jul 20, 2023",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2488",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_items": []
+    }
+  ]
+}
