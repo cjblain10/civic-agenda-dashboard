@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-09T18:18:01.350Z",
+  "fetched_at": "2026-02-09T18:28:06.068Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -25736,13 +25736,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "FY25_BVP Backup.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/4801e255-96c9-4167-8c73-48f19acf4b62.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 177088,
