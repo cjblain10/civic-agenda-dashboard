@@ -1,30 +1,98 @@
 {
   "source": "Houston City Council",
   "fetched_at": "2026-02-07T19:45:00Z",
-  "note": "Agenda items extracted from City Secretary PDFs (houstontx.gov) via PyPDF2 and NovusAGENDA HTML via WebFetch. NovusAGENDA only had Nov 2025 meetings (IDs 762-764); City Secretary site had complete 2026 data through Feb 3-4.",
+  "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 1 day(s) old. Manual refresh needed when new PDFs are available.",
   "data_sources": {
     "primary": "https://www.houstontx.gov/citysec/agenda/agendaindex.html",
     "secondary": "https://houston.novusagenda.com/agendapublic/Meetings.aspx",
     "note": "NovusAGENDA had limited meetings (IDs 762-764, all Nov 2025). City Secretary site is the authoritative source for current agendas."
   },
   "officials": [
-    {"name": "John Whitmire", "title": "Mayor", "district": null},
-    {"name": "Amy Peck", "title": "Council Member", "district": "A"},
-    {"name": "Tarsha Jackson", "title": "Council Member", "district": "B"},
-    {"name": "Abbie Kamin", "title": "Council Member", "district": "C"},
-    {"name": "Carolyn Evans-Shabazz", "title": "Council Member", "district": "D"},
-    {"name": "Fred Flickinger", "title": "Council Member", "district": "E"},
-    {"name": "Tiffany Thomas", "title": "Council Member", "district": "F"},
-    {"name": "Mary Nan Huffman", "title": "Council Member", "district": "G"},
-    {"name": "Mario Castillo", "title": "Council Member", "district": "H"},
-    {"name": "Joaquin Martinez", "title": "Council Member", "district": "I"},
-    {"name": "Edward Pollard", "title": "Council Member", "district": "J"},
-    {"name": "Martha Castex-Tatum", "title": "Council Member", "district": "K"},
-    {"name": "Julian Ramirez", "title": "Council Member", "district": "At-Large 1"},
-    {"name": "Willie R. Davis", "title": "Council Member", "district": "At-Large 2"},
-    {"name": "Twila Carter", "title": "Council Member", "district": "At-Large 3"},
-    {"name": "Letitia Plummer", "title": "Council Member", "district": "At-Large 4"},
-    {"name": "Sallie Alcorn", "title": "Council Member", "district": "At-Large 5"}
+    {
+      "name": "John Whitmire",
+      "title": "Mayor",
+      "district": null
+    },
+    {
+      "name": "Amy Peck",
+      "title": "Council Member",
+      "district": "A"
+    },
+    {
+      "name": "Tarsha Jackson",
+      "title": "Council Member",
+      "district": "B"
+    },
+    {
+      "name": "Abbie Kamin",
+      "title": "Council Member",
+      "district": "C"
+    },
+    {
+      "name": "Carolyn Evans-Shabazz",
+      "title": "Council Member",
+      "district": "D"
+    },
+    {
+      "name": "Fred Flickinger",
+      "title": "Council Member",
+      "district": "E"
+    },
+    {
+      "name": "Tiffany Thomas",
+      "title": "Council Member",
+      "district": "F"
+    },
+    {
+      "name": "Mary Nan Huffman",
+      "title": "Council Member",
+      "district": "G"
+    },
+    {
+      "name": "Mario Castillo",
+      "title": "Council Member",
+      "district": "H"
+    },
+    {
+      "name": "Joaquin Martinez",
+      "title": "Council Member",
+      "district": "I"
+    },
+    {
+      "name": "Edward Pollard",
+      "title": "Council Member",
+      "district": "J"
+    },
+    {
+      "name": "Martha Castex-Tatum",
+      "title": "Council Member",
+      "district": "K"
+    },
+    {
+      "name": "Julian Ramirez",
+      "title": "Council Member",
+      "district": "At-Large 1"
+    },
+    {
+      "name": "Willie R. Davis",
+      "title": "Council Member",
+      "district": "At-Large 2"
+    },
+    {
+      "name": "Twila Carter",
+      "title": "Council Member",
+      "district": "At-Large 3"
+    },
+    {
+      "name": "Letitia Plummer",
+      "title": "Council Member",
+      "district": "At-Large 4"
+    },
+    {
+      "name": "Sallie Alcorn",
+      "title": "Council Member",
+      "district": "At-Large 5"
+    }
   ],
   "meetings": [
     {
@@ -39,35 +107,91 @@
       "motions": "2026-0056 to 2026-0068",
       "ordinances": "2026-0090 to 2026-0101",
       "resolutions": "None",
-      "absences": ["Peck (2/3, personal business)", "Jackson (2/3-2/4, ill)", "Salinas (2/4, personal business)"],
+      "absences": [
+        "Peck (2/3, personal business)",
+        "Jackson (2/3-2/4, ill)",
+        "Salinas (2/4, personal business)"
+      ],
       "agenda_items": [
         {
           "item_number": 1,
           "motion": "2026-0065",
           "title": "Accept work - Grava LLC for Westheimer Work Orders for Small Diameter Water Lines",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["C"], "addresses": [], "council_members": ["Kamin"]}
+          "geographic_tags": {
+            "districts": [
+              "C"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Kamin"
+            ]
+          }
         },
         {
           "item_number": 2,
           "motion": "2026-0059",
           "title": "Accept work - Industrial TX Corp for Wastewater Process Unit Cleaning and Evaluation",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["A", "B", "C", "G", "H"], "addresses": [], "council_members": ["Peck", "Jackson", "Kamin", "Huffman", "Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "A",
+              "B",
+              "C",
+              "G",
+              "H"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Peck",
+              "Jackson",
+              "Kamin",
+              "Huffman",
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 3,
           "motion": "2026-0060",
           "title": "Accept work - Industrial TX Corp for Wastewater Process Unit Cleaning and Evaluation",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["A", "B", "D", "E", "F", "H", "J"], "addresses": [], "council_members": ["Peck", "Jackson", "Evans-Shabazz", "Flickinger", "Thomas", "Castillo", "Pollard"]}
+          "geographic_tags": {
+            "districts": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F",
+              "H",
+              "J"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Peck",
+              "Jackson",
+              "Evans-Shabazz",
+              "Flickinger",
+              "Thomas",
+              "Castillo",
+              "Pollard"
+            ]
+          }
         },
         {
           "item_number": 4,
           "motion": "2026-0066",
           "title": "Accept work - Markel Insurance Company for Facilities Consolidation - Chelford City Diversion Package 3",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["F"], "addresses": [], "council_members": ["Thomas"]}
+          "geographic_tags": {
+            "districts": [
+              "F"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Thomas"
+            ]
+          }
         },
         {
           "item_number": 5,
@@ -75,7 +199,11 @@
           "title": "Spending authority $1,002,107.50 for Campaign Finance Management Tool - RFD & Associates Inc - 5 Years",
           "type": "Purchasing",
           "amount": "$1,002,107.50",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 6,
@@ -83,7 +211,11 @@
           "title": "Spending authority $512,865.00 for Sole Source Purchase of Investigative Lead Generation Subscription",
           "type": "Purchasing",
           "amount": "$512,865.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 10,
@@ -91,7 +223,11 @@
           "title": "Spending authority $2,000,000.00 for Parking Management Services - Metropolis Inc - 5 Years",
           "type": "Purchasing",
           "amount": "$2,000,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 11,
@@ -99,7 +235,11 @@
           "title": "Spending authority $650,000.00 for Procurement Project Augmentation Services - Periscope Holdings Inc - 2 Years",
           "type": "Purchasing",
           "amount": "$650,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 12,
@@ -107,14 +247,32 @@
           "type": "Ordinance",
           "status": "Pulled - Not Considered",
           "amount": "$4,000,000.00",
-          "geographic_tags": {"districts": ["K"], "addresses": ["14715 Monrad Drive"], "council_members": ["Castex-Tatum"]}
+          "geographic_tags": {
+            "districts": [
+              "K"
+            ],
+            "addresses": [
+              "14715 Monrad Drive"
+            ],
+            "council_members": [
+              "Castex-Tatum"
+            ]
+          }
         },
         {
           "item_number": 13,
           "ordinance": "2026-0090",
           "title": "Telecommunications Equipment License - New Cingular Wireless PCS LLC on Garage Roofs of Terminals A and C at George Bush Intercontinental Airport",
           "type": "Ordinance",
-          "geographic_tags": {"districts": ["B"], "addresses": [], "council_members": ["Jackson"]}
+          "geographic_tags": {
+            "districts": [
+              "B"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson"
+            ]
+          }
         },
         {
           "item_number": 14,
@@ -122,7 +280,11 @@
           "title": "Agreement with Harris County for Joint Runoff Election held December 13, 2025",
           "type": "Ordinance",
           "amount": "$2,495,732.70",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 15,
@@ -130,35 +292,79 @@
           "title": "Appropriation $842,000.00 - Second amendment to CMAR Contract with Anslow Bryant Construction for Fire Station 17 Renovation",
           "type": "Ordinance",
           "amount": "$842,000.00",
-          "geographic_tags": {"districts": ["B"], "addresses": [], "council_members": ["Jackson"]}
+          "geographic_tags": {
+            "districts": [
+              "B"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson"
+            ]
+          }
         },
         {
           "item_number": 18,
           "ordinance": "2026-0092",
           "title": "South Post Oak Redevelopment Authority / Reinvestment Zone Number Nine - FY2026 Operating Budget and FY2026-2030 Capital Improvement Projects Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["K"], "addresses": [], "council_members": ["Castex-Tatum"]}
+          "geographic_tags": {
+            "districts": [
+              "K"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castex-Tatum"
+            ]
+          }
         },
         {
           "item_number": 19,
           "ordinance": "2026-0093",
           "title": "Uptown Development Authority / Reinvestment Zone Number Sixteen - FY2026 Operating Budget and FY2026-2030 Capital Improvements Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["C", "G", "J"], "addresses": [], "council_members": ["Kamin", "Huffman", "Pollard"]}
+          "geographic_tags": {
+            "districts": [
+              "C",
+              "G",
+              "J"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Kamin",
+              "Huffman",
+              "Pollard"
+            ]
+          }
         },
         {
           "item_number": 20,
           "ordinance": "2026-0094",
           "title": "Leland Woods Redevelopment Authority / Reinvestment Zone Number Twenty-Two - FY2026 Operating Budget and FY2026-2030 Capital Improvement Plan Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["B", "I"], "addresses": [], "council_members": ["Jackson", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 21,
           "ordinance": "2026-0095",
           "title": "Acquisition of real property for Lift Station Rehabilitation and Reconstruction (Lockwood, South Point, Scott #3, Market St #2, MUD #067, Woodforest) - Consent Decree Project - along Gulf Breeze Drive",
           "type": "Ordinance - Property Acquisition",
-          "geographic_tags": {"districts": [], "addresses": ["Gulf Breeze Drive"], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [
+              "Gulf Breeze Drive"
+            ],
+            "council_members": []
+          }
         },
         {
           "item_number": 24,
@@ -166,7 +372,11 @@
           "title": "Appropriation $46,417,000.00 for Trinity River Conveyance Project operated by Coastal Water Authority Projects",
           "type": "Ordinance",
           "amount": "$46,417,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         }
       ]
     },
@@ -181,14 +391,21 @@
       "minutes_pdf_url": "https://www.houstontx.gov/citysec/agenda/2026/20260127.pdf",
       "motions": "2026-0042 to 2026-0055",
       "ordinances": "2026-0067 to 2026-0089",
-      "absences": ["Jackson (1/27, ill)", "Kamin (1/27, personal business)"],
+      "absences": [
+        "Jackson (1/27, ill)",
+        "Kamin (1/27, personal business)"
+      ],
       "agenda_items": [
         {
           "item_number": 1,
           "motion": "2026-0045",
           "title": "Appointment of Fatima Wajahat to Reinvestment Zone One Board of Directors Position Eight",
           "type": "Miscellaneous - Board Appointment",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 6,
@@ -196,7 +413,11 @@
           "title": "Approval of 2026 O&M Budget for Lake Houston Facilities Project - Coastal Water Authority - $4,811,380.00",
           "type": "Miscellaneous - Budget",
           "amount": "$4,811,380.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 7,
@@ -204,7 +425,11 @@
           "title": "Approval of 2026 O&M Budget for Lake Livingston Project - Trinity River Authority - $7,572,608.00",
           "type": "Miscellaneous - Budget",
           "amount": "$7,572,608.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 8,
@@ -212,7 +437,11 @@
           "title": "Approval of 2026 O&M Budget for Luce Bayou System Project - Coastal Water Authority - $6,773,635.00",
           "type": "Miscellaneous - Budget",
           "amount": "$6,773,635.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 9,
@@ -220,7 +449,11 @@
           "title": "Approval of 2026 O&M Budget for Trinity River Water Conveyance Project - Coastal Water Authority - $36,022,020.00",
           "type": "Miscellaneous - Budget",
           "amount": "$36,022,020.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 13,
@@ -228,14 +461,26 @@
           "title": "Appropriation $1,732,121.00 - Purchase and Sale Agreement with Svea Industrial Holdings LLC for Sale of Leasehold Improvements at airports",
           "type": "Ordinance",
           "amount": "$1,732,121.00",
-          "geographic_tags": {"districts": ["E"], "addresses": [], "council_members": ["Flickinger"]}
+          "geographic_tags": {
+            "districts": [
+              "E"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Flickinger"
+            ]
+          }
         },
         {
           "item_number": 14,
           "ordinance": "2026-0068",
           "title": "FEMA FY2024 Assistance to Firefighters Grant application for Houston Fire Department",
           "type": "Ordinance - Grant",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 15,
@@ -243,14 +488,22 @@
           "title": "Appropriation $740,000.00 for Planned Data Center Refresh Project",
           "type": "Ordinance",
           "amount": "$740,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 16,
           "ordinance": "2026-0069",
           "title": "First amendments to contracts with 15 firms for Professional Materials and Engineering Services - 1 Year",
           "type": "Ordinance - Contract Amendment",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 20,
@@ -258,7 +511,11 @@
           "title": "Second amendment to contract with Brown & Root Industrial Services LLC for Clarifier Maintenance, Repair, and Replacement Services - through March 2027",
           "type": "Ordinance - Contract Amendment",
           "amount": "$6,304,827.96",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 25,
@@ -266,7 +523,15 @@
           "title": "Amendment to contract with Air Products and Chemicals Inc for Operation and Maintenance of Pure Oxygen Plant at 69th Street Wastewater Treatment Plant",
           "type": "Ordinance - Contract Amendment",
           "amount": "$24,096,627.75",
-          "geographic_tags": {"districts": ["H"], "addresses": [], "council_members": ["Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "H"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 29,
@@ -274,21 +539,45 @@
           "title": "Contract with Houston-Galveston Area Council to fund continuation of Tow and Go Program",
           "type": "Ordinance",
           "amount": "$3,600,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 30,
           "ordinance": "2026-0073",
           "title": "Renewing Special Minimum Lot Size Block on north side of 2600-2700 Blocks of Wheeler Street between Live Oak and Delano Streets",
           "type": "Ordinance - Zoning",
-          "geographic_tags": {"districts": ["D"], "addresses": ["2600-2700 Wheeler Street"], "council_members": ["Evans-Shabazz"]}
+          "geographic_tags": {
+            "districts": [
+              "D"
+            ],
+            "addresses": [
+              "2600-2700 Wheeler Street"
+            ],
+            "council_members": [
+              "Evans-Shabazz"
+            ]
+          }
         },
         {
           "item_number": 31,
           "ordinance": "2026-0074",
           "title": "Renewing Special Minimum Building Line Block on north side of 1900 Block of Lauderdale Street between Staffordshire and Cambridge",
           "type": "Ordinance - Zoning",
-          "geographic_tags": {"districts": ["D"], "addresses": ["1900 Lauderdale Street"], "council_members": ["Evans-Shabazz"]}
+          "geographic_tags": {
+            "districts": [
+              "D"
+            ],
+            "addresses": [
+              "1900 Lauderdale Street"
+            ],
+            "council_members": [
+              "Evans-Shabazz"
+            ]
+          }
         },
         {
           "item_number": 32,
@@ -296,7 +585,19 @@
           "title": "Appropriation $2,648,267.00 - First amendment to contract with RS&H Inc for Gessner Paving and Drainage from Richmond to city limits north of Buffalo Bayou",
           "type": "Ordinance - Infrastructure",
           "amount": "$2,648,267.00",
-          "geographic_tags": {"districts": ["F", "G"], "addresses": ["Gessner Road"], "council_members": ["Thomas", "Huffman"]}
+          "geographic_tags": {
+            "districts": [
+              "F",
+              "G"
+            ],
+            "addresses": [
+              "Gessner Road"
+            ],
+            "council_members": [
+              "Thomas",
+              "Huffman"
+            ]
+          }
         },
         {
           "item_number": 33,
@@ -304,7 +605,11 @@
           "title": "Appropriation $9,281,764.83 - Contract with Grava LLC for FY2025 Asphalt Overlay Rehabilitation Package #2",
           "type": "Ordinance - Infrastructure",
           "amount": "$9,281,764.83",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 34,
@@ -312,7 +617,15 @@
           "title": "Saint George Place Redevelopment Authority / Reinvestment Zone Number One - FY2026 Operating Budget and FY2026-2030 Capital Improvements Budget",
           "type": "Matters Held - TIRZ",
           "status": "Tagged by Council Member Pollard",
-          "geographic_tags": {"districts": ["J"], "addresses": [], "council_members": ["Pollard"]}
+          "geographic_tags": {
+            "districts": [
+              "J"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Pollard"
+            ]
+          }
         },
         {
           "item_number": 35,
@@ -320,7 +633,21 @@
           "title": "Southwest Houston Redevelopment Authority / Reinvestment Zone Number Twenty - FY2026 Operating Budget and FY2026-2030 Capital Improvement Plan Budget",
           "type": "Matters Held - TIRZ",
           "status": "Tagged by Council Member Pollard",
-          "geographic_tags": {"districts": ["C", "F", "J", "K"], "addresses": [], "council_members": ["Kamin", "Thomas", "Pollard", "Castex-Tatum"]}
+          "geographic_tags": {
+            "districts": [
+              "C",
+              "F",
+              "J",
+              "K"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Kamin",
+              "Thomas",
+              "Pollard",
+              "Castex-Tatum"
+            ]
+          }
         }
       ]
     },
@@ -341,7 +668,17 @@
           "motion": "2026-0038",
           "title": "Accept work - H & N Contractor Management Services LLC for FY2024 Ditch Re-Establishment Work Order Contract #2",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["B", "H"], "addresses": [], "council_members": ["Jackson", "Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "H"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 3,
@@ -349,7 +686,11 @@
           "title": "Andritz Separation Inc for Sludge Plant Replacement Parts - $304,923.66",
           "type": "Purchasing",
           "amount": "$304,923.66",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 5,
@@ -357,28 +698,56 @@
           "title": "Spending authority $434,651.70 for Enterprise Service Management System Enhancements - Precision Task Group Inc - 1 Year",
           "type": "Purchasing",
           "amount": "$434,651.70",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 6,
           "resolution": "2026-0003",
           "title": "Designating Houston Heights East Historical District - changing building status at 320 E. 20th Street",
           "type": "Resolution - Historic Designation",
-          "geographic_tags": {"districts": ["C"], "addresses": ["320 E. 20th Street"], "council_members": ["Kamin"]}
+          "geographic_tags": {
+            "districts": [
+              "C"
+            ],
+            "addresses": [
+              "320 E. 20th Street"
+            ],
+            "council_members": [
+              "Kamin"
+            ]
+          }
         },
         {
           "item_number": 7,
           "resolution": "2026-0002",
           "title": "Designating Woodland Heights Historical District - changing building status at 3109 Morrison Street",
           "type": "Resolution - Historic Designation",
-          "geographic_tags": {"districts": ["H"], "addresses": ["3109 Morrison Street"], "council_members": ["Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "H"
+            ],
+            "addresses": [
+              "3109 Morrison Street"
+            ],
+            "council_members": [
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 8,
           "ordinance": "2026-0046",
           "title": "Amending City Master Classification Plan - create 2 new job classifications, change 4 existing",
           "type": "Ordinance - HR",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 10,
@@ -386,35 +755,77 @@
           "title": "Final Settlement with EPI-USE America Inc to settle lawsuit",
           "type": "Ordinance - Settlement",
           "amount": "$2,600,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 14,
           "title": "Saint George Place Redevelopment Authority / Reinvestment Zone Number One - FY2026 Operating Budget",
           "type": "Ordinance - TIRZ",
           "status": "Tagged by Council Member Pollard",
-          "geographic_tags": {"districts": ["J"], "addresses": [], "council_members": ["Pollard"]}
+          "geographic_tags": {
+            "districts": [
+              "J"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Pollard"
+            ]
+          }
         },
         {
           "item_number": 15,
           "ordinance": "2026-0052",
           "title": "City Park Redevelopment Authority / Reinvestment Zone Number Twelve - FY2026 Operating Budget and FY2026-2030 Capital Improvements Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["A", "C"], "addresses": [], "council_members": ["Peck", "Kamin"]}
+          "geographic_tags": {
+            "districts": [
+              "A",
+              "C"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Peck",
+              "Kamin"
+            ]
+          }
         },
         {
           "item_number": 17,
           "ordinance": "2026-0053",
           "title": "Hardy/Near Northside Redevelopment Authority / Reinvestment Zone Number Twenty-One - FY2026 Operating Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["B", "H"], "addresses": [], "council_members": ["Jackson", "Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "H"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 18,
           "ordinance": "2026-0054",
           "title": "Harrisburg Redevelopment Authority / Reinvestment Zone Number Twenty-Three - FY2026 Operating Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["H", "I"], "addresses": [], "council_members": ["Castillo", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "H",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castillo",
+              "Martinez"
+            ]
+          }
         }
       ]
     },
@@ -436,14 +847,45 @@
           "motion": "2026-0022",
           "title": "PUBLIC HEARING - Landmark designations: Greater Pleasant Hill Church (828 W. 20th St), Valenti-Dissen Houses (1505 & 1507 Alamo St), Dream House (1707 Milford St), Green House (5319 Institute Lane), Rose Hill Church (3029 Holman St), and historic district changes",
           "type": "Public Hearing - Historic Landmarks",
-          "geographic_tags": {"districts": [], "addresses": ["828 W. 20th Street", "1505 Alamo Street", "1507 Alamo Street", "1707 Milford Street", "5319 Institute Lane", "3029 Holman Street", "3109 Morrison Street", "320 E. 20th Street"], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [
+              "828 W. 20th Street",
+              "1505 Alamo Street",
+              "1507 Alamo Street",
+              "1707 Milford Street",
+              "5319 Institute Lane",
+              "3029 Holman Street",
+              "3109 Morrison Street",
+              "320 E. 20th Street"
+            ],
+            "council_members": []
+          }
         },
         {
           "item_number": 7,
           "motion": "2026-0028",
           "title": "Accept work - DL Glover Clearing LLC for Maintenance of Roadside and Off-Road Ditches",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["B", "D", "E", "F", "H", "J"], "addresses": [], "council_members": ["Jackson", "Evans-Shabazz", "Flickinger", "Thomas", "Castillo", "Pollard"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "D",
+              "E",
+              "F",
+              "H",
+              "J"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Evans-Shabazz",
+              "Flickinger",
+              "Thomas",
+              "Castillo",
+              "Pollard"
+            ]
+          }
         },
         {
           "item_number": 14,
@@ -451,7 +893,11 @@
           "title": "Spending authority $598,801.00 for Mobile Printers and Accessories for HPD - CDW Government LLC",
           "type": "Purchasing",
           "amount": "$598,801.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 17,
@@ -459,14 +905,26 @@
           "title": "Univar Solutions USA LLC for Caustic Soda and Hydrochloric Acid for Public Works - 3 Years with 2 options",
           "type": "Purchasing",
           "amount": "$13,639,565.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 18,
           "resolution": "2026-0001",
           "title": "Resolution confirming No Objection to 4% Housing Tax Credits applications for affordable rental housing developments",
           "type": "Resolution - Housing",
-          "geographic_tags": {"districts": ["D"], "addresses": [], "council_members": ["Evans-Shabazz"]}
+          "geographic_tags": {
+            "districts": [
+              "D"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Evans-Shabazz"
+            ]
+          }
         },
         {
           "item_number": 22,
@@ -474,7 +932,15 @@
           "title": "Appropriation $7,173.75 for Harper Brothers Construction LLC - Drainage Rehabilitation and Upgrade at airports",
           "type": "Ordinance - Airport",
           "amount": "$7,173.75",
-          "geographic_tags": {"districts": ["E"], "addresses": [], "council_members": ["Flickinger"]}
+          "geographic_tags": {
+            "districts": [
+              "E"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Flickinger"
+            ]
+          }
         },
         {
           "item_number": 23,
@@ -482,7 +948,15 @@
           "title": "Appropriation $1,362,303.30 for The Gonzalez Group LP - Terminal A Restrooms Upgrade Project",
           "type": "Ordinance - Airport",
           "amount": "$1,362,303.30",
-          "geographic_tags": {"districts": ["B"], "addresses": [], "council_members": ["Jackson"]}
+          "geographic_tags": {
+            "districts": [
+              "B"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson"
+            ]
+          }
         },
         {
           "item_number": 25,
@@ -490,7 +964,15 @@
           "title": "Appropriation $239,700.00 for RDLR Architects Inc - Renovation of Magnolia Multi-Service Center",
           "type": "Ordinance",
           "amount": "$239,700.00",
-          "geographic_tags": {"districts": ["I"], "addresses": [], "council_members": ["Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 26,
@@ -498,42 +980,92 @@
           "title": "Appropriation $95,543.25 for English + Associates Architects - Hiram Clarke Multi-Service Center Renovation",
           "type": "Ordinance",
           "amount": "$95,543.25",
-          "geographic_tags": {"districts": ["K"], "addresses": [], "council_members": ["Castex-Tatum"]}
+          "geographic_tags": {
+            "districts": [
+              "K"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castex-Tatum"
+            ]
+          }
         },
         {
           "item_number": 31,
           "ordinance": "2026-0027",
           "title": "Gulfgate Redevelopment Authority / Reinvestment Zone Number Eight - FY2026 Operating Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["D", "E", "I"], "addresses": [], "council_members": ["Evans-Shabazz", "Flickinger", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "D",
+              "E",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Evans-Shabazz",
+              "Flickinger",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 32,
           "ordinance": "2026-0028",
           "title": "Memorial City Redevelopment Authority / Reinvestment Zone Number Seventeen - FY2026 Operating Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["A", "G"], "addresses": [], "council_members": ["Peck", "Huffman"]}
+          "geographic_tags": {
+            "districts": [
+              "A",
+              "G"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Peck",
+              "Huffman"
+            ]
+          }
         },
         {
           "item_number": 33,
           "ordinance": "2026-0029",
           "title": "Grant Application to Texas Parks and Wildlife Department Local Parks Grant",
           "type": "Ordinance - Grant",
-          "geographic_tags": {"districts": ["B"], "addresses": [], "council_members": ["Jackson"]}
+          "geographic_tags": {
+            "districts": [
+              "B"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson"
+            ]
+          }
         },
         {
           "item_number": 34,
           "ordinance": "2026-0018",
           "title": "Interlocal Agreement with Harris County to transfer Operation and Maintenance of Moody Park to Harris County Precinct 2",
           "type": "Ordinance - Interlocal",
-          "geographic_tags": {"districts": ["H"], "addresses": [], "council_members": ["Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "H"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 35,
           "ordinance": "2026-0019",
           "title": "Interlocal Agreement with Harris County to transfer Operation and Maintenance of Keith-Wiess Park to Harris County Precinct 2",
           "type": "Ordinance - Interlocal",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         }
       ]
     },
@@ -554,7 +1086,13 @@
           "motion": "2026-0006",
           "title": "PUBLIC HEARING - Resolution of No Objection for 4% Housing Tax Credits for Bernicia Place at 6000 Scottcrest Dr",
           "type": "Public Hearing - Housing",
-          "geographic_tags": {"districts": [], "addresses": ["6000 Scottcrest Dr"], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [
+              "6000 Scottcrest Dr"
+            ],
+            "council_members": []
+          }
         },
         {
           "item_number": 7,
@@ -562,7 +1100,19 @@
           "title": "Spending authority for Multiple Project-Specific Reimbursable Agreements with FAA - 5 Years - $7,500,000.00",
           "type": "Miscellaneous",
           "amount": "$7,500,000.00",
-          "geographic_tags": {"districts": ["B", "E", "I"], "addresses": [], "council_members": ["Jackson", "Flickinger", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "E",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Flickinger",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 9,
@@ -570,7 +1120,11 @@
           "title": "Chastang Enterprises and BLVD Auto Service Center for Auto Car Replacement Parts and Repair - 3 Years with 2 options",
           "type": "Purchasing",
           "amount": "$4,184,832.43",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 10,
@@ -578,7 +1132,11 @@
           "title": "Spending authority $343,418.00 for Public Safety Replacement Radios - Motorola Solutions Inc",
           "type": "Purchasing",
           "amount": "$343,418.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 11,
@@ -586,7 +1144,15 @@
           "title": "Brown & Root Industrial Services LLC for Structural Repair at 69th St Wastewater Treatment Plant - $270,000.00",
           "type": "Purchasing",
           "amount": "$270,000.00",
-          "geographic_tags": {"districts": ["H"], "addresses": [], "council_members": ["Castillo"]}
+          "geographic_tags": {
+            "districts": [
+              "H"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castillo"
+            ]
+          }
         },
         {
           "item_number": 12,
@@ -594,7 +1160,11 @@
           "title": "Heavy-Duty Trucks - Caldwell Country Chevrolet, Houston Freightliner, Rush Truck Centers",
           "type": "Purchasing",
           "amount": "$3,497,841.65",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         }
       ]
     },
@@ -613,122 +1183,255 @@
           "item_number": 1,
           "title": "Board Appointment - Boiler Code Review and Licensing Board (Stephens, Cardenas, Bracewell, Montanez)",
           "type": "Miscellaneous - Board Appointment",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 5,
           "title": "Accept work - Flatiron Constructors Inc for Airfield Pavement Repairs at IAH, HOU, EFD airports",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["B", "E", "I"], "addresses": [], "council_members": ["Jackson", "Flickinger", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "E",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Flickinger",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 6,
           "title": "Accept work - Grava LLC for Drainage and Paving - Cottage Grove East Phase I",
           "type": "Accept Work",
-          "geographic_tags": {"districts": ["C"], "addresses": [], "council_members": ["Kamin"]}
+          "geographic_tags": {
+            "districts": [
+              "C"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Kamin"
+            ]
+          }
         },
         {
           "item_number": 8,
           "title": "Emergency Response Vehicles for HPD - Chastang Ford",
           "type": "Purchasing",
           "amount": "$1,294,557.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 12,
           "title": "Light-Duty Vehicles - Chastang, Silsbee Ford, Silsbee Toyota",
           "type": "Purchasing",
           "amount": "$7,622,088.30",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 20,
           "title": "ORDINANCE - Micromobility Device Regulation - amending Chapters 26 and 45 - nighttime curfew, fee schedule",
           "type": "Ordinance",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 21,
           "title": "ORDINANCE - Combined Utility System Revenue Bonds Series 2025 (Emergency)",
           "type": "Ordinance - Finance",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 22,
           "title": "ORDINANCE - Airport Bond Pricing - United Airlines Terminal, Catering, Ground Services - Series 2025B (Emergency)",
           "type": "Ordinance - Finance",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 24,
           "title": "Professional Services - Parsons Transportation Group for Infrastructure Division",
           "type": "Ordinance",
           "amount": "$11,887,254.35",
-          "geographic_tags": {"districts": ["B", "E", "I"], "addresses": [], "council_members": ["Jackson", "Flickinger", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "B",
+              "E",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson",
+              "Flickinger",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 25,
           "title": "ORDINANCE - Runoff Election for At-Large Position 4 vacancy - December 13, 2025",
           "type": "Ordinance - Election",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 28,
           "title": "Environmental Services Amendment - Honesty Environmental/Fern Environmental",
           "type": "Ordinance",
           "amount": "$50,000,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 30,
           "title": "East Downtown Authority / Reinvestment Zone Fifteen - FY2026 Operating Budget and FY2026-2030 Capital Plan",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["H", "I"], "addresses": [], "council_members": ["Castillo", "Martinez"]}
+          "geographic_tags": {
+            "districts": [
+              "H",
+              "I"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Castillo",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 32,
           "title": "Safe Streets and Roads Grant - US DOT - Bissonnet Corridor Safe Streets Project",
           "type": "Ordinance - Grant",
-          "geographic_tags": {"districts": [], "addresses": ["Bissonnet Corridor"], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [
+              "Bissonnet Corridor"
+            ],
+            "council_members": []
+          }
         },
         {
           "item_number": 33,
           "title": "FEMA Flood Mitigation Assistance Amendment - TWDB FY2019 FMA",
           "type": "Ordinance - FEMA",
-          "geographic_tags": {"districts": ["A", "C", "D", "E", "F", "G", "H", "J", "K"], "addresses": [], "council_members": ["Peck", "Kamin", "Evans-Shabazz", "Flickinger", "Thomas", "Huffman", "Castillo", "Pollard", "Castex-Tatum"]}
+          "geographic_tags": {
+            "districts": [
+              "A",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "J",
+              "K"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Peck",
+              "Kamin",
+              "Evans-Shabazz",
+              "Flickinger",
+              "Thomas",
+              "Huffman",
+              "Castillo",
+              "Pollard",
+              "Castex-Tatum"
+            ]
+          }
         },
         {
           "item_number": 34,
           "title": "Kingwood West WWTP Engineering - Jacobs Engineering - Hazard Mitigation",
           "type": "Ordinance",
           "amount": "$4,554,212.25",
-          "geographic_tags": {"districts": ["E"], "addresses": [], "council_members": ["Flickinger"]}
+          "geographic_tags": {
+            "districts": [
+              "E"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Flickinger"
+            ]
+          }
         },
         {
           "item_number": 37,
           "title": "Street & Drainage Rehabilitation - J Rivas Construction - FY2025 SDR Contract #3",
           "type": "Ordinance - Infrastructure",
           "amount": "$8,050,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 39,
           "title": "Roadway Rehabilitation - Grava LLC - FY2025 Project #3",
           "type": "Ordinance - Infrastructure",
           "amount": "$9,361,321.20",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 40,
           "title": "PUBLIC HEARING motion - Housing Tax Credits for The Preserve at Dominion Park at 13100 Kuykendahl Rd",
           "type": "Non-Consent - Public Hearing",
-          "geographic_tags": {"districts": [], "addresses": ["13100 Kuykendahl Rd"], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [
+              "13100 Kuykendahl Rd"
+            ],
+            "council_members": []
+          }
         },
         {
           "item_number": 42,
           "title": "MUD No. 96 Land Addition - 8.774 acres - Tagged by Kamin and Flickinger",
           "type": "Matters Held",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": ["Kamin", "Flickinger"]}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": [
+              "Kamin",
+              "Flickinger"
+            ]
+          }
         }
       ]
     },
@@ -746,7 +1449,11 @@
           "item_number": 1,
           "title": "ORDINANCE Tabulating Votes and Canvassing Returns of City of Houston Special Election held November 4, 2025 - At-Large Position 4 vacancy",
           "type": "Ordinance - Election",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         }
       ]
     },
@@ -764,53 +1471,120 @@
           "item_number": 1,
           "title": "PUBLIC HEARING - Owens Corning Roofing & Asphalt LLC Reinvestment Zone designation",
           "type": "Public Hearing",
-          "geographic_tags": {"districts": ["B"], "addresses": [], "council_members": ["Jackson"]}
+          "geographic_tags": {
+            "districts": [
+              "B"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Jackson"
+            ]
+          }
         },
         {
           "item_number": 4,
           "title": "Emergency runway grinding/grooving at IAH",
           "type": "Ordinance",
           "amount": "$9,000,000.00",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 8,
           "title": "Ammunition and accessories for HPD - 5 vendors",
           "type": "Purchasing",
           "amount": "$19,384,953.79",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": []
+          }
         },
         {
           "item_number": 14,
           "title": "IKE Communities Foundation affordable housing loan at Southwest Wheatley & Esther Drive",
           "type": "Ordinance - Housing",
           "amount": "$4,000,000.00",
-          "geographic_tags": {"districts": ["B"], "addresses": ["Southwest Wheatley & Esther Drive"], "council_members": ["Jackson"]}
+          "geographic_tags": {
+            "districts": [
+              "B"
+            ],
+            "addresses": [
+              "Southwest Wheatley & Esther Drive"
+            ],
+            "council_members": [
+              "Jackson"
+            ]
+          }
         },
         {
           "item_number": 25,
           "title": "Medical Center Area Redevelopment Authority FY2026 Budget",
           "type": "Ordinance - TIRZ",
-          "geographic_tags": {"districts": ["C", "D", "K"], "addresses": [], "council_members": ["Kamin", "Evans-Shabazz", "Castex-Tatum"]}
+          "geographic_tags": {
+            "districts": [
+              "C",
+              "D",
+              "K"
+            ],
+            "addresses": [],
+            "council_members": [
+              "Kamin",
+              "Evans-Shabazz",
+              "Castex-Tatum"
+            ]
+          }
         },
         {
           "item_number": 30,
           "title": "Landmark designations - Greater Pleasant Hill Church (828 W. 20th), Pizzitola Building (1138 W. Gray), Valenti-Dissen Houses (1505-1507 Alamo), Green House (5319 Institute Lane), Rose Hill Church (3029 Holman) - hearing scheduled Dec 3",
           "type": "Non-Consent - Motion to Set Hearing",
-          "geographic_tags": {"districts": [], "addresses": ["828 W. 20th Street", "1138 W. Gray", "1505-1507 Alamo", "5319 Institute Lane", "3029 Holman Street"], "council_members": []}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [
+              "828 W. 20th Street",
+              "1138 W. Gray",
+              "1505-1507 Alamo",
+              "5319 Institute Lane",
+              "3029 Holman Street"
+            ],
+            "council_members": []
+          }
         },
         {
           "item_number": 31,
           "title": "Public sidewalk sitting/lying restrictions in East End area - Tagged by Thomas, Castillo, Martinez",
           "type": "Matters Held",
-          "geographic_tags": {"districts": [], "addresses": [], "council_members": ["Thomas", "Castillo", "Martinez"]}
+          "geographic_tags": {
+            "districts": [],
+            "addresses": [],
+            "council_members": [
+              "Thomas",
+              "Castillo",
+              "Martinez"
+            ]
+          }
         },
         {
           "item_number": 32,
           "title": "Fire Station No. 40 property purchase at South Old Spanish Trail between Blythewood & Calhoun - Tagged by Ramirez",
           "type": "Matters Held",
           "amount": "$660,000.00",
-          "geographic_tags": {"districts": ["D"], "addresses": ["South Old Spanish Trail between Blythewood & Calhoun"], "council_members": ["Evans-Shabazz", "Ramirez"]}
+          "geographic_tags": {
+            "districts": [
+              "D"
+            ],
+            "addresses": [
+              "South Old Spanish Trail between Blythewood & Calhoun"
+            ],
+            "council_members": [
+              "Evans-Shabazz",
+              "Ramirez"
+            ]
+          }
         }
       ]
     }
@@ -848,5 +1622,8 @@
     "fleet_purchases": "Multiple large fleet/vehicle purchases across sessions totaling tens of millions (police, public works, fire)",
     "park_transfers": "Harris County taking over operation of Moody Park and Keith-Wiess Park from City",
     "consent_decree_work": "Ongoing consent decree compliance for wastewater lift station rehabilitation"
-  }
+  },
+  "stale": false,
+  "stale_days": 1,
+  "last_refresh_attempt": "2026-02-09T18:23:20.098Z"
 }
