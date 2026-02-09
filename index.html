@@ -3,652 +3,1157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What's Being Decided Near You | LocalInsights.ai</title>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Archivo:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <title>Your Week in Power | LocalInsights.ai</title>
+    <meta name="description" content="See what Houston's government is deciding near you this week. Enter your ZIP code for agenda items from City Council, Harris County, HISD, and Metro.">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Archivo:wght@400;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
-            --bg-dark: #0a0e27; --bg-card: #141729; --bg-elevated: #1a1f3a;
-            --accent-primary: #00ff88; --accent-secondary: #00d4ff;
-            --accent-warn: #ff6b35; --accent-urgent: #ff3860;
-            --text-primary: #ffffff; --text-secondary: #a8b2d1; --text-muted: #6b7280;
-            --border-color: #2a3150;
+            --bg: #FAFAF7;
+            --bg-white: #FFFFFF;
+            --bg-subtle: #F3F3EE;
+            --text-primary: #1A1A2E;
+            --text-secondary: #4A4A5A;
+            --text-muted: #6B7084;
+            --text-light: #9CA3AF;
+            --border: #E5E5E0;
+            --border-light: #F0F0EB;
+            --city: #0E7C6B;
+            --city-bg: #ECFDF5;
+            --county: #C4621A;
+            --county-bg: #FFF7ED;
+            --hisd: #2563EB;
+            --hisd-bg: #EFF6FF;
+            --metro: #7C3AED;
+            --metro-bg: #F5F3FF;
+            --urgent: #DC2626;
+            --urgent-bg: #FEF2F2;
+            --action: #059669;
+            --action-bg: #ECFDF5;
+            --action-hover: #047857;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --radius-xs: 6px;
         }
-        body { font-family: 'Archivo', sans-serif; background: var(--bg-dark); color: var(--text-primary); line-height: 1.6; }
-        .bg-gradient {
-            position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: -1;
-            background: radial-gradient(circle at 20% 50%, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(0, 212, 255, 0.05) 0%, transparent 50%);
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
         }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
 
-        /* Header */
+        /* ── Header ── */
         header {
-            padding: 1.5rem 0; border-bottom: 1px solid var(--border-color);
-            backdrop-filter: blur(20px); position: sticky; top: 0; z-index: 100;
-            background: rgba(10, 14, 39, 0.9);
+            background: var(--bg-white);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 0;
+            position: sticky; top: 0; z-index: 100;
         }
-        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-        .brand { display: flex; align-items: baseline; gap: 0.75rem; }
-        h1 {
-            font-size: 1.5rem; font-weight: 900; letter-spacing: -0.02em;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        .header-inner {
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .brand-mark {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900; font-size: 1.1rem;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+        }
+        .brand-mark span { color: var(--action); }
+        .header-meta {
+            display: flex; align-items: center; gap: 1rem;
+        }
+        .freshness {
+            display: flex; align-items: center; gap: 0.4rem;
+            font-size: 0.72rem; color: var(--text-muted);
             font-family: 'JetBrains Mono', monospace;
         }
-        .subtitle { font-size: 0.8rem; color: var(--text-muted); }
-        .powered-by { font-size: 0.7rem; color: var(--text-muted); }
-        .powered-by a { color: var(--accent-secondary); text-decoration: none; }
+        .freshness-dot {
+            width: 7px; height: 7px; border-radius: 50%;
+            background: var(--action); display: inline-block;
+        }
+        .freshness-dot.stale { background: var(--county); }
+        .powered-by {
+            font-size: 0.72rem; color: var(--text-light);
+        }
+        .powered-by a { color: var(--text-muted); text-decoration: none; }
+        .powered-by a:hover { text-decoration: underline; }
 
-        /* ZIP Entry */
-        .zip-entry {
-            margin: 2rem 0; text-align: center; padding: 3rem 1rem;
+        /* ── Hero / ZIP Entry ── */
+        .hero {
+            padding: 4rem 0 3rem;
+            text-align: center;
+            transition: padding 0.4s ease;
         }
-        .zip-entry h2 {
-            font-size: 2rem; font-weight: 900; margin-bottom: 0.5rem;
-            background: linear-gradient(135deg, #fff, var(--text-secondary));
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        .hero.compact {
+            padding: 1.5rem 0 1rem;
         }
-        .zip-entry p { color: var(--text-secondary); margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto; }
-        .zip-form { display: flex; gap: 0.75rem; justify-content: center; max-width: 400px; margin: 0 auto; }
+        .hero-headline {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900; font-size: 2.6rem;
+            line-height: 1.1; letter-spacing: -0.03em;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+        .hero.compact .hero-headline { display: none; }
+        .hero-sub {
+            font-size: 1.1rem; color: var(--text-secondary);
+            max-width: 520px; margin: 0 auto 2rem;
+            line-height: 1.5;
+        }
+        .hero.compact .hero-sub { display: none; }
+        .hero-stat {
+            font-size: 0.85rem; color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+        .hero-stat strong {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700; color: var(--text-secondary);
+        }
+        .hero.compact .hero-stat { display: none; }
+
+        .zip-form {
+            display: flex; gap: 0.5rem;
+            justify-content: center;
+            max-width: 360px; margin: 0 auto;
+        }
         .zip-input {
-            flex: 1; padding: 1rem 1.5rem; background: var(--bg-card); border: 2px solid var(--border-color);
-            border-radius: 12px; color: var(--text-primary); font-size: 1.25rem;
-            font-family: 'JetBrains Mono', monospace; text-align: center; letter-spacing: 0.15em;
-            transition: all 0.3s ease;
+            flex: 1; padding: 0.9rem 1.25rem;
+            background: var(--bg-white);
+            border: 2px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 1.2rem;
+            font-family: 'JetBrains Mono', monospace;
+            text-align: center; letter-spacing: 0.15em;
+            color: var(--text-primary);
+            transition: border-color 0.2s;
         }
-        .zip-input:focus { outline: none; border-color: var(--accent-primary); box-shadow: 0 0 0 4px rgba(0, 255, 136, 0.15); }
-        .zip-input::placeholder { color: var(--text-muted); letter-spacing: 0.05em; font-size: 1rem; }
+        .zip-input:focus {
+            outline: none; border-color: var(--action);
+            box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.12);
+        }
+        .zip-input::placeholder {
+            color: var(--text-light); letter-spacing: 0.08em; font-size: 1rem;
+        }
         .zip-btn {
-            padding: 1rem 2rem; background: linear-gradient(135deg, var(--accent-primary), #00cc6a);
-            border: none; border-radius: 12px; color: #0a0e27; font-weight: 700; font-size: 1rem;
-            cursor: pointer; transition: all 0.3s ease; font-family: 'Archivo', sans-serif;
+            padding: 0.9rem 1.75rem;
+            background: var(--action); color: #fff;
+            border: none; border-radius: var(--radius);
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700; font-size: 1rem;
+            cursor: pointer; transition: all 0.2s;
         }
-        .zip-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 255, 136, 0.3); }
-
-        /* Results */
-        .results { display: none; margin: 2rem 0 4rem; }
-        .results.active { display: block; }
-
-        .location-bar {
-            display: flex; align-items: center; gap: 1rem; padding: 1rem 1.5rem;
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 12px; margin-bottom: 2rem; flex-wrap: wrap;
+        .zip-btn:hover {
+            background: var(--action-hover);
+            box-shadow: var(--shadow-md);
         }
-        .location-pin { font-size: 1.25rem; }
-        .location-text { font-weight: 600; }
-        .location-reps { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-left: auto; }
-        .rep-chip {
-            font-size: 0.65rem; padding: 0.25rem 0.6rem; background: var(--bg-elevated);
-            border: 1px solid var(--border-color); border-radius: 20px; color: var(--text-secondary);
+
+        /* ── Neighborhood Bar ── */
+        .neighborhood-bar {
+            display: none;
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .neighborhood-bar.active { display: block; }
+        .nb-top {
+            display: flex; align-items: baseline; gap: 0.75rem;
+            flex-wrap: wrap; margin-bottom: 0.75rem;
+        }
+        .nb-name {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 900; font-size: 1.3rem;
+            color: var(--text-primary);
+        }
+        .nb-zip {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem; color: var(--text-muted);
+        }
+        .nb-reps {
+            display: flex; gap: 0.4rem; flex-wrap: wrap;
+        }
+        .nb-rep-chip {
+            font-size: 0.68rem; padding: 0.2rem 0.6rem;
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            border-radius: 20px; color: var(--text-muted);
             white-space: nowrap;
         }
 
-        /* Stats row */
+        /* ── Stats Row ── */
         .stats-row {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 1rem; margin-bottom: 2rem;
+            display: none;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem; margin-bottom: 1.5rem;
         }
-        .mini-stat {
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 10px; padding: 1.25rem; text-align: center;
+        .stats-row.active { display: grid; }
+        .stat-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 1rem; text-align: center;
+            box-shadow: var(--shadow-sm);
         }
-        .mini-stat-value {
-            font-size: 1.75rem; font-weight: 900; font-family: 'JetBrains Mono', monospace;
-            color: var(--accent-primary);
+        .stat-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700; font-size: 1.75rem;
+            color: var(--text-primary);
+            line-height: 1.2;
         }
-        .mini-stat-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.25rem; }
+        .stat-value.money { color: var(--county); }
+        .stat-label {
+            font-size: 0.7rem; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.06em;
+            margin-top: 0.2rem;
+        }
 
-        /* Filters */
-        .filter-bar {
-            display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;
+        /* ── Filter Bar ── */
+        .filter-section {
+            display: none;
+            margin-bottom: 1.5rem;
+        }
+        .filter-section.active { display: block; }
+        .filter-row {
+            display: flex; gap: 0.4rem; flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+        .filter-label {
+            font-size: 0.7rem; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.06em;
+            margin-bottom: 0.4rem; font-weight: 600;
         }
         .filter-chip {
-            padding: 0.5rem 1rem; background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 20px; color: var(--text-secondary); cursor: pointer;
-            font-size: 0.8rem; transition: all 0.2s ease; font-family: 'Archivo', sans-serif;
+            padding: 0.4rem 0.9rem;
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 0.78rem; font-weight: 500;
+            color: var(--text-secondary);
+            cursor: pointer; transition: all 0.15s;
+            font-family: 'Inter', sans-serif;
         }
-        .filter-chip:hover, .filter-chip.active {
-            border-color: var(--accent-primary); color: var(--accent-primary);
-            background: rgba(0, 255, 136, 0.08);
+        .filter-chip:hover { border-color: var(--text-muted); }
+        .filter-chip.active {
+            background: var(--text-primary); color: #fff;
+            border-color: var(--text-primary);
         }
-
-        /* Agenda Items */
-        .agenda-section { margin-bottom: 2rem; }
-        .section-header {
-            display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;
-            padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-color);
-        }
-        .section-icon { font-size: 1.25rem; }
-        .section-title { font-size: 1.1rem; font-weight: 700; }
-        .section-count {
-            font-size: 0.7rem; padding: 0.2rem 0.6rem; background: var(--bg-elevated);
-            border-radius: 10px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;
+        .filter-chip .chip-count {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem; opacity: 0.7; margin-left: 0.3rem;
         }
 
+        /* ── Results Grid ── */
+        .results-wrap {
+            display: none;
+        }
+        .results-wrap.active { display: grid; grid-template-columns: 1fr 280px; gap: 1.5rem; }
+
+        /* ── Timeline Sections ── */
+        .timeline-label {
+            display: flex; align-items: center; gap: 0.6rem;
+            margin: 1.75rem 0 0.75rem; padding-bottom: 0.4rem;
+        }
+        .timeline-label:first-child { margin-top: 0; }
+        .tl-text {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700; font-size: 0.8rem;
+            text-transform: uppercase; letter-spacing: 0.08em;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+        .tl-line { flex: 1; height: 1px; background: var(--border); }
+        .tl-count {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem; color: var(--text-light);
+        }
+
+        /* ── Agenda Cards ── */
         .agenda-card {
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 0.75rem;
-            transition: all 0.2s ease; position: relative; cursor: pointer;
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.1rem 1.25rem;
+            margin-bottom: 0.6rem;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            position: relative;
+            box-shadow: var(--shadow-sm);
         }
-        .agenda-card:hover { border-color: var(--accent-secondary); transform: translateX(4px); }
-        .agenda-card.urgent { border-left: 3px solid var(--accent-urgent); }
-        .agenda-card.upcoming { border-left: 3px solid var(--accent-warn); }
-        .agenda-card.routine { border-left: 3px solid var(--border-color); }
+        .agenda-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: #d0d0cb;
+        }
+        .agenda-card.urgency-high {
+            border-left: 3px solid var(--urgent);
+        }
+        .agenda-card.urgency-med {
+            border-left: 3px solid var(--county);
+        }
+        .agenda-card.urgency-low {
+            border-left: 3px solid var(--border);
+        }
+        .agenda-card.past-item {
+            opacity: 0.6;
+            border-left: 3px solid var(--border-light);
+        }
+        .agenda-card.past-item:hover { opacity: 0.85; }
 
-        .agenda-meta {
-            display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;
-            flex-wrap: wrap;
+        .card-top {
+            display: flex; align-items: center; gap: 0.5rem;
+            flex-wrap: wrap; margin-bottom: 0.5rem;
         }
-        .agenda-body-tag {
-            font-size: 0.65rem; padding: 0.15rem 0.5rem; border-radius: 4px;
-            font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+        .body-tag {
+            font-family: 'Archivo', sans-serif;
+            font-size: 0.62rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.04em;
+            padding: 0.15rem 0.5rem; border-radius: 4px;
         }
-        .tag-city { background: rgba(0, 212, 255, 0.15); color: var(--accent-secondary); }
-        .tag-county { background: rgba(0, 255, 136, 0.15); color: var(--accent-primary); }
-        .tag-hisd { background: rgba(255, 107, 53, 0.15); color: var(--accent-warn); }
-        .tag-metro { background: rgba(168, 85, 247, 0.15); color: #a855f7; }
-        .tag-special { background: rgba(255, 56, 96, 0.15); color: var(--accent-urgent); }
+        .body-tag.city { background: var(--city-bg); color: var(--city); }
+        .body-tag.county { background: var(--county-bg); color: var(--county); }
+        .body-tag.hisd { background: var(--hisd-bg); color: var(--hisd); }
+        .body-tag.metro { background: var(--metro-bg); color: var(--metro); }
 
-        .agenda-date { font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
-        .days-away {
-            font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 4px;
-            font-weight: 600;
+        .card-date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem; color: var(--text-muted);
         }
-        .days-away.soon { background: rgba(255, 56, 96, 0.15); color: var(--accent-urgent); }
-        .days-away.upcoming { background: rgba(255, 107, 53, 0.15); color: var(--accent-warn); }
-        .days-away.later { background: rgba(0, 255, 136, 0.1); color: var(--accent-primary); }
+        .countdown {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem; font-weight: 600;
+            padding: 0.12rem 0.45rem; border-radius: 4px;
+        }
+        .countdown.soon {
+            background: var(--urgent-bg); color: var(--urgent);
+        }
+        .countdown.upcoming {
+            background: var(--county-bg); color: var(--county);
+        }
+        .countdown.later {
+            background: var(--bg-subtle); color: var(--text-muted);
+        }
+        .countdown.past {
+            background: var(--bg-subtle); color: var(--text-light);
+        }
+        .item-type-tag {
+            font-size: 0.62rem; padding: 0.12rem 0.45rem;
+            border-radius: 4px; color: var(--text-muted);
+            background: var(--bg-subtle);
+        }
 
-        .agenda-title {
-            font-size: 0.95rem; font-weight: 600; color: var(--text-primary);
-            margin-bottom: 0.5rem; line-height: 1.4;
+        .stakes-line {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 600; font-size: 0.95rem;
+            line-height: 1.35; color: var(--text-primary);
+            margin-bottom: 0.35rem;
         }
-        .agenda-detail { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
-        .agenda-tags { display: flex; gap: 0.4rem; margin-top: 0.75rem; flex-wrap: wrap; }
+        .dollar-highlight {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700; color: var(--county);
+        }
+
+        .card-detail {
+            font-size: 0.82rem; color: var(--text-secondary);
+            line-height: 1.45;
+            display: none;
+        }
+        .agenda-card.expanded .card-detail { display: block; }
+        .detail-text {
+            margin-bottom: 0.6rem;
+        }
+
+        .geo-tags {
+            display: flex; gap: 0.3rem; flex-wrap: wrap;
+            margin-top: 0.5rem;
+        }
         .geo-tag {
-            font-size: 0.6rem; padding: 0.15rem 0.5rem; background: var(--bg-elevated);
-            border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-muted);
+            font-size: 0.62rem; padding: 0.12rem 0.45rem;
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            border-radius: 4px; color: var(--text-muted);
         }
-        .agenda-link {
-            font-size: 0.75rem; color: var(--accent-secondary); text-decoration: none;
-            margin-top: 0.5rem; display: inline-block;
+        .match-reason {
+            font-size: 0.7rem; color: var(--action);
+            margin-top: 0.5rem; display: none;
         }
-        .agenda-link:hover { text-decoration: underline; }
+        .agenda-card.expanded .match-reason { display: block; }
 
-        /* Representative sidebar */
+        .card-source {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem; color: var(--text-light);
+            margin-top: 0.5rem; display: none;
+        }
+        .agenda-card.expanded .card-source { display: block; }
+
+        .card-actions {
+            display: none; gap: 0.5rem;
+            margin-top: 0.75rem; flex-wrap: wrap;
+        }
+        .agenda-card.expanded.has-actions .card-actions { display: flex; }
+        .action-btn {
+            padding: 0.45rem 0.9rem;
+            border-radius: var(--radius-xs);
+            font-size: 0.78rem; font-weight: 600;
+            text-decoration: none; display: inline-flex;
+            align-items: center; gap: 0.35rem;
+            transition: all 0.15s; cursor: pointer;
+            border: none; font-family: 'Inter', sans-serif;
+        }
+        .action-btn.primary {
+            background: var(--action); color: #fff;
+        }
+        .action-btn.primary:hover { background: var(--action-hover); }
+        .action-btn.secondary {
+            background: var(--bg-subtle); color: var(--text-secondary);
+            border: 1px solid var(--border);
+        }
+        .action-btn.secondary:hover { background: var(--border-light); }
+
+        /* ── Sidebar ── */
+        .sidebar { }
+        .sidebar-section {
+            margin-bottom: 1.25rem;
+        }
+        .sidebar-title {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700; font-size: 0.75rem;
+            text-transform: uppercase; letter-spacing: 0.06em;
+            color: var(--text-muted);
+            margin-bottom: 0.6rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--border);
+        }
         .rep-card {
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 10px; padding: 1.25rem; margin-bottom: 0.75rem;
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 0.85rem 1rem;
+            margin-bottom: 0.4rem;
+            box-shadow: var(--shadow-sm);
         }
-        .rep-name { font-weight: 700; font-size: 0.95rem; }
-        .rep-title { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-        .rep-body-label { font-size: 0.65rem; color: var(--accent-secondary); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.25rem; }
-        .rep-items { font-size: 0.75rem; color: var(--text-secondary); }
+        .rep-body-label {
+            font-size: 0.6rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.05em;
+            margin-bottom: 0.15rem;
+        }
+        .rep-body-label.city { color: var(--city); }
+        .rep-body-label.county { color: var(--county); }
+        .rep-body-label.hisd { color: var(--hisd); }
+        .rep-body-label.metro { color: var(--metro); }
+        .rep-name {
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700; font-size: 0.88rem;
+        }
+        .rep-title {
+            font-size: 0.72rem; color: var(--text-muted);
+        }
 
-        /* Layout */
-        .results-grid {
-            display: grid; grid-template-columns: 1fr 320px; gap: 2rem;
+        .trust-box {
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            font-size: 0.7rem; color: var(--text-muted);
+            line-height: 1.6;
         }
-        @media (max-width: 900px) {
-            .results-grid { grid-template-columns: 1fr; }
-            .zip-entry h2 { font-size: 1.5rem; }
-            .stats-row { grid-template-columns: repeat(2, 1fr); }
+        .trust-box strong { color: var(--text-secondary); }
+        .trust-box a { color: var(--action); text-decoration: none; }
+        .trust-box a:hover { text-decoration: underline; }
+
+        /* ── Empty State ── */
+        .empty-state {
+            text-align: center; padding: 3rem 1rem;
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+        .empty-state p { color: var(--text-muted); font-size: 0.9rem; }
+        .empty-state strong { color: var(--text-secondary); }
+
+        /* ── Footer ── */
+        footer {
+            margin-top: 4rem; padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p { font-size: 0.72rem; color: var(--text-light); line-height: 1.8; }
+        footer a { color: var(--text-muted); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* ── Responsive ── */
+        @media (max-width: 860px) {
+            .results-wrap.active { grid-template-columns: 1fr; }
+            .sidebar { order: -1; }
+            .stats-row.active { grid-template-columns: repeat(2, 1fr); }
+            .hero-headline { font-size: 2rem; }
         }
         @media (max-width: 500px) {
-            .stats-row { grid-template-columns: 1fr; }
+            .stats-row.active { grid-template-columns: 1fr 1fr; }
             .zip-form { flex-direction: column; }
+            .hero-headline { font-size: 1.6rem; }
+            .nb-top { flex-direction: column; gap: 0.25rem; }
         }
 
-        /* Timeline indicator */
-        .timeline-header {
-            font-size: 0.8rem; font-weight: 700; color: var(--text-muted);
-            text-transform: uppercase; letter-spacing: 0.1em; margin: 1.5rem 0 0.75rem;
-            display: flex; align-items: center; gap: 0.5rem;
+        /* ── Expand animation ── */
+        .card-expand-icon {
+            position: absolute; top: 1.1rem; right: 1rem;
+            font-size: 0.7rem; color: var(--text-light);
+            transition: transform 0.2s;
         }
-        .timeline-header::after {
-            content: ''; flex: 1; height: 1px; background: var(--border-color);
+        .agenda-card.expanded .card-expand-icon {
+            transform: rotate(180deg);
         }
 
-        /* Empty state */
-        .empty-state {
-            text-align: center; padding: 3rem; color: var(--text-muted);
+        /* ── Category icons ── */
+        .cat-icon {
+            font-size: 0.85rem; margin-right: 0.15rem;
         }
-        .empty-state p { margin-top: 0.5rem; font-size: 0.9rem; }
 
-        /* Footer */
-        footer {
-            padding: 2rem 0; border-top: 1px solid var(--border-color);
-            text-align: center; margin-top: 4rem;
+        /* ── Pulse animation for urgent countdown ── */
+        @keyframes gentle-pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
         }
-        footer p { font-size: 0.75rem; color: var(--text-muted); }
-        footer a { color: var(--accent-secondary); text-decoration: none; }
-
-        /* Loading */
-        .loading { text-align: center; padding: 2rem; }
-        .spinner {
-            width: 32px; height: 32px; border: 3px solid var(--border-color);
-            border-top-color: var(--accent-primary); border-radius: 50%;
-            animation: spin 0.8s linear infinite; margin: 0 auto 1rem;
+        .countdown.soon {
+            animation: gentle-pulse 2s ease-in-out infinite;
         }
-        @keyframes spin { to { transform: rotate(360deg); } }
     </style>
 </head>
 <body>
-    <div class="bg-gradient"></div>
 
     <header>
-        <div class="container header-content">
-            <div class="brand">
-                <h1>CIVIC AGENDA</h1>
-                <span class="subtitle">What's Being Decided Near You</span>
+        <div class="container header-inner">
+            <div class="brand-mark">YOUR WEEK IN <span>POWER</span></div>
+            <div class="header-meta">
+                <div class="freshness" id="freshness">
+                    <span class="freshness-dot"></span>
+                    <span id="freshnessText">Loading data...</span>
+                </div>
+                <div class="powered-by"><a href="https://localinsights.ai">LocalInsights.ai</a></div>
             </div>
-            <div class="powered-by">Powered by <a href="https://localinsights.ai">LocalInsights.ai</a></div>
         </div>
     </header>
 
     <main class="container">
-        <div class="zip-entry" id="zipEntry">
-            <h2>What's your government deciding this week?</h2>
-            <p>Enter your ZIP code to see upcoming agenda items from City Council, County Commissioners, HISD, Metro, and more — filtered to your area.</p>
+
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <h1 class="hero-headline">What's being decided<br>in your neighborhood<br>this week</h1>
+            <p class="hero-sub">Houston's government meets dozens of times each week. Most of it happens without you. Enter your ZIP to see what's on the table near you.</p>
+            <p class="hero-stat" id="heroStat"></p>
             <div class="zip-form">
-                <input type="text" class="zip-input" id="zipInput" placeholder="77025" maxlength="5" pattern="[0-9]{5}" inputmode="numeric">
-                <button class="zip-btn" id="zipBtn" onclick="lookupZip()">GO</button>
+                <input type="text" class="zip-input" id="zipInput" placeholder="77025" maxlength="5" inputmode="numeric" autocomplete="postal-code">
+                <button class="zip-btn" id="zipBtn" onclick="lookupZip()">Look Up</button>
             </div>
+        </section>
+
+        <!-- Neighborhood Bar -->
+        <div class="neighborhood-bar" id="neighborhoodBar"></div>
+
+        <!-- Stats -->
+        <div class="stats-row" id="statsRow"></div>
+
+        <!-- Filters -->
+        <div class="filter-section" id="filterSection">
+            <div class="filter-label">Show by what's at stake</div>
+            <div class="filter-row" id="stakeFilters"></div>
+            <div class="filter-label" style="margin-top:0.75rem">Or by government body</div>
+            <div class="filter-row" id="bodyFilters"></div>
         </div>
 
-        <div class="results" id="results">
-            <div class="location-bar" id="locationBar"></div>
-
-            <div class="stats-row" id="statsRow"></div>
-
-            <div class="filter-bar" id="filterBar">
-                <span class="filter-chip active" data-filter="all" onclick="setFilter('all', this)">All Bodies</span>
-                <span class="filter-chip" data-filter="city" onclick="setFilter('city', this)">City Council</span>
-                <span class="filter-chip" data-filter="county" onclick="setFilter('county', this)">Harris County</span>
-                <span class="filter-chip" data-filter="hisd" onclick="setFilter('hisd', this)">HISD</span>
-                <span class="filter-chip" data-filter="metro" onclick="setFilter('metro', this)">Metro</span>
-            </div>
-
-            <div class="results-grid">
-                <div class="agenda-list" id="agendaList"></div>
-                <div class="sidebar" id="sidebar"></div>
-            </div>
+        <!-- Results Grid -->
+        <div class="results-wrap" id="resultsWrap">
+            <div class="agenda-feed" id="agendaFeed"></div>
+            <div class="sidebar" id="sidebar"></div>
         </div>
+
     </main>
 
     <footer>
         <div class="container">
-            <p>Data sourced from Legistar (Harris County, HISD), NovusAGENDA (City of Houston), Granicus (Metro)</p>
-            <p style="margin-top: 0.5rem;">Built by <a href="https://localinsights.ai">LocalInsights.ai</a> &middot; Houston's Civic Intelligence Platform</p>
+            <p>Data sourced from Legistar (Harris County, HISD) &middot; City Secretary PDFs (Houston City Council) &middot; Granicus (Metro)</p>
+            <p>All data from official public APIs and records. <a href="#" onclick="alert('How We Collect This Data:\n\n1. Harris County & HISD agenda items are pulled from the Legistar public API.\n2. City Council items are extracted from official City Secretary PDF agendas.\n3. Metro items are parsed from the Granicus public RSS feed.\n\nGeographic filtering matches items to your ZIP code using council districts, county precincts, HISD trustee districts, and Metro service areas.\n\nWe do not editorialize, rank, or filter items by topic. All items for your area are shown.');return false;">How we collect this data</a></p>
+            <p style="margin-top:0.5rem">Built by <a href="https://localinsights.ai">LocalInsights.ai</a> &middot; Houston's Civic Intelligence Platform</p>
         </div>
     </footer>
 
-    <script>
-    // Data will be embedded here by build process
-    let AGENDA_DATA = null;
-    let JURISDICTION_MAP = null;
-    let currentFilter = 'all';
-    let currentZip = null;
+<script>
+let AGENDA_DATA = null;
+let JURISDICTION_MAP = null;
+let currentZip = null;
+let currentStakeFilter = 'all';
+let currentBodyFilter = 'all';
+let allCurrentItems = [];
 
-    async function loadData() {
-        try {
-            const [agendaRes, mapRes] = await Promise.all([
-                fetch('data/all_agendas.json'),
-                fetch('data/jurisdiction_map.json')
-            ]);
-            AGENDA_DATA = await agendaRes.json();
-            JURISDICTION_MAP = await mapRes.json();
-        } catch(e) {
-            console.error('Failed to load data:', e);
+// ── Stakes Categories ──
+// Maps item types + keywords to human-readable stakes categories
+function classifyStake(item) {
+    const title = (item.title || item.full_title || '').toLowerCase();
+    const type = (item.type || '').toLowerCase();
+
+    // Money & Contracts
+    if (/contract|award|procurement|purchase|financial|budget|bond|investment|commercial paper|fiscal|expenditure|appropriat|funding|grant|donation|surety/.test(type) ||
+        /\$[\d,]+/.test(title) ||
+        /contract|vendor|llc|inc\b|corp\b|consultant|payment|invoice|bid|proposal|award/.test(title)) {
+        return 'money';
+    }
+    // Land & Development
+    if (/plat|replat|zoning|easement|deed|property|asset management|lease|acquisition/.test(type) ||
+        /rezone|subdivision|plat|development|permit|construct|demolish|easement|right.of.way|annex|historic.*design|landmark/.test(title)) {
+        return 'land';
+    }
+    // Services (transit, schools, utilities, public safety)
+    if (/transit|route|bus|rail|metro|school|campus|student|teacher|curriculum|police|fire|ems|ambulance|health|hospital|library|park|water|sewer|drain|flood|utility|waste/.test(title) ||
+        item.bodyType === 'metro' || item.bodyType === 'hisd') {
+        return 'services';
+    }
+    // Policy & Governance
+    if (/resolution|ordinance|policy|regulation|election|hearing|interlocal|memorandum|mou|personnel|appointment/.test(type) ||
+        /ordinance|resolution|hearing|vote|amend|repeal|regulation|rule|code.*compliance/.test(title)) {
+        return 'policy';
+    }
+    return 'other';
+}
+
+const STAKE_META = {
+    all:      { label: 'All',                icon: '' },
+    money:    { label: 'Money & Contracts',  icon: '💰' },
+    land:     { label: 'Land & Development', icon: '🏗' },
+    services: { label: 'Services',           icon: '🚌' },
+    policy:   { label: 'Policy & Governance',icon: '📋' },
+    other:    { label: 'Other',              icon: '📎' }
+};
+
+const BODY_META = {
+    all:    { label: 'All Bodies' },
+    city:   { label: 'City Council',   color: 'city' },
+    county: { label: 'Harris County',  color: 'county' },
+    hisd:   { label: 'HISD',           color: 'hisd' },
+    metro:  { label: 'Metro',          color: 'metro' }
+};
+
+// ── Data Loading ──
+async function loadData() {
+    try {
+        const [agendaRes, mapRes] = await Promise.all([
+            fetch('data/all_agendas.json'),
+            fetch('data/jurisdiction_map.json')
+        ]);
+        AGENDA_DATA = await agendaRes.json();
+        JURISDICTION_MAP = await mapRes.json();
+
+        // Update freshness
+        const fetchedAt = AGENDA_DATA.fetched_at || '';
+        const dot = document.querySelector('.freshness-dot');
+        const txt = document.getElementById('freshnessText');
+        if (fetchedAt) {
+            const d = new Date(fetchedAt);
+            const hoursAgo = (Date.now() - d.getTime()) / (1000*60*60);
+            if (hoursAgo > 24) {
+                dot.classList.add('stale');
+                txt.textContent = `Data from ${d.toLocaleDateString('en-US', {month:'short',day:'numeric'})} — refresh needed`;
+            } else {
+                txt.textContent = `Updated ${d.toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit'})} today`;
+            }
         }
-    }
 
-    function lookupZip() {
-        const zip = document.getElementById('zipInput').value.trim();
-        if (!/^\d{5}$/.test(zip)) return;
-        currentZip = zip;
-
-        const zipData = JURISDICTION_MAP?.zip_codes?.[zip];
-        if (!zipData) {
-            document.getElementById('agendaList').innerHTML = `
-                <div class="empty-state">
-                    <p><strong>ZIP code ${zip} not found in Houston/Harris County area.</strong></p>
-                    <p>Try a Houston-area ZIP code (77001-77099).</p>
-                </div>`;
-            document.getElementById('results').classList.add('active');
-            document.getElementById('zipEntry').style.padding = '1.5rem 1rem';
-            return;
-        }
-
-        document.getElementById('results').classList.add('active');
-        document.getElementById('zipEntry').style.padding = '1.5rem 1rem';
-        document.getElementById('zipEntry').querySelector('h2').style.display = 'none';
-        document.getElementById('zipEntry').querySelector('p').style.display = 'none';
-
-        renderLocationBar(zip, zipData);
-        renderResults(zip, zipData);
-        renderSidebar(zip, zipData);
-    }
-
-    function renderLocationBar(zip, zipData) {
-        const officials = JURISDICTION_MAP.officials;
-        const districts = zipData.council_districts || [];
-        const precincts = zipData.commissioner_precincts || [];
-        const hisdDistricts = zipData.hisd_trustee_districts || [];
-
-        let chips = '';
-        districts.forEach(d => {
-            const rep = officials.council_members?.[d];
-            if (rep) chips += `<span class="rep-chip">District ${d}: ${rep.name}</span>`;
-        });
-        precincts.forEach(p => {
-            const rep = officials.commissioners?.[p];
-            if (rep) chips += `<span class="rep-chip">Pct ${p}: ${rep.name}</span>`;
-        });
-        hisdDistricts.forEach(d => {
-            const rep = officials.hisd_trustees?.[d];
-            if (rep) chips += `<span class="rep-chip">HISD ${d}: ${rep.name}</span>`;
-        });
-
-        document.getElementById('locationBar').innerHTML = `
-            <span class="location-pin">📍</span>
-            <span class="location-text">${zip} — ${zipData.neighborhood || 'Houston'}</span>
-            <div class="location-reps">${chips}</div>
-        `;
-    }
-
-    function getRelevantAgendas(zip, zipData) {
-        if (!AGENDA_DATA) return [];
-
-        const allItems = [];
-        const districts = (zipData.council_districts || []).map(d => d.toString().toUpperCase());
-        const precincts = (zipData.commissioner_precincts || []).map(p => p.toString());
-        const hisdDistricts = (zipData.hisd_trustee_districts || []).map(d => d.toString().toUpperCase());
-
-        // Process each source
-        const sources = [
-            { key: 'harris_county', bodyType: 'county', label: 'Harris County' },
-            { key: 'hisd', bodyType: 'hisd', label: 'HISD' },
-            { key: 'houston_city_council', bodyType: 'city', label: 'City Council' },
-            { key: 'metro', bodyType: 'metro', label: 'Metro' }
-        ];
-
-        sources.forEach(source => {
-            const data = AGENDA_DATA[source.key];
-            if (!data?.meetings) return;
-
-            data.meetings.forEach(meeting => {
-                if (!meeting.agenda_items) return;
-                meeting.agenda_items.forEach(item => {
-                    const geo = item.geographic_tags || {};
-                    let relevant = false;
-                    let relevanceReason = '';
-
-                    // Check geographic relevance
-                    if (source.bodyType === 'county') {
-                        const itemPrecincts = (geo.precincts || []).map(p => p.toString());
-                        if (itemPrecincts.length === 0 || itemPrecincts.some(p => precincts.includes(p))) {
-                            relevant = true;
-                            if (itemPrecincts.length > 0) relevanceReason = `Precinct ${itemPrecincts.join(', ')}`;
-                        }
-                    } else if (source.bodyType === 'city') {
-                        const itemDistricts = (geo.districts || []).map(d => d.toString().toUpperCase());
-                        if (itemDistricts.length === 0 || itemDistricts.some(d => districts.includes(d))) {
-                            relevant = true;
-                            if (itemDistricts.length > 0) relevanceReason = `District ${itemDistricts.join(', ')}`;
-                        }
-                    } else if (source.bodyType === 'hisd') {
-                        const itemTrustee = (geo.trustee_districts || []).map(d => d.toString().toUpperCase());
-                        const itemSchools = geo.schools || [];
-                        if (itemTrustee.length === 0 || itemTrustee.some(d => hisdDistricts.includes(d))) {
-                            relevant = true;
-                            if (itemSchools.length > 0) relevanceReason = itemSchools.join(', ');
-                            else if (itemTrustee.length > 0) relevanceReason = `Trustee District ${itemTrustee.join(', ')}`;
-                        }
-                    } else if (source.bodyType === 'metro') {
-                        if (zipData.metro_service_area) relevant = true;
-                    }
-
-                    if (relevant) {
-                        allItems.push({
-                            ...item,
-                            bodyType: source.bodyType,
-                            bodyLabel: source.label,
-                            sourceName: data.source || source.label,
-                            meetingDate: meeting.date,
-                            meetingTime: meeting.time || '',
-                            meetingType: meeting.type || '',
-                            meetingLocation: meeting.location || '',
-                            agendaUrl: meeting.agenda_url || meeting.agenda_pdf_url || '',
-                            relevanceReason
-                        });
-                    }
+        // Count total items for hero
+        let totalItems = 0;
+        let totalMeetings = 0;
+        for (const key in AGENDA_DATA.sources) {
+            const src = AGENDA_DATA.sources[key];
+            if (src.meetings) {
+                src.meetings.forEach(m => {
+                    if (m.agenda_items && m.agenda_items.length > 0) totalMeetings++;
+                    totalItems += (m.agenda_items || []).length;
                 });
+            }
+        }
+        document.getElementById('heroStat').innerHTML =
+            `<strong>${totalItems.toLocaleString()}</strong> agenda items across <strong>${totalMeetings}</strong> meetings from 4 government bodies`;
+
+    } catch(e) {
+        console.error('Failed to load data:', e);
+        document.getElementById('freshnessText').textContent = 'Data unavailable';
+    }
+}
+
+// ── ZIP Lookup ──
+function lookupZip() {
+    const zip = document.getElementById('zipInput').value.trim();
+    if (!/^\d{5}$/.test(zip)) return;
+    currentZip = zip;
+    currentStakeFilter = 'all';
+    currentBodyFilter = 'all';
+
+    const zipData = JURISDICTION_MAP?.zip_codes?.[zip];
+    if (!zipData) {
+        document.getElementById('hero').classList.add('compact');
+        showEmpty(zip);
+        return;
+    }
+
+    document.getElementById('hero').classList.add('compact');
+    allCurrentItems = getRelevantAgendas(zip, zipData);
+
+    renderNeighborhoodBar(zip, zipData);
+    renderStats(allCurrentItems);
+    renderFilters(allCurrentItems);
+    renderFeed(allCurrentItems);
+    renderSidebar(zip, zipData);
+
+    document.getElementById('neighborhoodBar').classList.add('active');
+    document.getElementById('statsRow').classList.add('active');
+    document.getElementById('filterSection').classList.add('active');
+    document.getElementById('resultsWrap').classList.add('active');
+
+    document.getElementById('neighborhoodBar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function showEmpty(zip) {
+    document.getElementById('neighborhoodBar').classList.remove('active');
+    document.getElementById('statsRow').classList.remove('active');
+    document.getElementById('filterSection').classList.remove('active');
+    document.getElementById('resultsWrap').classList.add('active');
+    document.getElementById('agendaFeed').innerHTML = `
+        <div class="empty-state">
+            <p><strong>ZIP ${zip} isn't in our Houston/Harris County coverage area.</strong></p>
+            <p>Try a Houston-area ZIP code (77001–77099 and surrounding).</p>
+        </div>`;
+    document.getElementById('sidebar').innerHTML = '';
+}
+
+// ── Data Processing ──
+function getRelevantAgendas(zip, zipData) {
+    if (!AGENDA_DATA) return [];
+
+    const items = [];
+    const districts = (zipData.council_districts || []).map(d => d.toString().toUpperCase());
+    const precincts = (zipData.commissioner_precincts || []).map(p => p.toString());
+    const hisdDistricts = (zipData.hisd_trustee_districts || []).map(d => d.toString().toUpperCase());
+
+    const sources = [
+        { key: 'harris_county', bodyType: 'county', label: 'Harris County' },
+        { key: 'hisd', bodyType: 'hisd', label: 'HISD' },
+        { key: 'houston_city_council', bodyType: 'city', label: 'City Council' },
+        { key: 'metro', bodyType: 'metro', label: 'Metro' }
+    ];
+
+    sources.forEach(source => {
+        const data = AGENDA_DATA.sources[source.key];
+        if (!data?.meetings) return;
+
+        data.meetings.forEach(meeting => {
+            (meeting.agenda_items || []).forEach(item => {
+                const geo = item.geographic_tags || {};
+                let relevant = false;
+                let matchReason = '';
+
+                if (source.bodyType === 'county') {
+                    const ip = (geo.precincts || []).map(p => p.toString());
+                    if (ip.length === 0 || ip.some(p => precincts.includes(p))) {
+                        relevant = true;
+                        if (ip.length > 0) matchReason = `Matches your Precinct ${ip.join(', ')}`;
+                    }
+                } else if (source.bodyType === 'city') {
+                    const id = (geo.districts || []).map(d => d.toString().toUpperCase());
+                    if (id.length === 0 || id.some(d => districts.includes(d))) {
+                        relevant = true;
+                        if (id.length > 0) matchReason = `Matches your District ${id.join(', ')}`;
+                    }
+                } else if (source.bodyType === 'hisd') {
+                    const it = (geo.trustee_districts || []).map(d => d.toString().toUpperCase());
+                    if (it.length === 0 || it.some(d => hisdDistricts.includes(d))) {
+                        relevant = true;
+                        if (it.length > 0) matchReason = `HISD Trustee District ${it.join(', ')}`;
+                        else if ((geo.schools || []).length > 0) matchReason = geo.schools.slice(0,2).join(', ');
+                    }
+                } else if (source.bodyType === 'metro') {
+                    if (zipData.metro_service_area) {
+                        relevant = true;
+                        matchReason = 'In Metro service area';
+                    }
+                }
+
+                if (relevant) {
+                    items.push({
+                        ...item,
+                        bodyType: source.bodyType,
+                        bodyLabel: source.label,
+                        meetingDate: meeting.date,
+                        meetingTime: meeting.time || '',
+                        meetingType: meeting.type || '',
+                        agendaUrl: meeting.agenda_url || meeting.agenda_pdf || meeting.agenda_pdf_url || '',
+                        legistarUrl: meeting.legistar_url || '',
+                        matchReason,
+                        stake: classifyStake({ ...item, bodyType: source.bodyType })
+                    });
+                }
             });
         });
-
-        // Sort by date
-        allItems.sort((a, b) => {
-            const da = new Date(a.meetingDate);
-            const db = new Date(b.meetingDate);
-            return da - db;
-        });
-
-        return allItems;
-    }
-
-    function daysFromNow(dateStr) {
-        const d = new Date(dateStr);
-        const now = new Date();
-        now.setHours(0,0,0,0);
-        d.setHours(0,0,0,0);
-        return Math.round((d - now) / (1000 * 60 * 60 * 24));
-    }
-
-    function daysLabel(days) {
-        if (days < 0) return { text: `${Math.abs(days)}d ago`, cls: 'later' };
-        if (days === 0) return { text: 'TODAY', cls: 'soon' };
-        if (days === 1) return { text: 'TOMORROW', cls: 'soon' };
-        if (days <= 7) return { text: `${days} days`, cls: 'upcoming' };
-        return { text: `${days} days`, cls: 'later' };
-    }
-
-    function renderResults(zip, zipData) {
-        const items = getRelevantAgendas(zip, zipData);
-        const filtered = currentFilter === 'all' ? items : items.filter(i => i.bodyType === currentFilter);
-
-        // Stats
-        const upcoming = items.filter(i => daysFromNow(i.meetingDate) >= 0);
-        const thisWeek = items.filter(i => { const d = daysFromNow(i.meetingDate); return d >= 0 && d <= 7; });
-        const bodies = new Set(items.map(i => i.bodyType));
-        const meetings = new Set(items.map(i => `${i.bodyType}-${i.meetingDate}`));
-
-        document.getElementById('statsRow').innerHTML = `
-            <div class="mini-stat"><div class="mini-stat-value">${upcoming.length}</div><div class="mini-stat-label">Upcoming Items</div></div>
-            <div class="mini-stat"><div class="mini-stat-value">${thisWeek.length}</div><div class="mini-stat-label">This Week</div></div>
-            <div class="mini-stat"><div class="mini-stat-value">${meetings.size}</div><div class="mini-stat-label">Meetings</div></div>
-            <div class="mini-stat"><div class="mini-stat-value">${bodies.size}</div><div class="mini-stat-label">Gov Bodies</div></div>
-        `;
-
-        if (filtered.length === 0) {
-            document.getElementById('agendaList').innerHTML = `
-                <div class="empty-state">
-                    <p><strong>No ${currentFilter === 'all' ? '' : currentFilter + ' '}agenda items found for this area.</strong></p>
-                    <p>Check back — new agendas are added as meetings are scheduled.</p>
-                </div>`;
-            return;
-        }
-
-        // Group by time period
-        const groups = { today: [], thisWeek: [], nextWeek: [], later: [], past: [] };
-        filtered.forEach(item => {
-            const days = daysFromNow(item.meetingDate);
-            if (days < 0) groups.past.push(item);
-            else if (days === 0) groups.today.push(item);
-            else if (days <= 7) groups.thisWeek.push(item);
-            else if (days <= 14) groups.nextWeek.push(item);
-            else groups.later.push(item);
-        });
-
-        let html = '';
-        if (groups.today.length) {
-            html += `<div class="timeline-header">Today</div>`;
-            html += groups.today.map(renderAgendaCard).join('');
-        }
-        if (groups.thisWeek.length) {
-            html += `<div class="timeline-header">This Week</div>`;
-            html += groups.thisWeek.map(renderAgendaCard).join('');
-        }
-        if (groups.nextWeek.length) {
-            html += `<div class="timeline-header">Next Week</div>`;
-            html += groups.nextWeek.map(renderAgendaCard).join('');
-        }
-        if (groups.later.length) {
-            html += `<div class="timeline-header">Coming Up</div>`;
-            html += groups.later.map(renderAgendaCard).join('');
-        }
-        if (groups.past.length) {
-            html += `<div class="timeline-header">Recent (Past)</div>`;
-            html += groups.past.map(renderAgendaCard).join('');
-        }
-
-        document.getElementById('agendaList').innerHTML = html;
-    }
-
-    function renderAgendaCard(item) {
-        const days = daysFromNow(item.meetingDate);
-        const dl = daysLabel(days);
-        const urgencyClass = days <= 1 && days >= 0 ? 'urgent' : days <= 7 && days >= 0 ? 'upcoming' : 'routine';
-
-        const tagClass = {
-            city: 'tag-city', county: 'tag-county',
-            hisd: 'tag-hisd', metro: 'tag-metro', special: 'tag-special'
-        }[item.bodyType] || 'tag-city';
-
-        const geo = item.geographic_tags || {};
-        let geoTags = '';
-        (geo.precincts || []).forEach(p => geoTags += `<span class="geo-tag">Pct ${p}</span>`);
-        (geo.districts || []).forEach(d => geoTags += `<span class="geo-tag">Dist ${d}</span>`);
-        (geo.trustee_districts || []).forEach(d => geoTags += `<span class="geo-tag">HISD ${d}</span>`);
-        (geo.schools || []).forEach(s => geoTags += `<span class="geo-tag">${s}</span>`);
-        (geo.areas || []).forEach(a => geoTags += `<span class="geo-tag">${a}</span>`);
-        (geo.routes || []).forEach(r => geoTags += `<span class="geo-tag">${r}</span>`);
-        (geo.projects || []).forEach(p => geoTags += `<span class="geo-tag">${p}</span>`);
-        if (item.relevanceReason && !geoTags.includes(item.relevanceReason)) {
-            geoTags += `<span class="geo-tag">${item.relevanceReason}</span>`;
-        }
-
-        const dateStr = new Date(item.meetingDate).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-
-        const title = (item.title || '').length > 200 ? item.title.substring(0, 200) + '...' : (item.title || 'Untitled Item');
-
-        let linkHtml = '';
-        if (item.agendaUrl) {
-            linkHtml = `<a class="agenda-link" href="${item.agendaUrl}" target="_blank" rel="noopener">View full agenda →</a>`;
-        }
-
-        return `
-            <div class="agenda-card ${urgencyClass}">
-                <div class="agenda-meta">
-                    <span class="agenda-body-tag ${tagClass}">${item.bodyLabel}</span>
-                    <span class="agenda-date">${dateStr} ${item.meetingTime ? '· ' + item.meetingTime : ''}</span>
-                    <span class="days-away ${dl.cls}">${dl.text}</span>
-                    ${item.consent ? '<span class="geo-tag">Consent</span>' : ''}
-                    ${item.type ? `<span class="geo-tag">${item.type}</span>` : ''}
-                </div>
-                <div class="agenda-title">${title}</div>
-                <div class="agenda-tags">${geoTags}</div>
-                ${linkHtml}
-            </div>
-        `;
-    }
-
-    function renderSidebar(zip, zipData) {
-        const officials = JURISDICTION_MAP.officials;
-        let html = '<h3 style="font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem;">Your Representatives</h3>';
-
-        // Mayor
-        if (officials.mayor) {
-            html += `<div class="rep-card">
-                <div class="rep-body-label">City of Houston</div>
-                <div class="rep-name">${officials.mayor.name}</div>
-                <div class="rep-title">Mayor</div>
-            </div>`;
-        }
-
-        // Council members
-        (zipData.council_districts || []).forEach(d => {
-            const rep = officials.council_members?.[d];
-            if (rep) {
-                html += `<div class="rep-card">
-                    <div class="rep-body-label">City Council</div>
-                    <div class="rep-name">${rep.name}</div>
-                    <div class="rep-title">District ${d} Council Member</div>
-                </div>`;
-            }
-        });
-
-        // County Judge
-        if (officials.county_judge) {
-            html += `<div class="rep-card">
-                <div class="rep-body-label">Harris County</div>
-                <div class="rep-name">${officials.county_judge.name}</div>
-                <div class="rep-title">County Judge</div>
-            </div>`;
-        }
-
-        // Commissioners
-        (zipData.commissioner_precincts || []).forEach(p => {
-            const rep = officials.commissioners?.[p];
-            if (rep) {
-                html += `<div class="rep-card">
-                    <div class="rep-body-label">Harris County</div>
-                    <div class="rep-name">${rep.name}</div>
-                    <div class="rep-title">Commissioner, Precinct ${p}</div>
-                </div>`;
-            }
-        });
-
-        // HISD Trustees
-        (zipData.hisd_trustee_districts || []).forEach(d => {
-            const rep = officials.hisd_trustees?.[d];
-            if (rep) {
-                html += `<div class="rep-card">
-                    <div class="rep-body-label">Houston ISD</div>
-                    <div class="rep-name">${rep.name}</div>
-                    <div class="rep-title">Trustee, District ${d}</div>
-                </div>`;
-            }
-        });
-
-        // Data freshness
-        html += `<div style="margin-top: 2rem; padding: 1rem; background: var(--bg-elevated); border-radius: 8px; font-size: 0.7rem; color: var(--text-muted);">
-            <strong>Data Sources</strong><br>
-            Harris County: Legistar API<br>
-            HISD: Legistar API<br>
-            City Council: NovusAGENDA<br>
-            Metro: Granicus<br>
-            <br>Last updated: ${AGENDA_DATA?.fetched_at || 'Unknown'}
-        </div>`;
-
-        document.getElementById('sidebar').innerHTML = html;
-    }
-
-    function setFilter(filter, el) {
-        currentFilter = filter;
-        document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-        el.classList.add('active');
-        if (currentZip && JURISDICTION_MAP?.zip_codes?.[currentZip]) {
-            renderResults(currentZip, JURISDICTION_MAP.zip_codes[currentZip]);
-        }
-    }
-
-    // Init
-    document.getElementById('zipInput').addEventListener('keydown', e => {
-        if (e.key === 'Enter') lookupZip();
     });
 
-    loadData();
-    </script>
+    items.sort((a, b) => new Date(a.meetingDate) - new Date(b.meetingDate));
+    return items;
+}
+
+// ── Rendering ──
+function renderNeighborhoodBar(zip, zipData) {
+    const officials = JURISDICTION_MAP.officials;
+    const districts = zipData.council_districts || [];
+    const precincts = zipData.commissioner_precincts || [];
+    const hisdD = zipData.hisd_trustee_districts || [];
+
+    let chips = '';
+    districts.forEach(d => {
+        const rep = officials.council_members?.[d];
+        chips += `<span class="nb-rep-chip">Dist ${d}${rep ? ': '+rep.name : ' (Vacant)'}</span>`;
+    });
+    precincts.forEach(p => {
+        const rep = officials.commissioners?.[p];
+        if (rep) chips += `<span class="nb-rep-chip">Pct ${p}: ${rep.name}</span>`;
+    });
+    hisdD.forEach(d => {
+        const rep = officials.hisd_trustees?.[d];
+        if (rep) chips += `<span class="nb-rep-chip">HISD ${d}: ${rep.name}</span>`;
+    });
+
+    const specials = (zipData.special_districts || []).slice(0, 3);
+    specials.forEach(s => {
+        chips += `<span class="nb-rep-chip">${s}</span>`;
+    });
+
+    document.getElementById('neighborhoodBar').innerHTML = `
+        <div class="nb-top">
+            <span class="nb-name">${zipData.neighborhood || 'Houston'}</span>
+            <span class="nb-zip">ZIP ${zip}</span>
+        </div>
+        <div class="nb-reps">${chips}</div>
+    `;
+}
+
+function renderStats(items) {
+    const now = new Date(); now.setHours(0,0,0,0);
+    const upcoming = items.filter(i => new Date(i.meetingDate) >= now);
+    const thisWeek = items.filter(i => {
+        const d = daysFromNow(i.meetingDate);
+        return d >= 0 && d <= 7;
+    });
+
+    // Sum dollar amounts
+    let totalDollars = 0;
+    items.forEach(i => {
+        const title = i.title || i.full_title || '';
+        const matches = title.match(/\$([\d,]+(?:\.\d{2})?)/g);
+        if (matches) {
+            matches.forEach(m => {
+                const val = parseFloat(m.replace(/[$,]/g, ''));
+                if (!isNaN(val)) totalDollars += val;
+            });
+        }
+    });
+
+    const meetings = new Set(items.map(i => `${i.bodyType}-${i.meetingDate}`));
+    const dollarStr = totalDollars >= 1000000
+        ? '$' + (totalDollars / 1000000).toFixed(1) + 'M'
+        : totalDollars >= 1000
+            ? '$' + (totalDollars / 1000).toFixed(0) + 'K'
+            : totalDollars > 0
+                ? '$' + totalDollars.toLocaleString()
+                : '—';
+
+    document.getElementById('statsRow').innerHTML = `
+        <div class="stat-card">
+            <div class="stat-value">${upcoming.length}</div>
+            <div class="stat-label">Upcoming Items</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">${thisWeek.length}</div>
+            <div class="stat-label">This Week</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">${meetings.size}</div>
+            <div class="stat-label">Meetings</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value money">${dollarStr}</div>
+            <div class="stat-label">Dollars at Stake</div>
+        </div>
+    `;
+}
+
+function renderFilters(items) {
+    // Stake filters
+    const stakeCounts = { all: items.length };
+    items.forEach(i => { stakeCounts[i.stake] = (stakeCounts[i.stake] || 0) + 1; });
+
+    let stakeHtml = '';
+    for (const key of ['all', 'money', 'land', 'services', 'policy', 'other']) {
+        if (key !== 'all' && !stakeCounts[key]) continue;
+        const m = STAKE_META[key];
+        const count = stakeCounts[key] || 0;
+        const active = key === currentStakeFilter ? ' active' : '';
+        stakeHtml += `<span class="filter-chip${active}" data-key="${key}" onclick="setStakeFilter('${key}')">${m.icon ? '<span class="cat-icon">' + m.icon + '</span>' : ''}${m.label}<span class="chip-count">${count}</span></span>`;
+    }
+    document.getElementById('stakeFilters').innerHTML = stakeHtml;
+
+    // Body filters
+    const bodyCounts = { all: items.length };
+    items.forEach(i => { bodyCounts[i.bodyType] = (bodyCounts[i.bodyType] || 0) + 1; });
+
+    let bodyHtml = '';
+    for (const key of ['all', 'city', 'county', 'hisd', 'metro']) {
+        if (key !== 'all' && !bodyCounts[key]) continue;
+        const m = BODY_META[key];
+        const count = bodyCounts[key] || 0;
+        const active = key === currentBodyFilter ? ' active' : '';
+        bodyHtml += `<span class="filter-chip${active}" data-key="${key}" onclick="setBodyFilter('${key}')">${m.label}<span class="chip-count">${count}</span></span>`;
+    }
+    document.getElementById('bodyFilters').innerHTML = bodyHtml;
+}
+
+function setStakeFilter(key) {
+    currentStakeFilter = key;
+    applyFilters();
+}
+function setBodyFilter(key) {
+    currentBodyFilter = key;
+    applyFilters();
+}
+function applyFilters() {
+    let filtered = allCurrentItems;
+    if (currentStakeFilter !== 'all') filtered = filtered.filter(i => i.stake === currentStakeFilter);
+    if (currentBodyFilter !== 'all') filtered = filtered.filter(i => i.bodyType === currentBodyFilter);
+    renderFeed(filtered);
+
+    // Update active states via data attributes
+    document.querySelectorAll('#stakeFilters .filter-chip').forEach(c => {
+        c.classList.toggle('active', c.dataset.key === currentStakeFilter);
+    });
+    document.querySelectorAll('#bodyFilters .filter-chip').forEach(c => {
+        c.classList.toggle('active', c.dataset.key === currentBodyFilter);
+    });
+}
+
+function daysFromNow(dateStr) {
+    const d = new Date(dateStr);
+    const now = new Date();
+    now.setHours(0,0,0,0); d.setHours(0,0,0,0);
+    return Math.round((d - now) / 86400000);
+}
+
+function countdownBadge(days) {
+    if (days < 0) return { text: `${Math.abs(days)}d ago`, cls: 'past' };
+    if (days === 0) return { text: 'TODAY', cls: 'soon' };
+    if (days === 1) return { text: 'TOMORROW', cls: 'soon' };
+    if (days <= 3) return { text: `In ${days} days`, cls: 'soon' };
+    if (days <= 7) return { text: `In ${days} days`, cls: 'upcoming' };
+    return { text: `In ${days} days`, cls: 'later' };
+}
+
+function buildStakesLine(item) {
+    let title = item.title || item.full_title || 'Untitled Item';
+    // Truncate extremely long titles
+    if (title.length > 220) title = title.substring(0, 220) + '...';
+
+    // Highlight dollar amounts
+    title = title.replace(/(\$[\d,]+(?:\.\d{2})?)/g, '<span class="dollar-highlight">$1</span>');
+
+    return title;
+}
+
+function renderFeed(items) {
+    if (items.length === 0) {
+        document.getElementById('agendaFeed').innerHTML = `
+            <div class="empty-state">
+                <p><strong>No matching items for this filter.</strong></p>
+                <p>Try a different category or check back as new agendas are posted.</p>
+            </div>`;
+        return;
+    }
+
+    // Group by timeline
+    const groups = { today: [], thisWeek: [], nextWeek: [], later: [], past: [] };
+    items.forEach(item => {
+        const days = daysFromNow(item.meetingDate);
+        if (days < 0) groups.past.push(item);
+        else if (days === 0) groups.today.push(item);
+        else if (days <= 7) groups.thisWeek.push(item);
+        else if (days <= 14) groups.nextWeek.push(item);
+        else groups.later.push(item);
+    });
+
+    let html = '';
+    const sections = [
+        { key: 'today', label: 'Today', items: groups.today },
+        { key: 'thisWeek', label: 'This Week', items: groups.thisWeek },
+        { key: 'nextWeek', label: 'Next Week', items: groups.nextWeek },
+        { key: 'later', label: 'Coming Up', items: groups.later },
+        { key: 'past', label: 'Recent (Past)', items: groups.past }
+    ];
+
+    sections.forEach(sec => {
+        if (sec.items.length === 0) return;
+        html += `<div class="timeline-label">
+            <span class="tl-text">${sec.label}</span>
+            <span class="tl-line"></span>
+            <span class="tl-count">${sec.items.length}</span>
+        </div>`;
+        sec.items.forEach(item => { html += renderCard(item); });
+    });
+
+    document.getElementById('agendaFeed').innerHTML = html;
+}
+
+function renderCard(item) {
+    const days = daysFromNow(item.meetingDate);
+    const cd = countdownBadge(days);
+    const isPast = days < 0;
+    const urgency = isPast ? 'past-item' : days <= 1 ? 'urgency-high' : days <= 7 ? 'urgency-med' : 'urgency-low';
+
+    const dateStr = new Date(item.meetingDate).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+    const stakeIcon = STAKE_META[item.stake]?.icon || '';
+
+    const geo = item.geographic_tags || {};
+    let geoHtml = '';
+    (geo.precincts || []).forEach(p => geoHtml += `<span class="geo-tag">Pct ${p}</span>`);
+    (geo.districts || []).forEach(d => geoHtml += `<span class="geo-tag">Dist ${d}</span>`);
+    (geo.trustee_districts || []).forEach(d => geoHtml += `<span class="geo-tag">HISD ${d}</span>`);
+    (geo.areas || []).forEach(a => geoHtml += `<span class="geo-tag">${a}</span>`);
+    (geo.routes || []).forEach(r => geoHtml += `<span class="geo-tag">${r}</span>`);
+
+    // Type tag
+    const typeTag = item.type ? `<span class="item-type-tag">${item.type}</span>` : '';
+
+    // Action buttons (only for upcoming items with URLs)
+    const hasActions = !isPast && item.agendaUrl;
+    let actionsHtml = '';
+    if (hasActions) {
+        actionsHtml += `<a class="action-btn primary" href="${item.agendaUrl}" target="_blank" rel="noopener">View Full Agenda</a>`;
+        if (item.legistarUrl) {
+            actionsHtml += `<a class="action-btn secondary" href="${item.legistarUrl}" target="_blank" rel="noopener">Meeting Details</a>`;
+        }
+    }
+
+    // Source line
+    let sourceLabel = '';
+    if (item.bodyType === 'county' || item.bodyType === 'hisd') sourceLabel = 'Legistar API';
+    else if (item.bodyType === 'city') sourceLabel = 'City Secretary PDF';
+    else if (item.bodyType === 'metro') sourceLabel = 'Granicus RSS';
+    const matterFile = item.matter_file ? ` · ${item.matter_file}` : (item.motion ? ` · ${item.motion}` : '');
+
+    return `
+        <div class="agenda-card ${urgency}${hasActions ? ' has-actions' : ''}" onclick="this.classList.toggle('expanded')">
+            <span class="card-expand-icon">▼</span>
+            <div class="card-top">
+                <span class="body-tag ${item.bodyType}">${item.bodyLabel}</span>
+                <span class="card-date">${dateStr}${item.meetingTime ? ' · ' + item.meetingTime : ''}</span>
+                <span class="countdown ${cd.cls}">${cd.text}</span>
+                ${typeTag}
+            </div>
+            <div class="stakes-line">${stakeIcon ? '<span class="cat-icon">' + stakeIcon + '</span> ' : ''}${buildStakesLine(item)}</div>
+            ${geoHtml ? '<div class="geo-tags">' + geoHtml + '</div>' : ''}
+            <div class="card-detail">
+                ${item.matchReason ? '<div class="match-reason">📍 ' + item.matchReason + '</div>' : ''}
+                <div class="card-source">Source: ${sourceLabel}${matterFile}</div>
+                ${actionsHtml ? '<div class="card-actions">' + actionsHtml + '</div>' : ''}
+            </div>
+        </div>
+    `;
+}
+
+function renderSidebar(zip, zipData) {
+    const officials = JURISDICTION_MAP.officials;
+    let html = '';
+
+    // Representatives
+    html += '<div class="sidebar-section">';
+    html += '<div class="sidebar-title">Your Representatives</div>';
+
+    if (officials.mayor) {
+        html += `<div class="rep-card">
+            <div class="rep-body-label city">City of Houston</div>
+            <div class="rep-name">${officials.mayor.name}</div>
+            <div class="rep-title">Mayor</div>
+        </div>`;
+    }
+
+    (zipData.council_districts || []).forEach(d => {
+        const rep = officials.council_members?.[d];
+        html += `<div class="rep-card">
+            <div class="rep-body-label city">City Council</div>
+            <div class="rep-name">${rep ? rep.name : 'Vacant'}</div>
+            <div class="rep-title">District ${d}</div>
+        </div>`;
+    });
+
+    if (officials.county_judge) {
+        html += `<div class="rep-card">
+            <div class="rep-body-label county">Harris County</div>
+            <div class="rep-name">${officials.county_judge.name}</div>
+            <div class="rep-title">County Judge</div>
+        </div>`;
+    }
+
+    (zipData.commissioner_precincts || []).forEach(p => {
+        const rep = officials.commissioners?.[p];
+        if (rep) {
+            html += `<div class="rep-card">
+                <div class="rep-body-label county">Harris County</div>
+                <div class="rep-name">${rep.name}</div>
+                <div class="rep-title">Commissioner, Precinct ${p}</div>
+            </div>`;
+        }
+    });
+
+    (zipData.hisd_trustee_districts || []).forEach(d => {
+        const rep = officials.hisd_trustees?.[d];
+        if (rep) {
+            html += `<div class="rep-card">
+                <div class="rep-body-label hisd">Houston ISD</div>
+                <div class="rep-name">${rep.name}</div>
+                <div class="rep-title">Trustee, District ${d}</div>
+            </div>`;
+        }
+    });
+
+    html += '</div>';
+
+    // Trust box
+    html += `<div class="sidebar-section">
+        <div class="sidebar-title">About This Data</div>
+        <div class="trust-box">
+            <strong>Sources</strong><br>
+            Harris County — Legistar API<br>
+            HISD — Legistar API<br>
+            City Council — City Secretary PDFs<br>
+            Metro — Granicus RSS<br><br>
+            <strong>Last data pull</strong><br>
+            ${AGENDA_DATA?.fetched_at ? new Date(AGENDA_DATA.fetched_at).toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric', year:'numeric'}) : 'Unknown'}<br><br>
+            <strong>How filtering works</strong><br>
+            Items are matched to your ZIP using council districts, county precincts, HISD trustee districts, and Metro service area. Items without geographic tags are shown to all users in that body's jurisdiction.<br><br>
+            <a href="#" onclick="alert('Full methodology available at localinsights.ai/methodology');return false;">Full methodology →</a>
+        </div>
+    </div>`;
+
+    document.getElementById('sidebar').innerHTML = html;
+}
+
+// ── Init ──
+document.getElementById('zipInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') lookupZip();
+});
+
+// Auto-focus
+document.getElementById('zipInput').focus();
+
+loadData();
+</script>
 </body>
 </html>
