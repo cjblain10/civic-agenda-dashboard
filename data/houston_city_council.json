@@ -1,7 +1,7 @@
 {
   "source": "Houston City Council",
   "fetched_at": "2026-02-07T19:45:00Z",
-  "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 1 day(s) old. Manual refresh needed when new PDFs are available.",
+  "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 2 day(s) old. Manual refresh needed when new PDFs are available.",
   "data_sources": {
     "primary": "https://www.houstontx.gov/citysec/agenda/agendaindex.html",
     "secondary": "https://houston.novusagenda.com/agendapublic/Meetings.aspx",
@@ -1623,7 +1623,7 @@
     "park_transfers": "Harris County taking over operation of Moody Park and Keith-Wiess Park from City",
     "consent_decree_work": "Ongoing consent decree compliance for wastewater lift station rehabilitation"
   },
-  "stale": false,
-  "stale_days": 1,
-  "last_refresh_attempt": "2026-02-09T18:32:32.510Z"
+  "stale": true,
+  "stale_days": 2,
+  "last_refresh_attempt": "2026-02-10T07:18:02.047Z"
 }

@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-09T18:28:06.068Z",
+  "fetched_at": "2026-02-10T07:11:15.933Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -5243,13 +5243,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-0945-ILA-24102MF3KH01-Fairmont Parkway 4-UPRR-P2-2.12.26-Agmt26GEN0038",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/0c69f4e4-8cf5-4b78-8ec6-95378d119c07.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179900,
@@ -5267,13 +5261,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-0948-ILA-25GEN2984-MaintAgmt-BaybrookMUD1-P2-2.12.26 Agmt",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/fcce94b7-035a-45ca-8b5a-4b1082dc786f.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179901,
@@ -5703,13 +5691,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1018 - ESD ILA Ponderosa Emergency Service Response Agreement and Order",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/407d81a1-fbca-4567-b4e7-3aba628a075c.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179921,
@@ -6121,13 +6103,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "0212_PHS_ILA with HC MUD 230.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/67eb8a74-ff1c-4cd3-93dd-376c05cdf18c.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179944,
@@ -6189,13 +6165,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "0212_PHS_MOA with CDC Foundation Attachment A.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/0edee761-7ee5-4951-aece-8cd79e9e6196.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179947,
@@ -6427,13 +6397,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "LMC0015460-County Tomball Library Agreement with Harris County_PE_01.23.26_Signed",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/246ebafe-ac34-45da-8a60-b42e82e47629.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179959,
@@ -7732,13 +7696,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-0894 Amendment-Renewal Job No. 230036 Sterling Infosystems, Inc. DBA Sterling",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/fc28ed91-1e38-41bd-80e8-119e0890b1df.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180024,
@@ -8402,13 +8360,7 @@
             "areas": [],
             "flood_control": true
           },
-          "attachments": [
-            {
-              "name": "26-0963 Amendment Job No. 230436 - Entech Civil Engineers, Inc",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/e19a052b-b013-4c87-ac95-a2a5bae192ba.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180055,
@@ -8528,13 +8480,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-0972 Professional Services Exemption-Agreement Contract 00002513 Holmsten Family  Occupational Medicine.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/66ac078c-d1bd-4eb4-855e-0d2a46d0efe7.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180061,
@@ -8855,13 +8801,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "25GEN3590 Adopt a Road Agreement  Sons of EL Lodge 11.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/d8227ea5-a9e6-4850-96c5-c97170ee05b3.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180077,
@@ -9075,13 +9015,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "6. Agreement - The Nurse Complex AACM - signed.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/03082748-6770-4bc5-8e8c-93c8ba0a90ac.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180089,
@@ -10326,13 +10260,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1133-2 12 2026 26-0 213 FMO RCA MOU Flock Security SO MUD 468 25GEN3625.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/881c8b3c-0f6c-4eaf-b5e3-bbfa4b272fb0.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180156,
@@ -10436,13 +10364,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1138-SUPPLEMENTAL Interlocal Agreement Contract 00002984 - Harris County-Houston Sports Authority.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/04520a01-e2d8-4194-ad31-e95d022c9dc8.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180161,
@@ -10911,7 +10833,7 @@
       "comment": "Special Meeting",
       "agenda_pdf": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/2/1259_A_Commissioners_Court_26-02-10_Agenda.pdf",
       "legistar_url": "https://harriscountytx.legistar.com/MeetingDetail.aspx?LEGID=1259&GID=798&G=800B5DA3-042C-42B8-BD39-0674375456AF",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "total_items": 13,
       "total_raw_items": 13,
       "consent_items": 0,
@@ -25736,7 +25658,13 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": []
+          "attachments": [
+            {
+              "name": "FY25_BVP Backup.pdf",
+              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/4801e255-96c9-4167-8c73-48f19acf4b62.pdf",
+              "binary_url": null
+            }
+          ]
         },
         {
           "id": 177088,
@@ -82246,8 +82174,8 @@
   ],
   "summary": {
     "total_meetings": 10,
-    "upcoming_meetings": 2,
-    "past_meetings": 8,
+    "upcoming_meetings": 1,
+    "past_meetings": 9,
     "total_agenda_items": 4318
   }
 }
