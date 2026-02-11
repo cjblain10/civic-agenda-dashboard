@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-02-10T07:18:02.048Z",
+  "fetched_at": "2026-02-11T07:14:25.379Z",
   "sources": {
     "harris_county": {
       "source": "Harris County Commissioners Court",
-      "fetched_at": "2026-02-10T07:11:15.933Z",
+      "fetched_at": "2026-02-11T07:07:26.185Z",
       "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
       "bodies": [
         {
@@ -6530,13 +6530,7 @@
                 "areas": [],
                 "flood_control": false
               },
-              "attachments": [
-                {
-                  "name": "UT Health .pdf",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/8ae0127c-6596-40ac-9633-b026134bb064.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 179966,
@@ -6622,13 +6616,7 @@
                 "areas": [],
                 "flood_control": false
               },
-              "attachments": [
-                {
-                  "name": "Capella- Data Use Agreement.pdf",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/228f45a1-82da-44fe-bd6a-1aabe85c1d8f.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 179970,
@@ -7211,13 +7199,7 @@
                 ],
                 "flood_control": false
               },
-              "attachments": [
-                {
-                  "name": "26-1062 Agreement Job No. 230095 East Harris County Empowerment Council",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/8e39effb-c293-4c04-b5b3-edb12f06e298.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 180000,
@@ -10943,13 +10925,7 @@
                 "areas": [],
                 "flood_control": false
               },
-              "attachments": [
-                {
-                  "name": "Canvass Ltr, Order, Unofficial Results.pdf",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/f0089fc8-b005-4ec2-87e1-f601a763025f.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 179770,
@@ -11081,13 +11057,13 @@
           "agenda_pdf": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/1/1228_A_Commissioners_Court_26-01-29_Agenda.pdf",
           "legistar_url": "https://harriscountytx.legistar.com/MeetingDetail.aspx?LEGID=1228&GID=798&G=800B5DA3-042C-42B8-BD39-0674375456AF",
           "is_upcoming": false,
-          "total_items": 430,
-          "total_raw_items": 430,
+          "total_items": 540,
+          "total_raw_items": 540,
           "consent_items": 6,
           "type_breakdown": {
-            "Other": 77,
-            "Discussion Item": 12,
-            "Financial Authorization": 29,
+            "Other": 179,
+            "Discussion Item": 14,
+            "Financial Authorization": 32,
             "Commercial Paper": 3,
             "Policy": 12,
             "Investment Memo": 8,
@@ -11111,10 +11087,10 @@
             "Donation": 2,
             "Transmittal": 31,
             "Executive Session": 11,
-            "Resolution": 9,
+            "Resolution": 12,
             "Public Notice": 1
           },
-          "geo_tagged_items": 144,
+          "geo_tagged_items": 148,
           "agenda_items": [
             {
               "id": 178158,
@@ -14764,7 +14740,7 @@
               "title": "Request by Housing and Community Development for approval of a first amendment to an agreement with IBN Sina Foundation for Integrated Behavioral Health Project, and a second amendment to an agreement with Interfaith Ministries for Greater Houston for Meals on Wheels for Greater Houston - Operations, both funded by the American Rescue Plan Act 2021 (ARPA) Coronavirus State and Local Fiscal Recovery Funds (SLFRF).",
               "type": "Contract - Amendment",
               "matter_file": "26-0375",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14780,7 +14756,7 @@
               "title": "Request by the Office of the Purchasing Agent that the County Judge execute an amendment to an agreement with PeopleFund to update the Request for Proposal (Exhibit A) and the Scope of Work (Exhibit C) for Revolving Loan Fund Program for the Department of Economic Equity and Opportunity for the period of May 7, 2024 - October 1, 2029, with no increase in the total contract amount (230451).",
               "type": "Contract - Amendment",
               "matter_file": "26-0465",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14802,7 +14778,7 @@
               "title": "Request by the Office of the Purchasing Agent that the County Judge execute an amendment to an agreement with the University of Texas Science Center at Houston to decrease funds in the amount of $1,468,000 to update the budget Exhibit B and update the federal award identification table Exhibit E for accessible child care training and supports for the Department of Economic Equity and Opportunity (230450), MWBE Contracted Goal: 9%, MWBE Current Participation: 55.28%.",
               "type": "Contract - Amendment",
               "matter_file": "26-0520",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14824,7 +14800,7 @@
               "title": "Request by the Office of the Purchasing Agent that the County Judge execute an amendment to an agreement with Low Income Investment Fund to decrease funds in the amount of $2,082,036 to update the Possessory Allocation, the Budget (Exhibit B), and the Federal Award Identification Table (Exhibit E) for child care facilities fund for Harris County for the period of December 5, 2023 - December 31, 2026 (230147), Justification for 0% MWBE Participation Goal:  0% - Specialized, Technical, or Unique in Nature.",
               "type": "Contract - Amendment",
               "matter_file": "26-0566",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14880,7 +14856,7 @@
               "title": "Request for approval of payment of Audited Claims.",
               "type": "Financial Authorization",
               "matter_file": "26-0704",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14896,7 +14872,7 @@
               "title": "Request for approval of Supplemental Estimates of Revenue for Fiscal Year 2026.",
               "type": "Financial Authorization",
               "matter_file": "26-0705",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14918,7 +14894,7 @@
               "title": "Request for approval to close an Imprest Account for the Commissioner of Precinct 3.",
               "type": "Financial Authorization",
               "matter_file": "26-0707",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -14942,7 +14918,7 @@
               "title": "Request for approval to lease parking spaces for employees at certain garages with LANIER Parking for the period of March 1, 2026 - February 28, 2027, at an approximate cost of $3,360.00.",
               "type": "Financial Authorization",
               "matter_file": "26-0708",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -14980,7 +14956,7 @@
               "title": "Request for approval to accept $55,988 back into the general fund bank account from the non-redeemed juror pay cards issued in August 2025.",
               "type": "Financial Authorization",
               "matter_file": "26-0701",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15012,7 +14988,7 @@
               "title": "Request for approval of tax refund payments.",
               "type": "Financial Authorization",
               "matter_file": "26-0699",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15044,7 +15020,7 @@
               "title": "Request for approval of a renewal option with WoolPert Digital Innovations for license, maintenance and support for Google Cloud and Maps Platform Core Services for Universal Services for the period of June 1, 2026 - May 31, 2027, at a cost of $13,031.",
               "type": "Contract - Renewal",
               "matter_file": "26-0314",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15066,7 +15042,7 @@
               "title": "Request for approval of a renewal option and to correct the vendor name from Collision Forensic Solutions (as approved) to Collision Forensic Solutions, LLC. (amended) for three-dimensional environment scanner and related items for the Sheriff's Office for the period of June 1, 2026 - May 31, 2027, at a cost of $155,349 (230129), Justification for 0% MWBE Participation Goal: 0% - Drop Shipped.",
               "type": "Contract - Renewal",
               "matter_file": "26-0315",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15088,7 +15064,7 @@
               "title": "Request for approval of a project scheduled for advertisement for channel conveyance improvements to poor farm ditch from Bellaire Blvd to University Blvd for the Flood Control District (250420).",
               "type": "Proposals/Bids",
               "matter_file": "26-0323",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15104,7 +15080,7 @@
               "title": "Request for approval of a project scheduled for advertisement for demolition, construction, and renovation of the Hardy Senior Center and HVAC system for the Office of the County Engineer (250387).",
               "type": "Proposals/Bids",
               "matter_file": "26-0325",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15120,7 +15096,7 @@
               "title": "Request for approval of an award on the basis of only bid to Genserve LLC in the amount of $617,203 for generator rental services and related items for the Office of the County Engineer for a one (1) year initial term with four (4) one-year renewal options, and for the County Clerk to execute any applicable bonds to be received (250228), Justification for 0% MWBE Participation Goal:  0% - Non-Divisible.",
               "type": "Contract - Award",
               "matter_file": "26-0328",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15142,7 +15118,7 @@
               "title": "Request for approval of a project scheduled for advertisement for security improvements and various renovations at John Phelps Courthouse for the Office of the County Engineer (250380).",
               "type": "Proposals/Bids",
               "matter_file": "26-0331",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15158,7 +15134,7 @@
               "title": "Request for approval of an award on the basis of best proposal meeting requirements and that the County Judge execute an agreement with Tecan US, Inc. for maintenance and repair services for Tecan Freedom EVO 150 liquid handlers for the Institute of Forensic Sciences for the period of January 29, 2026 - January 28, 2027 with four (4) one-year renewal options (250208), Justification for 0% MWBE Participation Goal:  0% - Minimal MWDBE Availability.",
               "type": "Contract - Award",
               "matter_file": "26-0450",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15174,7 +15150,7 @@
               "title": "Request for approval of a renewal option with American Institutes for Research in the Behavioral Sciences; Berkeley Research Group, LLC; Civis Analytics, Inc.; Elite Research, LLC; Ernst & Young, LLP; Guidehouse Inc.; January Advisors; KPMG LLP; Luminosity, Inc; PFM Group Consulting LLC; Protiviti, Inc.; Raftelis Financial Consultants, Inc; Rite Software Solutions & Services LLC; RSM US LLP; The Boston Consulting Group, Inc; and William Marsh Rice University for applied research and data analysis, strategic planning and management\r\nstrategies and other services for Harris County for the period of April 1, 2026 - March 31, 2027, at a cost of $10,000,000 (210317), Justification for 0% MWBE Participation Goal: N/A - project was awarded prior to launch of County's M/WBE Program.",
               "type": "Contract - Renewal",
               "matter_file": "26-0464",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15198,7 +15174,7 @@
               "title": "Request for approval of a renewal option with McGriff, a Marsh & McLennan Agency LLC Company for ocean marine insurance for Harris County Ferryboats for the period of May 7, 2026 - May 6, 2027, at a cost of $87,159 (230393), Justification for 0% MWBE Participation Goal: 0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0466",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15222,7 +15198,7 @@
               "title": "Request for approval of a renewal option with McGriff, a Marsh & McLennan Agency LLC Company for all risk property insurance and business coverage for Jesse H. Jones Memorial Bridge for Harris County for the period of May 1, 2026 - April 30, 2027, at a cost of $406,021 (230387), MWBE Contracted Goal: 1%.",
               "type": "Contract - Renewal",
               "matter_file": "26-0467",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15247,7 +15223,7 @@
               "title": "Request for approval of a renewal option with Michael Baker International, Inc.; Gauge Engineering, LLC; IDS Engineering Group; and OTHON, INC. for design services for the development and implementation of various Hurricane Harvey Recovery water and wastewater, drainage, and various road and bridge infrastructure improvement projects for Harris County (CDBG-MIT/GLO) for the period of February 13, 2026 - February 12, 2027, at a cost of $5,000,000 (240295), MWBE Contracted Goal: 17.82%.",
               "type": "Contract - Renewal",
               "matter_file": "26-0469",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15271,7 +15247,7 @@
               "title": "Request for approval of a renewal option with AIDS Healthcare Foundation, in the total amount of $3,682,258; Houston Area Community Services, Inc. dba Avenue360 Health & Wellness, in the total amount of $3,475,111; Legacy Community Health Services, in the total amount of $6,930,272; and St. Hope Foundation, Inc., in the total amount of $7,564,438 for Ryan White Program Part A Minority AIDS Initiative and Ending the HIV Epidemic Services for Public Health Services/Ryan White Grant Administration for the period of March 1, 2026 - February 28, 2027 (220352), Justification for 0% MWBE Participation Goal:  0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0471",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15293,7 +15269,7 @@
               "title": "Request for approval of a Texas Association of School Boards (TASB) BuyBoard Cooperative Program purchase on the basis of only quote from Associated Supply Company, Inc. in the amount of $543,379 for Gradall for Precinct 3 for the period of January 29, 2026 - January 28, 2027, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Purchase Order",
               "matter_file": "26-0473",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15317,7 +15293,7 @@
               "title": "Request for approval of a renewal option with ADAPCO, LLC for mosquito control insecticide chemical (Fyfanon) and related items for Harris County for the period of March 1, 2026 - February 28, 2027, at a cost of $225,000 (210447), Justification for 0% MWBE Participation Goal:  0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0477",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15341,7 +15317,7 @@
               "title": "Request for approval of an award on the basis of low bid to Ceballos Construction, LLC (Primary) and Specialty Construction TX, LLC (Secondary) in the amount of $2,683,050 for concrete channel lining repairs (North) for the Flood Control District for the period of February 1, 2026 - January 31, 2027 with four (4) one-year renewal options, and for the County Clerk to execute any applicable bonds to be received (250338), MWBE Contracted Goal: 19.11%.",
               "type": "Contract - Award",
               "matter_file": "26-0478",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15357,7 +15333,7 @@
               "title": "Request for approval of a vendor name change from Houston Recovery Center (as approved) to Houston Recovery Center LCG (amended) to provide peer recovery support assistance for the responsive interventions for change docket for the Administrative Office of the District Courts for the period of March 1, 2026 - February 28, 2027 in connection with an interlocal agreement, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Amendment",
               "matter_file": "26-0479",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15379,7 +15355,7 @@
               "title": "Request for approval of a State of Texas Department of Information Resources (DIR) Cooperative Contract renewal option with Alchemy Technology Group for subscriptions for threat intelligence platform and vulnerability risk analyzer for Universal Services for the period of February 6, 2026 - February 5, 2027, at a cost of $200,509, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Renewal",
               "matter_file": "26-0486",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15401,7 +15377,7 @@
               "title": "Request for approval of a public health or safety exemption from the competitive bid requirements with Morris & Dickson Co., LLC in the amount of $350,000 for 340B Pharmaceuticals for Public Health Services for the period of January 29, 2026 - January 28, 2027.",
               "type": "Financial Authorization",
               "matter_file": "26-0487",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15417,7 +15393,7 @@
               "title": "Request for approval of an award on the basis of low bid to Wede's Meticulous Solutions LLC in the amount of $28,600 for dog park maintenance for Precinct 1 for the period of January 29, 2026 - January 28, 2027 with four (4) one-year renewal options (250265), Justification for 0% MWBE Participation Goal:  0% - Drop Shipped.",
               "type": "Contract - Award",
               "matter_file": "26-0488",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15435,7 +15411,7 @@
               "title": "Request for approval of an award on the basis of lowest and best bid to DC Export LLC and JCMUSA, INC in the amount of $170,201 for commercial grade barbecue grills, fire pits and related items for Precinct 1 for the period of January 29, 2026 - January 28, 2027 with four (4) one-year renewal options (250232), Justification for 0% MWBE Participation Goal:  0% - Drop Shipped.",
               "type": "Contract - Award",
               "matter_file": "26-0489",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15453,7 +15429,7 @@
               "title": "Request for approval of a project scheduled for advertisement and consent for Request for Proposal for enterprise identity and access management system for Universal Services (250195).",
               "type": "Proposals/Bids",
               "matter_file": "26-0490",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": true,
               "geographic_tags": {
                 "precincts": [],
@@ -15475,7 +15451,7 @@
               "title": "Request for approval of an award on the basis of low bid to MB Western Construction Co. in the amount of $1,422,072 for sediment removal in Addicks and Barker Reservoir Watersheds (Package 1) for the Flood Control District, and for the County Clerk to execute any applicable bonds to be received (250366), MWBE Contracted Goal: 25.12%.",
               "type": "Contract - Award",
               "matter_file": "26-0491",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15491,7 +15467,7 @@
               "title": "Request that the County Judge execute an amendment to a sole source exemption agreement with Rarestep, Inc., dba Fleetio to decrease funds in the amount of $23,515 for licenses, configuration, training, hosting and support of Fleetio-Managed Software for Harris County for the period of November 30, 2025 - November 29, 2026, Justification for 0% MWBE Participation Goal: Exempt - Sole Source.",
               "type": "Contract - Amendment",
               "matter_file": "26-0494",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15509,7 +15485,7 @@
               "title": "Request for approval of an award on the basis of only proposal meeting requirements to C.A. Walker, Inc. dba C.A. Walker Construction in the amount of $2,800,000 for various improvements to the John and Hazel Biggers Campus for Precinct 1, and for the County Clerk to execute any applicable bonds to be received (250308), MWBE Contracted Goal: 23.73%.",
               "type": "Contract - Award",
               "matter_file": "26-0495",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15533,7 +15509,7 @@
               "title": "Request for approval of a renewal option with Krause's Collision; Planet Ford Lincoln; Hardy Collision Center Inc; JJ Auto Body Inc; and Flores Motor Co, Inc for body shop repairs for Harris County for the period of February 6, 2026 - February 5, 2027, at a cost of $5,732,170 (240351), Justification for 0% MWBE Participation Goal: 0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0496",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15557,7 +15533,7 @@
               "title": "Request for approval of a renewal option with SiteOne Landscape Supply for fertilizer, grass seed, insecticide and related items for Harris County and the Flood Control District for the period of March 1, 2026 - February 28, 2027, at a cost of $115,000 (210439), Justification for 0% MWBE Participation Goal: 0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0510",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15581,7 +15557,7 @@
               "title": "Request for approval of an award on the basis of low bid to Yellowstone Landscape - Central, Inc. (Primary); and TUF Industrial, Inc. (Secondary) in the amount of $1,631,604 for mowing and various maintenance services for the Central West Region for the Flood Control District for the period of February 1, 2026 - January 31, 2027 with four (4) one-year renewal options, and for the County Clerk to execute any applicable bonds to be received (250317), MWBE Contracted Goal: 10.40%.",
               "type": "Contract - Award",
               "matter_file": "26-0511",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15597,7 +15573,7 @@
               "title": "Request for approval of a renewal option with Fugro USA Land, Inc. for pavement condition assessment and extraction of assets for the Office of the County Engineer for the period of January 30, 2026 - January 29, 2027 at a cost of $278,404 and for the County Clerk to execute any applicable bonds to be received (230266), MWBE Contracted Goal: 15%, MWBE Current Participation: 16.22%.",
               "type": "Contract - Renewal",
               "matter_file": "26-0512",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15619,7 +15595,7 @@
               "title": "Request for approval of an award on the basis of low bid to AAA Asphalt Paving, Inc. in the amount of $4,539,187 for asphalt roadway maintenance in Channelview for Precinct 3, and for the County Clerk to execute any applicable bonds to be received (250351), MWBE Contracted Goal: 31.96%.",
               "type": "Contract - Award",
               "matter_file": "26-0513",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15637,7 +15613,7 @@
               "title": "Request for approval of an award on the basis of low bid to Texas Dewatering, LLC in the amount of $437,206 for sediment removal in Addicks and Barker Reservoir Watersheds (Package 2) for the Flood Control District, and for the County Clerk to execute any applicable bonds to be received (250365), MWBE Contracted Goal: 28.03%.",
               "type": "Contract - Award",
               "matter_file": "26-0514",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15653,7 +15629,7 @@
               "title": "Request for approval of an award on the basis of only bid to Lonestar Tactical Buildings, LLC. in the amount of $1,524,311 for construction of a fire training tower (Burn Building) for the Fire Marshal’s Office, and for the County Clerk to execute any applicable bonds to be received (250350), Justification for 0% MWBE Participation Goal:  0% - Specialized, Technical, or Unique in Nature.",
               "type": "Contract - Award",
               "matter_file": "26-0516",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15675,7 +15651,7 @@
               "title": "Request for approval of an OMNIA Partners, Public Sector Cooperative Purchasing Program & The Interlocal Purchasing System (TIPS) purchase on the basis of low quote from J. Tyler Services, Inc. in the amount of $467,955 for office workstations, reconfiguration and installation services for the Public Defender’s Office, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Purchase Order",
               "matter_file": "26-0517",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15691,7 +15667,7 @@
               "title": "Request that the County Judge execute an amendment to a service agreement with ESO Solutions, Inc. in the additional amount of $2,026 to allow the Sheriff’s Office to utilize the emergency reporting services under this contract for emergency reporting system for the Fire Marshal’s Office for the period of January 9, 2026 - January 8, 2027.",
               "type": "Contract - Amendment",
               "matter_file": "26-0522",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15713,7 +15689,7 @@
               "title": "Request for approval of a renewal option with TUF Industrial, Inc. for repair of ruts along maintenance berms of flood channels and basins for the Flood Control District for the period of April 1, 2026 - March 31, 2027, at a cost of $406,402, and for the County Clerk to execute any applicable bonds to be received (230486), MWBE Contracted Goal: 15%, MWBE Current Participation: 100%.",
               "type": "Contract - Renewal",
               "matter_file": "26-0523",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15735,7 +15711,7 @@
               "title": "Request for approval of a renewal option with Jerson's Concrete LLC for reinforced concrete pipe materials and related items for Precinct 3 for the period of May 10, 2026 - May 9, 2027, at a cost of $104,775, and for the County Clerk to execute any applicable bonds to be received (220023), Justification for 0% MWBE Participation Goal: 0% - Drop Shipped.",
               "type": "Contract - Renewal",
               "matter_file": "26-0525",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15759,7 +15735,7 @@
               "title": "Request for approval of a renewal option with Specialty Construction TX, LLC for bridge railing and guardrail repairs and related items at various locations for Precinct 2 for the period of June 14, 2026 - June 13, 2027, at a cost of $600,000, and for the County Clerk to execute any applicable bonds to be received (230044), Justification for 0% MWBE Participation Goal: 0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0526",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15783,7 +15759,7 @@
               "title": "Request that the County Judge execute an amendment to a State of Texas Department of Information Resources (DIR) Cooperative Contract agreement with Precision Task Group, Inc in the additional amount of $1,115,378 to add a new statement of work for Phase IV of the Project for ServiceNow Implementation for 3-1-1 constituent relationship management solution for Universal Services for the period of July 20, 2021 - July 20, 2026, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Amendment",
               "matter_file": "26-0527",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15805,7 +15781,7 @@
               "title": "Request for approval to correct the amount for Corrections Software Solutions, LP from $153,600 (as approved) to $198,720 (corrected) for Case Management System (CMS) maintenance and support services for Pretrial Services for the period of February 12, 2026 - February 11, 2027, in connection with a sole source exemption, Justification for 0% MWBE Participation Goal:  Exempt - Sole Source.",
               "type": "Contract - Amendment",
               "matter_file": "26-0528",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15827,7 +15803,7 @@
               "title": "Request for approval of an OMNIA Partners, Public Sector Cooperative Purchasing Program renewal option with CGI Technologies and Solutions Inc. for budget management software solution, implementation, training and support services for Harris County for the period of March 1, 2026 - February 28, 2027, at a cost of $1,922,936.",
               "type": "Contract - Renewal",
               "matter_file": "26-0529",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15851,7 +15827,7 @@
               "title": "Request for approval of a renewal option with Tabb Textile Co., Inc. for bed sheets and related items for various detention facilities for the Sheriff's Office for the period of July 1, 2026 - June 30, 2027, at a cost of $162,120 (220029), Justification for 0% MWBE Participation Goal: 0% - Drop Shipped.",
               "type": "Contract - Renewal",
               "matter_file": "26-0533",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15873,7 +15849,7 @@
               "title": "Request for approval of a renewal option with Vets Securing America for security guard services and related items for Harris County and the Community Supervision & Corrections Department for the period of May 1, 2026 - April 30, 2027, at a cost of $2,264,502, and for the County Clerk to execute any applicable bonds to be received (220401), MWBE Contracted Goal: 16.63%, MWBE Current Participation: 95.01%.",
               "type": "Contract - Renewal",
               "matter_file": "26-0534",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15897,7 +15873,7 @@
               "title": "Request that the County Judge execute an addendum to a settlement agreement with BizMerlinHR Inc. in the amount of $44,520 for ClayHR performance management software for the Office of the County Engineer to provide settlement for full compensation for services provided from October 18, 2025 up to and including October 17, 2026, Justification for 0% MWBE Participation Goal: 0% - Minimal MWDBE Availability.",
               "type": "Contract - Amendment",
               "matter_file": "26-0535",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15913,7 +15889,7 @@
               "title": "Request for approval of a renewal option with Auto Data Direct, Inc. to provide and mail notification letters for towed or impounded vehicles and related items for the Sheriff’s Office for the period of February 6, 2026 - February 5, 2027, at a cost of $207,250 (240160), Justification for 0% MWBE Participation Goal: 0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0545",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15935,7 +15911,7 @@
               "title": "Request that the County Judge execute an amendment to a Chapter 381 agreement with Street Art Mankind Corp in the additional amount of $30,000 for ancillary expenses for Public Art Mural Projects in the Cypress Station Neighborhood in Precinct 1, in connection with a Discretionary Exemption.",
               "type": "Contract - Amendment",
               "matter_file": "26-0546",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -15961,7 +15937,7 @@
               "title": "Request that the County Judge execute an amendment to a sole source exemption agreement with Quickbase, Inc. in the additional amount of $5,156 for additional services for no-code application development solution for Harris County for the period of September 18, 2025 - June 26, 2026, Justification for 0% MWBE Participation Goal: Exempt - Sole Source.",
               "type": "Contract - Amendment",
               "matter_file": "26-0547",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -15985,7 +15961,7 @@
               "title": "Request for approval of a sole source exemption from the competitive bid requirements and that the County Judge execute an addendum to an agreement with Advantage Software Inc in the amount of $40,227 for eclipse software and associated anytime support services for the District Clerk through June 9, 2026 with four (4) one-year renewal options, Justification for 0% MWBE Participation Goal: Exempt - Sole Source.",
               "type": "Financial Authorization",
               "matter_file": "26-0548",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16007,7 +15983,7 @@
               "title": "Request that the County Judge execute an amendment to an agreement and a renewal option with Infostride, Inc. in the additional amount of $1,000,000 for payroll and administrative services for the County Clerk’s Office for the period of June 26, 2026 - June 25, 2027 (240402), MWBE Contracted Goal: 3%.",
               "type": "Contract - Amendment",
               "matter_file": "26-0549",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16029,7 +16005,7 @@
               "title": "Request for approval of a Texas Association of School Boards (TASB) BuyBoard Cooperative Program purchase on the basis of low quote from Holt Truck Centers of Texas, LLC in the amount of $575,178 for two (2) asphalt patcher for Precinct 1, for the period of January 29, 2026 - January 28, 2027, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Purchase Order",
               "matter_file": "26-0553",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16047,7 +16023,7 @@
               "title": "Request for approval of a Texas Association of School Boards (TASB) BuyBoard Cooperative Program purchase on the basis of low quote from Associated Supply Company, Inc. in the amount of $132,714 for excavator for Precinct 4 for the period of January 29, 2026 - January 28, 2027, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Purchase Order",
               "matter_file": "26-0554",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16065,7 +16041,7 @@
               "title": "Request for approval of a State of Texas Department of Information Resources (DIR) Cooperative Contract renewal option with Carahsoft Technology Corporation for LinkedIn talent solutions software for the Toll Road Authority for the period of June 28, 2026 - June 27, 2027, at a cost of $54,872, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Renewal",
               "matter_file": "26-0556",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16087,7 +16063,7 @@
               "title": "Request for approval of a renewal option with Netsync Network Solutions for F5 network hardware, software, maintenance, support, training, consulting services for the Toll Road Authority for the period of February 1, 2026 - January 31, 2027, at a cost of $130,411,290 (230194), Justification for 0% MWBE Participation Goal:  0% - Non-Divisible.",
               "type": "Contract - Renewal",
               "matter_file": "26-0575",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16109,7 +16085,7 @@
               "title": "Request for approval to reject the proposal(s) received for depository, comprehensive payables, custodial and merchant services for the Office of Management and Budget, and that the project be re-advertised at a later date with revised specifications (220266).",
               "type": "Proposals/Bids",
               "matter_file": "26-0583",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16131,7 +16107,7 @@
               "title": "Request for approval to transfer items, advertisement, sale, disposal of items of no value and release of titles and/or documentation for the period of December 22, 2025 - January 14, 2026.",
               "type": "Asset Management ",
               "matter_file": "26-0640",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16147,7 +16123,7 @@
               "title": "Request that the County Judge execute an amendment to an agreement with Lanier Parking Meter Services, LLC in the additional amount of $768,334 for parking facility management services for Harris County for the extended period of February 1, 2026 - June 30, 2026, and for the County Clerk to execute any applicable bonds to be received (190258), MWBE Contracted Goal: 10%, MWBE Current Participation: 6.5%.",
               "type": "Contract - Amendment",
               "matter_file": "26-0641",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16171,7 +16147,7 @@
               "title": "Request for approval to rescind a TxSmartBuy Term Contracts - State of Texas Cooperative Program award from U.S. Bank National Association for purchase card services for Harris County in connection with an award approved by Commissioners Court on August 26, 2025, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Termination",
               "matter_file": "26-0646",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16195,7 +16171,7 @@
               "title": "Request that the County Judge execute an agreement with Carahsoft Technology Corp. in the amount of $1,746 for gINT Professional SELECT subscription through October 24, 2026 with four (4) one-year renewal options and to provide full compensation for services provided from October 1, 2025, up to and including the date of the execution of this addendum.",
               "type": "Contract - Amendment",
               "matter_file": "26-0654",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16217,7 +16193,7 @@
               "title": "Request for approval of an award on the basis of low bid to Environmental Allies, LLC in the amount of $2,822,667 for park and road improvements at Eisenhower Park (2024) for Precinct 1 (FEMA), and for the County Clerk to execute any applicable bonds to be received (250409), MWBE Contracted Goal: 17.04%.",
               "type": "Contract - Award",
               "matter_file": "26-0658",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16235,7 +16211,7 @@
               "title": "Request for approval of an award on the basis of low bid meeting specifications to First Class Projects Inc in the amount of $1,895,557 for demolition and new construction of park restrooms at various locations - Phase 2 for Precinct 3, and for the County Clerk to execute any applicable bonds to be received (250293), MWBE Contracted Goal: 18.03%.",
               "type": "Contract - Award",
               "matter_file": "26-0663",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16253,7 +16229,7 @@
               "title": "Request for approval of a Texas Association of School Boards (TASB) BuyBoard Cooperative Program purchase on the basis of lowest complete quote meeting specifications from Associated Supply Company, Inc. in the amount of $353,250 for large wheel loader for Precinct 3 for the period of January 29, 2026 - January 28, 2027, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Purchase Order",
               "matter_file": "26-0674",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16271,7 +16247,7 @@
               "title": "Request for approval of a Texas Association of School Boards (TASB) BuyBoard Cooperative Program award on the basis of low quote to Highlights of Houston, Inc. in the amount of $4,812,799 for Emergency Generators for Precinct 2, and for the County Clerk to execute any applicable bonds to be received, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Award",
               "matter_file": "26-0714",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16289,7 +16265,7 @@
               "title": "Request for approval of an award on the basis of successful negotiations with the highest overall evaluations and that the County Judge execute an agreement with LJA Engineering, Inc. in the amount of $5,000,000 for professional engineering services for the development and implementation of an infrastructure maintenance portfolio management program for the Flood Control District for the period of January 29, 2026 - January 28, 2027 with four (4) one-year renewal options (250167), MWBE Contracted Goal: 16.12%.",
               "type": "Contract - Award",
               "matter_file": "26-0719",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16305,7 +16281,7 @@
               "title": "Request for approval of a Houston-Galveston Area Council (H-GAC) Cooperative Purchasing Program purchase on the basis of low quote from Holt Truck Centers of Texas, LLC in the amount of $195,831 for a sewer pump truck for Precinct 3 for the period of January 29, 2026 - January 28, 2027, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Purchase Order",
               "matter_file": "26-0737",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16323,7 +16299,7 @@
               "title": "Request that the County Judge execute an amendment to an agreement with Flock Group, Inc. in the additional amount of $225,000 for additional license plate readers and sound detection system for Harris County (220336), Justification for 0% MWBE Participation Goal: 0% - Non-Divisible.",
               "type": "Contract - Amendment",
               "matter_file": "26-0739",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16347,7 +16323,7 @@
               "title": "Request for approval of a project scheduled for advertisement and consent for Request for Proposal for ODonnell Consent Decree educational video services for the Office of County Administration (260007).",
               "type": "Proposals/Bids",
               "matter_file": "26-0741",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": true,
               "geographic_tags": {
                 "precincts": [],
@@ -16369,7 +16345,7 @@
               "title": "Request for approval of a renewal of the engineering vendor pool option allowing the County to continue negotiations on an as-needed basis with multiple vendors for professional architectural and/or engineering services for design services for the development and implementation of various drainage projects for the Office of the County Engineer (240332).",
               "type": "Contract - Renewal",
               "matter_file": "26-0742",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16391,7 +16367,7 @@
               "title": "Request for approval of a renewal of the engineering vendor pool option allowing the County to continue negotiations on an as-needed basis with multiple vendors for professional architectural and/or engineering design services and implementation of various parks, trails, and recreational projects for the Office of the County Engineer (240367).",
               "type": "Contract - Renewal",
               "matter_file": "26-0743",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16413,7 +16389,7 @@
               "title": "Request for approval of a project scheduled for advertisement and consent for Request for Proposal on comprehensive fire alarm monitoring, maintenance, and life safety systems management for Harris County (250417).",
               "type": "Proposals/Bids",
               "matter_file": "26-0744",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": true,
               "geographic_tags": {
                 "precincts": [],
@@ -16437,7 +16413,7 @@
               "title": "Request for approval of a renewal of the engineering vendor pool option allowing the County to continue negotiations on an as-needed basis with multiple vendors for professional architectural and/or engineering services to provide construction materials engineering and testing services for various projects for the Office of the County Engineer (240365).",
               "type": "Contract - Renewal",
               "matter_file": "26-0745",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16459,7 +16435,7 @@
               "title": "Request for approval of a renewal of the engineering vendor pool option allowing the County to continue negotiations on an as-needed basis with multiple vendors for professional environmental services for various projects for the Office of the County Engineer (240391).",
               "type": "Contract - Renewal",
               "matter_file": "26-0746",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16481,7 +16457,7 @@
               "title": "Request for approval for the County Clerk to execute applicable bonds received from MLN Fire Protection Company in the additional amount of $644,358 for inspection, testing and maintenance of the fire and life safety systems equipment and related items for Harris County for the extended period of June 30, 2025 - May 31, 2026, in connection with an extension approved by Commissioners Court on November 13, 2025 (190239), MWBE Contracted Goal: 0.44%, MWBE Current Participation: 1.94%.",
               "type": "Bonds",
               "matter_file": "26-0747",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16505,7 +16481,7 @@
               "title": "Request for approval of a renewal of the engineering vendor pool option allowing the County to continue negotiations on an as-needed basis with multiple vendors for professional architectural and/or engineering services to provide design services for the development and implementation of various roadway & mobility infrastructure projects for the Office of the County Engineer (240334).",
               "type": "Contract - Renewal",
               "matter_file": "26-0748",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16527,7 +16503,7 @@
               "title": "Request for approval of a project scheduled for advertisement and consent for Request for Proposal on turnkey portable off-grid electric vehicle (EV) charging solution for the Office of County Administration (250384).",
               "type": "Proposals/Bids",
               "matter_file": "26-0749",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": true,
               "geographic_tags": {
                 "precincts": [],
@@ -16549,7 +16525,7 @@
               "title": "Request for approval of a bond release from TollPlus, LLC for image based transaction processing support services for the Toll Road Authority (210429).",
               "type": "Bonds",
               "matter_file": "26-0750",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16571,7 +16547,7 @@
               "title": "Request for approval of a project scheduled for advertisement and consent for Request for Proposal for uninterruptible power supply (UPS), maintenance, support services and related items for the Toll Road Authority (250307).",
               "type": "Proposals/Bids",
               "matter_file": "26-0751",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": true,
               "geographic_tags": {
                 "precincts": [],
@@ -16593,7 +16569,7 @@
               "title": "Request for approval of a project scheduled for advertisement and consent for Request for Proposal for Telepsychiatry Services for the Community Supervision & Corrections Department (260006).",
               "type": "Proposals/Bids",
               "matter_file": "26-0752",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": true,
               "geographic_tags": {
                 "precincts": [],
@@ -16667,7 +16643,7 @@
               "title": "Request by the Commissioner of Precinct 2 for approval to allocate $500,000 to Harris County Public Health for continued abatement of public health nuisances (PHN) and related services in the unincorporated areas of Precinct 2.",
               "type": "Memorandum of Understanding",
               "matter_file": "26-0784",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16693,7 +16669,7 @@
               "title": "Request for approval of the Final Investment Memo for the Precinct 2 Aldine Gardens Camp IT system Infrastructure Upgrade project in the amount of $278,092, and request for approval of commercial paper funding in the amount of $280,000.",
               "type": "Investment Memo",
               "matter_file": "26-0785",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16711,7 +16687,7 @@
               "title": "Request for approval of sales for the Plumeria Show and Sale event on June 20, 2026, and July 18, 2026, at the Bay Area Community Center.",
               "type": "Asset Management ",
               "matter_file": "26-0786",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16727,7 +16703,7 @@
               "title": "Request for approval of sales for the Space City Hibiscus Society Flower Show and Sale event on April 5, 2026, at the East Harris County Activity Center.",
               "type": "Asset Management ",
               "matter_file": "26-0787",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16763,7 +16739,7 @@
               "title": "Request for approval to accept an affidavit and petition submitted by Claytons Corner sections 1, 2, 3 and 4 requesting the posting of “No Overnight Parking of Commercial Motor Vehicles” signs in compliance with the Texas Transportation Code sec. 545.307.",
               "type": "Asset Management ",
               "matter_file": "26-0687",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16779,7 +16755,7 @@
               "title": "Request for approval to name the community center located at 17280 W Lake Houston Parkway the Judge Ted Poe Community Center.",
               "type": "Asset Management ",
               "matter_file": "26-0688",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16813,7 +16789,7 @@
               "title": "Request that the County Judge execute an agreement with Houston Methodist to provide informational health and wellness workshops and educational sessions at Precinct 4 community centers at no cost to the County for a term of one year and renewing for a period of up to three (3) years.",
               "type": "Memorandum of Understanding",
               "matter_file": "26-0767",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16837,7 +16813,7 @@
               "title": "Request that the County Judge execute an agreement with the League of Women Voters of Houston (LWVH) to provide for nonpartisan voter education programming at Precinct 4 community centers at no cost to the County until December 31, 2026, and renewing for two (2) additional two (2) year periods.",
               "type": "Memorandum of Understanding",
               "matter_file": "26-0768",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16861,7 +16837,7 @@
               "title": "Request for approval of the Adopt a County Road agreement with National Junior Honor Society - The Village Middle School for cleanup along the roadside of Clay Road beginning at War Memorial Dr. and ending at N. Eldridge Parkway for approximately one mile and for a term ending December 31, 2026.",
               "type": "Interlocal Agreement",
               "matter_file": "26-0769",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16885,7 +16861,7 @@
               "title": "Request for approval of the usage of Precinct 4 charter buses for the purpose of transporting students and mentors to the Build it Forward event on February 7, 2026.",
               "type": "Asset Management ",
               "matter_file": "26-0770",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -16903,7 +16879,7 @@
               "title": "Request for approval to accept from Girl Scout Troop 127151 the donation of items, valued at $574.00, to build special birdhouses for purple martin birds at John Paul Landing Park.",
               "type": "Donation",
               "matter_file": "26-0771",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16925,7 +16901,7 @@
               "title": "Request for approval to accept from Fran Blevius the donation of ten board games, valued at $100.00, for the Steve Radack Community Center.",
               "type": "Donation",
               "matter_file": "26-0772",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16947,7 +16923,7 @@
               "title": "Request for approval for the Bigfoot Running Company to hold the “Gingerbread Lane,” a 5/10k race on Sunday, December 6, 2026, at John Paul Landing Park, including the collection of a participation fee.",
               "type": "Policy",
               "matter_file": "26-0773",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16963,7 +16939,7 @@
               "title": "Request for approval for Katy Pony Baseball, a 501(c)(3) organization, to hold the Sportsfest fundraiser on Saturday, March 28, 2026, at Four Seasons Park, including ticket sales and the sale of food, beverages, and merchandise from vendors.",
               "type": "Policy",
               "matter_file": "26-0774",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -16997,7 +16973,7 @@
               "title": "Transmittal by Human Resources and Talent of changes to classifications on certain positions.",
               "type": "Transmittal",
               "matter_file": "26-0455",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17019,7 +16995,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for maintenance and repairs of roadways - asphalt package 2 (2025) for Precinct 3 (250419).",
               "type": "Transmittal",
               "matter_file": "26-0476",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17043,7 +17019,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for maintenance and repairs of roadways - asphalt package 3 (2025) for Precinct 3 (250418).",
               "type": "Transmittal",
               "matter_file": "26-0480",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17067,7 +17043,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for rifle resistant body armor and related items for the Sheriff's Office (250386).",
               "type": "Transmittal",
               "matter_file": "26-0481",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17089,7 +17065,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for channel restoration of Hunting Bayou Tributaries for the Flood Control District (250413).",
               "type": "Transmittal",
               "matter_file": "26-0482",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17111,7 +17087,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for maintenance and repairs of roadways on Reidland Road - Asphalt Package 4 (2025) for Precinct 3 (250421).",
               "type": "Transmittal",
               "matter_file": "26-0483",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17135,7 +17111,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for installation of solar lighting along sidewalks of Freeport Street for Precinct 2 (250414).",
               "type": "Transmittal",
               "matter_file": "26-0484",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17159,7 +17135,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for construction of a water distribution system along Cheswick Drive for Precinct 2 (250410).",
               "type": "Transmittal",
               "matter_file": "26-0485",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17183,7 +17159,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for asphalt roadway reconstruction in Runneburg Estates for Precinct 3 (250422).",
               "type": "Transmittal",
               "matter_file": "26-0493",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17207,7 +17183,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for electrical parts and related items for Precinct 3 (250264).",
               "type": "Transmittal",
               "matter_file": "26-0499",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17225,7 +17201,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of a project scheduled for advertisement for concrete pavement rehabilitation along Scarsdale Boulevard for Precinct 2 (260003).",
               "type": "Transmittal",
               "matter_file": "26-0521",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17249,7 +17225,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of modification of a professional services exemption and renewal option with Deloitte & Touche LLP in the additional amount of $11,000 for audit services for the Community Supervision & Corrections Department for the extended period of February 7, 2026 - February 6, 2027.",
               "type": "Transmittal",
               "matter_file": "26-0552",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17271,7 +17247,7 @@
               "title": "Transmittal by the Flood Control District of a preliminary engineering report by Consor Engineers, Inc., dated September 1, 2025, and titled Preliminary Engineering Report - Q100-00-00-P003 from IH-10 to SH-146, Bond Map ID F-46, Channel Conveyance Improvements (Cedar Bayou Watershed, Precinct 2).",
               "type": "Transmittal",
               "matter_file": "26-0563",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17289,7 +17265,7 @@
               "title": "Transmittal by the Flood Control District of a preliminary engineering report by Carollo Engineers dated February 26, 2025, and titled Cedar Bayou Regional Detention and Channel Improvements Upstream of FM 1960 (Cedar Bayou Watershed, Bond ID F-70, Project ID Q100-00-00-E003, Precinct 3).",
               "type": "Transmittal",
               "matter_file": "26-0565",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17307,7 +17283,7 @@
               "title": "Transmittal by the Office of the County Engineer of a substantial completion certificate with MC2 Civil LLC, in connection with E132-00-00 Mitigation Project - 2020, Job No. 23/0429, UPIN 21090MF22E01, Precinct 3, MWBE Contracted Goal: 27%, MWBE Current Participation: 30.31%.",
               "type": "Transmittal",
               "matter_file": "26-0588",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17325,7 +17301,7 @@
               "title": "Transmittal by the Office of the County Engineer of Notices of Road and Bridge Log Changes to be Reflected in the Harris County Road Log and the Auditor’s Office Fixed Asset Group.",
               "type": "Transmittal",
               "matter_file": "26-0593",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17349,7 +17325,7 @@
               "title": "Transmittal by the Flood Control District of projected bid calendar as of Quarter 1 2026, reflecting both Invitations to Bid and Requests for Proposals/Qualifications.",
               "type": "Transmittal",
               "matter_file": "26-0618",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17365,7 +17341,7 @@
               "title": "Transmittal by the Flood Control District on project status updates for the CDBG-DR and CDBG-MIT programs.",
               "type": "Transmittal",
               "matter_file": "26-0619",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17387,7 +17363,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of bids and proposals for advertised jobs that were opened January 12 and 26, 2026.",
               "type": "Transmittal",
               "matter_file": "26-0620",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17403,7 +17379,7 @@
               "title": "Transmittal by the County Treasurer of the Harris County Treasurer’s November 2025 Report.",
               "type": "Transmittal",
               "matter_file": "26-0621",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17421,7 +17397,7 @@
               "title": "Transmittal by the Office of the Purchasing Agent of notice of receipt of funds in the total amount of $319,063.07 from the sale of surplus and confiscated property through the county’s Public Surplus Online Auction and Houston Auto Auction for the period of December 1, 2025 - December 31, 2025.",
               "type": "Transmittal",
               "matter_file": "26-0634",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17437,7 +17413,7 @@
               "title": "Transmittal by the County Clerk of the minutes for the December 11, 2025 regular meeting of the Harris County Commissioners Court.",
               "type": "Transmittal",
               "matter_file": "26-0637",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17455,7 +17431,7 @@
               "title": "Transmittal by the County Clerk of the minutes for the December 18, 2025 business court meeting of the Harris County Commissioners Court.",
               "type": "Transmittal",
               "matter_file": "26-0639",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17473,7 +17449,7 @@
               "title": "Transmittal by Public Health Services of an update on media reach and contracting.",
               "type": "Transmittal",
               "matter_file": "26-0653",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17489,7 +17465,7 @@
               "title": "Transmittal by the District Attorney of an amended timesheet attestations per the Office of the Governor audit request for the FY25 Victim Assistance Project Grant Program.",
               "type": "Transmittal",
               "matter_file": "26-0702",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17505,7 +17481,7 @@
               "title": "Transmittal by the Auditor of the unaudited and unadjusted monthly financial report for the month of November 2025.",
               "type": "Transmittal",
               "matter_file": "26-0710",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17527,7 +17503,7 @@
               "title": "Transmittal by the Office of Management and Budget of the Commercial Paper Status Report for the 1st quarter, FY 2025-2026.  This report is a requirement of the Commercial Paper Policies and Procedures approved annually by the Commissioners Court.",
               "type": "Transmittal",
               "matter_file": "26-0717",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17543,7 +17519,7 @@
               "title": "Transmittal by the Department of Economic Equity and Opportunity of the Early REACH Economic Impact Evaluation Year 1 Report conducted by the University of Houston.",
               "type": "Transmittal",
               "matter_file": "26-0724",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17565,7 +17541,7 @@
               "title": "Transmittal by the Office of Management and Budget of investment transactions and maturities for the period of December 28, 2025 - January 13, 2026, and revised report for the period of November 24 - December 27, 2025.",
               "type": "Transmittal",
               "matter_file": "26-0725",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17587,7 +17563,7 @@
               "title": "Transmittal by the Office of Management and Budget of the FY2026 First Quarter Investment Report in accordance with the Public Funds Investment Act.",
               "type": "Transmittal",
               "matter_file": "26-0726",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17657,7 +17633,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and reappointment of Donna Cole, a nominee from the County Judge, to the Board of Pilot Commissioners for Harris County Ports for a term ending February 1, 2028.",
               "type": "Executive Session",
               "matter_file": "26-0716",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17681,7 +17657,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and reappointment of James Dixon, II, a nominee from the County Judge, to the Board of Directors of the Harris County Sports & Convention Corporation for a term ending January 29, 2029.",
               "type": "Executive Session",
               "matter_file": "26-0718",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17705,7 +17681,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and reappointment of Dr. Robin E. Gearing, a nominee from the Commissioner of Precinct 2, to the Harris Center for Mental Health and IDD Board of Trustees for a term beginning January 31, 2026, and ending January 30, 2028.",
               "type": "Executive Session",
               "matter_file": "26-0720",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17723,7 +17699,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and appointment of Edwin A. “Buddy” Grantham, a nominee from the Commissioner of Precinct 2, to the Harris Center for Mental Health and IDD Board of Trustees for a term ending January 29, 2028.",
               "type": "Executive Session",
               "matter_file": "26-0721",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17741,7 +17717,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and reappointment of Mark Lanier, a nominee from the Commissioner of Precinct 3, to the Board of Directors of the Harris County Sports & Convention Corporation for a term ending January 29, 2029.",
               "type": "Executive Session",
               "matter_file": "26-0733",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17761,7 +17737,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and reappointment of Bryan Sanchez, a nominee from the Commissioner of Precinct 4, to the Harris County Housing Finance Corporation Board, Position 4, for a term beginning February 28, 2026, and ending February 27, 2028.",
               "type": "Executive Session",
               "matter_file": "26-0735",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17781,7 +17757,7 @@
               "title": "Request by the Office of County Administration for an Executive Session for discussion and approval of the appointments of Adrian John Thomas, Jud Coleman, Eric Finck, and Jeff Suggs to the Houston Ship Channel Security District Board of Directors for terms ending December 31, 2027.",
               "type": "Executive Session",
               "matter_file": "26-0736",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17867,7 +17843,7 @@
               "title": "Request by the Commissioner of Precinct 3 for approval of a resolution recognizing and congratulating Brian Manning, P.E. on being named the 2026 Houston Area “Engineer of the Year”.",
               "type": "Resolution",
               "matter_file": "26-0644",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17891,7 +17867,7 @@
               "title": "Request by the Commissioner of Precinct 4 for approval of a resolution honoring the Chinese Professional Club of Houston for its dedication to helping students pursue their dreams of a college education through its Scholarship Ball.",
               "type": "Resolution",
               "matter_file": "26-0764",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17909,7 +17885,7 @@
               "title": "Request by the Commissioners of Precinct 4 and Precinct 1 for approval of a resolution celebrating the fifth anniversary of the Harris County Office of Managed Assigned Counsel.",
               "type": "Resolution",
               "matter_file": "26-0765",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17930,7 +17906,7 @@
               "title": "Request by the Commissioner of Precinct 4 for approval of a resolution celebrating the recognition of Harris County Precinct 4 as one of Houston’s 2025 Top Workplaces by the Houston Chronicle.",
               "type": "Resolution",
               "matter_file": "26-0766",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -17968,7 +17944,7 @@
               "title": "Request by the County Judge for approval of a resolution congratulating Jimmel Aquino on her retirement after 27 years of dedicated service to Harris County.",
               "type": "Resolution",
               "matter_file": "26-0780",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -17986,7 +17962,7 @@
               "title": "Request by the County Judge for approval of a resolution designating January 24th, 2026 as International Day of Education in Harris County, TX.",
               "type": "Resolution",
               "matter_file": "26-0781",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18004,7 +17980,7 @@
               "title": "Request by the Commissioner of Precinct 2 for approval of a resolution honoring the life and legacy of Mr. Seth Webb.",
               "type": "Resolution",
               "matter_file": "26-0782",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18022,7 +17998,7 @@
               "title": "Request by the Commissioner of Precinct 2 for approval of a resolution recognizing the Harris County Fire Marshal’s Office (HCFMO) for receiving Initial Accreditation from the International Association of Property and Evidence (IAPE) in 2025.",
               "type": "Resolution",
               "matter_file": "26-0783",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18073,7 +18049,7 @@
             {
               "id": 178519,
               "agenda_number": null,
-              "title": "Adjournment.",
+              "title": "There being no further business, the Commissioners Court adjourned at 5:21 P.M. \r\n\r\nThe above and forgoing minutes have been read and examined by me and are a true and correct representation of the actions taken by Commissioners Court held on January 29, 2026.\r\n\r\nOn this the 26th day of February, 2026.        \t                              Teneshia Hudspeth, County Clerk\r\n\r\n\t\t\t\t\t\t\t                                                            by_________________________\r\n\t\t\t\t\t                                                                                            Deputy",
               "type": "Other",
               "matter_file": null,
               "matter_status": null,
@@ -18108,7 +18084,7 @@
               "title": "Request by Harris County Resources for Children and Adults (HCRCA) for approval of a fourth amendment to the interlocal agreement with The Harris Center for Mental Health and IDD in the amount of $558,126.80 in ARPA SLFRF Funds for temporary respite care services for youth aged 13 through 17 at the Youth Diversion Center for Resources for Children and Adults for the period of February 1, 2026 - June 30, 2026 and $35,584.00 in FLEX Funds to provide meals.",
               "type": "Contract - Amendment",
               "matter_file": "26-0803",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18126,7 +18102,7 @@
               "title": "Transmittal by the Office of County Administration of the 2026 Commissioners Court meeting calendar approved on January 8, 2026 and of associated agenda deadlines.",
               "type": "Transmittal",
               "matter_file": "26-0789",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Accepted",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18148,7 +18124,7 @@
               "title": "Request by the Sheriff’s Office for approval to accept from Houston-Galveston Area Council grant funds in the amount of $7,500,000, with no required match, for the GY26 Motorist Assistance Program (MAP), Incident Management Unit (IMU) and Tow and Go Program and extend 53 associated positions to January 31, 2027.",
               "type": "Grant",
               "matter_file": "26-0790",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18182,7 +18158,7 @@
               "title": "Request by the Office of the Purchasing Agent that the County Judge execute an agreement with Amtech Elevator Services in the amount of $1,000,000 for maintenance and repair of vertical transportation equipment for Harris County through April 30, 2026, and for the County Clerk to execute any applicable bonds to be received.",
               "type": "Contract - Award",
               "matter_file": "26-0793",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18200,7 +18176,7 @@
               "title": "Request by the Office of the Purchasing Agent for approval of a personal services exemption from the competitive bid requirements and a renewal option with JHJ Strategic Consulting, LLC in the amount of $100,000 for cubes customer-based execution & strategy workshop services for the Sheriff's Office for the period of February 27, 2026 - February 26, 2027, Justification for 0% MWBE Participation Goal:  N/A - Personal Services Agreement.",
               "type": "Financial Authorization",
               "matter_file": "26-0794",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18222,7 +18198,7 @@
               "title": "Request by the Office of the Purchasing Agent that the County Judge execute an amendment to an OMNIA Partners, Public Sector Cooperative Purchasing Program agreement with Insight Public Sector, Inc. in the additional amount of $14,295 for additional services for work productivity enterprise software subscription through February 27, 2027, Justification for 0% MWBE Participation Goal:  Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Amendment",
               "matter_file": "26-0795",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18238,7 +18214,7 @@
               "title": "Request by the Office of the Purchasing Agent for approval of an award on the basis of successful negotiations with the highest overall evaluation and that the County Judge execute an agreement with Lockwood, Andrews & Newnam, Inc. in the amount of $1,500,000 for professional architectural and/or engineering services to provide a flood risk analysis study for Halls Bayou Watershed for the Flood Control District (240393), MWBE Contracted Goal: 18.71%.",
               "type": "Contract - Award",
               "matter_file": "26-0796",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18254,7 +18230,7 @@
               "title": "Request by the Office of the Purchasing Agent that the County Judge execute an addendum to a settlement agreement with PressReader Inc. in the amount of $38,467 for PressReader subscription and digital platform access for the Public Library through June 30, 2026, with four (4) one-year renewal options, to provide settlement for full compensation for services provided from July 1, 2025 up to and including January 29, 2026.",
               "type": "Contract - Award",
               "matter_file": "26-0797",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18276,7 +18252,7 @@
               "title": "Request by the Office of the Purchasing Agent for approval of a discretionary exemption from the competitive bid requirements and that the County Judge execute an agreement with Shelbi Nicole Designs, LLC in the amount of $59,820 for murals at Kowis Street Water Facility and James Driver Park for Precinct 2, Justification for 0% MWBE Participation Goal: Exempt - Funding Source.",
               "type": "Contract - Award",
               "matter_file": "26-0798",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18300,7 +18276,7 @@
               "title": "Request by the Office of the Purchasing Agent for approval of a project scheduled for advertisement for Annex 14 elevator modernization for the Office of the County Engineer (260005).",
               "type": "Proposals/Bids",
               "matter_file": "26-0799",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18322,7 +18298,7 @@
               "title": "Request by the Office of the Purchasing Agent for approval of an award on the basis of low bid to USA Amtech Inc (Primary); and Roy Jorgensen Associates (Secondary) in the amount of $5,045,285 for Smart Cushion Crash Attenuator (CCA) system replacement and related items for the Toll Road Authority for the period of January 29, 2026 - January 28, 2027 with four (4) one-year renewal options (240452), MWBE Contracted Goal: 6.4%.",
               "type": "Contract - Award",
               "matter_file": "26-0800",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18384,7 +18360,7 @@
               "title": "Request by the Constable of Precinct 7 for approval to submit an application to the Texas Office of the Governor/Criminal Justice Division for grant funds in the amount of $151,773.64, with an in-kind match of $43,247.26, for the FY27 Victim Assistance Grant Program.",
               "type": "Grant",
               "matter_file": "26-0804",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18408,7 +18384,7 @@
               "title": "Request by the Constable of Precinct 7 for approval to submit an application to the Texas Office of the Governor/Criminal Justice Division for grant funds in the amount of $100,747.19, with an in-kind match of $52,115.42, for the FY27 Violence Against Women Justice and Training Grant Program.",
               "type": "Grant",
               "matter_file": "26-0805",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18432,7 +18408,7 @@
               "title": "Request by the Sheriff’s Office for approval to submit an application to the Texas Office of the Governor/Criminal Justice Division for grant funds in the amount of $150,000, with no required match for the FY27 Criminal Justice Grant Program.",
               "type": "Grant",
               "matter_file": "26-0806",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18454,7 +18430,7 @@
               "title": "Request by the County Attorney for approval of an Order Authorizing Settlement in connection with Maldonado v. Harris County; Civil Action No. 4:24-cv-1202; In the United States District Court for the Southern District of Texas, Houston Division; CAO File No. 2024EMP0194.",
               "type": "Financial Authorization",
               "matter_file": "26-0807",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18472,7 +18448,7 @@
               "title": "Request by the County Attorney for approval of an Order Authorizing Settlement in connection with Harris County v. North Fry Tiendas, LLC; Cause No. 1259813; In the Civil County Court at Law No. 4 of Harris County, Texas; CAO File No. 25EMD0047.",
               "type": "Financial Authorization",
               "matter_file": "26-0808",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18490,7 +18466,7 @@
               "title": "Request by the County Attorney for approval of an Order Authorizing Settlement in connection with Johnathan Armour v. Harris County; Cause No. 2024-17518; In the 215th District Court in Harris County, Texas; CAO File No. 24TOR0031.",
               "type": "Financial Authorization",
               "matter_file": "26-0809",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18508,7 +18484,7 @@
               "title": "Request by the County Attorney for approval of an Order Authorizing Execution of an Agreement for professional services pursuant to § 89.001, Texas Local Government Code, between Harris County and Quan Law Group PLLC as Special Counsel in connection with immigration matters with respect to qualified employees for various departments of Harris County, consistent with Harris County’s adopted Immigration Sponsorship Policy; CAO File No. 2025EMP1092.",
               "type": "Contract - Award",
               "matter_file": "26-0810",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18532,7 +18508,7 @@
               "title": "Request by the Office of County Administration for an Executive Session to amend the board appointments for Tax Increment Reinvestment Zone Number 20 (Southwest Houston TIRZ 20) to reflect Zion Escobar for Position 7 and Dr. Thu-Mai Nguyen for Position 1, for terms ending December 20, 2027.",
               "type": "Executive Session",
               "matter_file": "26-0812",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18582,7 +18558,7 @@
               "title": "Request by the Office of the Purchasing Agent for approval of a ratification of a State of Texas Department of Information Resources (DIR) Cooperative Contract renewal option with CDW Government LLC for SolarWinds software maintenance and support for Universal Services-Technology through December 10, 2026, at a cost of $122,705, Justification for 0% MWBE Participation Goal: Exempt - Interlocal/Cooperative Agreement.",
               "type": "Contract - Renewal",
               "matter_file": "26-0816",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18624,7 +18600,7 @@
               "title": "Request by Public Health Services for approval of an affiliation agreement with Sam Houston State University for the department to provide clinical preceptorship opportunities for nursing students beginning Spring 2026.",
               "type": "Contract - Award",
               "matter_file": "26-0817",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18648,7 +18624,7 @@
               "title": "Request by the Commissioner of Precinct 4 for approval of a Change Investment Memo for multiple non-voted debt projects to reconcile Precinct 4 FY24-25 facility project budgets with updated estimates with no net additional incremental authorization and no new additional projects.",
               "type": "Investment Memo",
               "matter_file": "26-0819",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18666,7 +18642,7 @@
               "title": "Request by the Commissioner of Precinct 4 for approval of a Final Investment Memo for the Tracy Gee Community Center Renovation project, for an incremental amount of $12,175,000.00 for a total authorization of $18,000,000.00 and request for approval of commercial paper funding in the amount of $12,175,000.00 and a transfer from Precinct 4 Tomball Trades and Trailblazer Facility project in the amount of $1,100,000.00 for a total allocation of $18,000,000.00.",
               "type": "Investment Memo",
               "matter_file": "26-0820",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18686,7 +18662,7 @@
               "title": "Request by the Commissioner of Precinct 4 for approval of a Final Investment Memo for the Katy Park Soccer Field Fence project for an amount of $50,000.00, and request for approval of commercial paper funding in the amount of $50,000.00.",
               "type": "Investment Memo",
               "matter_file": "26-0821",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18706,7 +18682,7 @@
               "title": "Request by the Commissioner of Precinct 1 for approval to execute a Chapter 381 agreement with Street Art for Mankind in the amount of $844,327 for the completion of a civic art project at the Hill at Sims Park located at 11808 Scott St Houston, TX 77047.",
               "type": "Contract - Award",
               "matter_file": "26-0822",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18726,7 +18702,7 @@
               "title": "Request by the Commissioner of Precinct 1 for approval to permit the Office of Commissioner Precinct One to coordinate with the Office of the County Engineer to place five historical markers, and fund accompanying landscaping improvements, at the El Franco Lee Public Service Plaza.",
               "type": "Policy",
               "matter_file": "26-0823",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [
@@ -18744,7 +18720,7 @@
               "title": "Request by Public Health Services for approval to submit an application to the Texas Health and Human Services Commission for grant funds in the amount of $1,000,000, with no required match, for the Maternal Health Outcomes Grant Program.",
               "type": "Grant",
               "matter_file": "26-0824",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18760,7 +18736,7 @@
               "title": "Request by Public Health Services for approval to submit an application to the Texas Opioid Abatement Fund Council for grant funds in the amount of $750,000, with no required match, for the FY26 Community-Based Opioid Recovery Efforts (CORE) Multi-Year Grant program.",
               "type": "Grant",
               "matter_file": "26-0825",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -18958,7 +18934,7 @@
               "title": "Request by the Auditor for approval of a claim made payable in the amount of $6,871.57 to the United States Treasury, for an arbitrage rebate payment on the Toll Road First Lien Revenue Commercial Paper Notes, Series K-2.",
               "type": "Financial Authorization",
               "matter_file": "26-0828",
-              "matter_status": "Agenda Ready",
+              "matter_status": "Passed",
               "consent": false,
               "geographic_tags": {
                 "precincts": [],
@@ -19079,7 +19055,7 @@
             {
               "id": 180191,
               "agenda_number": null,
-              "title": "",
+              "title": "The Harris County Commissioners Court convened in-person and virtually at a regular session at 9:04 A.M. Judge Hidalgo, Commissioner Ellis, Commissioner Ramsey, and Commissioner Briones were in-person.",
               "type": "Other",
               "matter_file": null,
               "matter_status": null,
@@ -19087,7 +19063,9 @@
               "geographic_tags": {
                 "precincts": [],
                 "addresses": [],
-                "areas": [],
+                "areas": [
+                  "Harris County"
+                ],
                 "flood_control": false
               },
               "attachments": []
@@ -19191,7 +19169,7 @@
             {
               "id": 180198,
               "agenda_number": null,
-              "title": "",
+              "title": "Management and Budget",
               "type": "Other",
               "matter_file": null,
               "matter_status": null,
@@ -19540,6 +19518,1778 @@
                 "areas": [
                   "Harris County"
                 ],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180224,
+              "agenda_number": null,
+              "title": "Commissioner Ellis was not present for the votes taken on Items 77, 334, 337, 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, 336, 338, 340, 341, 330, and 99. At 1:21 P.M. Commissioner Ellis directed the County Clerk’s Office to record him voting Aye on all of the items where it will not change the vote. Therefore, all votes taken on Items 77, 334, 337, 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, 336, 338, 340, 341, 330, and 99 will reflect Commissioner Ellis voting Aye.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180225,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180226,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180227,
+              "agenda_number": null,
+              "title": "Judge Hidalgo was not present for the votes taken on Items 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, and 336. At 3:02 P.M. Judge Hidalgo directed the County Clerk’s Office to record her voting Aye on all of the items where it will not change the vote. Therefore, all votes taken on Items 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, and 336 will reflect Judge Hidalgo voting Aye.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180228,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180229,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180230,
+              "agenda_number": null,
+              "title": "Commissioner Garcia arrived in-person at 9:07 A.M. He did not miss any vote.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180231,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180232,
+              "agenda_number": null,
+              "title": "Commissioner Briones left the courtroom at 10:16 A.M. and returned at 10:18 A.M. She did not miss any vote.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180233,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180234,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180235,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180236,
+              "agenda_number": null,
+              "title": "Commissioner Ellis left the courtroom at 10:25 A.M. and returned at 10:28 A.M. He did not miss any vote.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180237,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180238,
+              "agenda_number": null,
+              "title": "Items are listed in chronological order as they were brought up by the court and not in the order they appear on the Agenda.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180239,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180240,
+              "agenda_number": null,
+              "title": "Resolutions",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180241,
+              "agenda_number": null,
+              "title": "County Administration",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180242,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180243,
+              "agenda_number": null,
+              "title": "Purchasing",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180244,
+              "agenda_number": null,
+              "title": "ARPA",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180245,
+              "agenda_number": "219.",
+              "title": "Request for approval of a public health or safety exemption from the competitive bid requirements with Morris & Dickson Co., LLC in the amount of $350,000 for 340B Pharmaceuticals for Public Health Services for the period of January 29, 2026 - January 28, 2027.",
+              "type": "Financial Authorization",
+              "matter_file": "26-0487",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180246,
+              "agenda_number": "1.",
+              "title": "Request for discussion and possible action on strategic hiring exemptions for Position Control Numbers (PCNs) in non-exempt departments.",
+              "type": "Discussion Item",
+              "matter_file": "26-0531",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180249,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180250,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180251,
+              "agenda_number": null,
+              "title": "Emergency/Supplemental items",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180252,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180253,
+              "agenda_number": null,
+              "title": "Veteran Services",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180254,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180255,
+              "agenda_number": null,
+              "title": "Commissioner Garcia left the courtroom at 11:27 A.M. and returned at 11:30 A.M. He did not miss any vote.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180256,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180257,
+              "agenda_number": null,
+              "title": "Intergovernmental and Global Affairs",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180258,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180259,
+              "agenda_number": null,
+              "title": "Commissioner Ramsey left the courtroom at 11:43 A.M. and returned at 11:47 A.M. He did not miss any vote.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180260,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180261,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180262,
+              "agenda_number": null,
+              "title": "Management and Budget",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180263,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180264,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180265,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180266,
+              "agenda_number": null,
+              "title": "Commissioners Court went into Closed Executive Session at 12:09 P.M. for Items 293, 294, and 297.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180267,
+              "agenda_number": "2.",
+              "title": "Request for a presentation, discussion, and possible action on the FY26 1st Quarterly budget projections.",
+              "type": "Financial Authorization",
+              "matter_file": "26-0638",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180268,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180269,
+              "agenda_number": null,
+              "title": "Commissioners Court returned in-person and virtually to open Court at 1:04 P.M., Judge Hidalgo, Commissioner Ellis, Commissioner Garcia, Commissioner Ramsey, and Commissioner Briones were in-person.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180270,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180271,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180272,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180273,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180274,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180275,
+              "agenda_number": null,
+              "title": "Executive Session",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180276,
+              "agenda_number": null,
+              "title": "Emergency/Supplemental items",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180277,
+              "agenda_number": null,
+              "title": "Management and Budget",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180278,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180279,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180280,
+              "agenda_number": null,
+              "title": "Commissioner Ellis was not present for the votes taken on Items 77, 334, 337, 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, 336, 338, 340, 341, 330, and 99. At 1:21 P.M. Commissioner Ellis directed the County Clerk’s Office to record him voting Aye on all of the items where it will not change the vote. Therefore, all votes taken on Items 77, 334, 337, 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, 336, 338, 340, 341, 330, and 99 will reflect Commissioner Ellis voting Aye.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180281,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180282,
+              "agenda_number": "77.",
+              "title": "Request for discussion and possible action regarding the Harris County Legislative Agenda.",
+              "type": "Discussion Item",
+              "matter_file": "26-0633",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [
+                  "Harris County"
+                ],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180283,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180284,
+              "agenda_number": null,
+              "title": "Commissioners Court recessed at 1:21 P.M.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180285,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180286,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180287,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180288,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180289,
+              "agenda_number": null,
+              "title": "Commissioners Court reconvened in-person and virtually at 2:23 P.M., Judge Hidalgo, Commissioner Garcia, Commissioner Ramsey, and Commissioner Briones were in-person.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180290,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180291,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180292,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180293,
+              "agenda_number": null,
+              "title": "Commissioner Ellis was not present for the votes taken on Items 77, 334, 337, 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, 336, 338, 340, 341, 330, and 99. At 1:21 P.M. Commissioner Ellis directed the County Clerk’s Office to record him voting Aye on all of the items where it will not change the vote. Therefore, all votes taken on Items 77, 334, 337, 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, 336, 338, 340, 341, 330, and 99 will reflect Commissioner Ellis voting Aye.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180294,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180295,
+              "agenda_number": null,
+              "title": "Intergovernmental and Global Affairs",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180296,
+              "agenda_number": null,
+              "title": "Resolutions",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180297,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180298,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180299,
+              "agenda_number": null,
+              "title": "Resolutions",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180300,
+              "agenda_number": "334.",
+              "title": "Request by the County Judge for approval of a resolution designating January 24th, 2026 as International Day of Education in Harris County, TX.",
+              "type": "Resolution",
+              "matter_file": "26-0781",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [
+                  "Harris County"
+                ],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180301,
+              "agenda_number": "337.",
+              "title": "Request by the Commissioner of Precinct 2 for approval of a resolution recognizing the Harris County Fire Marshal’s Office (HCFMO) for receiving Initial Accreditation from the International Association of Property and Evidence (IAPE) in 2025.",
+              "type": "Resolution",
+              "matter_file": "26-0783",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [
+                  "2"
+                ],
+                "addresses": [],
+                "areas": [
+                  "Harris County"
+                ],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180302,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180303,
+              "agenda_number": null,
+              "title": "Judge Hidalgo was not present for the votes taken on Items 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, and 336. At 3:02 P.M. Judge Hidalgo directed the County Clerk’s Office to record her voting Aye on all of the items where it will not change the vote. Therefore, all votes taken on Items 4, 8, 69, 70, 76, 82, 85, 87, 156, 168, 198, 217, 218, 248, 249, 296, 332, and 336 will reflect Judge Hidalgo voting Aye.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180304,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180305,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180306,
+              "agenda_number": null,
+              "title": "Judge Hidalgo left the courtroom at 3:02 P.M.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180307,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180308,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180309,
+              "agenda_number": null,
+              "title": "Management and Budget",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180310,
+              "agenda_number": null,
+              "title": "Flood Control District",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": true
+              },
+              "attachments": []
+            },
+            {
+              "id": 180311,
+              "agenda_number": "2.",
+              "title": "Request for a presentation, discussion, and possible action on the FY26 1st Quarterly budget projections.",
+              "type": "Financial Authorization",
+              "matter_file": "26-0638",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180312,
+              "agenda_number": null,
+              "title": "Intergovernmental and Global Affairs",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180313,
+              "agenda_number": null,
+              "title": "Management and Budget",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180314,
+              "agenda_number": null,
+              "title": "Public Health Services",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180315,
+              "agenda_number": null,
+              "title": "Housing and Community Development",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180316,
+              "agenda_number": null,
+              "title": "ARPA",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180317,
+              "agenda_number": null,
+              "title": "Purchasing",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180318,
+              "agenda_number": null,
+              "title": "Commissioner, Precinct 4",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [
+                  "4"
+                ],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180319,
+              "agenda_number": null,
+              "title": "Transmittals",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180320,
+              "agenda_number": null,
+              "title": "Emergency/Supplemental items",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180321,
+              "agenda_number": null,
+              "title": "Emergency/Supplemental ARPA",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180322,
+              "agenda_number": null,
+              "title": "Resolutions",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180323,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180325,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180326,
+              "agenda_number": null,
+              "title": "Judge Hidalgo arrived in-person at 4:22 P.M.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180327,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180328,
+              "agenda_number": null,
+              "title": "Sheriff",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180329,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180330,
+              "agenda_number": null,
+              "title": "Resolutions",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180331,
+              "agenda_number": null,
+              "title": "Emergency/Supplemental items",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180333,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180334,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180335,
+              "agenda_number": null,
+              "title": "",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180336,
+              "agenda_number": null,
+              "title": "Resolutions",
+              "type": "Other",
+              "matter_file": null,
+              "matter_status": null,
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [],
+                "addresses": [],
+                "areas": [],
+                "flood_control": false
+              },
+              "attachments": []
+            },
+            {
+              "id": 180337,
+              "agenda_number": "336.",
+              "title": "Request by the Commissioner of Precinct 2 for approval of a resolution honoring the life and legacy of Mr. Seth Webb.",
+              "type": "Resolution",
+              "matter_file": "26-0782",
+              "matter_status": "Passed",
+              "consent": false,
+              "geographic_tags": {
+                "precincts": [
+                  "2"
+                ],
+                "addresses": [],
+                "areas": [],
                 "flood_control": false
               },
               "attachments": []
@@ -82179,13 +83929,13 @@
         "total_meetings": 10,
         "upcoming_meetings": 1,
         "past_meetings": 9,
-        "total_agenda_items": 4318
+        "total_agenda_items": 4428
       }
     },
     "hisd": {
       "source": "Houston ISD",
       "api_base": "https://webapi.legistar.com/v1/houstonisd/",
-      "fetched_at": "2026-02-10T07:16:56.834Z",
+      "fetched_at": "2026-02-11T07:13:27.559Z",
       "summary": {
         "total_meetings": 13,
         "upcoming_meetings": 2,
@@ -98839,7 +100589,7 @@
     "houston_city_council": {
       "source": "Houston City Council",
       "fetched_at": "2026-02-07T19:45:00Z",
-      "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 2 day(s) old. Manual refresh needed when new PDFs are available.",
+      "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 3 day(s) old. Manual refresh needed when new PDFs are available.",
       "data_sources": {
         "primary": "https://www.houstontx.gov/citysec/agenda/agendaindex.html",
         "secondary": "https://houston.novusagenda.com/agendapublic/Meetings.aspx",
@@ -100462,13 +102212,13 @@
         "consent_decree_work": "Ongoing consent decree compliance for wastewater lift station rehabilitation"
       },
       "stale": true,
-      "stale_days": 2,
-      "last_refresh_attempt": "2026-02-10T07:18:02.047Z"
+      "stale_days": 3,
+      "last_refresh_attempt": "2026-02-11T07:14:25.378Z"
     },
     "metro": {
       "source": "Houston METRO",
       "source_url": "https://www.ridemetro.org/about/board-meetings",
-      "fetched_at": "2026-02-10T07:17:21.846Z",
+      "fetched_at": "2026-02-11T07:13:53.180Z",
       "note": "Data extracted from Granicus RSS feed and AgendaViewer. Future dates projected based on 4th-Thursday pattern.",
       "data_sources": {
         "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
