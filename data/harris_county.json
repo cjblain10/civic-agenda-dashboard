@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-13T07:04:31.259Z",
+  "fetched_at": "2026-02-14T06:52:54.188Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -6719,13 +6719,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "Dept 940 Fiscal Review Request Form.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/46f0d492-3238-4271-a4cb-9a6232232af5.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179976,

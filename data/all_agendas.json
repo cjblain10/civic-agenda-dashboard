@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-02-13T07:09:26.903Z",
+  "fetched_at": "2026-02-14T06:55:42.465Z",
   "sources": {
     "harris_county": {
       "source": "Harris County Commissioners Court",
-      "fetched_at": "2026-02-13T07:04:31.259Z",
+      "fetched_at": "2026-02-14T06:52:54.188Z",
       "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
       "bodies": [
         {
@@ -6722,13 +6722,7 @@
                 "areas": [],
                 "flood_control": false
               },
-              "attachments": [
-                {
-                  "name": "Dept 940 Fiscal Review Request Form.pdf",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/46f0d492-3238-4271-a4cb-9a6232232af5.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 179976,
@@ -66335,12 +66329,12 @@
     "hisd": {
       "source": "Houston ISD",
       "api_base": "https://webapi.legistar.com/v1/houstonisd/",
-      "fetched_at": "2026-02-13T07:08:33.842Z",
+      "fetched_at": "2026-02-14T06:55:08.859Z",
       "summary": {
         "total_meetings": 11,
         "upcoming_meetings": 0,
         "past_meetings": 11,
-        "total_agenda_items": 581,
+        "total_agenda_items": 588,
         "active_bodies": 2,
         "active_officials": 70
       },
@@ -66815,10 +66809,10 @@
           "agenda_items": [
             {
               "id": 43892,
-              "sequence": 1,
+              "sequence": 2,
               "agenda_number": null,
-              "title": "The purpose of the Houston Independent School District School Board is to represent the vision and values of the community, and consistent with that, govern the administration of the Houston Independent School District in a manner that best allows for the improvement of academic outcomes for all the students we serve. The School Board must be able to do its work of governing, including deliberations and decision-making, in orderly meetings held open to the public.\r\n\r\nIn order to (i) ensure we can efficiently address the needs of our students, (ii) allow for necessary deliberations and discussions to occur, (iii) give all members of the public an opportunity to participate and observe the school board's meetings, and (iv) provide appropriate translation services for non-English speaking members of the HISD community, we will adhere to the following rules and norms:",
-              "full_title": "The purpose of the Houston Independent School District School Board is to represent the vision and values of the community, and consistent with that, govern the administration of the Houston Independent School District in a manner that best allows for the improvement of academic outcomes for all the students we serve. The School Board must be able to do its work of governing, including deliberations and decision-making, in orderly meetings held open to the public.\r\n\r\nIn order to (i) ensure we can efficiently address the needs of our students, (ii) allow for necessary deliberations and discussions to occur, (iii) give all members of the public an opportunity to participate and observe the school board's meetings, and (iv) provide appropriate translation services for non-English speaking members of the HISD community, we will adhere to the following rules and norms:",
+              "title": "MEETING CALLED TO ORDER – MEMBERS PRESENT",
+              "full_title": "MEETING CALLED TO ORDER – MEMBERS PRESENT",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -66830,9 +66824,7 @@
               "agenda_note": null,
               "minutes_note": null,
               "geographic_tags": {
-                "trustee_districts": [
-                  "I"
-                ],
+                "trustee_districts": [],
                 "schools": [],
                 "addresses": []
               },
@@ -66840,7 +66832,7 @@
             },
             {
               "id": 43893,
-              "sequence": 2,
+              "sequence": 3,
               "agenda_number": null,
               "title": "•\tPublic comment during School Board meetings will only be available to those persons who \thave signed up to speak prior to the meeting time per current protocol.\r\n•\tVerbal and other disruptions by persons during the School Board meetings are not \tacceptable as they inhibit the board’s ability to conduct business and the public’s ability to \tobserve those processes. Persons who participate in such behavior will be given one \twarning and if the behavior is repeated, they will be asked to leave the meeting.\r\n•\tSeating in the board room is available on a first come, first served basis for all persons, \tincluding those who have signed up to speak during public comment. Overflow seating \tmay be available, also on a first come, first served basis.",
               "full_title": "•\tPublic comment during School Board meetings will only be available to those persons who \thave signed up to speak prior to the meeting time per current protocol.\r\n•\tVerbal and other disruptions by persons during the School Board meetings are not \tacceptable as they inhibit the board’s ability to conduct business and the public’s ability to \tobserve those processes. Persons who participate in such behavior will be given one \twarning and if the behavior is repeated, they will be asked to leave the meeting.\r\n•\tSeating in the board room is available on a first come, first served basis for all persons, \tincluding those who have signed up to speak during public comment. Overflow seating \tmay be available, also on a first come, first served basis.",
@@ -66863,7 +66855,7 @@
             },
             {
               "id": 43894,
-              "sequence": 3,
+              "sequence": 5,
               "agenda_number": null,
               "title": "A member of the community wishing to address the board may do so in person or by live video via Zoom. For either method, a person who wishes to address the board must register with the Board Services Department by 12:00 p.m. the day before the meeting. Any supporting information (e.g., handouts) regarding the community member's concern shall be filed with Board Services by 12:00 p.m. the day before the meeting. Further details and instructions for registering to speak are available at: https://www.houstonisd.org/board-governance/board-meetings\r\n\r\nThe agenda packet for this meeting is available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
               "full_title": "A member of the community wishing to address the board may do so in person or by live video via Zoom. For either method, a person who wishes to address the board must register with the Board Services Department by 12:00 p.m. the day before the meeting. Any supporting information (e.g., handouts) regarding the community member's concern shall be filed with Board Services by 12:00 p.m. the day before the meeting. Further details and instructions for registering to speak are available at: https://www.houstonisd.org/board-governance/board-meetings\r\n\r\nThe agenda packet for this meeting is available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
@@ -66886,7 +66878,7 @@
             },
             {
               "id": 43895,
-              "sequence": 4,
+              "sequence": 6,
               "agenda_number": null,
               "title": "The board meeting may be viewed via:",
               "full_title": "The board meeting may be viewed via:",
@@ -66909,7 +66901,7 @@
             },
             {
               "id": 43896,
-              "sequence": 5,
+              "sequence": 7,
               "agenda_number": null,
               "title": "•\tAT&T Uverse HISD TV Channel 99 \r\n•\tComcast HISD TV Channel 18 \r\n•\tWebsite https://houstonisd.org/livestream\r\n•\tYouTube https://www.youtube.com/@hisdnow\r\n\r\nA recording of the meeting will be made available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
               "full_title": "•\tAT&T Uverse HISD TV Channel 99 \r\n•\tComcast HISD TV Channel 18 \r\n•\tWebsite https://houstonisd.org/livestream\r\n•\tYouTube https://www.youtube.com/@hisdnow\r\n\r\nA recording of the meeting will be made available at:\r\nhttps://houstonisd.legistar.com/calendar.aspx",
@@ -66932,7 +66924,7 @@
             },
             {
               "id": 43897,
-              "sequence": 6,
+              "sequence": 8,
               "agenda_number": null,
               "title": "Any item that establishes, modifies, or deletes board policy may, at the board's discretion, be passed and become effective immediately following first reading.\r\n\r\nThe items on this agenda may be taken in any order.\r\n\r\nUnless removed from the consent agenda in accordance with Robert's Rules of Order, Newly Revised, and/or board operating procedures, items identified within the consent agenda will be acted on at one time.\r\n\r\nNo agenda or district business will be discussed except as noticed below and any action will occur in the room open to the public. It is the intent of the district to have, and the meeting will have, a quorum physically present at this location. The above location will be equipped with video conference equipment.",
               "full_title": "Any item that establishes, modifies, or deletes board policy may, at the board's discretion, be passed and become effective immediately following first reading.\r\n\r\nThe items on this agenda may be taken in any order.\r\n\r\nUnless removed from the consent agenda in accordance with Robert's Rules of Order, Newly Revised, and/or board operating procedures, items identified within the consent agenda will be acted on at one time.\r\n\r\nNo agenda or district business will be discussed except as noticed below and any action will occur in the room open to the public. It is the intent of the district to have, and the meeting will have, a quorum physically present at this location. The above location will be equipped with video conference equipment.",
@@ -66955,10 +66947,10 @@
             },
             {
               "id": 43898,
-              "sequence": 7,
+              "sequence": 9,
               "agenda_number": null,
-              "title": "BOARD AUDITORIUM – OPEN SESSION",
-              "full_title": "BOARD AUDITORIUM – OPEN SESSION",
+              "title": "MEETING HELD - PURPOSE",
+              "full_title": "MEETING HELD - PURPOSE",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -66978,10 +66970,10 @@
             },
             {
               "id": 43899,
-              "sequence": 8,
+              "sequence": 10,
               "agenda_number": null,
-              "title": "•\tCall to Order",
-              "full_title": "•\tCall to Order",
+              "title": "MEETING CALLED TO ORDER – MEMBERS PRESENT",
+              "full_title": "MEETING CALLED TO ORDER – MEMBERS PRESENT",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67001,10 +66993,10 @@
             },
             {
               "id": 43900,
-              "sequence": 9,
+              "sequence": 11,
               "agenda_number": null,
-              "title": "•\tMeditation and Pledge of Allegiance",
-              "full_title": "•\tMeditation and Pledge of Allegiance",
+              "title": "Meditation and Pledge of Allegiance",
+              "full_title": "Meditation and Pledge of Allegiance",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67024,10 +67016,10 @@
             },
             {
               "id": 43901,
-              "sequence": 10,
+              "sequence": 12,
               "agenda_number": null,
-              "title": "•\tSpeakers to Agenda Items",
-              "full_title": "•\tSpeakers to Agenda Items",
+              "title": "SPEAKERS TO AGENDA ITEMS",
+              "full_title": "SPEAKERS TO AGENDA ITEMS",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67047,10 +67039,10 @@
             },
             {
               "id": 43902,
-              "sequence": 11,
+              "sequence": 13,
               "agenda_number": null,
-              "title": "•\tBoard Member Reports and Comments",
-              "full_title": "•\tBoard Member Reports and Comments",
+              "title": "BOARD MEMBER REPORTS AND COMMENTS",
+              "full_title": "BOARD MEMBER REPORTS AND COMMENTS",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67070,10 +67062,10 @@
             },
             {
               "id": 43903,
-              "sequence": 12,
+              "sequence": 14,
               "agenda_number": null,
-              "title": "•\tRecognitions",
-              "full_title": "•\tRecognitions",
+              "title": "RECOGNITIONS",
+              "full_title": "RECOGNITIONS",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67093,7 +67085,7 @@
             },
             {
               "id": 43904,
-              "sequence": 13,
+              "sequence": 15,
               "agenda_number": null,
               "title": "•\tReports from the Superintendent",
               "full_title": "•\tReports from the Superintendent",
@@ -67116,7 +67108,7 @@
             },
             {
               "id": 43905,
-              "sequence": 14,
+              "sequence": 16,
               "agenda_number": null,
               "title": "•\tConsideration and Approval of Agenda Items",
               "full_title": "•\tConsideration and Approval of Agenda Items",
@@ -67139,10 +67131,10 @@
             },
             {
               "id": 43906,
-              "sequence": 15,
+              "sequence": 17,
               "agenda_number": null,
-              "title": "•\tRecess to Closed Session under Sections 551.004 through 551.089 of the Texas \tGovernment Code for the Purposes Listed in this Notice",
-              "full_title": "•\tRecess to Closed Session under Sections 551.004 through 551.089 of the Texas \tGovernment Code for the Purposes Listed in this Notice",
+              "title": "ADJOURNMENT TO CLOSED SESSION",
+              "full_title": "ADJOURNMENT TO CLOSED SESSION",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67162,10 +67154,10 @@
             },
             {
               "id": 43907,
-              "sequence": 17,
+              "sequence": 19,
               "agenda_number": null,
-              "title": "•\tReconvene in Open Session",
-              "full_title": "•\tReconvene in Open Session",
+              "title": "RECONVENED IN OPEN SESSION IN THE BOARD AUDITORIUM",
+              "full_title": "RECONVENED IN OPEN SESSION IN THE BOARD AUDITORIUM",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -67185,7 +67177,7 @@
             },
             {
               "id": 43908,
-              "sequence": 18,
+              "sequence": 20,
               "agenda_number": null,
               "title": "•\tConsideration and Possible Action on Matters Discussed in Closed Session",
               "full_title": "•\tConsideration and Possible Action on Matters Discussed in Closed Session",
@@ -67208,7 +67200,7 @@
             },
             {
               "id": 43909,
-              "sequence": 19,
+              "sequence": 21,
               "agenda_number": null,
               "title": "BOARD MEMBER REPORTS AND COMMENTS",
               "full_title": "BOARD MEMBER REPORTS AND COMMENTS",
@@ -67231,7 +67223,7 @@
             },
             {
               "id": 43910,
-              "sequence": 20,
+              "sequence": 22,
               "agenda_number": null,
               "title": "REPORTS FROM THE SUPERINTENDENT",
               "full_title": "REPORTS FROM THE SUPERINTENDENT",
@@ -67254,7 +67246,7 @@
             },
             {
               "id": 43912,
-              "sequence": 25,
+              "sequence": 27,
               "agenda_number": null,
               "title": "DISCUSSION AND REPORT ITEMS",
               "full_title": "DISCUSSION AND REPORT ITEMS",
@@ -67277,7 +67269,7 @@
             },
             {
               "id": 43913,
-              "sequence": 26,
+              "sequence": 28,
               "agenda_number": "1.",
               "title": "Acceptance Of Board Monitoring Update: Presentation Of Goal 3, Progress Measure 3.3",
               "full_title": "Acceptance Of Board Monitoring Update: Presentation Of Goal 3, Progress Measure 3.3",
@@ -67285,8 +67277,8 @@
               "matter_file": "26-051",
               "matter_name": null,
               "consent": false,
-              "action": null,
-              "passed": null,
+              "action": "approved",
+              "passed": true,
               "mover": null,
               "seconder": null,
               "agenda_note": null,
@@ -67306,7 +67298,7 @@
             },
             {
               "id": 43914,
-              "sequence": 27,
+              "sequence": 29,
               "agenda_number": null,
               "title": "ITEMS PULLED FROM CONSENT AGENDA",
               "full_title": "ITEMS PULLED FROM CONSENT AGENDA",
@@ -67329,7 +67321,7 @@
             },
             {
               "id": 43915,
-              "sequence": 29,
+              "sequence": 31,
               "agenda_number": null,
               "title": "CONSENT AGENDA",
               "full_title": "CONSENT AGENDA",
@@ -67337,8 +67329,8 @@
               "matter_file": null,
               "matter_name": null,
               "consent": true,
-              "action": null,
-              "passed": null,
+              "action": "approved",
+              "passed": true,
               "mover": null,
               "seconder": null,
               "agenda_note": null,
@@ -67352,7 +67344,7 @@
             },
             {
               "id": 43916,
-              "sequence": 30,
+              "sequence": 32,
               "agenda_number": "3.",
               "title": "Approval Of Appointment Of Houston Independent School District Representative To Tax Increment Reinvestment Zone 14 Board Of Directors",
               "full_title": "Approval Of Appointment Of Houston Independent School District Representative To Tax Increment Reinvestment Zone 14 Board Of Directors",
@@ -67375,7 +67367,7 @@
             },
             {
               "id": 43917,
-              "sequence": 51,
+              "sequence": 54,
               "agenda_number": "24.",
               "title": "Consideration And Approval Of Minutes From Previous Meetings",
               "full_title": "Consideration And Approval Of Minutes From Previous Meetings",
@@ -67398,7 +67390,7 @@
             },
             {
               "id": 43918,
-              "sequence": 39,
+              "sequence": 42,
               "agenda_number": "12.",
               "title": "Approval Of A Resolution Declining The Establishment Of A Daily Period Of Prayer And Reading Of The Bible Or Other Religious Text",
               "full_title": "Approval Of A Resolution Declining The Establishment Of A Daily Period Of Prayer And Reading Of The Bible Or Other Religious Text",
@@ -67427,7 +67419,7 @@
             },
             {
               "id": 43919,
-              "sequence": 31,
+              "sequence": 33,
               "agenda_number": "4.",
               "title": "Approval Of A Director Appointment To Position 2 Of The Houston Independent School District Public Facility Corporation Board Of Directors",
               "full_title": "Approval Of A Director Appointment To Position 2 Of The Houston Independent School District Public Facility Corporation Board Of Directors",
@@ -67450,7 +67442,7 @@
             },
             {
               "id": 43920,
-              "sequence": 48,
+              "sequence": 51,
               "agenda_number": "21.",
               "title": "Approval Of Proposed Establishment Of Board Policy FA(LOCAL), Parent Rights And Responsibilities-First Reading",
               "full_title": "Approval Of Proposed Establishment Of Board Policy FA(LOCAL), Parent Rights And Responsibilities-First Reading",
@@ -67479,7 +67471,7 @@
             },
             {
               "id": 43921,
-              "sequence": 49,
+              "sequence": 52,
               "agenda_number": "22.",
               "title": "Approval Of Proposed Revisions To Board Policy FFF(LOCAL), Student Welfare: Student Safety-First Reading",
               "full_title": "Approval Of Proposed Revisions To Board Policy FFF(LOCAL), Student Welfare: Student Safety-First Reading",
@@ -67508,7 +67500,7 @@
             },
             {
               "id": 43922,
-              "sequence": 46,
+              "sequence": 49,
               "agenda_number": "19.",
               "title": "Approval Of Proposed Revisions To Board Policy DCE(LOCAL), Employment Practices: Other Types Of Contracts-Second Reading",
               "full_title": "Approval Of Proposed Revisions To Board Policy DCE(LOCAL), Employment Practices: Other Types Of Contracts-Second Reading",
@@ -67537,7 +67529,7 @@
             },
             {
               "id": 43923,
-              "sequence": 44,
+              "sequence": 47,
               "agenda_number": "17.",
               "title": "Approval Of The 2026-2027 Academic Calendar",
               "full_title": "Approval Of The 2026-2027 Academic Calendar",
@@ -67586,7 +67578,7 @@
             },
             {
               "id": 43924,
-              "sequence": 47,
+              "sequence": 50,
               "agenda_number": "20.",
               "title": "Approval Of Proposed Revisions To Board Policy CV(LOCAL), Facilities Construction-First Reading",
               "full_title": "Approval Of Proposed Revisions To Board Policy CV(LOCAL), Facilities Construction-First Reading",
@@ -67615,7 +67607,7 @@
             },
             {
               "id": 43925,
-              "sequence": 32,
+              "sequence": 35,
               "agenda_number": "5.",
               "title": "Authority To Negotiate And Execute Interlocal Partnership Agreements With The Harris County Department Of Education For The Nita M. Lowey 21st Century Community Learning Centers/Texas Afterschool Centers On Education Cycle 11 Year 5 Program At Chavez High School And The Nita M. Lowey 21st Century Community Learning Centers/Texas Afterschool Centers On Education Cycle 12 Year 3 Programs At Crespo Elementary School And Kelso Elementary School",
               "full_title": "Authority To Negotiate And Execute Interlocal Partnership Agreements With The Harris County Department Of Education For The Nita M. Lowey 21st Century Community Learning Centers/Texas Afterschool Centers On Education Cycle 11 Year 5 Program At Chavez High School And The Nita M. Lowey 21st Century Community Learning Centers/Texas Afterschool Centers On Education Cycle 12 Year 3 Programs At Crespo Elementary School And Kelso Elementary School",
@@ -67641,7 +67633,7 @@
             },
             {
               "id": 43926,
-              "sequence": 33,
+              "sequence": 36,
               "agenda_number": "6.",
               "title": "Approval Of New Campus Library Book Orders And Donations",
               "full_title": "Approval Of New Campus Library Book Orders And Donations",
@@ -67670,7 +67662,7 @@
             },
             {
               "id": 43927,
-              "sequence": 50,
+              "sequence": 53,
               "agenda_number": "23.",
               "title": "Approval Of Proposed Revisions To Board Policy FO(LOCAL), Student Discipline-First Reading",
               "full_title": "Approval Of Proposed Revisions To Board Policy FO(LOCAL), Student Discipline-First Reading",
@@ -67699,7 +67691,7 @@
             },
             {
               "id": 43928,
-              "sequence": 35,
+              "sequence": 38,
               "agenda_number": "8.",
               "title": "Approval Of Vendor Awards For Purchases Which Cost $1,000,000 Or More",
               "full_title": "Approval Of Vendor Awards For Purchases Which Cost $1,000,000 Or More",
@@ -67728,7 +67720,7 @@
             },
             {
               "id": 43929,
-              "sequence": 36,
+              "sequence": 39,
               "agenda_number": "9.",
               "title": "Approval Of The February Budget Amendment",
               "full_title": "Approval Of The February Budget Amendment",
@@ -67757,7 +67749,7 @@
             },
             {
               "id": 43932,
-              "sequence": 34,
+              "sequence": 37,
               "agenda_number": "7.",
               "title": "Authority To Negotiate, Execute, And Amend An Interlocal Memorandum Of Understanding With The University Of Houston-Downtown For A Guaranteed Admission Program",
               "full_title": "Authority To Negotiate, Execute, And Amend An Interlocal Memorandum Of Understanding With The University Of Houston-Downtown For A Guaranteed Admission Program",
@@ -67780,7 +67772,7 @@
             },
             {
               "id": 43934,
-              "sequence": 40,
+              "sequence": 43,
               "agenda_number": "13.",
               "title": "Authorization To Explore A Partnership With HSPVA Friends To Operate The Kinder High School For Performing And Visual Arts, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With HSPVA Friends",
               "full_title": "Authorization To Explore A Partnership With HSPVA Friends To Operate The Kinder High School For Performing And Visual Arts, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With HSPVA Friends",
@@ -67805,7 +67797,7 @@
             },
             {
               "id": 43935,
-              "sequence": 52,
+              "sequence": 55,
               "agenda_number": null,
               "title": "CLOSED SESSION",
               "full_title": "CLOSED SESSION",
@@ -67828,7 +67820,7 @@
             },
             {
               "id": 43936,
-              "sequence": 53,
+              "sequence": 56,
               "agenda_number": null,
               "title": "Personnel",
               "full_title": "Personnel",
@@ -67851,7 +67843,7 @@
             },
             {
               "id": 43937,
-              "sequence": 54,
+              "sequence": 57,
               "agenda_number": "a)",
               "title": "Deliberate the duties of the superintendent of schools, chief officers, deputy chief officers, executive directors, principals, employees, and board members; evaluations of the superintendent; consideration of compensation, and contractual provisions of same.",
               "full_title": "Deliberate the duties of the superintendent of schools, chief officers, deputy chief officers, executive directors, principals, employees, and board members; evaluations of the superintendent; consideration of compensation, and contractual provisions of same.",
@@ -67874,7 +67866,7 @@
             },
             {
               "id": 43938,
-              "sequence": 55,
+              "sequence": 58,
               "agenda_number": "b)",
               "title": "Consider and approve proposed appointments, reassignments, proposed terminations, terminations/suspensions, contract lengths, proposed nonrenewals, renewals, and resignations/retirements of personnel including teachers, assistant principals, principals, chiefs, division superintendents, senior executive directors, executive directors, directors, and other administrators, and, if necessary, approve waiver and release and compromise agreements.",
               "full_title": "Consider and approve proposed appointments, reassignments, proposed terminations, terminations/suspensions, contract lengths, proposed nonrenewals, renewals, and resignations/retirements of personnel including teachers, assistant principals, principals, chiefs, division superintendents, senior executive directors, executive directors, directors, and other administrators, and, if necessary, approve waiver and release and compromise agreements.",
@@ -67882,8 +67874,8 @@
               "matter_file": null,
               "matter_name": null,
               "consent": false,
-              "action": null,
-              "passed": null,
+              "action": "approved",
+              "passed": true,
               "mover": null,
               "seconder": null,
               "agenda_note": null,
@@ -67897,7 +67889,7 @@
             },
             {
               "id": 43939,
-              "sequence": 56,
+              "sequence": 59,
               "agenda_number": "c)",
               "title": "Hear complaints against and deliberate the appointment, evaluation, and duties of public officers or employees and resolution of same.",
               "full_title": "Hear complaints against and deliberate the appointment, evaluation, and duties of public officers or employees and resolution of same.",
@@ -67920,7 +67912,7 @@
             },
             {
               "id": 43940,
-              "sequence": 57,
+              "sequence": 60,
               "agenda_number": null,
               "title": "Legal",
               "full_title": "Legal",
@@ -67943,7 +67935,7 @@
             },
             {
               "id": 43941,
-              "sequence": 58,
+              "sequence": 61,
               "agenda_number": "a)",
               "title": "Matters on which the district’s attorney’s duty to the district under the Code of Professional Responsibility clearly conflicts with the Texas Open Meetings Law, including specifically any matter listed on this agenda and meeting notice. ",
               "full_title": "Matters on which the district’s attorney’s duty to the district under the Code of Professional Responsibility clearly conflicts with the Texas Open Meetings Law, including specifically any matter listed on this agenda and meeting notice. ",
@@ -67966,7 +67958,7 @@
             },
             {
               "id": 43942,
-              "sequence": 59,
+              "sequence": 62,
               "agenda_number": "b)",
               "title": "Pending or contemplated litigation matters and status report. \r\n",
               "full_title": "Pending or contemplated litigation matters and status report. \r\n",
@@ -67989,7 +67981,7 @@
             },
             {
               "id": 43943,
-              "sequence": 60,
+              "sequence": 63,
               "agenda_number": "c)",
               "title": "Update on federal law enforcement activity on February 27, 2020. ",
               "full_title": "Update on federal law enforcement activity on February 27, 2020. ",
@@ -68012,7 +68004,7 @@
             },
             {
               "id": 43944,
-              "sequence": 61,
+              "sequence": 64,
               "agenda_number": "d)",
               "title": "Update and possible action in the matter of Nathan v. Alamo Heights Independent School District, in the Western District of Texas, San Antonio Division, Civil Action No. 5:25-cv-00756.",
               "full_title": "Update and possible action in the matter of Nathan v. Alamo Heights Independent School District, in the Western District of Texas, San Antonio Division, Civil Action No. 5:25-cv-00756.",
@@ -68035,7 +68027,7 @@
             },
             {
               "id": 43945,
-              "sequence": 62,
+              "sequence": 65,
               "agenda_number": "e)",
               "title": "Update and possible action in the matter of Houston Federation of Teachers v. Mike Miles, in the District Court of Harris County, Texas, 164 Judicial District, Cause No. 2025-53237.",
               "full_title": "Update and possible action in the matter of Houston Federation of Teachers v. Mike Miles, in the District Court of Harris County, Texas, 164 Judicial District, Cause No. 2025-53237.",
@@ -68058,7 +68050,7 @@
             },
             {
               "id": 43946,
-              "sequence": 63,
+              "sequence": 66,
               "agenda_number": "f)",
               "title": "GSA Network et al., v. Mike Morath, Houston ISD et al., in the Southern District of Texas, Civil Action No. 4:25-CV-04090.",
               "full_title": "GSA Network et al., v. Mike Morath, Houston ISD et al., in the Southern District of Texas, Civil Action No. 4:25-CV-04090.",
@@ -68081,7 +68073,7 @@
             },
             {
               "id": 43954,
-              "sequence": 67,
+              "sequence": 70,
               "agenda_number": null,
               "title": "District Safety, Emergency Management, And Security Audits",
               "full_title": "District Safety, Emergency Management, And Security Audits",
@@ -68104,7 +68096,7 @@
             },
             {
               "id": 43955,
-              "sequence": 68,
+              "sequence": 71,
               "agenda_number": "a)",
               "title": "Discussion of district safety concerns, including districtwide intruder detection audit report findings and HB3 compliance.",
               "full_title": "Discussion of district safety concerns, including districtwide intruder detection audit report findings and HB3 compliance.",
@@ -68127,7 +68119,7 @@
             },
             {
               "id": 43956,
-              "sequence": 69,
+              "sequence": 72,
               "agenda_number": null,
               "title": "CLOSED SESSION AUTHORIZATION DURING MEETING",
               "full_title": "CLOSED SESSION AUTHORIZATION DURING MEETING",
@@ -68150,7 +68142,7 @@
             },
             {
               "id": 43957,
-              "sequence": 70,
+              "sequence": 73,
               "agenda_number": null,
               "title": "If during the course of the meeting covered by this notice the board should determine that a closed or executive meeting or session of the board should be held or is required, then such closed or executive meeting or session as authorized by Chapter 551 of the Texas Government Code (the Open Meetings Act) will be held by the board at the date, hour, and place given in this notice or as soon after the commencement of the meeting covered by this notice as the board may conveniently meet in such closed or executive session concerning any and all subjects and for any and all purposes permitted by Section 551.071 through Section 551.089 inclusive of said Open Meetings Act.\r\n\r\nShould any final action, final decision, or final vote be required in the opinion of the board with regard to any matter considered in such closed or executive session, then such final action, final decision, or final vote shall be at either:\r\n\r\na) the open meeting covered by this notice upon the reconvening of this public meeting, or\r\nb) a subsequent public meeting of the board upon notice thereof, as the board shall determine.",
               "full_title": "If during the course of the meeting covered by this notice the board should determine that a closed or executive meeting or session of the board should be held or is required, then such closed or executive meeting or session as authorized by Chapter 551 of the Texas Government Code (the Open Meetings Act) will be held by the board at the date, hour, and place given in this notice or as soon after the commencement of the meeting covered by this notice as the board may conveniently meet in such closed or executive session concerning any and all subjects and for any and all purposes permitted by Section 551.071 through Section 551.089 inclusive of said Open Meetings Act.\r\n\r\nShould any final action, final decision, or final vote be required in the opinion of the board with regard to any matter considered in such closed or executive session, then such final action, final decision, or final vote shall be at either:\r\n\r\na) the open meeting covered by this notice upon the reconvening of this public meeting, or\r\nb) a subsequent public meeting of the board upon notice thereof, as the board shall determine.",
@@ -68173,7 +68165,7 @@
             },
             {
               "id": 43958,
-              "sequence": 71,
+              "sequence": 74,
               "agenda_number": null,
               "title": "ADJOURN",
               "full_title": "ADJOURN",
@@ -68196,7 +68188,7 @@
             },
             {
               "id": 43959,
-              "sequence": 73,
+              "sequence": 76,
               "agenda_number": null,
               "title": "CERTIFICATE AS TO POSTING OR GIVING OF NOTICE",
               "full_title": "CERTIFICATE AS TO POSTING OR GIVING OF NOTICE",
@@ -68219,7 +68211,7 @@
             },
             {
               "id": 43960,
-              "sequence": 74,
+              "sequence": 77,
               "agenda_number": null,
               "title": "On this sixth day of February 2026 at 4:00 p.m., this notice was posted on a bulletin board located at a place convenient to the public in the HMW Educational Support Center of the Houston Independent School District, the address of which is 4400 West 18th Street, Houston, Texas, as well as on the district’s public web portal.",
               "full_title": "On this sixth day of February 2026 at 4:00 p.m., this notice was posted on a bulletin board located at a place convenient to the public in the HMW Educational Support Center of the Houston Independent School District, the address of which is 4400 West 18th Street, Houston, Texas, as well as on the district’s public web portal.",
@@ -68242,7 +68234,7 @@
             },
             {
               "id": 43963,
-              "sequence": 37,
+              "sequence": 40,
               "agenda_number": "10.",
               "title": "Approval Of The Annual Comprehensive Financial Report For The Fiscal Year Ending June 30, 2025",
               "full_title": "Approval Of The Annual Comprehensive Financial Report For The Fiscal Year Ending June 30, 2025",
@@ -68271,7 +68263,7 @@
             },
             {
               "id": 43964,
-              "sequence": 38,
+              "sequence": 41,
               "agenda_number": "11.",
               "title": "Adoption Of Resolution To Pay Employees Related To The Inclement Weather On January 26, 2026",
               "full_title": "Adoption Of Resolution To Pay Employees Related To The Inclement Weather On January 26, 2026",
@@ -68300,7 +68292,7 @@
             },
             {
               "id": 43965,
-              "sequence": 24,
+              "sequence": 26,
               "agenda_number": null,
               "title": "page break",
               "full_title": "page break",
@@ -68323,7 +68315,7 @@
             },
             {
               "id": 43969,
-              "sequence": 41,
+              "sequence": 44,
               "agenda_number": "14.",
               "title": "Authorization To Explore A Partnership With Friends Of Challenge Early College High School To Operate Challenge Early College High School, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of Challenge Early College High School",
               "full_title": "Authorization To Explore A Partnership With Friends Of Challenge Early College High School To Operate Challenge Early College High School, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of Challenge Early College High School",
@@ -68349,7 +68341,7 @@
             },
             {
               "id": 43970,
-              "sequence": 43,
+              "sequence": 46,
               "agenda_number": "16.",
               "title": "Authorization To Explore A Partnership With Friends Of The Energy Institute High School To Operate The Energy Institute High School, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of The Energy Institute High School",
               "full_title": "Authorization To Explore A Partnership With Friends Of The Energy Institute High School To Operate The Energy Institute High School, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of The Energy Institute High School",
@@ -68375,7 +68367,7 @@
             },
             {
               "id": 43971,
-              "sequence": 42,
+              "sequence": 45,
               "agenda_number": "15.",
               "title": "Authorization To Explore A Partnership With Friends Of The Houston Academy For International Studies To Operate The Houston Academy For International Studies, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of The Houston Academy For International Studies",
               "full_title": "Authorization To Explore A Partnership With Friends Of The Houston Academy For International Studies To Operate The Houston Academy For International Studies, To Apply For Texas Partnership Benefits (1882 Benefits), And To Negotiate A Contract With Friends Of The Houston Academy For International Studies",
@@ -68398,7 +68390,7 @@
             },
             {
               "id": 43978,
-              "sequence": 28,
+              "sequence": 30,
               "agenda_number": "2.",
               "title": "Approval Of Proposed Revisions To Board Policy EL(LOCAL), Campus Or Program Charters-Second Reading",
               "full_title": "Approval Of Proposed Revisions To Board Policy EL(LOCAL), Campus Or Program Charters-Second Reading",
@@ -68406,8 +68398,8 @@
               "matter_file": "26-066",
               "matter_name": null,
               "consent": false,
-              "action": null,
-              "passed": null,
+              "action": "approved",
+              "passed": true,
               "mover": null,
               "seconder": null,
               "agenda_note": null,
@@ -68427,7 +68419,7 @@
             },
             {
               "id": 43979,
-              "sequence": 21,
+              "sequence": 23,
               "agenda_number": null,
               "title": "•\tNWEA Middle of the Year (MOY) Measures of Academic Progress (MAP) Results",
               "full_title": "•\tNWEA Middle of the Year (MOY) Measures of Academic Progress (MAP) Results",
@@ -68450,7 +68442,7 @@
             },
             {
               "id": 43983,
-              "sequence": 45,
+              "sequence": 48,
               "agenda_number": "18.",
               "title": "Authority To Negotiate, Execute, And Amend An Interlocal Partnership Agreement With The Texas Workforce Commission",
               "full_title": "Authority To Negotiate, Execute, And Amend An Interlocal Partnership Agreement With The Texas Workforce Commission",
@@ -68473,7 +68465,7 @@
             },
             {
               "id": 43984,
-              "sequence": 16,
+              "sequence": 18,
               "agenda_number": null,
               "title": "page break",
               "full_title": "page break",
@@ -68496,7 +68488,7 @@
             },
             {
               "id": 43986,
-              "sequence": 23,
+              "sequence": 25,
               "agenda_number": null,
               "title": "•\tFacilities Assessment Update and School Consolidation Recommendations",
               "full_title": "•\tFacilities Assessment Update and School Consolidation Recommendations",
@@ -68519,7 +68511,7 @@
             },
             {
               "id": 43987,
-              "sequence": 22,
+              "sequence": 24,
               "agenda_number": null,
               "title": "•\tAccelerate Houston: The Future is Now",
               "full_title": "•\tAccelerate Houston: The Future is Now",
@@ -68542,7 +68534,7 @@
             },
             {
               "id": 44039,
-              "sequence": 64,
+              "sequence": 67,
               "agenda_number": null,
               "title": "Real Estate",
               "full_title": "Real Estate",
@@ -68565,7 +68557,7 @@
             },
             {
               "id": 44040,
-              "sequence": 65,
+              "sequence": 68,
               "agenda_number": "a)",
               "title": "Sale",
               "full_title": "Sale",
@@ -68588,10 +68580,33 @@
             },
             {
               "id": 44041,
-              "sequence": 66,
+              "sequence": 69,
               "agenda_number": "1)",
               "title": "Consideration and possible action to sell the surplus real property known as SB# 26-10-96 Terrell Facility, 4610 E. Crosstimbers Street, Houston, Harris County, Texas 77016.",
               "full_title": "Consideration and possible action to sell the surplus real property known as SB# 26-10-96 Terrell Facility, 4610 E. Crosstimbers Street, Houston, Harris County, Texas 77016.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": "approved",
+              "passed": true,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44042,
+              "sequence": 75,
+              "agenda_number": null,
+              "title": "page break",
+              "full_title": "page break",
               "type": "Other",
               "matter_file": null,
               "matter_name": null,
@@ -68610,8 +68625,146 @@
               "attachments": []
             },
             {
-              "id": 44042,
-              "sequence": 72,
+              "id": 44043,
+              "sequence": 1,
+              "agenda_number": null,
+              "title": "At the February 12, 2026, School Board meeting, all agenda items were approved as presented.\r\n \r\nAdditional information may be obtained from the Board Services Office, 713-556-6121.",
+              "full_title": "At the February 12, 2026, School Board meeting, all agenda items were approved as presented.\r\n \r\nAdditional information may be obtained from the Board Services Office, 713-556-6121.",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": null,
+              "passed": null,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44044,
+              "sequence": 4,
+              "agenda_number": null,
+              "title": "page break",
+              "full_title": "page break",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": null,
+              "passed": null,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44045,
+              "sequence": 34,
+              "agenda_number": null,
+              "title": "page break",
+              "full_title": "page break",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": null,
+              "passed": null,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44047,
+              "sequence": 0,
+              "agenda_number": null,
+              "title": "RECOGNITIONS",
+              "full_title": "RECOGNITIONS",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": null,
+              "passed": null,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44048,
+              "sequence": 0,
+              "agenda_number": null,
+              "title": "SPEAKERS TO AGENDA ITEMS",
+              "full_title": "SPEAKERS TO AGENDA ITEMS",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": null,
+              "passed": null,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44049,
+              "sequence": 0,
+              "agenda_number": null,
+              "title": "page break",
+              "full_title": "page break",
+              "type": "Other",
+              "matter_file": null,
+              "matter_name": null,
+              "consent": false,
+              "action": null,
+              "passed": null,
+              "mover": null,
+              "seconder": null,
+              "agenda_note": null,
+              "minutes_note": null,
+              "geographic_tags": {
+                "trustee_districts": [],
+                "schools": [],
+                "addresses": []
+              },
+              "attachments": []
+            },
+            {
+              "id": 44050,
+              "sequence": 0,
               "agenda_number": null,
               "title": "page break",
               "full_title": "page break",
@@ -68633,7 +68786,7 @@
               "attachments": []
             }
           ],
-          "item_count": 74
+          "item_count": 81
         },
         {
           "id": 1310,
@@ -80702,7 +80855,7 @@
     "houston_city_council": {
       "source": "Houston City Council",
       "fetched_at": "2026-02-07T19:45:00Z",
-      "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 5 day(s) old. Manual refresh needed when new PDFs are available.",
+      "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 6 day(s) old. Manual refresh needed when new PDFs are available.",
       "data_sources": {
         "primary": "https://www.houstontx.gov/citysec/agenda/agendaindex.html",
         "secondary": "https://houston.novusagenda.com/agendapublic/Meetings.aspx",
@@ -82325,13 +82478,13 @@
         "consent_decree_work": "Ongoing consent decree compliance for wastewater lift station rehabilitation"
       },
       "stale": true,
-      "stale_days": 5,
-      "last_refresh_attempt": "2026-02-13T07:09:26.902Z"
+      "stale_days": 6,
+      "last_refresh_attempt": "2026-02-14T06:55:42.465Z"
     },
     "metro": {
       "source": "Houston METRO",
       "source_url": "https://www.ridemetro.org/about/board-meetings",
-      "fetched_at": "2026-02-13T07:08:49.286Z",
+      "fetched_at": "2026-02-14T06:55:17.770Z",
       "note": "Data extracted from Granicus RSS feed and AgendaViewer. Future dates projected based on 4th-Thursday pattern.",
       "data_sources": {
         "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
@@ -82456,6 +82609,15 @@
           "time": "9:00 AM",
           "type": "Committee Meetings (Projected)",
           "status": "Future - Projected Date",
+          "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+          "agenda_url": null,
+          "agenda_items": []
+        },
+        {
+          "date": "2026-02-19",
+          "time": "9:00 AM",
+          "type": "Committee Meeting",
+          "status": "Upcoming",
           "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
           "agenda_url": null,
           "agenda_items": []
