@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-16T07:09:21.169Z",
+  "fetched_at": "2026-02-17T07:04:40.647Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -3762,9 +3762,32 @@
       "name": "LaTecia Brown",
       "email": "LaTecia.Brown@dro.hctx.net",
       "active": true
+    },
+    {
+      "id": 901,
+      "name": "Katelyn Caldwell",
+      "email": "Katelyn.Caldwell@harriscountytx.gov",
+      "active": true
     }
   ],
   "meetings": [
+    {
+      "id": 1230,
+      "date": "2026-02-26",
+      "time": "9:00 AM",
+      "body": "Commissioners Court",
+      "location": "1001 Preston, 1st Floor",
+      "comment": "",
+      "agenda_pdf": null,
+      "legistar_url": "https://harriscountytx.legistar.com/MeetingDetail.aspx?LEGID=1230&GID=798&G=800B5DA3-042C-42B8-BD39-0674375456AF",
+      "is_upcoming": true,
+      "total_items": 0,
+      "total_raw_items": 0,
+      "consent_items": 0,
+      "type_breakdown": {},
+      "geo_tagged_items": 0,
+      "agenda_items": []
+    },
     {
       "id": 1229,
       "date": "2026-02-12",
@@ -66317,8 +66340,8 @@
     }
   ],
   "summary": {
-    "total_meetings": 9,
-    "upcoming_meetings": 0,
+    "total_meetings": 10,
+    "upcoming_meetings": 1,
     "past_meetings": 9,
     "total_agenda_items": 3428
   }

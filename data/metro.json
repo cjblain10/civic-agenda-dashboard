@@ -1,7 +1,7 @@
 {
   "source": "Houston METRO",
   "source_url": "https://www.ridemetro.org/about/board-meetings",
-  "fetched_at": "2026-02-16T07:11:29.819Z",
+  "fetched_at": "2026-02-17T07:07:41.100Z",
   "note": "Data extracted from Granicus RSS feed and AgendaViewer. Future dates projected based on 4th-Thursday pattern.",
   "data_sources": {
     "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
