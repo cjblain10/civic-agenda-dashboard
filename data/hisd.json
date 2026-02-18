@@ -1,10 +1,10 @@
 {
   "source": "Houston ISD",
   "api_base": "https://webapi.legistar.com/v1/houstonisd/",
-  "fetched_at": "2026-02-17T07:07:29.411Z",
+  "fetched_at": "2026-02-18T07:08:45.134Z",
   "summary": {
-    "total_meetings": 10,
-    "upcoming_meetings": 0,
+    "total_meetings": 11,
+    "upcoming_meetings": 1,
     "past_meetings": 10,
     "total_agenda_items": 570,
     "active_bodies": 2,
@@ -467,6 +467,20 @@
     }
   ],
   "meetings": [
+    {
+      "id": 1324,
+      "date": "2026-02-23",
+      "time": "3:15 PM",
+      "body": "School Board",
+      "body_id": 205,
+      "location": "BOARD AUDITORIUM AND BOARD SERVICES CONFERENCE ROOM",
+      "type": "Training",
+      "agenda_status": "Hidden",
+      "agenda_url": null,
+      "detail_url": "https://houstonisd.legistar.com/MeetingDetail.aspx?LEGID=1324&GID=889&G=AEA739C4-F651-4FB7-B1D8-F4D303D5084D",
+      "agenda_items": [],
+      "item_count": 0
+    },
     {
       "id": 1299,
       "date": "2026-02-12",
