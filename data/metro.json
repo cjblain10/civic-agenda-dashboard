@@ -1,7 +1,7 @@
 {
   "source": "Houston METRO",
   "source_url": "https://www.ridemetro.org/about/board-meetings",
-  "fetched_at": "2026-02-18T07:08:55.292Z",
+  "fetched_at": "2026-02-19T07:07:43.357Z",
   "note": "Data extracted from Granicus RSS feed and AgendaViewer. Future dates projected based on 4th-Thursday pattern.",
   "data_sources": {
     "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
@@ -134,7 +134,7 @@
       "date": "2026-02-19",
       "time": "9:00 AM",
       "type": "Committee Meeting",
-      "status": "Upcoming",
+      "status": "Past",
       "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
       "agenda_url": null,
       "agenda_items": []
