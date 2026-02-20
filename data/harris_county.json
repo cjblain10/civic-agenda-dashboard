@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-19T07:05:26.367Z",
+  "fetched_at": "2026-02-20T07:02:26.234Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -484,7 +484,7 @@
     {
       "id": 296,
       "name": "Erica Carter",
-      "email": "Erica.Carter@cp1.hctx.net",
+      "email": "Erica.LeeCarter@harriscountytx.gov",
       "active": true
     },
     {
@@ -3781,12 +3781,873 @@
       "agenda_pdf": null,
       "legistar_url": "https://harriscountytx.legistar.com/MeetingDetail.aspx?LEGID=1230&GID=798&G=800B5DA3-042C-42B8-BD39-0674375456AF",
       "is_upcoming": true,
-      "total_items": 0,
-      "total_raw_items": 0,
+      "total_items": 52,
+      "total_raw_items": 52,
       "consent_items": 0,
-      "type_breakdown": {},
-      "geo_tagged_items": 0,
-      "agenda_items": []
+      "type_breakdown": {
+        "Other": 51,
+        "Public Notice": 1
+      },
+      "geo_tagged_items": 8,
+      "agenda_items": [
+        {
+          "id": 180904,
+          "agenda_number": null,
+          "title": "Public Notice",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180905,
+          "agenda_number": null,
+          "title": "Opening Prayer",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180906,
+          "agenda_number": null,
+          "title": "Pastor Thomas T. Davis, Jr. of Riceville Mount Olive Baptist Church in Houston introduced by the Commissioner of Precinct 4.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [
+              "4"
+            ],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180907,
+          "agenda_number": null,
+          "title": "Pledges of Allegiance",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180908,
+          "agenda_number": null,
+          "title": "Appearances before court",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180909,
+          "agenda_number": null,
+          "title": "Members of the public may attend, participate and/or address Commissioners Court in-person or may view the meeting through the following link: https://www.harriscountytx.gov/Government/Court-Agenda/Court-Videos. Members of the public who attend the meeting in-person may make comments by signing up to speak by completing an appearance request form, and submitting it one hour before the commencement of the meeting, the form can be found at https://appearancerequest.harriscountytx.gov. Speakers may address the Commissioners Court for up to one (1) minute in total, notwithstanding how many agenda items the speaker signs up to comment on.  Members of the public who sign up to speak about a topic that does not address a specific agenda item at a regular meeting will also be limited to one (1) minute and will address the Court after all agenda related comments have been made. For business court or special meetings, speakers may only sign up to address topics that pertain to posted agenda items. Members of the public are also invited to email their written comments to Commissioners Court at CommissionersCourt@hctx.net.\r\n\r\n",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180910,
+          "agenda_number": null,
+          "title": "It is the intention of the Harris County Commissioners Court to provide open access to all members of the public of Harris County to express themselves on issues addressed by County government.  However, members of the public are reminded that the Harris County Commissioners Court is a constitutional court, created by the State with judicial, administrative and legislative powers.  As such, the Harris County Commissioners Court possesses the authority to issue Contempt of Court citations.  Accordingly, persons shall conduct themselves with proper respect and decorum in addressing the Court, in participating in public discussions before the Court, and in all actions in the presence of the Court consistent with the rules and procedures of Harris County Commissioners Court.  Profane, insulting or threatening language, and racial, ethnic or gender slurs or epithets will not be tolerated.  Those persons who do not conduct themselves in an orderly and appropriate manner will be ordered to leave the meeting and recognition to speak may be refused at subsequent meetings of the Court.  Refusal to abide by the Court’s Order may result in a Contempt of Court Citation.\r\n\r\nPlease refer to Public Notice for specific meeting as instructions are subject to change.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [
+              "Harris County"
+            ],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180911,
+          "agenda_number": null,
+          "title": "County Administration",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180914,
+          "agenda_number": null,
+          "title": "Management and Budget",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180919,
+          "agenda_number": null,
+          "title": "Human Resources and Talent",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180923,
+          "agenda_number": null,
+          "title": "County Engineer",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180983,
+          "agenda_number": null,
+          "title": "Flood Control District",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": true
+          },
+          "attachments": []
+        },
+        {
+          "id": 180985,
+          "agenda_number": null,
+          "title": "Toll Road Authority",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180991,
+          "agenda_number": null,
+          "title": "Intergovernmental and Global Affairs",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180993,
+          "agenda_number": null,
+          "title": "Economic Equity and Opportunity",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180995,
+          "agenda_number": null,
+          "title": "Universal Services",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181001,
+          "agenda_number": null,
+          "title": "Public Health Services",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181006,
+          "agenda_number": null,
+          "title": "Housing and Community Development",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181010,
+          "agenda_number": null,
+          "title": "County Library",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181013,
+          "agenda_number": null,
+          "title": "Harris County Resources for Children and Adults",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [
+              "Harris County"
+            ],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181015,
+          "agenda_number": null,
+          "title": "Constables",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181021,
+          "agenda_number": null,
+          "title": "Sheriff",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181027,
+          "agenda_number": null,
+          "title": "District Clerk",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181029,
+          "agenda_number": null,
+          "title": "County Attorney",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181034,
+          "agenda_number": null,
+          "title": "District Attorney",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181037,
+          "agenda_number": null,
+          "title": "Managed Assigned Counsel",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181040,
+          "agenda_number": null,
+          "title": "Travel & Training",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181043,
+          "agenda_number": null,
+          "title": "     Dept.    No.   Purpose                                  Date(s)        Location            Cost     Fund\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------                                                    \r\n 19. SHERIFF      3 Law Enforcement Educators and Trainers   3/15-21/2026   St. Louis, MO        $10,853 Other  \r\n                    Association Conf.                                                                           \r\n                    ($11,328 appvd. 2/12 for 3 attnds.-add                                                      \r\n                    attnds., exp., & funding source)                                                            \r\n 20. SHERIFF      - FBI radiological stabilization training  3/15-28/2026   Albuquerque, NM            - Other  \r\n                    course                                                                                      \r\n                    ($15,062 appvd. 8/7/2025 for 1 attnd.                                                       \r\n                    -date change)                                                                               \r\n 21. SHERIFF      4 National Missing and Unidentified        4/20-24/2026   Las Vegas, NV         $8,594 Other  \r\n                    Persons Conference                                                                          \r\n 22. SHERIFF     20 Ship hull inspections and underwater     7/30-8/18/2026 Key West, FL        $117,000 Grant  \r\n                    threat assessments*                                                                         \r\n 23. SO-DET       3 Outsource facility inspection*           3/5-6/2026     Natchitoches, LA        $930 Other  \r\n 24. PA           2 NASPO & PPA Conference                   3/8-13/2026    Lake Buena Vista, FL  $5,850 General\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------\r\n     Subtotal    85     Out of Texas average cost per attendee:    $3,988                       $338,989\r\n",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181044,
+          "agenda_number": null,
+          "title": "     Dept.    No.   Purpose                                  Date(s)        Location            Cost     Fund\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------\r\n 26. HCD          1 New Horizon's IT training                Multiple       Houston, TX           $2,018 General\r\n 27. DRO          1 Marriage Dissolution Institute & 101     4/30-5/1/2026  Galveston, TX           $678 General\r\n                    course                                                                                      \r\n 28. HCRCA        2 Texas Council of Child Welfare Boards    2/25-27/2026   Austin, TX            $1,062 General\r\n                    meeting                                                                                     \r\n 29. HCRCA        3 Intensive accreditation training         4/6/2026       Houston, TX           $1,200 General\r\n 30. CAC          1 Child sex trafficking forensic           4/28-5/1/2026  Dallas, TX            $1,286 Other  \r\n                    interviewing training                                                                       \r\n 31. C1           2 Offleash control training*               4/27-5/1/2026  Alvin, TX             $1,700 General\r\n 32. C1           2 Shield instructor course*                5/10-13/2026   Waco, TX              $2,700 General\r\n 33. C4           - National Technical Investigators         1/20-23/2026   San Marcos, TX          $533 Other  \r\n                    Association Training Conf.*                                                                 \r\n                    ($2,312 appvd. 12/11/2025 for 3 attnds.                                                     \r\n                    -add exp.)                                                                                  \r\n 34. C4           1 Public information officer course*       6/28-7/1/2026  Huntsville, TX        $1,250 Other  \r\n 35. C5           1 Cellebrite certified operator & physical 4/20-24/2026   Houston, TX           $4,845 Other  \r\n                    analyst certification*                                                                      \r\n                    ($4,845 appvd. 1/29 for 1 attnd.-add                                                        \r\n                    attnd., exp. & funding source)                                                              \r\n 36. SHERIFF      1 Executive coaching & leadership          Multiple       Houston, TX           $7,200 General\r\n                    development online training                                                                 \r\n 37. SHERIFF      1 Recruit military events*                 Multiple       Houston, TX           $2,985 General\r\n 38. SHERIFF      4 911 mental health training/retreat       3/23-27/2026   Bandera, TX           $1,428 General\r\n                                                                                                  $7,180 Grant  \r\n 39. SHERIFF      5 NENA/APCO Texas Public Safety            3/29-4/1/2026  Denton, TX            $1,600 General\r\n                    Conference*                                                                   $7,046 Other  \r\n 40. SHERIFF      4 Post critical incident seminar           4/14-17/2026   Dallas, TX            $2,467 General\r\n                                                                                                  $1,596 Other  \r\n 41. SHERIFF      2 Drug Impact Conference*                  7/20-23/2026   Allen, TX             $1,604 General\r\n 42. SHERIFF      1 Law Enf. Mgmt. Inst. of Tx. Leadership   Multiple       Huntsville, TX        $3,700 Other  \r\n                    Command College training*                                                                   \r\n 43. IFS          1 PITTCON Expo & Conference                3/8-11/2026    San Antonio, TX       $1,351 General\r\n 44. IFS          2 Texas Forensic Science Commission DNA    3/25-27/2026   Fort Worth, TX        $2,256 General\r\n                    meeting                                                                                     \r\n 45. PD           2 Fraternal Order of Investigators         3/27-28/2026   Kerrville, TX         $2,166 General\r\n                    Conference                                                                                  \r\n 46. MAC         14 Texas Criminal Defense Lawyers           2/19-20/2026   Austin, TX                 - -      \r\n                    Association training                                                                        \r\n 47. PBCT1        1 Texas College of Probate Judges training Multiple       Various               $1,817 Other  \r\n 48. PBCT1        1 State Bar Judicial Section Board meeting 3/25-27/2026   San Antonio, TX       $1,419 Other  \r\n 49. PBCT2        2 Texas College of Probate Judges training 3/11-13/2026   Austin, TX            $2,882 Other  \r\n 50. PA          15 Certified Texas contract developer &     Multiple       Austin, TX           $20,000 General\r\n                    manager training*                                                                           \r\n 51. CJO          2 Texas HIV syndicate meetings             Multiple       Various               $3,400 Grant  \r\n 52. PCT3         1 On-site sewer facility renewal license   2/27-3/1/2026  San Antonio, TX         $681 General\r\n                    class*                                                                                      \r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------\r\n     Subtotal   731         In Texas average cost per attendee:      $379                       $277,355\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------\r\n     Total      816     Average cost per attendee:                   $755                       $616,344\r\n\r\n*Travel by county vehicle\r\nFY 2026 = 10/1/25-9/30/26\r\n",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181045,
+          "agenda_number": null,
+          "title": "Grants",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181058,
+          "agenda_number": null,
+          "title": "ARPA",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181065,
+          "agenda_number": null,
+          "title": "Auditor",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181068,
+          "agenda_number": null,
+          "title": "Tax Assessor-Collector",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181070,
+          "agenda_number": null,
+          "title": "Purchasing",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181129,
+          "agenda_number": null,
+          "title": "County Judge",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181131,
+          "agenda_number": null,
+          "title": "Commissioner, Precinct 1",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [
+              "1"
+            ],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181140,
+          "agenda_number": null,
+          "title": "Commissioner, Precinct 2",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [
+              "2"
+            ],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181146,
+          "agenda_number": null,
+          "title": "Commissioner, Precinct 3",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [
+              "3"
+            ],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181152,
+          "agenda_number": null,
+          "title": "Commissioner, Precinct 4",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [
+              "4"
+            ],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181172,
+          "agenda_number": null,
+          "title": "Transmittals",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181225,
+          "agenda_number": null,
+          "title": "Executive Session",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181228,
+          "agenda_number": null,
+          "title": "The Commissioners Court may go into executive session, if necessary, pursuant to chapter 551 of the Texas Government Code, for one or more of the following reasons: (1) consultation with the County Attorney to seek or receive legal advice or consultation regarding pending or contemplated litigation; (2) discussion about the value or transfer of real property; (3) discussion about a prospective gift or donation; (4) consideration of specific personnel matters; (5) discussion about security personnel or devices; or (6) discussion of certain economic development matters. The Commissioners Court may announce that it will go into executive session on any item listed on this agenda if the subject matter is permitted for a closed session by provisions of chapter 551 of the Texas Government Code.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181229,
+          "agenda_number": null,
+          "title": "Emergency/Supplemental items",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181277,
+          "agenda_number": null,
+          "title": "Resolutions",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181287,
+          "agenda_number": null,
+          "title": "The Court plans to accept public comments from each speaker who signed up to comment on a Resolution at the time the Court takes up the Resolution. Resolutions and signing of resolutions will begin at 6:00 pm or upon completion of the regular order of business whichever is earlier.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181288,
+          "agenda_number": null,
+          "title": "Notice is hereby given that, prior to the adjournment of the meeting of Commissioners Court, the Court may consider and take action on supplemental agenda items and/or emergency or urgent public necessity agenda items.  \r\n\r\nSupplemental items may be published up to 3 business days before the date of a meeting of Harris County Commissioners Court.  \r\n\r\nEmergency or urgent public necessity items may be published up to one (1) hour before a meeting of Harris County Commissioners Court.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [
+              "Harris County"
+            ],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181289,
+          "agenda_number": null,
+          "title": "Adjournment.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181295,
+          "agenda_number": null,
+          "title": "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all.\r\n\r\nHonor the Texas flag; I pledge allegiance to thee, Texas, one state under God, one and indivisible.\r\n\r\n",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181519,
+          "agenda_number": null,
+          "title": "February 20, 2026 - NOTICE OF A PUBLIC MEETING",
+          "type": "Public Notice",
+          "matter_file": "26-1225",
+          "matter_status": "Agenda Ready",
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": [
+            {
+              "name": "2026-02-26 Notice of Regular Public Meeting (In-Person Virtual).pdf",
+              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/4e2e1a8f-66bc-4f40-9596-2d35d8e52d22.pdf",
+              "binary_url": null
+            }
+          ]
+        },
+        {
+          "id": 181520,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 181521,
+          "agenda_number": null,
+          "title": "     Dept.    No.   Purpose                                  Date(s)        Location            Cost     Fund\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------\r\n  1. OCA          2 Safety and Justice Challenge Research    3/9-12/2026    Nashville, TN         $2,795 Grant  \r\n                    Symposium                                                                                   \r\n  2. OMB          1 CVS Caremark Client Forum                4/22-24/2026   San Diego, CA           $795 General\r\n                                                                                                    $900 Other  \r\n  3. OMB          1 State & Local Government Benefits        5/4-7/2026     Providence, RI        $2,300 General\r\n                    Association Natl. Conf.                                                                     \r\n  4. OMB          7 Government Finance Officers Association  6/28-7/1/2026  Chicago, IL          $17,990 General\r\n                    Conference                                                                                  \r\n  5. OCE          4 OpenGov National Conference              4/29-5/1/2026  Chicago, IL           $8,909 General\r\n  6. OCE          3 Erosion Control, Stormwater Management   8/25-27/2026   Minneapolis, MN       $5,025 General\r\n                    Conference                                                                                  \r\n  7. FCD          3 OpenGov Conference                       4/26-5/2/2026  Chicago, IL          $12,347 FCD    \r\n                                                                                                  $1,087 Other  \r\n  8. FCD          1 National Adaptation Forum                5/11-15/2026   Pittsburgh, PA        $2,524 FCD    \r\n                                                                                                    $232 Other  \r\n  9. TRA          2 Eno Center for Transportation leadership Multiple       Various              $22,000 TRA    \r\n                    programs*                                                                                   \r\n 10. PHS          1 NEHA NEARS user meeting                  3/17-19/2026   Atlanta, GA           $2,790 Other  \r\n 11. PHS          3 RX and Illicit Drug Summit               4/6-9/2026     Nashville, TN        $14,460 Grant  \r\n 12. PHS          3 American Society of Addiction Medicine   4/23-26/2026   San Diego, CA        $15,405 Grant  \r\n                    Conference                                                                                  \r\n 13. PHS          7 Overdose Data to Action recipient        6/14-18/2026   Atlanta, GA          $26,475 Grant  \r\n                    meeting                                                                                     \r\n 14. PHS          3 Postpartum Support International         6/24-29/2026   Los Angeles, CA      $13,355 Other  \r\n                    Conference                                                                                  \r\n 15. PHS          3 Association for Addiction Professionals  8/29-31/2026   Kansas City, MO      $12,270 Grant  \r\n                    Conference                                                                                  \r\n 16. HCD          2 Society of Human Resource Management     6/15-19/2026   Orlando, FL          $11,078 Grant  \r\n                    Conference                                                                                  \r\n 17. VS           6 Natl. Association of County Veterans     5/30-6/6/2026  Reno, NV             $21,740 General\r\n                    Service Officers Conf.  \r\n 18. AGL          1 4-H Military Partnership Leadership      4/27-5/1/2026  Denver, CO            $1,285 Other  \r\n                    Academy Conference                                                                    ",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": true
+          },
+          "attachments": []
+        },
+        {
+          "id": 181522,
+          "agenda_number": null,
+          "title": "     Dept.    No.   Purpose                                  Date(s)        Location            Cost     Fund\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------\r\n  1. OMB          3 Texas Division of Emergency Management   5/26-29/2026   Fort Worth, TX        $6,010 General\r\n                    Conference                                                                                  \r\n  2. OCE          1 International Right of Way Association   Multiple       Houston, TX           $2,340 General\r\n                    online training                                                                             \r\n                    ($14,165 appvd. 9/18/2025 for 3 attnds.                                                     \r\n                    -add attnd. & exp. & $2,620 appvd. 1/8                                                      \r\n                    for 1 attnd.-add attnd. & exp.)                                                             \r\n  3. OCE          1 Online PMP cert. exam & PMI membership   1/20/2026      Houston, TX             $675 General\r\n  4. OCE          4 Texas Onsite Wastewater Association      3/8-11/2026    Waco, TX              $4,920 General\r\n                    Conference                                                                                  \r\n  5. OCE         15 Texas Floodplain Management Association  3/10-13/2026   The Woodlands, TX    $15,200 General\r\n                    meeting                                                                                     \r\n                    ($5,530 appvd. 2/12 for 6 attnds.-add                                                       \r\n                    attnds. & exp.)                                                                             \r\n  6. OCE        300 Onsite wastewater systems training*      5/15/2026      Houston, TX           $1,500 General\r\n  7. FCD          3 Emergency Management Association of Tx.  3/8-11/2026    College Station, TX   $3,745 FCD    \r\n                    Leadership Symposium                                                                        \r\n  8. FCD          2 National Tropical Weather Conference     4/7-11/2026    S. Padre Island, TX   $3,530 FCD    \r\n  9. TRA          - Various blanket requests-Exec. &         Multiple       Various              $30,000 TRA    \r\n                    Finance/Strategic Support*                                                                  \r\n                    ($50,000 appvd. 10/16/2025 for 30                                                           \r\n                    attnds.-add exp.)                                                                           \r\n 10. TRA          - Various blanket requests                 Multiple       Various              $35,000 TRA    \r\n                    -Communications*                                                                            \r\n                    ($15,000 appvd. 10/16/2025 for 15                                                           \r\n                    attnds.-add exp.)                                                                           \r\n 11. PHS          3 Food safety culture for regulators       3/10-11/2026   San Antonio, TX       $6,530 Grant  \r\n                    workshop*                                                                                   \r\n 12. PHS         27 Grant management training                3/10-11/2026   Humble, TX           $12,475 Grant  \r\n 13. PHS         14 Gold lactation online conference         Multiple       Houston, TX           $2,940 Grant  \r\n 14. PHS          4 Texas Academy of Nutrition and Dietetics 4/17-18/2026   Spring, TX            $2,794 Grant  \r\n                    Conference                                                                                  \r\n 15. PHS          2 Healthy Futures of Texas Symposium       4/26-30/2026   Austin, TX            $3,550 Grant  \r\n 16. PHS          1 Texas Dental Association meeting         5/6-9/2026     San Antonio, TX       $2,297 Other  \r\n 17. PHS         10 WIC NWA Education & Training Conference* 5/27-30/2026   Dallas, TX           $23,505 Grant  \r\n 18. PHS          5 Diseases in nature transmissible to      7/8-10/2026    College Station, TX   $8,125 General\r\n                    humans meeting*                                                                             \r\n 19. PHS          3 Perinatal Mental Health Conference       7/23-26/2026   Dallas, TX            $6,445 Other  \r\n 20. PHS          5 Black Maternal Mental Health Summit      7/24-25/2026   Houston, TX           $3,740 Other  \r\n 21. HCD          1 Texas Transit Association workshop*      2/27-28/2026   Lufkin, TX              $373 Grant  \r\n 22. HCD        250 HCD Employee Appreciation Week events    3/2-6/2026     Houston, TX           $4,000 General\r\n 23. HCD          1 Soc. of Human Resources Mgmt. - Cert.    Multiple       Houston, TX           $2,035 General\r\n                    prof. course & exam                                                                         \r\n 24. HCD          1 Women Shaping Texas Cities Conference    4/15-16/2026   San Antonio, TX         $792 General\r\n 25. HCD          2 Texas Transit Association Conference     4/28-5/2/2026  Lubbock, TX           $4,784 Grant  ",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [
+              "Spring",
+              "Humble"
+            ],
+            "flood_control": true
+          },
+          "attachments": []
+        }
+      ]
     },
     {
       "id": 1229,
@@ -10822,11 +11683,11 @@
       "agenda_pdf": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/2/1259_A_Commissioners_Court_26-02-10_Agenda.pdf",
       "legistar_url": "https://harriscountytx.legistar.com/MeetingDetail.aspx?LEGID=1259&GID=798&G=800B5DA3-042C-42B8-BD39-0674375456AF",
       "is_upcoming": false,
-      "total_items": 13,
-      "total_raw_items": 13,
+      "total_items": 30,
+      "total_raw_items": 30,
       "consent_items": 0,
       "type_breakdown": {
-        "Other": 11,
+        "Other": 28,
         "Policy": 1,
         "Public Notice": 1
       },
@@ -10920,7 +11781,7 @@
           "title": "Request for adoption of the official canvass for all votes cast in the January 31, 2026, Special Runoff Election for Congressional District 18.",
           "type": "Policy",
           "matter_file": "26-1075",
-          "matter_status": "Agenda Ready",
+          "matter_status": "Passed",
           "consent": false,
           "geographic_tags": {
             "precincts": [],
@@ -10933,7 +11794,7 @@
         {
           "id": 179770,
           "agenda_number": null,
-          "title": "Adjournment.",
+          "title": "There being no further business, the Commissioners Court adjourned at 10:02 A.M. \r\n\r\nThe above and forgoing minutes have been read and examined by me and are a true and correct representation of the actions taken by Commissioners Court held on February 10, 2026.\r\n\r\nOn this the 19th day of March, 2026.        \t                              Teneshia Hudspeth, County Clerk\r\n\r\n\t\t\t\t\t\t\t                                                            by_________________________\r\n\t\t\t\t\t                                                                                            Deputy",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -11034,6 +11895,280 @@
         },
         {
           "id": 179781,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180862,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180863,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180864,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180865,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180866,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180867,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180868,
+          "agenda_number": null,
+          "title": "The Harris County Commissioners Court convened in-person and virtually at a special meeting at 10:00 A.M. Commissioner Ellis, Commissioner Ramsey, and Commissioner Briones were in-person.",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [
+              "Harris County"
+            ],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180869,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180870,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180886,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180887,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180890,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180891,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180892,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180894,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180895,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180896,
           "agenda_number": null,
           "title": "",
           "type": "Other",
@@ -19218,22 +20353,6 @@
           "attachments": []
         },
         {
-          "id": 180201,
-          "agenda_number": null,
-          "title": "",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
           "id": 180202,
           "agenda_number": "14.",
           "title": "Request to present an update on the Compensation and Pay Equity Project and to address Commissioners’ motions from the December 11, 2025 Commissioners Court.",
@@ -20120,7 +21239,7 @@
         {
           "id": 180263,
           "agenda_number": null,
-          "title": "",
+          "title": "page break",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -20360,7 +21479,7 @@
         {
           "id": 180278,
           "agenda_number": null,
-          "title": "",
+          "title": "page break",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -20832,7 +21951,7 @@
         {
           "id": 180307,
           "agenda_number": null,
-          "title": "",
+          "title": "page break",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -21088,38 +22207,6 @@
           "attachments": []
         },
         {
-          "id": 180323,
-          "agenda_number": null,
-          "title": "",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
-          "id": 180325,
-          "agenda_number": null,
-          "title": "",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
           "id": 180326,
           "agenda_number": null,
           "title": "Judge Hidalgo arrived in-person at 4:22 P.M.",
@@ -21136,41 +22223,9 @@
           "attachments": []
         },
         {
-          "id": 180327,
-          "agenda_number": null,
-          "title": "",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
           "id": 180328,
           "agenda_number": null,
           "title": "Sheriff",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
-          "id": 180329,
-          "agenda_number": null,
-          "title": "",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -21203,54 +22258,6 @@
           "id": 180331,
           "agenda_number": null,
           "title": "Emergency/Supplemental items",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
-          "id": 180333,
-          "agenda_number": null,
-          "title": "",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
-          "id": 180334,
-          "agenda_number": null,
-          "title": "",
-          "type": "Other",
-          "matter_file": null,
-          "matter_status": null,
-          "consent": false,
-          "geographic_tags": {
-            "precincts": [],
-            "addresses": [],
-            "areas": [],
-            "flood_control": false
-          },
-          "attachments": []
-        },
-        {
-          "id": 180335,
-          "agenda_number": null,
-          "title": "",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -23764,7 +24771,7 @@
         {
           "id": 180492,
           "agenda_number": null,
-          "title": "     Dept.    No.   Purpose                                  Date(s)        Location            Cost     Fund\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------      \r\n 18. C7           1 Renewal for axon taser instructor        2/2-3/2026     Webster, TX             $895 General\r\n                    certification*                                                                              \r\n 19. C8           1 Agency command FEMA training             1/21-24/2026   Kerrville, TX           $460 Other  \r\n 20. SHERIFF      1 Motor Vehicle Crime Prevention Authority 1/13-15/2026   San Marcos, TX          $856 Grant  \r\n                    intelligence meeting*                                                                       \r\n 21. SHERIFF      1 Basic Special Weapons And Tactics School 1/31-2/7/2026  Iowa Park, TX         $2,126 General\r\n                    training*                                                                                   \r\n 22. SHERIFF      3 Animal control & cruelty investigations  2/2-6/2026     Houston, TX           $1,695 General\r\n                    training*                                                                                   \r\n 23. SHERIFF      2 ArcGIS Pro & SAFER course*               2/18-20/2026   Grand Prairie, TX       $160 General\r\n 24. SHERIFF      7 DEA HIDTA narcotic investigator course*  2/22-27/2026   Dallas, TX            $9,360 General\r\n 25. SHERIFF      6 Homicide Investigators of Texas          3/22-26/2026   San Antonio, TX       $9,799 Other  \r\n                    Conference*                                                                                 \r\n 26. SHERIFF      5 Crisis Intervention Team Conference      4/15-18/2026   S. Padre Island, TX  $11,886 Grant  \r\n 27. SHERIFF      3 Crimes Against Women Conference*         5/17-21/2026   Dallas, TX            $5,335 Grant \r\n 28. CCLK         2 Texas College of Probate Judges regional 3/11-13/2026   Austin, TX            $2,350 General\r\n                    workshop    \r\n 29. CCLK         3 Texas Assn. of Counties County Elections 3/30-31/2026   Houston, TX             $600 General\r\n                    Virtual Academy                                                                                                                                               30. CCLK         1 County & District Clerks' Association    4/8-9/2026     The Woodlands, TX       $340 General\r\n                    meeting*                                                                                    \r\n 31. CCLK         2 Texas College of Probate Judges meeting  9/2-5/2026     San Antonio, TX       $3,180 General\r\n 32. MAC          2 Intensive DWI training                   1/27-31/2026   Dallas, TX            $4,050 General\r\n 33. PBCT1        1 Building Blocks Wills Estates & Probate  1/22-24/2026   Austin, TX              $851 Other  \r\n                    Conference                  ",
+          "title": "     Dept.    No.   Purpose                                  Date(s)        Location            Cost     Fund\r\n---- -------- ----- ---------------------------------------- -------------- ------------------- -------- -------      \r\n 18. C7           1 Renewal for axon taser instructor        2/2-3/2026     Webster, TX             $895 General\r\n                    certification*                                                                              \r\n 19. C8           1 Agency command FEMA training             1/21-24/2026   Kerrville, TX           $460 Other  \r\n 20. SHERIFF      1 Motor Vehicle Crime Prevention Authority 1/13-15/2026   San Marcos, TX          $856 Grant  \r\n                    intelligence meeting*                                                                       \r\n 21. SHERIFF      1 Basic Special Weapons And Tactics School 1/31-2/7/2026  Iowa Park, TX         $2,126 General\r\n                    training*                                                                                   \r\n 22. SHERIFF      3 Animal control & cruelty investigations  2/2-6/2026     Houston, TX           $1,695 General\r\n                    training*                                                                                   \r\n 23. SHERIFF      2 ArcGIS Pro & SAFER course*               2/18-20/2026   Grand Prairie, TX       $160 General\r\n 24. SHERIFF      7 DEA HIDTA narcotic investigator course*  2/22-27/2026   Dallas, TX            $9,360 General\r\n 25. SHERIFF      6 Homicide Investigators of Texas          3/22-26/2026   San Antonio, TX       $9,799 Other  \r\n                    Conference*                                                                                 \r\n 26. SHERIFF      5 Crisis Intervention Team Conference      4/15-18/2026   S. Padre Island, TX  $11,886 Grant  \r\n 27. SHERIFF      3 Crimes Against Women Conference*         5/17-21/2026   Dallas, TX            $5,335 Grant \r\n 28. CCLK         2 Texas College of Probate Judges regional 3/11-13/2026   Austin, TX            $2,350 General\r\n                    workshop    \r\n 29. CCLK         3 Texas Assn. of Counties County Elections 3/30-31/2026   Houston, TX             $600 General\r\n                    Virtual Academy                                                                                                                                                30. CCLK         1 County & District Clerks' Association    4/8-9/2026     The Woodlands, TX       $340 General\r\n                    meeting*                                                                                    \r\n 31. CCLK         2 Texas College of Probate Judges meeting  9/2-5/2026     San Antonio, TX       $3,180 General\r\n 32. MAC          2 Intensive DWI training                   1/27-31/2026   Dallas, TX            $4,050 General\r\n 33. PBCT1        1 Building Blocks Wills Estates & Probate  1/22-24/2026   Austin, TX              $851 Other  \r\n                    Conference                  ",
           "type": "Other",
           "matter_file": null,
           "matter_status": null,
@@ -28643,6 +29650,134 @@
         },
         {
           "id": 180797,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180798,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180799,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180800,
+          "agenda_number": null,
+          "title": "page break",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180801,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180802,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180803,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180804,
+          "agenda_number": null,
+          "title": "",
+          "type": "Other",
+          "matter_file": null,
+          "matter_status": null,
+          "consent": false,
+          "geographic_tags": {
+            "precincts": [],
+            "addresses": [],
+            "areas": [],
+            "flood_control": false
+          },
+          "attachments": []
+        },
+        {
+          "id": 180805,
           "agenda_number": null,
           "title": "",
           "type": "Other",
@@ -70825,6 +71960,6 @@
     "total_meetings": 8,
     "upcoming_meetings": 1,
     "past_meetings": 7,
-    "total_agenda_items": 3722
+    "total_agenda_items": 3791
   }
 }
