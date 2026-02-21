@@ -1,7 +1,7 @@
 {
   "source": "Houston METRO",
   "source_url": "https://www.ridemetro.org/about/board-meetings",
-  "fetched_at": "2026-02-20T07:06:12.217Z",
+  "fetched_at": "2026-02-21T06:53:25.175Z",
   "note": "Data extracted from Granicus RSS feed and AgendaViewer. Future dates projected based on 4th-Thursday pattern.",
   "data_sources": {
     "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",
@@ -115,8 +115,8 @@
     {
       "date": "2026-02-26",
       "time": "9:00 AM",
-      "type": "Board Meeting (Projected)",
-      "status": "Future - Projected Date",
+      "type": "Board Meeting",
+      "status": "Upcoming",
       "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
       "agenda_url": null,
       "agenda_items": []
@@ -129,6 +129,25 @@
       "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
       "agenda_url": null,
       "agenda_items": []
+    },
+    {
+      "date": "2026-02-19",
+      "time": "9:00 AM",
+      "type": "Committee Meeting",
+      "status": "Past",
+      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
+      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2776",
+      "agenda_items": [
+        {
+          "item_number": 1,
+          "title": "Thomas J. JasienInterim President & CEO",
+          "geographic_tags": {
+            "routes": [],
+            "projects": [],
+            "locations": []
+          }
+        }
+      ]
     },
     {
       "date": "2026-01-22",
@@ -1647,25 +1666,6 @@
       "status": "Past",
       "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
       "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2492",
-      "agenda_items": [
-        {
-          "item_number": 1,
-          "title": "Thomas LambertPresident & CEO",
-          "geographic_tags": {
-            "routes": [],
-            "projects": [],
-            "locations": []
-          }
-        }
-      ]
-    },
-    {
-      "date": "2023-07-20",
-      "time": "9:00 AM",
-      "type": "Committee Meeting",
-      "status": "Past",
-      "location": "METRO Board Room, 1900 Main St, 2nd Floor, Houston, TX 77002",
-      "agenda_url": "https://ridemetro.granicus.com/AgendaViewer.php?view_id=5&clip_id=2488",
       "agenda_items": [
         {
           "item_number": 1,
