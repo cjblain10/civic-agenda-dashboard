@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-02-21T06:53:56.892Z",
+  "fetched_at": "2026-02-22T06:58:15.195Z",
   "sources": {
     "harris_county": {
       "source": "Harris County Commissioners Court",
-      "fetched_at": "2026-02-21T06:49:50.819Z",
+      "fetched_at": "2026-02-22T06:54:56.300Z",
       "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
       "bodies": [
         {
@@ -39163,13 +39163,7 @@
                 ],
                 "flood_control": true
               },
-              "attachments": [
-                {
-                  "name": "26-0171-AM-24090MF34101-HCFCD Dedication - E532-01-00-01-604.0 - Dedication",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/cd1cc58b-eb5e-4088-8a8b-5fef4c7fd576.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 176895,
@@ -39189,13 +39183,7 @@
                 ],
                 "flood_control": true
               },
-              "attachments": [
-                {
-                  "name": "26-0172-AM-HCFCD Gen Sales- NHCRWA 37C-2 WLE  TCE- L100-00-04-602.0_Agenda--",
-                  "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/6b6e1a22-bb6a-447e-84b4-45f37511e614.pdf",
-                  "binary_url": null
-                }
-              ]
+              "attachments": []
             },
             {
               "id": 176896,
@@ -78965,7 +78953,7 @@
     "hisd": {
       "source": "Houston ISD",
       "api_base": "https://webapi.legistar.com/v1/houstonisd/",
-      "fetched_at": "2026-02-21T06:53:14.767Z",
+      "fetched_at": "2026-02-22T06:57:40.004Z",
       "summary": {
         "total_meetings": 10,
         "upcoming_meetings": 1,
@@ -92786,7 +92774,7 @@
     "houston_city_council": {
       "source": "Houston City Council",
       "fetched_at": "2026-02-07T19:45:00Z",
-      "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 13 day(s) old. Manual refresh needed when new PDFs are available.",
+      "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 14 day(s) old. Manual refresh needed when new PDFs are available.",
       "data_sources": {
         "primary": "https://www.houstontx.gov/citysec/agenda/agendaindex.html",
         "secondary": "https://houston.novusagenda.com/agendapublic/Meetings.aspx",
@@ -94409,13 +94397,13 @@
         "consent_decree_work": "Ongoing consent decree compliance for wastewater lift station rehabilitation"
       },
       "stale": true,
-      "stale_days": 13,
-      "last_refresh_attempt": "2026-02-21T06:53:56.891Z"
+      "stale_days": 14,
+      "last_refresh_attempt": "2026-02-22T06:58:15.194Z"
     },
     "metro": {
       "source": "Houston METRO",
       "source_url": "https://www.ridemetro.org/about/board-meetings",
-      "fetched_at": "2026-02-21T06:53:25.175Z",
+      "fetched_at": "2026-02-22T06:57:47.902Z",
       "note": "Data extracted from Granicus RSS feed and AgendaViewer. Future dates projected based on 4th-Thursday pattern.",
       "data_sources": {
         "rss_feed": "https://ridemetro.granicus.com/ViewPublisherRSS.php?view_id=5&mode=agendas",

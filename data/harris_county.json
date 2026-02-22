@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-21T06:49:50.819Z",
+  "fetched_at": "2026-02-22T06:54:56.300Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -39160,13 +39160,7 @@
             ],
             "flood_control": true
           },
-          "attachments": [
-            {
-              "name": "26-0171-AM-24090MF34101-HCFCD Dedication - E532-01-00-01-604.0 - Dedication",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/cd1cc58b-eb5e-4088-8a8b-5fef4c7fd576.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 176895,
@@ -39186,13 +39180,7 @@
             ],
             "flood_control": true
           },
-          "attachments": [
-            {
-              "name": "26-0172-AM-HCFCD Gen Sales- NHCRWA 37C-2 WLE  TCE- L100-00-04-602.0_Agenda--",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/6b6e1a22-bb6a-447e-84b4-45f37511e614.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 176896,
