@@ -1,7 +1,7 @@
 {
   "source": "Houston ISD",
   "api_base": "https://webapi.legistar.com/v1/houstonisd/",
-  "fetched_at": "2026-02-23T07:13:52.103Z",
+  "fetched_at": "2026-02-24T07:10:58.138Z",
   "summary": {
     "total_meetings": 11,
     "upcoming_meetings": 1,

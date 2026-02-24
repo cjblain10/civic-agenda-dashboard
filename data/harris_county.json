@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-23T07:10:30.770Z",
+  "fetched_at": "2026-02-24T07:05:50.610Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -3772,6 +3772,23 @@
   ],
   "meetings": [
     {
+      "id": 1253,
+      "date": "2026-03-04",
+      "time": "9:00 AM",
+      "body": "Commissioners Court",
+      "location": "1001 Preston, 1st Floor",
+      "comment": "Business Court Meeting",
+      "agenda_pdf": null,
+      "legistar_url": "https://harriscountytx.legistar.com/MeetingDetail.aspx?LEGID=1253&GID=798&G=800B5DA3-042C-42B8-BD39-0674375456AF",
+      "is_upcoming": true,
+      "total_items": 0,
+      "total_raw_items": 0,
+      "consent_items": 0,
+      "type_breakdown": {},
+      "geo_tagged_items": 0,
+      "agenda_items": []
+    },
+    {
       "id": 1230,
       "date": "2026-02-26",
       "time": "9:00 AM",
@@ -4217,13 +4234,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1181-(AM)24103MF2ZK01-P3NPRSAD-37B-42-NHCRWA-P3-2-26-26",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/c27f2f3c-a03f-4977-987b-5521dce6caed.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180927,
@@ -4812,13 +4823,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1232-Partnership-26102MF3Y801-ADA Equip Installation-CCISD-P2-2.26.26 Agmt25GEN3060.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/4b4b4c7d-8a34-4448-bd48-9d62af8a6b6c.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 180958,
@@ -7307,13 +7312,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1285 Settlement Agreement Addendum Contract 00002662 - Superhuman Platform Inc",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/ab4fc932-3403-43c1-861c-8dac5236c4c0.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 181085,
@@ -8063,13 +8062,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-1413 DIR Amendment Contract 00001632 - Carahsoft Technologies Corporation",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/3bd0694a-3405-4ade-a9a4-b47ab844a1d4.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 181121,
@@ -10660,13 +10653,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "PIDP_Backup2.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/028884b8-a4f3-4a0d-ad52-d8255b3ba4cd.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 181255,
@@ -12887,13 +12874,7 @@
             ],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "26-0933-CIC-UPIN 24101MF3E401-PSA-Sidewalk Cypress Sta Ph 2-Civitas Engineering-P1-01-08-2026",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/b6739962-577e-436f-93c4-00f5f32c19e2.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 179889,
@@ -78953,8 +78934,8 @@
     }
   ],
   "summary": {
-    "total_meetings": 8,
-    "upcoming_meetings": 1,
+    "total_meetings": 9,
+    "upcoming_meetings": 2,
     "past_meetings": 7,
     "total_agenda_items": 4139
   }
