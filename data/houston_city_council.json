@@ -1,7 +1,7 @@
 {
   "source": "Houston City Council",
   "fetched_at": "2026-02-07T19:45:00Z",
-  "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 16 day(s) old. Manual refresh needed when new PDFs are available.",
+  "note": "Data originally fetched 2026-02-07. City Secretary site (houstontx.gov) returns 403 to automated requests. Data is 17 day(s) old. Manual refresh needed when new PDFs are available.",
   "data_sources": {
     "primary": "https://www.houstontx.gov/citysec/agenda/agendaindex.html",
     "secondary": "https://houston.novusagenda.com/agendapublic/Meetings.aspx",
@@ -1624,6 +1624,6 @@
     "consent_decree_work": "Ongoing consent decree compliance for wastewater lift station rehabilitation"
   },
   "stale": true,
-  "stale_days": 16,
-  "last_refresh_attempt": "2026-02-24T07:11:49.693Z"
+  "stale_days": 17,
+  "last_refresh_attempt": "2026-02-25T07:10:57.444Z"
 }

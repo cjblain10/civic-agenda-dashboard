@@ -1,6 +1,6 @@
 {
   "source": "Harris County Commissioners Court",
-  "fetched_at": "2026-02-24T07:05:50.610Z",
+  "fetched_at": "2026-02-25T07:06:59.775Z",
   "api_base": "https://webapi.legistar.com/v1/harriscountytx/",
   "bodies": [
     {
@@ -6402,13 +6402,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "20260212_ProgramSupportAssistnat_3441_informational.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/3e656a6f-260f-45ad-b619-881a6b1c2f23.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 181039,
@@ -6424,13 +6418,7 @@
             "areas": [],
             "flood_control": false
           },
-          "attachments": [
-            {
-              "name": "20260212_Immigration Attorney_ 3441_Informational_updated.pdf",
-              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/c4ec63a6-38cc-45bc-acf6-b4024f94a175.pdf",
-              "binary_url": null
-            }
-          ]
+          "attachments": []
         },
         {
           "id": 181040,
@@ -12874,7 +12862,13 @@
             ],
             "flood_control": false
           },
-          "attachments": []
+          "attachments": [
+            {
+              "name": "26-0933-CIC-UPIN 24101MF3E401-PSA-Sidewalk Cypress Sta Ph 2-Civitas Engineering-P1-01-08-2026",
+              "url": "https://harriscountytx.legistar1.com/harriscountytx/attachments/b6739962-577e-436f-93c4-00f5f32c19e2.pdf",
+              "binary_url": null
+            }
+          ]
         },
         {
           "id": 179889,
