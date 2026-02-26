@@ -1,11 +1,11 @@
 {
   "source": "Houston ISD",
   "api_base": "https://webapi.legistar.com/v1/houstonisd/",
-  "fetched_at": "2026-02-25T07:10:14.619Z",
+  "fetched_at": "2026-02-26T07:09:28.380Z",
   "summary": {
     "total_meetings": 11,
-    "upcoming_meetings": 1,
-    "past_meetings": 10,
+    "upcoming_meetings": 0,
+    "past_meetings": 11,
     "total_agenda_items": 601,
     "active_bodies": 2,
     "active_officials": 70
